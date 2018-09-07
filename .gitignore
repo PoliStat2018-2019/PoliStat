@@ -1,0 +1,8 @@
+# Django
+migrations/
+db.sqlite3
+
+# Other Dev
+Pipfile.lock
+.vscode/
+setup.cfg
