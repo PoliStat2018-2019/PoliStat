@@ -9,6 +9,7 @@ class State(models.Model):
 
     name = models.CharField(max_length=16, unique=True)
     abbr = models.CharField(max_length=2, unique=True)
+    no_dist = models.IntegerField()
 
 
 class District(models.Model):
@@ -27,7 +28,7 @@ class District(models.Model):
                                max_length=64)
 
     # prediction
-    # last updated
+    # last updated  
     # graphs? - Mark J. 9/12/18
 
     def __str__(self):

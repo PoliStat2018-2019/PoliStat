@@ -2,4 +2,8 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, 'figures/index.html', {})
+    context = {
+
+    }
+
+    return render(request, 'figures/index.html', context=context)

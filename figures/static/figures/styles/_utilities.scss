@@ -1,0 +1,37 @@
+$mq-expressions: (
+    "screen": "screen",
+    "handheld": "handheld",
+    "retina2x": 
+        ("(-webkit-min-device-pixel-ratio: 2)", 
+        "(min-resolution: 192dpi)")
+);
+$mq-breakpoints: (
+    'mobile': 768px,
+    'tablet': 992px,
+    'desktop': 1200px
+);
+
+@mixin mq($mq-expression, $mq-breakpoint, $type: min) {
+    @if map_has_key($mq-breakpoints, $width) {
+        $width: map_get($grid-breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media #{$mq-expression} and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+

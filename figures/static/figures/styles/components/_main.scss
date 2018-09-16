@@ -1,0 +1,33 @@
+.main {
+    display: grid;
+    grid-template-areas:
+        "."
+        "header"
+        "content"
+        "footer";
+    grid-template-rows: 2fr auto auto 1fr;
+    justify-items: center;
+
+    @include mq('screen', 'tablet') {
+        padding-left: 300px; //make space for nav
+    }
+
+    header {
+        grid-area: header;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .header-heading {
+        font-size: 3.5rem;
+        font-weight: lighter;
+    }
+    .header-subheading {
+        font-size: 1.75rem;
+        font-weight: 100;
+    }
+
+    .content {
+        grid-area: content;
+    }
+}

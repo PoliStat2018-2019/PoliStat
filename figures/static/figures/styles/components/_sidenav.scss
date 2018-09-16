@@ -1,0 +1,61 @@
+// add js to transform out of screen on mobile
+.sidenav-wrapper {
+    display: grid;
+    grid-template-rows:
+        1fr
+        auto
+        auto
+        3fr;
+    grid-template-columns: 1fr;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    @include mq('screen', 'tablet') {
+        padding-left: -100%;
+    }
+
+    width: 300px;
+    height: 100%;
+
+    z-index: 999;
+
+    background: #ffc1c1;
+}
+
+.sidenav-wrapper .logo {
+    display: block;
+
+    height: auto;
+    &>object {
+        width: 100%;
+    }
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+}
+.sidenav li {
+    line-height: 50px;
+}
+.sidenav li a {
+    display: block;
+
+    line-height: 50px;
+    height: 50px;
+    padding: 0 30px;
+
+    transition: background-color 0.5s ease,
+                color 0.2s ease;
+    &:hover {
+        background-color: darken(#ffaeae, 1.5);
+        color: #f4f4f4;
+    }
+}
+.sidenav .logo {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+
+    text-align: center;
+}

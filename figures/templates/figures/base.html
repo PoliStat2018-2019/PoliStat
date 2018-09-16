@@ -1,0 +1,24 @@
+{% load compile_static %}
+{% load static %}
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>{% block title %}{% endblock %} | MBHS</title>
+
+        {% load staticfiles %}
+        <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+        <link type="text/css" rel="stylesheet" href="{% static 'figures/styles/styles.scss'|compile %}">
+    </head>
+    <body>
+        {% include "figures/sidenav.html" %}
+
+        <main class="main">
+            {% block content %}
+            {% endblock %}
+        </main>
+        
+        {% comment %} {% include 'figures/footer.html' %} {% endcomment %}
+    </body>
+    <script src={% static 'figures/scripts/sidenav.js' %}></script>
+</html>
