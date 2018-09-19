@@ -7,3 +7,10 @@ def index(request):
     }
 
     return render(request, 'figures/index.html', context=context)
+
+def about(request):
+    context = {
+
+    }
+
+    return render(request, 'figures/about.html', context=context)

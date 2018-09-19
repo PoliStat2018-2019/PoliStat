@@ -1,33 +1,54 @@
-// add js to transform out of screen on mobile
+$sidenav-background-color: #eff1ff;
+
+#sidenav-mobile-btn {
+    font-size: 1.5rem;
+}
+
+.sidenav-mobile {
+    @include mq(mobile) {
+        display: none;
+    }
+    transition: display 0.5s ease;
+
+    width: 40px;
+    height: 40px;
+}
+
+.fa-bars {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.show-nav {
+    margin-left: 0 !important;
+}
+
 .sidenav-wrapper {
     display: grid;
-    grid-template-rows:
-        1fr
-        auto
-        auto
-        3fr;
     grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr;
 
     position: fixed;
     left: 0;
     top: 0;
-    @include mq('screen', 'tablet') {
-        padding-left: -100%;
-    }
 
-    width: 300px;
+    margin-left: -100%;
+    @include mq(mobile) {
+        margin-left: 0;
+    }
+    transition:  margin-left 0.2s ease;
+
+    width: 250px;
     height: 100%;
 
     z-index: 999;
 
-    background: #ffc1c1;
+    background: $sidenav-background-color;
 }
 
-.sidenav-wrapper .logo {
-    display: block;
-
-    height: auto;
-    &>object {
+.sidenav-wrapper .logo { 
+    &>img {
         width: 100%;
     }
 }
@@ -38,24 +59,56 @@
 }
 .sidenav li {
     line-height: 50px;
+    position: relative;
+}
+.sidenav .active {
+    &>a {
+        color: lighten($site-red, 1.5);
+    }
 }
 .sidenav li a {
     display: block;
+    position: relative;
 
     line-height: 50px;
     height: 50px;
     padding: 0 30px;
 
-    transition: background-color 0.5s ease,
-                color 0.2s ease;
-    &:hover {
-        background-color: darken(#ffaeae, 1.5);
-        color: #f4f4f4;
-    }
-}
-.sidenav .logo {
-    margin-top: 1rem;
-    margin-bottom: 4rem;
+    color: $site-black;
 
-    text-align: center;
+    transition: background-color 0.5s ease;
+    &:hover {
+        background-color: darken($sidenav-background-color, 2);
+        &:before {
+            height: 50%;
+        }
+        &:after {
+            height: 50%;
+        }
+    }
+
+    &:before {
+        content:"";
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        height: 0px;
+        width: 4px;
+        background-color: black;
+
+        transition: height 0.2s ease;
+    }
+    &:after {
+        content:"";
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+
+        height: 0px;
+        width: 4px;
+        background-color: black;
+
+        transition: height 0.2s ease;
+    }
 }

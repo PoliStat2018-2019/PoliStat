@@ -6,5 +6,6 @@ from . import models, views
 app_name='figures'
 
 urlpatterns = [
-    path('', views.index, name='index')
+    path('', views.index, name='index'),
+    path('about.html', views.about, name='about')
 ]
