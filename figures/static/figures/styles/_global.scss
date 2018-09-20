@@ -1,6 +1,12 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Oswald');
+$header-font: 'Oswald', sans-serif;
+
 /* COLOR THEME */
 $site-black: #252525;
 $site-red: rgb(138, 0, 0);
+
+$sidenav-width: 250px;
 
 * {
     margin: 0;
@@ -17,7 +23,7 @@ html {
         h4,
         h5,
         h6 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: $header-font, 'Segoe UI', sans-serif;
             color: $site-black;
         }
         li,
