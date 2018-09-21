@@ -1,10 +1,11 @@
 .section {
-    height: 100vh;
+    min-height: 70vh;
 }
 
 .welcome-section {
     background-image: url('../images/work_5.jpg');
     background-size: cover;
+    position: relative;
 
     display: grid;
     grid-template-rows: 1fr max-content max-content max-content 1fr;
@@ -14,7 +15,7 @@
         grid-template-columns: 1fr max-content 300px 1fr;
     }
 
-    h1 { color: white; }
+    height: 90vh;
 }
 
 .welcome-section h1:first-child {
@@ -30,6 +31,8 @@
     }
 
     font-size: 2em;
+
+    color: $site-white;
 }
 
 .welcome-section h1:nth-child(2) {
@@ -48,34 +51,79 @@
         writing-mode: initial;
         font-size: 2.5em;
     }
+
+    color: $site-red;
 }
 
 .welcome-section h1:nth-child(3) {
     grid-row: 3;
     grid-column: 2;
     text-align: center;
+    font-size: 5rem;
 
     @include mq(tablet) {
         grid-row: 3;
         grid-column: 2 / span 2;
         align-self: flex-end;
         justify-self: start;
+        font-size: 6.5rem;
     }
 
-    font-size: 6.5rem;
+    color: $site-white;
 }
 
 .welcome-section h1:nth-child(4) {
     grid-row: 4;
     grid-column: 2;
     text-align: center;
+    font-size: 5rem;
 
     @include mq(tablet) {
         grid-row: 4;
         grid-column: 2 / span 2;
         justify-self: stretch;
         text-align: justify;
+        font-size: 6.5rem;
     }
     
-    font-size: 6.5rem;
+    color: $site-white;
+}
+
+.prediction-section {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 3rem max-content min-content min-content 3rem;
+    grid-template-columns: 1fr max-content minmax(300px, max-content) max-content 1fr;
+
+    & > * {color: $site-white;}
+}
+
+.prediction-section h1:first-child {
+    grid-row: 2;
+    grid-column: 2 / span 3;
+    // border-radius: 7px;
+    background: $site-white;
+
+    text-align: center;
+    font-size: 2em;
+    @include mq(mobile) {
+        font-size: 3em;
+    }
+
+    color: $site-red;
+}
+
+.prediction-section .last-updated {
+    grid-row: 3;
+    grid-column: 2 / span 3;
+}
+
+.prediction-section .prediction-img {
+    grid-row: 4;
+    grid-column: 3;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    transform: rotate(180deg);
 }
