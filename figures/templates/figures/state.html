@@ -3,12 +3,14 @@
 {% block title %}{{ state.name }}{% endblock  %}
 
 {% block content %}
-    <section>
+    <section class="state-wrapper">
         <h1>{{ state.name }} Districts</h1>
         <ul class="district-list">
             {% for district in district_list %}
                 <li class="district">
-                    District {{ district.no}} {{ district.dem_nom }}
+                    <a href="{% url 'figures:district' state.name district.no %}">
+                        District {{ district.no }}
+                    </a>
                 </li>
             {% endfor %}
         </ul>

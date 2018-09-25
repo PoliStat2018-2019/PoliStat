@@ -40,5 +40,13 @@ def state(request, state):
 
     return render(request, 'figures/state.html', context=context)
 
-def district(request, name):
-    pass
+def district(request, state, district):
+    district = get_object_or_404(models.District, state=state, no=district)
+
+    context = {
+        'navbar': 'states',
+        'state': state,
+        'district': district
+    }
+
+    return render(request, 'figures/district.html', context=context)

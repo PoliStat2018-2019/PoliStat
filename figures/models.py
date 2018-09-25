@@ -27,7 +27,6 @@ class State(models.Model):
         })
     
 
-
 class District(models.Model):
     """
     Model representing a U.S. state district
@@ -54,13 +53,12 @@ class District(models.Model):
         """
         Return the name of the district as "State - District"
         """
-        return f'{self.state.name} - District {self.no}'
+        return self.no
     
     def get_absolute_url(self):
         return reverse('figures:district', kwargs={
             'no': self.no
         })
-
 
 
 class DistrictProfile(models.Model):

@@ -1,0 +1,10 @@
+.state-wrapper {
+    padding: 1rem;
+}
+
+.state-wrapper h1:first-child {
+    font-size: 3rem;
+    @include mq(tablet) {
+        font-size: 5rem;
+    }
+}
