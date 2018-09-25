@@ -1,0 +1,4787 @@
+[
+    {
+        "model": "figures.District",
+        "pk": 1,
+        "fields": {
+            "state": "Alabama",
+            "abbr": "AL",
+            "number": 1,
+            "dem_nom": "Robert Kennedy Jr.",
+            "rep_nom": "Bradley Byrne"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 2,
+        "fields": {
+            "state": "Alabama",
+            "abbr": "AL",
+            "number": 2,
+            "dem_nom": "Tabitha Isner",
+            "rep_nom": "Martha Roby"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 3,
+        "fields": {
+            "state": "Alabama",
+            "abbr": "AL",
+            "number": 3,
+            "dem_nom": "Mallory Hagan",
+            "rep_nom": "Mike Rogers"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 4,
+        "fields": {
+            "state": "Alabama",
+            "abbr": "AL",
+            "number": 4,
+            "dem_nom": "Lee Auman",
+            "rep_nom": "Robert Aderholt"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 5,
+        "fields": {
+            "state": "Alabama",
+            "abbr": "AL",
+            "number": 5,
+            "dem_nom": "Peter Joffrion",
+            "rep_nom": "Mo Brooks"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 6,
+        "fields": {
+            "state": "Alabama",
+            "abbr": "AL",
+            "number": 6,
+            "dem_nom": "Danner Kline",
+            "rep_nom": "Gary Palmer"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 7,
+        "fields": {
+            "state": "Alabama",
+            "abbr": "AL",
+            "number": 7,
+            "dem_nom": "Terri Sewell",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 8,
+        "fields": {
+            "state": "Alaska",
+            "abbr": "AK",
+            "number": 1,
+            "dem_nom": "Alysse Galvin",
+            "rep_nom": "Don Young"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 9,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 1,
+            "dem_nom": "Tom O'Halleran",
+            "rep_nom": "Wendy Rogers"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 10,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 2,
+            "dem_nom": "Ann Kirkpatrick",
+            "rep_nom": "Lea Marquez Peterson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 11,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 3,
+            "dem_nom": "Raul Grijalva",
+            "rep_nom": "Nicolas Pierson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 12,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 4,
+            "dem_nom": "David Brill",
+            "rep_nom": "Paul Gosar"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 13,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 5,
+            "dem_nom": "Joan Greene",
+            "rep_nom": "Andy Biggs"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 14,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 6,
+            "dem_nom": "David Schweikert",
+            "rep_nom": "Anita Malik"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 15,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 7,
+            "dem_nom": "Ruben Gallego",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 16,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 8,
+            "dem_nom": "Hiral Tipireni",
+            "rep_nom": "Debbie Lesko"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 17,
+        "fields": {
+            "state": "Arizona",
+            "abbr": "AZ",
+            "number": 9,
+            "dem_nom": "Greg Stanton",
+            "rep_nom": "Steve Ferrara"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 18,
+        "fields": {
+            "state": "Arkansas",
+            "abbr": "AR",
+            "number": 1,
+            "dem_nom": "Chintan Desai",
+            "rep_nom": "Rick Crawford"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 19,
+        "fields": {
+            "state": "Arkansas",
+            "abbr": "AR",
+            "number": 2,
+            "dem_nom": "Clarke Tucker",
+            "rep_nom": "French Hill"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 20,
+        "fields": {
+            "state": "Arkansas",
+            "abbr": "AR",
+            "number": 3,
+            "dem_nom": "Joshua Mahony",
+            "rep_nom": "Steve Womack"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 21,
+        "fields": {
+            "state": "Arkansas",
+            "abbr": "AR",
+            "number": 4,
+            "dem_nom": "Hayden Shamel",
+            "rep_nom": "Bruce Westerman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 22,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 1,
+            "dem_nom": "Doug LaMalfa",
+            "rep_nom": "Audrey Denney"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 23,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 2,
+            "dem_nom": "Jared Huffman",
+            "rep_nom": "Dale Mensing"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 24,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 3,
+            "dem_nom": "John Garamendi",
+            "rep_nom": "Charlie Schaupp"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 25,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 4,
+            "dem_nom": "Jessica Morse",
+            "rep_nom": "Tom McClintock"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 26,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 5,
+            "dem_nom": "Mike Thompson",
+            "rep_nom": "Anthony Mills"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 27,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 6,
+            "dem_nom": "Doris Matsui, Jrmar Jefferson",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 28,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 7,
+            "dem_nom": "Ami Bera",
+            "rep_nom": "Andrew Grant"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 29,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 8,
+            "dem_nom": "",
+            "rep_nom": "Paul Cook, Tim Donnelly"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 30,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 9,
+            "dem_nom": "Jerry McNerny",
+            "rep_nom": "Marla Livengood"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 31,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 10,
+            "dem_nom": "Josh Harder",
+            "rep_nom": "Jeff Denham"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 32,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 11,
+            "dem_nom": "Mark DeSaulnier",
+            "rep_nom": "John Fitzgerald"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 33,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 12,
+            "dem_nom": "Nancy Pelosi",
+            "rep_nom": "Lisa Remmer"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 34,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 13,
+            "dem_nom": "Barbara Lee",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 35,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 14,
+            "dem_nom": "Jackie Speier",
+            "rep_nom": "Cristina Osmeña"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 36,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 15,
+            "dem_nom": "Eric Swalwell",
+            "rep_nom": "Rudy Peters"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 37,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 16,
+            "dem_nom": "Jim Costa",
+            "rep_nom": "Elizabeth Heng"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 38,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 17,
+            "dem_nom": "Ro Khanna",
+            "rep_nom": "Ron Cohen"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 39,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 18,
+            "dem_nom": "Anna Eshoo",
+            "rep_nom": "Christine Russell"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 40,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 19,
+            "dem_nom": "Zoe Lofgren",
+            "rep_nom": "Justin Aguilera"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 41,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 20,
+            "dem_nom": "Jimmy Panetta",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 42,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 21,
+            "dem_nom": "TJ Cox",
+            "rep_nom": "David Valadao"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 43,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 22,
+            "dem_nom": "Devin Nunes",
+            "rep_nom": "Andrew Janz"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 44,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 23,
+            "dem_nom": "Tatiana Matta",
+            "rep_nom": "Kevin McCarthy"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 45,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 24,
+            "dem_nom": "Salaud Carbajal",
+            "rep_nom": "Justin Fareed"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 46,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 25,
+            "dem_nom": "Katie Hill",
+            "rep_nom": "Steve Knight"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 47,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 26,
+            "dem_nom": "Julia Brownley",
+            "rep_nom": "Antonia Sabato Jr."
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 48,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 27,
+            "dem_nom": "Judy Chu, Bryan Witt",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 49,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 28,
+            "dem_nom": "Adam Schiff",
+            "rep_nom": "Johnny Nalbandian"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 50,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 29,
+            "dem_nom": "Tony Cardenas",
+            "rep_nom": "Benito Bernal"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 51,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 30,
+            "dem_nom": "Brad Sherman",
+            "rep_nom": "Mark Reed"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 52,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 31,
+            "dem_nom": "Pete Aguilar",
+            "rep_nom": "Sean Flynn"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 53,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 32,
+            "dem_nom": "Grace Napolitano",
+            "rep_nom": "Joshua Scott"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 54,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 33,
+            "dem_nom": "Ted Lieu",
+            "rep_nom": "Kenneth Wright"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 55,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 34,
+            "dem_nom": "Jimmy Gomez",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 56,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 35,
+            "dem_nom": "Norma Torres",
+            "rep_nom": "Christian Valiente"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 57,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 36,
+            "dem_nom": "Raul Ruiz",
+            "rep_nom": "Kimberlin Brown Pelzer"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 58,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 37,
+            "dem_nom": "Karen Bass",
+            "rep_nom": "Ron Bassilian"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 59,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 38,
+            "dem_nom": "Linda Sanchez",
+            "rep_nom": "Ryan Downing"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 60,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 39,
+            "dem_nom": "Gil Cisneros",
+            "rep_nom": "Young Kim"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 61,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 40,
+            "dem_nom": "Lucille Royball-Allard",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 62,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 41,
+            "dem_nom": "Mark Tanako",
+            "rep_nom": "Aja Smith"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 63,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 42,
+            "dem_nom": "Julia Peacock",
+            "rep_nom": "Ken Calvert"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 64,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 43,
+            "dem_nom": "Maxine Waters",
+            "rep_nom": "Omar Navarro"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 65,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 44,
+            "dem_nom": "Nanette Barragan",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 66,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 45,
+            "dem_nom": "Katie Porter",
+            "rep_nom": "Mimi Walters"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 67,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 46,
+            "dem_nom": "Lou Correa",
+            "rep_nom": "Russell Lambert"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 68,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 47,
+            "dem_nom": "Alan Lowenthal",
+            "rep_nom": "John Briscoe"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 69,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 48,
+            "dem_nom": "Harley Rouda",
+            "rep_nom": "Dana Rohrabacher"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 70,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 49,
+            "dem_nom": "Mike Levin",
+            "rep_nom": "Diane Harkey"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 71,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 50,
+            "dem_nom": "Ammar Campa-Najjar",
+            "rep_nom": "Duncan Hunter"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 72,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 51,
+            "dem_nom": "Jaun Vargas",
+            "rep_nom": "Juan Hidalgo Jr."
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 73,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 52,
+            "dem_nom": "Scott Peters",
+            "rep_nom": "Omar Qudrat"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 74,
+        "fields": {
+            "state": "California",
+            "abbr": "CA",
+            "number": 53,
+            "dem_nom": "Susan Davis",
+            "rep_nom": "Morgan Murtaugh"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 75,
+        "fields": {
+            "state": "Colorado",
+            "abbr": "CO",
+            "number": 1,
+            "dem_nom": "Diana DeGette",
+            "rep_nom": "Charles Casper Stockham"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 76,
+        "fields": {
+            "state": "Colorado",
+            "abbr": "CO",
+            "number": 2,
+            "dem_nom": "Joe Neguse",
+            "rep_nom": "Peter Yu"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 77,
+        "fields": {
+            "state": "Colorado",
+            "abbr": "CO",
+            "number": 3,
+            "dem_nom": "Diane Mitsch Bush",
+            "rep_nom": "Scott Tipton"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 78,
+        "fields": {
+            "state": "Colorado",
+            "abbr": "CO",
+            "number": 4,
+            "dem_nom": "Karen McCormick",
+            "rep_nom": "Ken Buck"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 79,
+        "fields": {
+            "state": "Colorado",
+            "abbr": "CO",
+            "number": 5,
+            "dem_nom": "Stephany Rose Spaulding",
+            "rep_nom": "Doug Lamborn"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 80,
+        "fields": {
+            "state": "Colorado",
+            "abbr": "CO",
+            "number": 6,
+            "dem_nom": "Jason Crow",
+            "rep_nom": "Mike Coffman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 81,
+        "fields": {
+            "state": "Colorado",
+            "abbr": "CO",
+            "number": 7,
+            "dem_nom": "Ed Perlmutter",
+            "rep_nom": "Mark Barrington"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 82,
+        "fields": {
+            "state": "Connecticut",
+            "abbr": "CT",
+            "number": 1,
+            "dem_nom": "John Larson",
+            "rep_nom": "Jennifer Nye"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 83,
+        "fields": {
+            "state": "Connecticut",
+            "abbr": "CT",
+            "number": 2,
+            "dem_nom": "Joe Courtney",
+            "rep_nom": "Dan Postemski"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 84,
+        "fields": {
+            "state": "Connecticut",
+            "abbr": "CT",
+            "number": 3,
+            "dem_nom": "Rosa DeLauro",
+            "rep_nom": "Angel Cadena"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 85,
+        "fields": {
+            "state": "Connecticut",
+            "abbr": "CT",
+            "number": 4,
+            "dem_nom": "Jim Himes",
+            "rep_nom": "Harry Arora"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 86,
+        "fields": {
+            "state": "Connecticut",
+            "abbr": "CT",
+            "number": 5,
+            "dem_nom": "Jahana Hayes",
+            "rep_nom": "Manny Santos"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 87,
+        "fields": {
+            "state": "Delaware",
+            "abbr": "DE",
+            "number": 1,
+            "dem_nom": "Lisa Blunt Rochester",
+            "rep_nom": "Scott Walker"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 88,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 1,
+            "dem_nom": "Jennifer Zimmerman",
+            "rep_nom": "Matt Gaetz"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 89,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 2,
+            "dem_nom": "Bob Rackleff",
+            "rep_nom": "Neal Dunn"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 90,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 3,
+            "dem_nom": "Yvonne Hayes Hinson",
+            "rep_nom": "Ted Yoho"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 91,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 4,
+            "dem_nom": "Ges Selmont",
+            "rep_nom": "John Rutherford"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 92,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 5,
+            "dem_nom": "Alfred Lawson",
+            "rep_nom": "Virginia Fuller"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 93,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 6,
+            "dem_nom": "Nancy Soderberg",
+            "rep_nom": "Michael Waltz"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 94,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 7,
+            "dem_nom": "Stephanie Murphy",
+            "rep_nom": "Mike Miller"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 95,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 8,
+            "dem_nom": "Sanjay Patel",
+            "rep_nom": "Bill Posey (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 96,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 9,
+            "dem_nom": "Darren Soto (I)",
+            "rep_nom": "Wayne Liebnitzky"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 97,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 10,
+            "dem_nom": "Val Demings (I)",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 98,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 11,
+            "dem_nom": "Dana Cottrell",
+            "rep_nom": "Daniel Webster (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 99,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 12,
+            "dem_nom": "Chris Hunter",
+            "rep_nom": "Gus Bilirakis (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 100,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 13,
+            "dem_nom": "Charlie Crist (I)",
+            "rep_nom": "George Buck"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 101,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 14,
+            "dem_nom": "Kathy Castor (I)",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 102,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 15,
+            "dem_nom": "Kristen Carlson",
+            "rep_nom": "Ross Spano"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 103,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 16,
+            "dem_nom": "David Shapiro",
+            "rep_nom": "Vern Buchanan(I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 104,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 17,
+            "dem_nom": "April Freeman (Deceased)",
+            "rep_nom": "Greg Steube"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 105,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 18,
+            "dem_nom": "Lauren Baer",
+            "rep_nom": "Brian Mast(I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 106,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 19,
+            "dem_nom": "David Holden",
+            "rep_nom": "Francis Rooney(I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 107,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 20,
+            "dem_nom": "Alcee Hastings*",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 108,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 21,
+            "dem_nom": "Lois Frankel*",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 109,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 22,
+            "dem_nom": "Theodore Deutch",
+            "rep_nom": "Nicolas Kimaz"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 110,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 23,
+            "dem_nom": "Debbie Wasserman Shultz",
+            "rep_nom": "Joe Kaufman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 111,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 24,
+            "dem_nom": "Frederica S. Wilson",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 112,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 25,
+            "dem_nom": "Mary Barzee Flores",
+            "rep_nom": "Mario Diaz-Balart"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 113,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 26,
+            "dem_nom": "Debbie Mucarsel-Powell",
+            "rep_nom": "Carlos Curbelo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 114,
+        "fields": {
+            "state": "Florida",
+            "abbr": "FL",
+            "number": 27,
+            "dem_nom": "Donna Shalala",
+            "rep_nom": "Maria Elvira Salazar"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 115,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 1,
+            "dem_nom": "Lisa Ring",
+            "rep_nom": "Earl \"Buddy\" Carter (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 116,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 2,
+            "dem_nom": "Sanford Bishop Jr. (I)",
+            "rep_nom": "Herman West Jr."
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 117,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 3,
+            "dem_nom": "Chuck Enderlin",
+            "rep_nom": "Drew Ferguson (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 118,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 4,
+            "dem_nom": "Hank Johnson (I)",
+            "rep_nom": "Joe Profit"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 119,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 5,
+            "dem_nom": "John Lewis (I)",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 120,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 6,
+            "dem_nom": "Lucy McBath",
+            "rep_nom": "Karen Handel (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 121,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 7,
+            "dem_nom": "Carolyn Bourdeaux",
+            "rep_nom": "Rob Woodall (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 122,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 8,
+            "dem_nom": "-",
+            "rep_nom": "Austin Scott (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 123,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 9,
+            "dem_nom": "Josh McCall",
+            "rep_nom": "Doug Collins (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 124,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 10,
+            "dem_nom": "Tabitha Johnson-Green",
+            "rep_nom": "Jody Hice (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 125,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 11,
+            "dem_nom": "Flynn Broady Jr.",
+            "rep_nom": "Barry Loudermilk (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 126,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 12,
+            "dem_nom": "Francys Johnson",
+            "rep_nom": "Rick Allen (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 127,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 13,
+            "dem_nom": "David Scott (I)",
+            "rep_nom": "David Callahan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 128,
+        "fields": {
+            "state": "Georgia",
+            "abbr": "GA",
+            "number": 14,
+            "dem_nom": "Steven Foster",
+            "rep_nom": "Tom Graves (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 129,
+        "fields": {
+            "state": "Hawaii",
+            "abbr": "HI",
+            "number": 1,
+            "dem_nom": "Ed Case",
+            "rep_nom": "Cam Cavasso"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 130,
+        "fields": {
+            "state": "Hawaii",
+            "abbr": "HI",
+            "number": 2,
+            "dem_nom": "Tulsi Gabbard",
+            "rep_nom": "Brian Evans"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 131,
+        "fields": {
+            "state": "Idaho",
+            "abbr": "ID",
+            "number": 1,
+            "dem_nom": "Cristina McNeil",
+            "rep_nom": "Russ Fulcher"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 132,
+        "fields": {
+            "state": "Idaho",
+            "abbr": "ID",
+            "number": 2,
+            "dem_nom": "Aaron Swisher",
+            "rep_nom": "Mike Simpson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 133,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 1,
+            "dem_nom": "Bobby Rush",
+            "rep_nom": "Jimmy Lee Tillman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 134,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 2,
+            "dem_nom": "Robin Kelly",
+            "rep_nom": "David Merkle"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 135,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 3,
+            "dem_nom": "David Lipinski",
+            "rep_nom": "Arthur Jones"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 136,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 4,
+            "dem_nom": "Jesus Garcia",
+            "rep_nom": "Mark Wayne Lorch"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 137,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 5,
+            "dem_nom": "Mike Quigley",
+            "rep_nom": "Tom Hanson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 138,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 6,
+            "dem_nom": "Sean Casten",
+            "rep_nom": "Peter Roskam (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 139,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 7,
+            "dem_nom": "Danny K. Davis (I)",
+            "rep_nom": "Craig Cameron"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 140,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 8,
+            "dem_nom": "Raja Krishnamoorthi (I)",
+            "rep_nom": "Jitendra Diganvker"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 141,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 9,
+            "dem_nom": "Jan Schakowsky (I)",
+            "rep_nom": "John Elleson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 142,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 10,
+            "dem_nom": "Brad Schneider (I)",
+            "rep_nom": "Doug Bennett"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 143,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 11,
+            "dem_nom": "Bill Foster",
+            "rep_nom": "Nick Stella"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 144,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 12,
+            "dem_nom": "Brendan Kelly",
+            "rep_nom": "Mike Bost"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 145,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 13,
+            "dem_nom": "Betsy Londrigan",
+            "rep_nom": "Rodney Davis"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 146,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 14,
+            "dem_nom": "Laruen Underwood",
+            "rep_nom": "Randy Hultgren"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 147,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 15,
+            "dem_nom": "Kevin Gaither",
+            "rep_nom": "John Shimkus"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 148,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 16,
+            "dem_nom": "Sara Dady",
+            "rep_nom": "Adam Kinzinger (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 149,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 17,
+            "dem_nom": "Cheri Bustos (I)",
+            "rep_nom": "Bill Fawell"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 150,
+        "fields": {
+            "state": "Illinois",
+            "abbr": "IL",
+            "number": 18,
+            "dem_nom": "Junius Rodriguez",
+            "rep_nom": "Darin LaHood (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 151,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 1,
+            "dem_nom": "Pete Visclosky (I)",
+            "rep_nom": "Mark Leyva"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 152,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 2,
+            "dem_nom": "Mel Hall",
+            "rep_nom": "Jackie Walorski (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 153,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 3,
+            "dem_nom": "Courtney Tritch",
+            "rep_nom": "Jim Banks (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 154,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 4,
+            "dem_nom": "Tobi Beck",
+            "rep_nom": "Jim Baird"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 155,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 5,
+            "dem_nom": "Dee Thornton",
+            "rep_nom": "Susan Brooks (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 156,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 6,
+            "dem_nom": "Jeannine Lee Lake",
+            "rep_nom": "Greg Pence"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 157,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 7,
+            "dem_nom": "Andre Carson (I)",
+            "rep_nom": "Wayne Harmon"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 158,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 8,
+            "dem_nom": "Willaim Tanoos",
+            "rep_nom": "Larry Bucshon"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 159,
+        "fields": {
+            "state": "Indiana",
+            "abbr": "IN",
+            "number": 9,
+            "dem_nom": "Liz Watson",
+            "rep_nom": "Trey Hollingsworth"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 160,
+        "fields": {
+            "state": "Iowa",
+            "abbr": "IA",
+            "number": 1,
+            "dem_nom": "Abby Finkenauer",
+            "rep_nom": "Rod Blum"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 161,
+        "fields": {
+            "state": "Iowa",
+            "abbr": "IA",
+            "number": 2,
+            "dem_nom": "David Loebsack",
+            "rep_nom": "Christopher Peters"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 162,
+        "fields": {
+            "state": "Iowa",
+            "abbr": "IA",
+            "number": 3,
+            "dem_nom": "Cindy Axne",
+            "rep_nom": "David Young"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 163,
+        "fields": {
+            "state": "Iowa",
+            "abbr": "IA",
+            "number": 4,
+            "dem_nom": "JD Scholten",
+            "rep_nom": "Steve King"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 164,
+        "fields": {
+            "state": "Kansas",
+            "abbr": "KS",
+            "number": 1,
+            "dem_nom": "Alan LaPolice",
+            "rep_nom": "Roger Marshall (I)"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 165,
+        "fields": {
+            "state": "Kansas",
+            "abbr": "KS",
+            "number": 2,
+            "dem_nom": "Paul Davis",
+            "rep_nom": "Steve Watkins"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 166,
+        "fields": {
+            "state": "Kansas",
+            "abbr": "KS",
+            "number": 3,
+            "dem_nom": "Sharice Davids",
+            "rep_nom": "Kevin Yoder"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 167,
+        "fields": {
+            "state": "Kansas",
+            "abbr": "KS",
+            "number": 4,
+            "dem_nom": "James Thompson",
+            "rep_nom": "Ron Estes"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 168,
+        "fields": {
+            "state": "Kentucky",
+            "abbr": "KY",
+            "number": 1,
+            "dem_nom": "Paul Walker",
+            "rep_nom": "James Comer"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 169,
+        "fields": {
+            "state": "Kentucky",
+            "abbr": "KY",
+            "number": 2,
+            "dem_nom": "Hank Linderman",
+            "rep_nom": "Brett Guthrie"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 170,
+        "fields": {
+            "state": "Kentucky",
+            "abbr": "KY",
+            "number": 3,
+            "dem_nom": "John Yarmuth",
+            "rep_nom": "Harold Bratcher"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 171,
+        "fields": {
+            "state": "Kentucky",
+            "abbr": "KY",
+            "number": 4,
+            "dem_nom": "Seth Hall",
+            "rep_nom": "Thomas Massie"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 172,
+        "fields": {
+            "state": "Kentucky",
+            "abbr": "KY",
+            "number": 5,
+            "dem_nom": "Kenneth Stepp",
+            "rep_nom": "Hal Rogers"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 173,
+        "fields": {
+            "state": "Kentucky",
+            "abbr": "KY",
+            "number": 6,
+            "dem_nom": "Amy McGrath",
+            "rep_nom": "Andy Barr"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 174,
+        "fields": {
+            "state": "Louisiana",
+            "abbr": "LA",
+            "number": 1,
+            "dem_nom": "Jim Francis",
+            "rep_nom": "Steve Scalise"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 175,
+        "fields": {
+            "state": "Louisiana",
+            "abbr": "LA",
+            "number": 2,
+            "dem_nom": "Cedric Richmond",
+            "rep_nom": "None"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 176,
+        "fields": {
+            "state": "Louisiana",
+            "abbr": "LA",
+            "number": 3,
+            "dem_nom": "Mimi Methvin",
+            "rep_nom": "Clay Higgins"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 177,
+        "fields": {
+            "state": "Louisiana",
+            "abbr": "LA",
+            "number": 4,
+            "dem_nom": "Ryan Trundle",
+            "rep_nom": "Mike Johnson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 178,
+        "fields": {
+            "state": "Louisiana",
+            "abbr": "LA",
+            "number": 5,
+            "dem_nom": "Jesse Carlton Fleenor",
+            "rep_nom": "Ralph Abraham"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 179,
+        "fields": {
+            "state": "Louisiana",
+            "abbr": "LA",
+            "number": 6,
+            "dem_nom": "Justin DeWitt",
+            "rep_nom": "Garret Graves"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 180,
+        "fields": {
+            "state": "Maine",
+            "abbr": "ME",
+            "number": 1,
+            "dem_nom": "Chellie Pingrie",
+            "rep_nom": "Mark Holbrook"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 181,
+        "fields": {
+            "state": "Maine",
+            "abbr": "ME",
+            "number": 2,
+            "dem_nom": "Jared Golden",
+            "rep_nom": "Bruce Poliquin"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 182,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 1,
+            "dem_nom": "Jesse Colvin",
+            "rep_nom": "Andy Harris"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 183,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 2,
+            "dem_nom": "C.A. Dutch Ruppersberger",
+            "rep_nom": "Liz Matory"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 184,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 3,
+            "dem_nom": "John P. Sarbanes",
+            "rep_nom": "Charles Anthony"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 185,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 4,
+            "dem_nom": "Anthony G. Brown",
+            "rep_nom": "George McDermott"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 186,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 5,
+            "dem_nom": "Steny Hoyer",
+            "rep_nom": "Willian Devine III"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 187,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 6,
+            "dem_nom": "David Trone",
+            "rep_nom": "Amie Hoeber"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 188,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 7,
+            "dem_nom": "Elijah Cummings",
+            "rep_nom": "Richmond Davis"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 189,
+        "fields": {
+            "state": "Maryland",
+            "abbr": "MD",
+            "number": 8,
+            "dem_nom": "Jamie Raskin",
+            "rep_nom": "John Walsh"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 190,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 1,
+            "dem_nom": "Richard Neal",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 191,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 2,
+            "dem_nom": "James McGovern",
+            "rep_nom": "Tracy Lovvorn"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 192,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 3,
+            "dem_nom": "Lori Trahan",
+            "rep_nom": "Rick Green"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 193,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 4,
+            "dem_nom": "Joseph Kennedy",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 194,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 5,
+            "dem_nom": "Katherine Clark",
+            "rep_nom": "John Hugo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 195,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 6,
+            "dem_nom": "Seth Moulton",
+            "rep_nom": "Joeseph Schneider"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 196,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 7,
+            "dem_nom": "Ayanna Pressley",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 197,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 8,
+            "dem_nom": "Stephen Lynch",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 198,
+        "fields": {
+            "state": "Massachusetts",
+            "abbr": "MA",
+            "number": 9,
+            "dem_nom": "William Keating",
+            "rep_nom": "Peter Tedeschi"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 199,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 1,
+            "dem_nom": "Matt Morgan",
+            "rep_nom": "Jack Bergman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 200,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 2,
+            "dem_nom": "Rob Davidson",
+            "rep_nom": "Bill Huizenga"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 201,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 3,
+            "dem_nom": "Cathy Albro",
+            "rep_nom": "Justin Amash"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 202,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 4,
+            "dem_nom": "Zigmond Kozicki",
+            "rep_nom": "Jerry Hilliard"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 203,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 5,
+            "dem_nom": "Daniel Kildee",
+            "rep_nom": "Travis Vines"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 204,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 6,
+            "dem_nom": "Matt Longjohn",
+            "rep_nom": "Fred Upton"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 205,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 7,
+            "dem_nom": "Gretchen Driskell",
+            "rep_nom": "Tim Walberg"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 206,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 8,
+            "dem_nom": "Elissa Slotkin",
+            "rep_nom": "Mike Bishop"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 207,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 9,
+            "dem_nom": "Sander Levin",
+            "rep_nom": "Candius Stearns"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 208,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 10,
+            "dem_nom": "Kimberly Bizon",
+            "rep_nom": "Paul Mitchell"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 209,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 11,
+            "dem_nom": "Haley Stevens",
+            "rep_nom": "Lena Epstein"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 210,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 12,
+            "dem_nom": "Debbie Dingell",
+            "rep_nom": "Jeff Jones"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 211,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 13,
+            "dem_nom": "Rashida Talib",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 212,
+        "fields": {
+            "state": "Michigan",
+            "abbr": "MI",
+            "number": 14,
+            "dem_nom": "Brenda Lawrence",
+            "rep_nom": "Marc Herschfus"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 213,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 1,
+            "dem_nom": "Dan Feehan",
+            "rep_nom": "Jim Hagedorn"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 214,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 2,
+            "dem_nom": "Angie Craig",
+            "rep_nom": "Jason Lewis"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 215,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 3,
+            "dem_nom": "Dean Phillips",
+            "rep_nom": "Erik Paulsen"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 216,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 4,
+            "dem_nom": "Betty McCollum",
+            "rep_nom": "Greg Ryan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 217,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 5,
+            "dem_nom": "Ilhan Omar",
+            "rep_nom": "Jennifer Zielinski"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 218,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 6,
+            "dem_nom": "Ian Todd",
+            "rep_nom": "Tom Emmer"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 219,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 7,
+            "dem_nom": "Collin Peterson",
+            "rep_nom": "Dave Hughes"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 220,
+        "fields": {
+            "state": "Minnesota",
+            "abbr": "MN",
+            "number": 8,
+            "dem_nom": "Joe Radinovich",
+            "rep_nom": "Pete Sauber"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 221,
+        "fields": {
+            "state": "Mississippi",
+            "abbr": "MS",
+            "number": 1,
+            "dem_nom": "Randy Wadkins",
+            "rep_nom": "Trent Kelly"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 222,
+        "fields": {
+            "state": "Mississippi",
+            "abbr": "MS",
+            "number": 2,
+            "dem_nom": "Bennie Thompson",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 223,
+        "fields": {
+            "state": "Mississippi",
+            "abbr": "MS",
+            "number": 3,
+            "dem_nom": "Michael Evans",
+            "rep_nom": "Michael Guest"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 224,
+        "fields": {
+            "state": "Mississippi",
+            "abbr": "MS",
+            "number": 4,
+            "dem_nom": "Jeramey Anderson",
+            "rep_nom": "Steven Palazzo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 225,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 1,
+            "dem_nom": "William Lacy Clay",
+            "rep_nom": "Robert Vroman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 226,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 2,
+            "dem_nom": "Cort VanOstran",
+            "rep_nom": "Ann Wagner"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 227,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 3,
+            "dem_nom": "Katy Geppert",
+            "rep_nom": "Blaine Luetkemeyer"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 228,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 4,
+            "dem_nom": "Renee Hoagenson",
+            "rep_nom": "Vicky Hartzler"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 229,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 5,
+            "dem_nom": "Emanuel Cleaver",
+            "rep_nom": "Jacob Turk"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 230,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 6,
+            "dem_nom": "Henry Robert Martin",
+            "rep_nom": "Sam Graves"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 231,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 7,
+            "dem_nom": "Jamie Daniel Schoolcraft",
+            "rep_nom": "Billy Long"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 232,
+        "fields": {
+            "state": "Missouri",
+            "abbr": "MO",
+            "number": 8,
+            "dem_nom": "Kathy Ellis",
+            "rep_nom": "Jason Smith"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 233,
+        "fields": {
+            "state": "Montana",
+            "abbr": "MT",
+            "number": 1,
+            "dem_nom": "Kathleen Williams",
+            "rep_nom": "Greg Gianforte"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 234,
+        "fields": {
+            "state": "Nebraska",
+            "abbr": "NE",
+            "number": 1,
+            "dem_nom": "Jessica McClure",
+            "rep_nom": "Jeff Fortenberry"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 235,
+        "fields": {
+            "state": "Nebraska",
+            "abbr": "NE",
+            "number": 2,
+            "dem_nom": "Kara Eastman",
+            "rep_nom": "Don Bacon"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 236,
+        "fields": {
+            "state": "Nebraska",
+            "abbr": "NE",
+            "number": 3,
+            "dem_nom": "Paul Theobald",
+            "rep_nom": "Adrian Smith"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 237,
+        "fields": {
+            "state": "Nevada",
+            "abbr": "NV",
+            "number": 1,
+            "dem_nom": "Dina Titus",
+            "rep_nom": "Joyce Bentley"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 238,
+        "fields": {
+            "state": "Nevada",
+            "abbr": "NV",
+            "number": 2,
+            "dem_nom": "Clint Koble",
+            "rep_nom": "Mark Amodei"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 239,
+        "fields": {
+            "state": "Nevada",
+            "abbr": "NV",
+            "number": 3,
+            "dem_nom": "Susie Lee",
+            "rep_nom": "Danny Tarkanian"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 240,
+        "fields": {
+            "state": "Nevada",
+            "abbr": "NV",
+            "number": 4,
+            "dem_nom": "Steven A. Horsford",
+            "rep_nom": "Cresent Hardy"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 241,
+        "fields": {
+            "state": "New Hampshire",
+            "abbr": "NH",
+            "number": 1,
+            "dem_nom": "Chris Pappas",
+            "rep_nom": "Eddie Edwards"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 242,
+        "fields": {
+            "state": "New Hampshire",
+            "abbr": "NH",
+            "number": 2,
+            "dem_nom": "Ann Kuster",
+            "rep_nom": "Stewart Levenson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 243,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 1,
+            "dem_nom": "Donald Norcross",
+            "rep_nom": "Paul E. Dilks"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 244,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 2,
+            "dem_nom": "Jeff Van Drew",
+            "rep_nom": "Seth Grossman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 245,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 3,
+            "dem_nom": "Andy Kim",
+            "rep_nom": "Tom MacArthur"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 246,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 4,
+            "dem_nom": "Joshua Welle",
+            "rep_nom": "Chris Smith"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 247,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 5,
+            "dem_nom": "Josh Gottheimer",
+            "rep_nom": "John J. MacCann Jr."
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 248,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 6,
+            "dem_nom": "Frank Pallone Jr.",
+            "rep_nom": "Richard J. Pezzullo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 249,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 7,
+            "dem_nom": "Tom Malinowski",
+            "rep_nom": "Leonard Lance"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 250,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 8,
+            "dem_nom": "Albio Sires",
+            "rep_nom": "John R. Muniz"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 251,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 9,
+            "dem_nom": "Bill Pascrell Jr.",
+            "rep_nom": "Eric P. Fisher"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 252,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 10,
+            "dem_nom": "Donald Payne Jr.",
+            "rep_nom": "Agha Khan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 253,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 11,
+            "dem_nom": "Mikie Sherrill",
+            "rep_nom": "Jay Webber"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 254,
+        "fields": {
+            "state": "New Jersey",
+            "abbr": "NJ",
+            "number": 12,
+            "dem_nom": "Bonnie Watson Coleman",
+            "rep_nom": "Daryl Kipnis"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 255,
+        "fields": {
+            "state": "New Mexico",
+            "abbr": "NM",
+            "number": 1,
+            "dem_nom": "Debra A. Haaland",
+            "rep_nom": "Janice E. Arnold-Jones"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 256,
+        "fields": {
+            "state": "New Mexico",
+            "abbr": "NM",
+            "number": 2,
+            "dem_nom": "Xochitl Torres Small",
+            "rep_nom": "Yvette Herrell"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 257,
+        "fields": {
+            "state": "New Mexico",
+            "abbr": "NM",
+            "number": 3,
+            "dem_nom": "Ben R. Lujan",
+            "rep_nom": "Jerald Steve McFall"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 258,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 1,
+            "dem_nom": "Perry Gershon",
+            "rep_nom": "Lee Zeldin"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 259,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 2,
+            "dem_nom": "Liuba Grechen Shirley",
+            "rep_nom": "Pete King"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 260,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 3,
+            "dem_nom": "Thomas Suozzi",
+            "rep_nom": "Dan DeBono"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 261,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 4,
+            "dem_nom": "Kathleen Rice",
+            "rep_nom": "Ameer Benno"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 262,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 5,
+            "dem_nom": "Gregory Meeks",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 263,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 6,
+            "dem_nom": "Grace Meng",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 264,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 7,
+            "dem_nom": "Nydia Velazquez",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 265,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 8,
+            "dem_nom": "Hakeem Jeffries",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 266,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 9,
+            "dem_nom": "Yvette Clarke",
+            "rep_nom": "Lutchi Gayot"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 267,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 10,
+            "dem_nom": "Jorrold Nadier",
+            "rep_nom": "Naomi Levin"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 268,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 11,
+            "dem_nom": "Max Rose",
+            "rep_nom": "Daniel Donovan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 269,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 12,
+            "dem_nom": "Carolyn Maloney",
+            "rep_nom": "Elliot Rabin"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 270,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 13,
+            "dem_nom": "Adriano Espaillat",
+            "rep_nom": "Jineea Butler"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 271,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 14,
+            "dem_nom": "Alexandria Ocasio-Cortez",
+            "rep_nom": "Anthony Pappas"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 272,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 15,
+            "dem_nom": "Jose Serrano",
+            "rep_nom": "Jason Gonzalez"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 273,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 16,
+            "dem_nom": "Eliot Engel",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 274,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 17,
+            "dem_nom": "Nita Lowey",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 275,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 18,
+            "dem_nom": "Sean Maloney",
+            "rep_nom": "James O'Donnell"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 276,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 19,
+            "dem_nom": "Antonio Delgado",
+            "rep_nom": "John Faso"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 277,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 20,
+            "dem_nom": "Paul Tonko",
+            "rep_nom": "Joe Vitollo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 278,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 21,
+            "dem_nom": "Tedra Cobb",
+            "rep_nom": "Elise Stefanik"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 279,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 22,
+            "dem_nom": "Anthony Brindisi",
+            "rep_nom": "Claudia Tenney"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 280,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 23,
+            "dem_nom": "Tracy Mitrano",
+            "rep_nom": "Tom Reed"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 281,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 24,
+            "dem_nom": "Dana Balter",
+            "rep_nom": "Jon Katko"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 282,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 25,
+            "dem_nom": "Joseph D. Morelle",
+            "rep_nom": "Jim Maxwell"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 283,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 26,
+            "dem_nom": "Brian Higgins",
+            "rep_nom": "Renee Zigo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 284,
+        "fields": {
+            "state": "New York",
+            "abbr": "NY",
+            "number": 27,
+            "dem_nom": "Nate McMurray",
+            "rep_nom": "Stefan Mychajliw"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 285,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 1,
+            "dem_nom": "G.K. Butterfield",
+            "rep_nom": "Roger Allison"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 286,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 2,
+            "dem_nom": "Linda Coleman",
+            "rep_nom": "George Holding"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 287,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 3,
+            "dem_nom": "",
+            "rep_nom": "Walter B. Jones"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 288,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 4,
+            "dem_nom": "David Price",
+            "rep_nom": "Steve Von Loor"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 289,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 5,
+            "dem_nom": "Denise Adams",
+            "rep_nom": "Virginia Foxx"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 290,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 6,
+            "dem_nom": "Ryan Watts",
+            "rep_nom": "Mark Walker"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 291,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 7,
+            "dem_nom": "Kyle Horton",
+            "rep_nom": "David Rouzer"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 292,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 8,
+            "dem_nom": "Frank McNeill",
+            "rep_nom": "Richard Hudson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 293,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 9,
+            "dem_nom": "Dan McCready",
+            "rep_nom": "Mark Harris"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 294,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 10,
+            "dem_nom": "David Wilson Brown",
+            "rep_nom": "Patrick McHenry"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 295,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 11,
+            "dem_nom": "Phillip Price",
+            "rep_nom": "Mark Meadows"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 296,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 12,
+            "dem_nom": "Alma Adams",
+            "rep_nom": "Paul Wright"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 297,
+        "fields": {
+            "state": "North Carolina",
+            "abbr": "NC",
+            "number": 13,
+            "dem_nom": "Kathy Manning",
+            "rep_nom": "Ted Budd"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 298,
+        "fields": {
+            "state": "North Dakota",
+            "abbr": "ND",
+            "number": 1,
+            "dem_nom": "Mac Schneider",
+            "rep_nom": "Kelly Armstrong"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 299,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 1,
+            "dem_nom": "Aftab Pureval",
+            "rep_nom": "Steve Chabot"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 300,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 2,
+            "dem_nom": "Jill Schiller",
+            "rep_nom": "Brad Wenstrup"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 301,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 3,
+            "dem_nom": "Joey Beatty",
+            "rep_nom": "Jim Burgess"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 302,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 4,
+            "dem_nom": "Janet Garrett",
+            "rep_nom": "Jim Jordan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 303,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 5,
+            "dem_nom": "John Michael Galbraith",
+            "rep_nom": "Bob Latta"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 304,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 6,
+            "dem_nom": "Shawna Roberts",
+            "rep_nom": "Bill Johnson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 305,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 7,
+            "dem_nom": "Ken Harbaugh",
+            "rep_nom": "Bob Gibbs"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 306,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 8,
+            "dem_nom": "Vanessa Enoch",
+            "rep_nom": "Warren Davidson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 307,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 9,
+            "dem_nom": "Marcy Kaptur",
+            "rep_nom": "Steven Kraus"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 308,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 10,
+            "dem_nom": "Theresa Gasper",
+            "rep_nom": "Michael Turner"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 309,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 11,
+            "dem_nom": "Marcia Fudge",
+            "rep_nom": "Beverly Goldstein"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 310,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 12,
+            "dem_nom": "Danny O'Connor",
+            "rep_nom": "Troy Balderson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 311,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 13,
+            "dem_nom": "Tim Ryan",
+            "rep_nom": "Christopher DePizzo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 312,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 14,
+            "dem_nom": "Betsy Rader",
+            "rep_nom": "David Joyce"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 313,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 15,
+            "dem_nom": "Rick Neal",
+            "rep_nom": "Steve Stivers"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 314,
+        "fields": {
+            "state": "Ohio",
+            "abbr": "OH",
+            "number": 16,
+            "dem_nom": "Susan Moran Palmer",
+            "rep_nom": "Anthony Gonzalez"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 315,
+        "fields": {
+            "state": "Oklahoma",
+            "abbr": "OK",
+            "number": 1,
+            "dem_nom": "Tim Gilpin",
+            "rep_nom": "Kevin Hern"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 316,
+        "fields": {
+            "state": "Oklahoma",
+            "abbr": "OK",
+            "number": 2,
+            "dem_nom": "Jason Nichols",
+            "rep_nom": "Markwayne Mullin"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 317,
+        "fields": {
+            "state": "Oklahoma",
+            "abbr": "OK",
+            "number": 3,
+            "dem_nom": "Frankie Robbins",
+            "rep_nom": "Frank Lucas"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 318,
+        "fields": {
+            "state": "Oklahoma",
+            "abbr": "OK",
+            "number": 4,
+            "dem_nom": "Mary Brannon",
+            "rep_nom": "Tom Cole"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 319,
+        "fields": {
+            "state": "Oklahoma",
+            "abbr": "OK",
+            "number": 5,
+            "dem_nom": "Kendra Horn",
+            "rep_nom": "Steve Russell"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 320,
+        "fields": {
+            "state": "Oregon",
+            "abbr": "OR",
+            "number": 1,
+            "dem_nom": "Suzanne Bonamici",
+            "rep_nom": "John Verbeek"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 321,
+        "fields": {
+            "state": "Oregon",
+            "abbr": "OR",
+            "number": 2,
+            "dem_nom": "Greg Walden",
+            "rep_nom": "Jamie McLeod-Skinner"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 322,
+        "fields": {
+            "state": "Oregon",
+            "abbr": "OR",
+            "number": 3,
+            "dem_nom": "Earl Blumenauer",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 323,
+        "fields": {
+            "state": "Oregon",
+            "abbr": "OR",
+            "number": 4,
+            "dem_nom": "Peter DeFazio",
+            "rep_nom": "Art Robinson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 324,
+        "fields": {
+            "state": "Oregon",
+            "abbr": "OR",
+            "number": 5,
+            "dem_nom": "Kurt Schrader",
+            "rep_nom": "Mark Callahan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 325,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 1,
+            "dem_nom": "Scott Wallace",
+            "rep_nom": "Brian Fitzpatrick"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 326,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 2,
+            "dem_nom": "Brendan Boyle",
+            "rep_nom": "David Torres"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 327,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 3,
+            "dem_nom": "Dwight Evans",
+            "rep_nom": "Bryan Leib"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 328,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 4,
+            "dem_nom": "Madeline Dean",
+            "rep_nom": "Dan David"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 329,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 5,
+            "dem_nom": "Mary Gay Scanlon",
+            "rep_nom": "Pearl Kim"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 330,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 6,
+            "dem_nom": "Chrissy Houlahan",
+            "rep_nom": "Greg McCauley"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 331,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 7,
+            "dem_nom": "Susan Wild",
+            "rep_nom": "Marty Nothstein"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 332,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 8,
+            "dem_nom": "Matt Cartwright",
+            "rep_nom": "John Chrin"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 333,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 9,
+            "dem_nom": "Denny Wolff",
+            "rep_nom": "Dan Meuser"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 334,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 10,
+            "dem_nom": "George Scott",
+            "rep_nom": "Scott Perry"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 335,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 11,
+            "dem_nom": "Jess King",
+            "rep_nom": "Lloyd Smucker"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 336,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 12,
+            "dem_nom": "Marc Friedenberg",
+            "rep_nom": "Tom Marino"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 337,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 13,
+            "dem_nom": "Brent Ottaway",
+            "rep_nom": "John Joyce"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 338,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 14,
+            "dem_nom": "Bibiana Boerio",
+            "rep_nom": "Guy Reschenthaler"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 339,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 15,
+            "dem_nom": "Susan Boser",
+            "rep_nom": "Glenn W. Thompson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 340,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 16,
+            "dem_nom": "Ron DiNicola",
+            "rep_nom": "Mike Kelly"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 341,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 17,
+            "dem_nom": "Conor Lamb",
+            "rep_nom": "Keith Rothfus"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 342,
+        "fields": {
+            "state": "Pennsylvania",
+            "abbr": "PA",
+            "number": 18,
+            "dem_nom": "Mike Doyle",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 343,
+        "fields": {
+            "state": "Rhode Island",
+            "abbr": "RI",
+            "number": 1,
+            "dem_nom": "David Cicilline",
+            "rep_nom": "Patrick Donovan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 344,
+        "fields": {
+            "state": "Rhode Island",
+            "abbr": "RI",
+            "number": 2,
+            "dem_nom": "Jim Langevin",
+            "rep_nom": "Salvatore Caiozzo"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 345,
+        "fields": {
+            "state": "South Carolina",
+            "abbr": "SC",
+            "number": 1,
+            "dem_nom": "Joe Cunningham",
+            "rep_nom": "Katie Arrington"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 346,
+        "fields": {
+            "state": "South Carolina",
+            "abbr": "SC",
+            "number": 2,
+            "dem_nom": "Sean Carrigan",
+            "rep_nom": "Joe Wilson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 347,
+        "fields": {
+            "state": "South Carolina",
+            "abbr": "SC",
+            "number": 3,
+            "dem_nom": "Mary Geren",
+            "rep_nom": "Jeff Duncan"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 348,
+        "fields": {
+            "state": "South Carolina",
+            "abbr": "SC",
+            "number": 4,
+            "dem_nom": "Brandon Brown",
+            "rep_nom": "William Timmons"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 349,
+        "fields": {
+            "state": "South Carolina",
+            "abbr": "SC",
+            "number": 5,
+            "dem_nom": "Archie Parnell",
+            "rep_nom": "Ralph Norman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 350,
+        "fields": {
+            "state": "South Carolina",
+            "abbr": "SC",
+            "number": 6,
+            "dem_nom": "James Clyburn",
+            "rep_nom": "Gerhard Gressmann"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 351,
+        "fields": {
+            "state": "South Carolina",
+            "abbr": "SC",
+            "number": 7,
+            "dem_nom": "Robert Williams",
+            "rep_nom": "Tom Rice"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 352,
+        "fields": {
+            "state": "South Dakota",
+            "abbr": "SD",
+            "number": 1,
+            "dem_nom": "Timothy Bijorkman",
+            "rep_nom": "Dusty Johnson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 353,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 1,
+            "dem_nom": "Marty Olsen",
+            "rep_nom": "Phil Roe"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 354,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 2,
+            "dem_nom": "Renee Hoyos",
+            "rep_nom": "Tim Burchett"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 355,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 3,
+            "dem_nom": "Danielle Mitchell",
+            "rep_nom": "Chuck Fleischmann"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 356,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 4,
+            "dem_nom": "Mariah Phillips",
+            "rep_nom": "Scott DesJarlais"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 357,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 5,
+            "dem_nom": "Jim Cooper",
+            "rep_nom": "Jody Ball"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 358,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 6,
+            "dem_nom": "Dawn Barlow",
+            "rep_nom": "John Rose"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 359,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 7,
+            "dem_nom": "Justin Kanew",
+            "rep_nom": "Mark Green"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 360,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 8,
+            "dem_nom": "Erica Stotts Pearson",
+            "rep_nom": "David Kustoff"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 361,
+        "fields": {
+            "state": "Tennessee",
+            "abbr": "TN",
+            "number": 9,
+            "dem_nom": "Steve Cohen",
+            "rep_nom": "Charlotte Bergmann"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 362,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 1,
+            "dem_nom": "Shirley McKellar",
+            "rep_nom": "Louie Gohmert"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 363,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 2,
+            "dem_nom": "Todd Litton",
+            "rep_nom": "Daniel Crenshaw"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 364,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 3,
+            "dem_nom": "Lorie Burch",
+            "rep_nom": "Van Taylor"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 365,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 4,
+            "dem_nom": "Catherine Krantz",
+            "rep_nom": "John Ratcliffe"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 366,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 5,
+            "dem_nom": "Dan Wood",
+            "rep_nom": "Lance Gooden"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 367,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 6,
+            "dem_nom": "Jana Lynne Sanchez",
+            "rep_nom": "Ronald Wright"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 368,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 7,
+            "dem_nom": "Lizzie Pannill Fletcher",
+            "rep_nom": "John Culberson"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 369,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 8,
+            "dem_nom": "Steven David",
+            "rep_nom": "Kevin Brady"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 370,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 9,
+            "dem_nom": "Al Green",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 371,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 10,
+            "dem_nom": "Mike Siegel",
+            "rep_nom": "Michael McCaul"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 372,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 11,
+            "dem_nom": "Jennie Lou Leeder",
+            "rep_nom": "Mike Conaway"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 373,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 12,
+            "dem_nom": "Vanessa Adia",
+            "rep_nom": "Kay Granger"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 374,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 13,
+            "dem_nom": "Greg Sagan",
+            "rep_nom": "Mac Thornberry"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 375,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 14,
+            "dem_nom": "Adrienne Bell",
+            "rep_nom": "Randy Weber"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 376,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 15,
+            "dem_nom": "Vicente Gonzalez",
+            "rep_nom": "Tim Westley"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 377,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 16,
+            "dem_nom": "Veronica Escobar",
+            "rep_nom": "Rick Seeberger"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 378,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 17,
+            "dem_nom": "Rick Kennedt",
+            "rep_nom": "Bill Flores"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 379,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 18,
+            "dem_nom": "Shiela Jackson Lee",
+            "rep_nom": "Ava Pate"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 380,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 19,
+            "dem_nom": "Miguel Levario",
+            "rep_nom": "Jodey Arrington"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 381,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 20,
+            "dem_nom": "Joaquin Castro",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 382,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 21,
+            "dem_nom": "Joseph Kopser",
+            "rep_nom": "Chip Roy"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 383,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 22,
+            "dem_nom": "Sri Preston Kulkarni",
+            "rep_nom": "Pete Olsen"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 384,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 23,
+            "dem_nom": "Gina Ortiz Jones",
+            "rep_nom": "Will Hurd"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 385,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 24,
+            "dem_nom": "Jan McDowell",
+            "rep_nom": "Kenny Marchant"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 386,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 25,
+            "dem_nom": "Julie Oliver",
+            "rep_nom": "Roger Williams"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 387,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 26,
+            "dem_nom": "Linsey Fagan",
+            "rep_nom": "Michael Burgess"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 388,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 27,
+            "dem_nom": "Eric Holguin",
+            "rep_nom": "Michael Cloud"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 389,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 28,
+            "dem_nom": "Henry Cuellar",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 390,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 29,
+            "dem_nom": "Sylvia Garcia",
+            "rep_nom": "Philip Aronoff"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 391,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 30,
+            "dem_nom": "Eddie Bernice Johnson",
+            "rep_nom": "-"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 392,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 31,
+            "dem_nom": "M.J. Hegar",
+            "rep_nom": "John Carter"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 393,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 32,
+            "dem_nom": "Collin Allred",
+            "rep_nom": "Pete Sessions"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 394,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 33,
+            "dem_nom": "Marc Veasey",
+            "rep_nom": "Willie Billups"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 395,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 34,
+            "dem_nom": "Filemon Vela",
+            "rep_nom": "Rey Gonzalez"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 396,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 35,
+            "dem_nom": "Lloyd Dogget",
+            "rep_nom": "David Smalling"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 397,
+        "fields": {
+            "state": "Texas",
+            "abbr": "TX",
+            "number": 36,
+            "dem_nom": "Dayna Steele",
+            "rep_nom": "Brian Babin"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 398,
+        "fields": {
+            "state": "Utah",
+            "abbr": "UT",
+            "number": 1,
+            "dem_nom": "Lee Castillo",
+            "rep_nom": "Rob Bishop"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 399,
+        "fields": {
+            "state": "Utah",
+            "abbr": "UT",
+            "number": 2,
+            "dem_nom": "Shireen Ghorbani",
+            "rep_nom": "Chris Stewart"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 400,
+        "fields": {
+            "state": "Utah",
+            "abbr": "UT",
+            "number": 3,
+            "dem_nom": "James Singer",
+            "rep_nom": "John Curtis"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 401,
+        "fields": {
+            "state": "Utah",
+            "abbr": "UT",
+            "number": 4,
+            "dem_nom": "Ben McAdams",
+            "rep_nom": "Mia Love"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 402,
+        "fields": {
+            "state": "Vermont",
+            "abbr": "VT",
+            "number": 1,
+            "dem_nom": "Peter Welch",
+            "rep_nom": "H. Brooke Paige"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 403,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 1,
+            "dem_nom": "Vangie Williams",
+            "rep_nom": "Rob Wittman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 404,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 2,
+            "dem_nom": "Elaine Luria",
+            "rep_nom": "Scott Taylor"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 405,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 3,
+            "dem_nom": "Bobby Scott",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 406,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 4,
+            "dem_nom": "Donald McEachin",
+            "rep_nom": "Ryan McAdams"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 407,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 5,
+            "dem_nom": "Leslie Cockburn",
+            "rep_nom": "Denver Riggleman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 408,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 6,
+            "dem_nom": "Jennifer Lewis",
+            "rep_nom": "Ben Cline"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 409,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 7,
+            "dem_nom": "Abigail Spanberger",
+            "rep_nom": "David Brat"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 410,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 8,
+            "dem_nom": "Don Beyer",
+            "rep_nom": "Thomas Oh"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 411,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 9,
+            "dem_nom": "Anthony Flaccavento",
+            "rep_nom": "Morgan Griffith"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 412,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 10,
+            "dem_nom": "Jennifer Wexton",
+            "rep_nom": "Barbara Comstock"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 413,
+        "fields": {
+            "state": "Virginia",
+            "abbr": "VA",
+            "number": 11,
+            "dem_nom": "Gerald Connolly",
+            "rep_nom": "Jeff Dove"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 414,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 1,
+            "dem_nom": "Suzan DelBene",
+            "rep_nom": "Jeffrey Beeler"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 415,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 2,
+            "dem_nom": "Rick Larsen",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 416,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 3,
+            "dem_nom": "Carolyn Long",
+            "rep_nom": "Jaime Herrera Beutler"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 417,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 4,
+            "dem_nom": "Christine Brown",
+            "rep_nom": "Dan Newhouse"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 418,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 5,
+            "dem_nom": "Lisa Brown",
+            "rep_nom": "Cathy McMorris Rodgers"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 419,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 6,
+            "dem_nom": "Derek Kilmer",
+            "rep_nom": "Douglas Dightman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 420,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 7,
+            "dem_nom": "Pramila Jayapal",
+            "rep_nom": "Craig Keller"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 421,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 8,
+            "dem_nom": "Kim Schrier",
+            "rep_nom": "Dino Rossi"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 422,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 9,
+            "dem_nom": "D. Adam Smith",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 423,
+        "fields": {
+            "state": "Washington",
+            "abbr": "WA",
+            "number": 10,
+            "dem_nom": "Denny Heck",
+            "rep_nom": "Joseph Brumbles"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 424,
+        "fields": {
+            "state": "West Virginia",
+            "abbr": "WV",
+            "number": 1,
+            "dem_nom": "Kendra Fershee",
+            "rep_nom": "David McKinley"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 425,
+        "fields": {
+            "state": "West Virginia",
+            "abbr": "WV",
+            "number": 2,
+            "dem_nom": "Talley Sergent",
+            "rep_nom": "Alexander Mooney"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 426,
+        "fields": {
+            "state": "West Virginia",
+            "abbr": "WV",
+            "number": 3,
+            "dem_nom": "Richard Ojeda",
+            "rep_nom": "Carol Miller"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 427,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 1,
+            "dem_nom": "Randy Bryce",
+            "rep_nom": "Bryan Steil"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 428,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 2,
+            "dem_nom": "Mark Pocan",
+            "rep_nom": ""
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 429,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 3,
+            "dem_nom": "Ronald James Kind",
+            "rep_nom": "Steve Toft"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 430,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 4,
+            "dem_nom": "Gwen Moore",
+            "rep_nom": "Tim Rogers"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 431,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 5,
+            "dem_nom": "Tom Palzewicz",
+            "rep_nom": "Jim Sensenbrenner"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 432,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 6,
+            "dem_nom": "Dan Kohl",
+            "rep_nom": "Glenn Grothman"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 433,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 7,
+            "dem_nom": "Margaret Engebretson",
+            "rep_nom": "Sean Duffy"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 434,
+        "fields": {
+            "state": "Wisconsin",
+            "abbr": "WI",
+            "number": 8,
+            "dem_nom": "Beau Liegeois",
+            "rep_nom": "Mike Gallagher"
+        }
+    },
+    {
+        "model": "figures.District",
+        "pk": 435,
+        "fields": {
+            "state": "Wyoming",
+            "abbr": "WY",
+            "number": 1,
+            "dem_nom": "Greg Hunter",
+            "rep_nom": "Liz Cheney"
+        }
+    }
+]

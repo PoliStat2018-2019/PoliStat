@@ -41,7 +41,6 @@ class District(models.Model):
     rep_nom = models.CharField(verbose_name='republican nominee',
                                max_length=64,
                                blank=True)
-
     modified = models.DateTimeField(verbose_name='last modified',
                                     auto_now=True,
                                     blank=True)
