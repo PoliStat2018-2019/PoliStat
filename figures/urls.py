@@ -7,5 +7,8 @@ app_name='figures'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('about.html', views.about, name='about')
+    path('about.html', views.about, name='about'),
+
+    path('<slug:state>/', views.state, name='state'),
+    path('<slug:state>/<int:district>/', views.district, name='district')
 ]

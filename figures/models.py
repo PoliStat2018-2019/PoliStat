@@ -79,4 +79,3 @@ class Post(models.Model):
     def __str__(self):
         """Return the title of this post as a string"""
         return self.title
-        
