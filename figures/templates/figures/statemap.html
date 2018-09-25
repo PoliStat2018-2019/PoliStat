@@ -1,0 +1,15 @@
+{% extends "figures/base.html" %}
+
+{% block title %}States{% endblock %}
+
+{% block content %}
+<section class="statemap-wrapper">
+    <h1 class="p-t-lg p-b-lg">United States</h1>   
+    <ul class="statemap">
+    {% for state in states_list %} 
+        <a class="p-md m-xs" href="{% url 'figures:state' state.name %}">
+            <li class="">{{ state.name }} ({{ state.abbr }})</li>
+        </a>
+    {% endfor %}
+    </section>
+{% endblock  %}

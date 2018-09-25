@@ -5,6 +5,7 @@
 .welcome-section {
     background-image: url('../images/work_5.jpg');
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 
     display: grid;
@@ -15,7 +16,7 @@
         grid-template-columns: 1fr max-content 300px 1fr;
     }
 
-    height: 90vh;
+    height: 100vh;
 }
 
 .welcome-section h1:first-child {
@@ -87,43 +88,4 @@
     }
     
     color: $site-white;
-}
-
-.prediction-section {
-    display: grid;
-    justify-items: center;
-    grid-template-rows: 3rem max-content min-content min-content 3rem;
-    grid-template-columns: 1fr max-content minmax(300px, max-content) max-content 1fr;
-
-    & > * {color: $site-white;}
-}
-
-.prediction-section h1:first-child {
-    grid-row: 2;
-    grid-column: 2 / span 3;
-    // border-radius: 7px;
-    background: $site-white;
-
-    text-align: center;
-    font-size: 2em;
-    @include mq(mobile) {
-        font-size: 3em;
-    }
-
-    color: $site-red;
-}
-
-.prediction-section .last-updated {
-    grid-row: 3;
-    grid-column: 2 / span 3;
-}
-
-.prediction-section .prediction-img {
-    grid-row: 4;
-    grid-column: 3;
-
-    max-width: 100%;
-    max-height: 100%;
-
-    transform: rotate(180deg);
 }

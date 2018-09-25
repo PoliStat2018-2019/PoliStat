@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import path, include, re_path
 
 from . import models, views
 
@@ -7,5 +7,8 @@ app_name='figures'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('about.html', views.about, name='about')
+    path('about/', views.about, name='about'),
+    path('states/', views.statemap, name='states'),
+    path('states/<str:state>/', views.state, name='state'),
+    path('states/<str:state>/<int:district>/', views.district, name='district')
 ]

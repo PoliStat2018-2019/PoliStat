@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from django.urls import reverse
 
 
 class State(models.Model):
@@ -7,9 +8,19 @@ class State(models.Model):
     Model representing a U.S. state
     """
 
-    name = models.CharField(max_length=16, unique=True)
-    abbr = models.CharField(max_length=2, unique=True)
-    no_dist = models.IntegerField()
+    manager = models.Manager()
+
+    name = models.CharField(verbose_name='Name', max_length=16, unique=True)
+    abbr = models.CharField(verbose_name='Abbreviation', max_length=2, unique=True)
+
+    def __str__(self):
+        return self.name
+    
+    def get_absolute_url(self):
+        return reverse('figures:state', kwargs={
+            'state': self.name
+        })
+    
 
 
 class District(models.Model):
@@ -17,27 +28,38 @@ class District(models.Model):
     Model representing a U.S. state district
     """
 
+    manager = models.Manager()
+
     # ForeignKey because a district belongs to only one State but
     # each State can have multiple districts
     state = models.ForeignKey(State, on_delete=models.CASCADE)
 
-    no = models.IntegerField(verbose_name='district number')
+    no = models.IntegerField(verbose_name='district number', unique=True)
     dem_nom = models.CharField(verbose_name='democratic nominee',
-                               max_length=64)
+                               max_length=64,
+                               blank=True)
     rep_nom = models.CharField(verbose_name='republican nominee',
-                               max_length=64)
-
-    # prediction
-    # last updated  
-    # graphs? - Mark J. 9/12/18
+                               max_length=64,
+                               blank=True)
+    dem_predicted_perc = models.FloatField(verbose_name=
+                                            'democratic predicted percentage',
+                                           default=0)
+    rep_predicted_perc = models.FloatField(verbose_name=
+                                            'republican predicted percentage',
+                                           default=0)
+    modified = models.DateTimeField(verbose_name='last modified',
+                                    auto_now=True,
+                                    blank=True)
 
     def __str__(self):
         """
-        Return the name of the district as "State - District 12"
-        
-        E.g. "Mississippi - District 3"
+        Return the name of the district as "State - District"
         """
         return f'{self.state.name} - District {self.no}'
+    
+    def get_absolute_url(self):
+        return reverse()
+
 
 
 class DistrictProfile(models.Model):

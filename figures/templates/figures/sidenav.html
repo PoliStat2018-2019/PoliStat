@@ -1,4 +1,5 @@
 {% load static %}
+
 <div class="sidenav-mobile m-t-lg m-l-xl">
     <i id="sidenav-mobile-btn" class="fas fa-bars"></i>
 </div>
@@ -9,8 +10,8 @@
              onerror="this.onerror=null; this.src='django-logo-positive.png'">
     </a>
     <ul class="sidenav m-l-sm border-l">
-        <li class="active"><a class="bold" href="">model</a></li>
-        <li class=""><a class="bold" href="states.html">states</a></li>
-        <li class=""><a class="bold" href="about.html">about</a></li>
+        <li class="{% if navbar == 'index' %}active{% endif %}"><a class="bold" href="{% url 'figures:index' %}">model</a></li>
+        <li class="{% if navbar == 'states' %}active{% endif %}"><a class="bold" href="{% url 'figures:states' %}">states</a></li>
+        <li class="{% if navbar == 'about' %}active{% endif %}"><a class="bold" href="{% url 'figures:about' %}about.html">about</a></li>
     </ul>
 </nav>
