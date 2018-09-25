@@ -1,401 +1,351 @@
 [
     {
-        "model": "figures.State",
-        "pk": 1,
+        "model": "figures.state",
+        "pk": "Alabama",
         "fields": {
-            "name": "Alabama",
             "abbr": "AL"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 2,
+        "model": "figures.state",
+        "pk": "Alaska",
         "fields": {
-            "name": "Alaska",
             "abbr": "AK"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 3,
+        "model": "figures.state",
+        "pk": "Arizona",
         "fields": {
-            "name": "Arizona",
             "abbr": "AZ"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 4,
+        "model": "figures.state",
+        "pk": "Arkansas",
         "fields": {
-            "name": "Arkansas",
             "abbr": "AR"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 5,
+        "model": "figures.state",
+        "pk": "California",
         "fields": {
-            "name": "California",
             "abbr": "CA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 6,
+        "model": "figures.state",
+        "pk": "Colorado",
         "fields": {
-            "name": "Colorado",
             "abbr": "CO"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 7,
+        "model": "figures.state",
+        "pk": "Connecticut",
         "fields": {
-            "name": "Connecticut",
             "abbr": "CT"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 8,
+        "model": "figures.state",
+        "pk": "Delaware",
         "fields": {
-            "name": "Delaware",
             "abbr": "DE"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 9,
+        "model": "figures.state",
+        "pk": "Florida",
         "fields": {
-            "name": "Florida",
             "abbr": "FL"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 10,
+        "model": "figures.state",
+        "pk": "Georgia",
         "fields": {
-            "name": "Georgia",
             "abbr": "GA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 11,
+        "model": "figures.state",
+        "pk": "Hawaii",
         "fields": {
-            "name": "Hawaii",
             "abbr": "HI"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 12,
+        "model": "figures.state",
+        "pk": "Idaho",
         "fields": {
-            "name": "Idaho",
             "abbr": "ID"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 13,
+        "model": "figures.state",
+        "pk": "Illinois",
         "fields": {
-            "name": "Illinois",
             "abbr": "IL"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 14,
+        "model": "figures.state",
+        "pk": "Indiana",
         "fields": {
-            "name": "Indiana",
             "abbr": "IN"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 15,
+        "model": "figures.state",
+        "pk": "Iowa",
         "fields": {
-            "name": "Iowa",
             "abbr": "IA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 16,
+        "model": "figures.state",
+        "pk": "Kansas",
         "fields": {
-            "name": "Kansas",
             "abbr": "KS"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 17,
+        "model": "figures.state",
+        "pk": "Kentucky",
         "fields": {
-            "name": "Kentucky",
             "abbr": "KY"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 18,
+        "model": "figures.state",
+        "pk": "Louisiana",
         "fields": {
-            "name": "Louisiana",
             "abbr": "LA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 19,
+        "model": "figures.state",
+        "pk": "Maine",
         "fields": {
-            "name": "Maine",
             "abbr": "ME"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 20,
+        "model": "figures.state",
+        "pk": "Maryland",
         "fields": {
-            "name": "Maryland",
             "abbr": "MD"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 21,
+        "model": "figures.state",
+        "pk": "Massachusetts",
         "fields": {
-            "name": "Massachusetts",
             "abbr": "MA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 22,
+        "model": "figures.state",
+        "pk": "Michigan",
         "fields": {
-            "name": "Michigan",
             "abbr": "MI"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 23,
+        "model": "figures.state",
+        "pk": "Minnesota",
         "fields": {
-            "name": "Minnesota",
             "abbr": "MN"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 24,
+        "model": "figures.state",
+        "pk": "Mississippi",
         "fields": {
-            "name": "Mississippi",
             "abbr": "MS"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 25,
+        "model": "figures.state",
+        "pk": "Missouri",
         "fields": {
-            "name": "Missouri",
             "abbr": "MO"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 26,
+        "model": "figures.state",
+        "pk": "Montana",
         "fields": {
-            "name": "Montana",
             "abbr": "MT"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 27,
+        "model": "figures.state",
+        "pk": "Nebraska",
         "fields": {
-            "name": "Nebraska",
             "abbr": "NE"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 28,
+        "model": "figures.state",
+        "pk": "Nevada",
         "fields": {
-            "name": "Nevada",
             "abbr": "NV"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 29,
+        "model": "figures.state",
+        "pk": "New Hampshire",
         "fields": {
-            "name": "New Hampshire",
             "abbr": "NH"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 30,
+        "model": "figures.state",
+        "pk": "New Jersey",
         "fields": {
-            "name": "New Jersey",
             "abbr": "NJ"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 31,
+        "model": "figures.state",
+        "pk": "New Mexico",
         "fields": {
-            "name": "New Mexico",
             "abbr": "NM"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 32,
+        "model": "figures.state",
+        "pk": "New York",
         "fields": {
-            "name": "New York",
             "abbr": "NY"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 33,
+        "model": "figures.state",
+        "pk": "North Carolina",
         "fields": {
-            "name": "North Carolina",
             "abbr": "NC"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 34,
+        "model": "figures.state",
+        "pk": "North Dakota",
         "fields": {
-            "name": "North Dakota",
             "abbr": "ND"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 35,
+        "model": "figures.state",
+        "pk": "Ohio",
         "fields": {
-            "name": "Ohio",
             "abbr": "OH"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 36,
+        "model": "figures.state",
+        "pk": "Oklahoma",
         "fields": {
-            "name": "Oklahoma",
             "abbr": "OK"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 37,
+        "model": "figures.state",
+        "pk": "Oregon",
         "fields": {
-            "name": "Oregon",
             "abbr": "OR"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 38,
+        "model": "figures.state",
+        "pk": "Pennsylvania",
         "fields": {
-            "name": "Pennsylvania",
             "abbr": "PA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 39,
+        "model": "figures.state",
+        "pk": "Rhode Island",
         "fields": {
-            "name": "Rhode Island",
             "abbr": "RI"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 40,
+        "model": "figures.state",
+        "pk": "South Carolina",
         "fields": {
-            "name": "South Carolina",
             "abbr": "SC"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 41,
+        "model": "figures.state",
+        "pk": "South Dakota",
         "fields": {
-            "name": "South Dakota",
             "abbr": "SD"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 42,
+        "model": "figures.state",
+        "pk": "Tennessee",
         "fields": {
-            "name": "Tennessee",
             "abbr": "TN"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 43,
+        "model": "figures.state",
+        "pk": "Texas",
         "fields": {
-            "name": "Texas",
             "abbr": "TX"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 44,
+        "model": "figures.state",
+        "pk": "Utah",
         "fields": {
-            "name": "Utah",
             "abbr": "UT"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 45,
+        "model": "figures.state",
+        "pk": "Vermont",
         "fields": {
-            "name": "Vermont",
             "abbr": "VT"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 46,
+        "model": "figures.state",
+        "pk": "Virginia",
         "fields": {
-            "name": "Virginia",
             "abbr": "VA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 47,
+        "model": "figures.state",
+        "pk": "Washington",
         "fields": {
-            "name": "Washington",
             "abbr": "WA"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 48,
+        "model": "figures.state",
+        "pk": "West Virginia",
         "fields": {
-            "name": "West Virginia",
             "abbr": "WV"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 49,
+        "model": "figures.state",
+        "pk": "Wisconsin",
         "fields": {
-            "name": "Wisconsin",
             "abbr": "WI"
         }
     },
     {
-        "model": "figures.State",
-        "pk": 50,
+        "model": "figures.state",
+        "pk": "Wyoming",
         "fields": {
-            "name": "Wyoming",
             "abbr": "WY"
         }
     }

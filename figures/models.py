@@ -48,7 +48,7 @@ class District(models.Model):
                                blank=True)
     modified = models.DateTimeField(verbose_name='last modified',
                                     auto_now=True,
-                                    blank=True)
+                                    null=True)
 
     def __str__(self):
         """
