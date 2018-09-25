@@ -41,12 +41,7 @@ class District(models.Model):
     rep_nom = models.CharField(verbose_name='republican nominee',
                                max_length=64,
                                blank=True)
-    dem_predicted_perc = models.FloatField(verbose_name=
-                                            'democratic predicted percentage',
-                                           default=0)
-    rep_predicted_perc = models.FloatField(verbose_name=
-                                            'republican predicted percentage',
-                                           default=0)
+
     modified = models.DateTimeField(verbose_name='last modified',
                                     auto_now=True,
                                     blank=True)
@@ -76,6 +71,23 @@ class DistrictProfile(models.Model):
     modified = models.DateField(default=timezone.now)
 
 
+class Prediction(models.Model):
+    """
+    Model representing a daily prediction
+    """
+
+    district = models.ForeignKey(District, on_delete=models.CASCADE)
+    dem_predicted_perc = models.FloatField(verbose_name=
+                                            'democratic predicted percentage',
+                                           default=0)
+    rep_predicted_perc = models.FloatField(verbose_name=
+                                            'republican predicted percentage',
+                                           default=0)
+    date = models.DateField(default=timezone.now)
+
+    class Meta:
+        ordering = ["date"]
+
 class Post(models.Model):
     """
     Model representing a post
@@ -101,4 +113,3 @@ class Post(models.Model):
     def __str__(self):
         """Return the title of this post as a string"""
         return self.title
-        
