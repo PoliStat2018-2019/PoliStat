@@ -5,8 +5,12 @@
 {% block content %}
     <section>
         <h1>{{ state.name }} Districts</h1>
-        {% for district in district_list %}
-
-        {% endfor %}
+        <ul class="district-list">
+            {% for district in district_list %}
+                <li class="district">
+                    District {{ district.no, district.dem_nom }}
+                </li>
+            {% endfor %}
+        </ul>
     </section>
 {% endblock %}

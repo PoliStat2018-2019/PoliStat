@@ -10,8 +10,13 @@ class State(models.Model):
 
     manager = models.Manager()
 
-    name = models.CharField(verbose_name='Name', max_length=16, unique=True)
-    abbr = models.CharField(verbose_name='Abbreviation', max_length=2, unique=True)
+    name = models.CharField(verbose_name='Name',
+                            max_length=16,
+                            primary_key=True,
+                            unique=True)
+    abbr = models.CharField(verbose_name='Abbreviation',
+                            max_length=2,
+                            unique=True)
 
     def __str__(self):
         return self.name
@@ -34,7 +39,7 @@ class District(models.Model):
     # each State can have multiple districts
     state = models.ForeignKey(State, on_delete=models.CASCADE)
 
-    no = models.IntegerField(verbose_name='district number', unique=True)
+    no = models.IntegerField(verbose_name='district number')
     dem_nom = models.CharField(verbose_name='democratic nominee',
                                max_length=64,
                                blank=True)
@@ -52,7 +57,9 @@ class District(models.Model):
         return f'{self.state.name} - District {self.no}'
     
     def get_absolute_url(self):
-        return reverse()
+        return reverse('figures:district', kwargs={
+            'no': self.no
+        })
 
 
 

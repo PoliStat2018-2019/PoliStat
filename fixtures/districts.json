@@ -4,8 +4,7 @@
         "pk": 1,
         "fields": {
             "state": "Alabama",
-            "abbr": "AL",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Robert Kennedy Jr.",
             "rep_nom": "Bradley Byrne"
         }
@@ -15,8 +14,7 @@
         "pk": 2,
         "fields": {
             "state": "Alabama",
-            "abbr": "AL",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Tabitha Isner",
             "rep_nom": "Martha Roby"
         }
@@ -26,8 +24,7 @@
         "pk": 3,
         "fields": {
             "state": "Alabama",
-            "abbr": "AL",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Mallory Hagan",
             "rep_nom": "Mike Rogers"
         }
@@ -37,8 +34,7 @@
         "pk": 4,
         "fields": {
             "state": "Alabama",
-            "abbr": "AL",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Lee Auman",
             "rep_nom": "Robert Aderholt"
         }
@@ -48,8 +44,7 @@
         "pk": 5,
         "fields": {
             "state": "Alabama",
-            "abbr": "AL",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Peter Joffrion",
             "rep_nom": "Mo Brooks"
         }
@@ -59,8 +54,7 @@
         "pk": 6,
         "fields": {
             "state": "Alabama",
-            "abbr": "AL",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Danner Kline",
             "rep_nom": "Gary Palmer"
         }
@@ -70,8 +64,7 @@
         "pk": 7,
         "fields": {
             "state": "Alabama",
-            "abbr": "AL",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Terri Sewell",
             "rep_nom": ""
         }
@@ -81,8 +74,7 @@
         "pk": 8,
         "fields": {
             "state": "Alaska",
-            "abbr": "AK",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Alysse Galvin",
             "rep_nom": "Don Young"
         }
@@ -92,8 +84,7 @@
         "pk": 9,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Tom O'Halleran",
             "rep_nom": "Wendy Rogers"
         }
@@ -103,8 +94,7 @@
         "pk": 10,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Ann Kirkpatrick",
             "rep_nom": "Lea Marquez Peterson"
         }
@@ -114,8 +104,7 @@
         "pk": 11,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Raul Grijalva",
             "rep_nom": "Nicolas Pierson"
         }
@@ -125,8 +114,7 @@
         "pk": 12,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 4,
+            "no": 4,
             "dem_nom": "David Brill",
             "rep_nom": "Paul Gosar"
         }
@@ -136,8 +124,7 @@
         "pk": 13,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Joan Greene",
             "rep_nom": "Andy Biggs"
         }
@@ -147,8 +134,7 @@
         "pk": 14,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 6,
+            "no": 6,
             "dem_nom": "David Schweikert",
             "rep_nom": "Anita Malik"
         }
@@ -158,8 +144,7 @@
         "pk": 15,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Ruben Gallego",
             "rep_nom": ""
         }
@@ -169,8 +154,7 @@
         "pk": 16,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Hiral Tipireni",
             "rep_nom": "Debbie Lesko"
         }
@@ -180,8 +164,7 @@
         "pk": 17,
         "fields": {
             "state": "Arizona",
-            "abbr": "AZ",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Greg Stanton",
             "rep_nom": "Steve Ferrara"
         }
@@ -191,8 +174,7 @@
         "pk": 18,
         "fields": {
             "state": "Arkansas",
-            "abbr": "AR",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Chintan Desai",
             "rep_nom": "Rick Crawford"
         }
@@ -202,8 +184,7 @@
         "pk": 19,
         "fields": {
             "state": "Arkansas",
-            "abbr": "AR",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Clarke Tucker",
             "rep_nom": "French Hill"
         }
@@ -213,8 +194,7 @@
         "pk": 20,
         "fields": {
             "state": "Arkansas",
-            "abbr": "AR",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Joshua Mahony",
             "rep_nom": "Steve Womack"
         }
@@ -224,8 +204,7 @@
         "pk": 21,
         "fields": {
             "state": "Arkansas",
-            "abbr": "AR",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Hayden Shamel",
             "rep_nom": "Bruce Westerman"
         }
@@ -235,8 +214,7 @@
         "pk": 22,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Doug LaMalfa",
             "rep_nom": "Audrey Denney"
         }
@@ -246,8 +224,7 @@
         "pk": 23,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Jared Huffman",
             "rep_nom": "Dale Mensing"
         }
@@ -257,8 +234,7 @@
         "pk": 24,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "John Garamendi",
             "rep_nom": "Charlie Schaupp"
         }
@@ -268,8 +244,7 @@
         "pk": 25,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Jessica Morse",
             "rep_nom": "Tom McClintock"
         }
@@ -279,8 +254,7 @@
         "pk": 26,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Mike Thompson",
             "rep_nom": "Anthony Mills"
         }
@@ -290,8 +264,7 @@
         "pk": 27,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Doris Matsui, Jrmar Jefferson",
             "rep_nom": ""
         }
@@ -301,8 +274,7 @@
         "pk": 28,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Ami Bera",
             "rep_nom": "Andrew Grant"
         }
@@ -312,8 +284,7 @@
         "pk": 29,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 8,
+            "no": 8,
             "dem_nom": "",
             "rep_nom": "Paul Cook, Tim Donnelly"
         }
@@ -323,8 +294,7 @@
         "pk": 30,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Jerry McNerny",
             "rep_nom": "Marla Livengood"
         }
@@ -334,8 +304,7 @@
         "pk": 31,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Josh Harder",
             "rep_nom": "Jeff Denham"
         }
@@ -345,8 +314,7 @@
         "pk": 32,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Mark DeSaulnier",
             "rep_nom": "John Fitzgerald"
         }
@@ -356,8 +324,7 @@
         "pk": 33,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Nancy Pelosi",
             "rep_nom": "Lisa Remmer"
         }
@@ -367,8 +334,7 @@
         "pk": 34,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Barbara Lee",
             "rep_nom": ""
         }
@@ -378,8 +344,7 @@
         "pk": 35,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Jackie Speier",
             "rep_nom": "Cristina Osmeña"
         }
@@ -389,8 +354,7 @@
         "pk": 36,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 15,
+            "no": 15,
             "dem_nom": "Eric Swalwell",
             "rep_nom": "Rudy Peters"
         }
@@ -400,8 +364,7 @@
         "pk": 37,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 16,
+            "no": 16,
             "dem_nom": "Jim Costa",
             "rep_nom": "Elizabeth Heng"
         }
@@ -411,8 +374,7 @@
         "pk": 38,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 17,
+            "no": 17,
             "dem_nom": "Ro Khanna",
             "rep_nom": "Ron Cohen"
         }
@@ -422,8 +384,7 @@
         "pk": 39,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 18,
+            "no": 18,
             "dem_nom": "Anna Eshoo",
             "rep_nom": "Christine Russell"
         }
@@ -433,8 +394,7 @@
         "pk": 40,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 19,
+            "no": 19,
             "dem_nom": "Zoe Lofgren",
             "rep_nom": "Justin Aguilera"
         }
@@ -444,8 +404,7 @@
         "pk": 41,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 20,
+            "no": 20,
             "dem_nom": "Jimmy Panetta",
             "rep_nom": ""
         }
@@ -455,8 +414,7 @@
         "pk": 42,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 21,
+            "no": 21,
             "dem_nom": "TJ Cox",
             "rep_nom": "David Valadao"
         }
@@ -466,8 +424,7 @@
         "pk": 43,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 22,
+            "no": 22,
             "dem_nom": "Devin Nunes",
             "rep_nom": "Andrew Janz"
         }
@@ -477,8 +434,7 @@
         "pk": 44,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 23,
+            "no": 23,
             "dem_nom": "Tatiana Matta",
             "rep_nom": "Kevin McCarthy"
         }
@@ -488,8 +444,7 @@
         "pk": 45,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 24,
+            "no": 24,
             "dem_nom": "Salaud Carbajal",
             "rep_nom": "Justin Fareed"
         }
@@ -499,8 +454,7 @@
         "pk": 46,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 25,
+            "no": 25,
             "dem_nom": "Katie Hill",
             "rep_nom": "Steve Knight"
         }
@@ -510,8 +464,7 @@
         "pk": 47,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 26,
+            "no": 26,
             "dem_nom": "Julia Brownley",
             "rep_nom": "Antonia Sabato Jr."
         }
@@ -521,8 +474,7 @@
         "pk": 48,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 27,
+            "no": 27,
             "dem_nom": "Judy Chu, Bryan Witt",
             "rep_nom": ""
         }
@@ -532,8 +484,7 @@
         "pk": 49,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 28,
+            "no": 28,
             "dem_nom": "Adam Schiff",
             "rep_nom": "Johnny Nalbandian"
         }
@@ -543,8 +494,7 @@
         "pk": 50,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 29,
+            "no": 29,
             "dem_nom": "Tony Cardenas",
             "rep_nom": "Benito Bernal"
         }
@@ -554,8 +504,7 @@
         "pk": 51,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 30,
+            "no": 30,
             "dem_nom": "Brad Sherman",
             "rep_nom": "Mark Reed"
         }
@@ -565,8 +514,7 @@
         "pk": 52,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 31,
+            "no": 31,
             "dem_nom": "Pete Aguilar",
             "rep_nom": "Sean Flynn"
         }
@@ -576,8 +524,7 @@
         "pk": 53,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 32,
+            "no": 32,
             "dem_nom": "Grace Napolitano",
             "rep_nom": "Joshua Scott"
         }
@@ -587,8 +534,7 @@
         "pk": 54,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 33,
+            "no": 33,
             "dem_nom": "Ted Lieu",
             "rep_nom": "Kenneth Wright"
         }
@@ -598,8 +544,7 @@
         "pk": 55,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 34,
+            "no": 34,
             "dem_nom": "Jimmy Gomez",
             "rep_nom": ""
         }
@@ -609,8 +554,7 @@
         "pk": 56,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 35,
+            "no": 35,
             "dem_nom": "Norma Torres",
             "rep_nom": "Christian Valiente"
         }
@@ -620,8 +564,7 @@
         "pk": 57,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 36,
+            "no": 36,
             "dem_nom": "Raul Ruiz",
             "rep_nom": "Kimberlin Brown Pelzer"
         }
@@ -631,8 +574,7 @@
         "pk": 58,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 37,
+            "no": 37,
             "dem_nom": "Karen Bass",
             "rep_nom": "Ron Bassilian"
         }
@@ -642,8 +584,7 @@
         "pk": 59,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 38,
+            "no": 38,
             "dem_nom": "Linda Sanchez",
             "rep_nom": "Ryan Downing"
         }
@@ -653,8 +594,7 @@
         "pk": 60,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 39,
+            "no": 39,
             "dem_nom": "Gil Cisneros",
             "rep_nom": "Young Kim"
         }
@@ -664,8 +604,7 @@
         "pk": 61,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 40,
+            "no": 40,
             "dem_nom": "Lucille Royball-Allard",
             "rep_nom": ""
         }
@@ -675,8 +614,7 @@
         "pk": 62,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 41,
+            "no": 41,
             "dem_nom": "Mark Tanako",
             "rep_nom": "Aja Smith"
         }
@@ -686,8 +624,7 @@
         "pk": 63,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 42,
+            "no": 42,
             "dem_nom": "Julia Peacock",
             "rep_nom": "Ken Calvert"
         }
@@ -697,8 +634,7 @@
         "pk": 64,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 43,
+            "no": 43,
             "dem_nom": "Maxine Waters",
             "rep_nom": "Omar Navarro"
         }
@@ -708,8 +644,7 @@
         "pk": 65,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 44,
+            "no": 44,
             "dem_nom": "Nanette Barragan",
             "rep_nom": ""
         }
@@ -719,8 +654,7 @@
         "pk": 66,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 45,
+            "no": 45,
             "dem_nom": "Katie Porter",
             "rep_nom": "Mimi Walters"
         }
@@ -730,8 +664,7 @@
         "pk": 67,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 46,
+            "no": 46,
             "dem_nom": "Lou Correa",
             "rep_nom": "Russell Lambert"
         }
@@ -741,8 +674,7 @@
         "pk": 68,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 47,
+            "no": 47,
             "dem_nom": "Alan Lowenthal",
             "rep_nom": "John Briscoe"
         }
@@ -752,8 +684,7 @@
         "pk": 69,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 48,
+            "no": 48,
             "dem_nom": "Harley Rouda",
             "rep_nom": "Dana Rohrabacher"
         }
@@ -763,8 +694,7 @@
         "pk": 70,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 49,
+            "no": 49,
             "dem_nom": "Mike Levin",
             "rep_nom": "Diane Harkey"
         }
@@ -774,8 +704,7 @@
         "pk": 71,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 50,
+            "no": 50,
             "dem_nom": "Ammar Campa-Najjar",
             "rep_nom": "Duncan Hunter"
         }
@@ -785,8 +714,7 @@
         "pk": 72,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 51,
+            "no": 51,
             "dem_nom": "Jaun Vargas",
             "rep_nom": "Juan Hidalgo Jr."
         }
@@ -796,8 +724,7 @@
         "pk": 73,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 52,
+            "no": 52,
             "dem_nom": "Scott Peters",
             "rep_nom": "Omar Qudrat"
         }
@@ -807,8 +734,7 @@
         "pk": 74,
         "fields": {
             "state": "California",
-            "abbr": "CA",
-            "number": 53,
+            "no": 53,
             "dem_nom": "Susan Davis",
             "rep_nom": "Morgan Murtaugh"
         }
@@ -818,8 +744,7 @@
         "pk": 75,
         "fields": {
             "state": "Colorado",
-            "abbr": "CO",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Diana DeGette",
             "rep_nom": "Charles Casper Stockham"
         }
@@ -829,8 +754,7 @@
         "pk": 76,
         "fields": {
             "state": "Colorado",
-            "abbr": "CO",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Joe Neguse",
             "rep_nom": "Peter Yu"
         }
@@ -840,8 +764,7 @@
         "pk": 77,
         "fields": {
             "state": "Colorado",
-            "abbr": "CO",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Diane Mitsch Bush",
             "rep_nom": "Scott Tipton"
         }
@@ -851,8 +774,7 @@
         "pk": 78,
         "fields": {
             "state": "Colorado",
-            "abbr": "CO",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Karen McCormick",
             "rep_nom": "Ken Buck"
         }
@@ -862,8 +784,7 @@
         "pk": 79,
         "fields": {
             "state": "Colorado",
-            "abbr": "CO",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Stephany Rose Spaulding",
             "rep_nom": "Doug Lamborn"
         }
@@ -873,8 +794,7 @@
         "pk": 80,
         "fields": {
             "state": "Colorado",
-            "abbr": "CO",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Jason Crow",
             "rep_nom": "Mike Coffman"
         }
@@ -884,8 +804,7 @@
         "pk": 81,
         "fields": {
             "state": "Colorado",
-            "abbr": "CO",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Ed Perlmutter",
             "rep_nom": "Mark Barrington"
         }
@@ -895,8 +814,7 @@
         "pk": 82,
         "fields": {
             "state": "Connecticut",
-            "abbr": "CT",
-            "number": 1,
+            "no": 1,
             "dem_nom": "John Larson",
             "rep_nom": "Jennifer Nye"
         }
@@ -906,8 +824,7 @@
         "pk": 83,
         "fields": {
             "state": "Connecticut",
-            "abbr": "CT",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Joe Courtney",
             "rep_nom": "Dan Postemski"
         }
@@ -917,8 +834,7 @@
         "pk": 84,
         "fields": {
             "state": "Connecticut",
-            "abbr": "CT",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Rosa DeLauro",
             "rep_nom": "Angel Cadena"
         }
@@ -928,8 +844,7 @@
         "pk": 85,
         "fields": {
             "state": "Connecticut",
-            "abbr": "CT",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Jim Himes",
             "rep_nom": "Harry Arora"
         }
@@ -939,8 +854,7 @@
         "pk": 86,
         "fields": {
             "state": "Connecticut",
-            "abbr": "CT",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Jahana Hayes",
             "rep_nom": "Manny Santos"
         }
@@ -950,8 +864,7 @@
         "pk": 87,
         "fields": {
             "state": "Delaware",
-            "abbr": "DE",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Lisa Blunt Rochester",
             "rep_nom": "Scott Walker"
         }
@@ -961,8 +874,7 @@
         "pk": 88,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Jennifer Zimmerman",
             "rep_nom": "Matt Gaetz"
         }
@@ -972,8 +884,7 @@
         "pk": 89,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Bob Rackleff",
             "rep_nom": "Neal Dunn"
         }
@@ -983,8 +894,7 @@
         "pk": 90,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Yvonne Hayes Hinson",
             "rep_nom": "Ted Yoho"
         }
@@ -994,8 +904,7 @@
         "pk": 91,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Ges Selmont",
             "rep_nom": "John Rutherford"
         }
@@ -1005,8 +914,7 @@
         "pk": 92,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Alfred Lawson",
             "rep_nom": "Virginia Fuller"
         }
@@ -1016,8 +924,7 @@
         "pk": 93,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Nancy Soderberg",
             "rep_nom": "Michael Waltz"
         }
@@ -1027,8 +934,7 @@
         "pk": 94,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Stephanie Murphy",
             "rep_nom": "Mike Miller"
         }
@@ -1038,8 +944,7 @@
         "pk": 95,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Sanjay Patel",
             "rep_nom": "Bill Posey (I)"
         }
@@ -1049,8 +954,7 @@
         "pk": 96,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Darren Soto (I)",
             "rep_nom": "Wayne Liebnitzky"
         }
@@ -1060,8 +964,7 @@
         "pk": 97,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Val Demings (I)",
             "rep_nom": ""
         }
@@ -1071,8 +974,7 @@
         "pk": 98,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Dana Cottrell",
             "rep_nom": "Daniel Webster (I)"
         }
@@ -1082,8 +984,7 @@
         "pk": 99,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Chris Hunter",
             "rep_nom": "Gus Bilirakis (I)"
         }
@@ -1093,8 +994,7 @@
         "pk": 100,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Charlie Crist (I)",
             "rep_nom": "George Buck"
         }
@@ -1104,8 +1004,7 @@
         "pk": 101,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Kathy Castor (I)",
             "rep_nom": ""
         }
@@ -1115,8 +1014,7 @@
         "pk": 102,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 15,
+            "no": 15,
             "dem_nom": "Kristen Carlson",
             "rep_nom": "Ross Spano"
         }
@@ -1126,8 +1024,7 @@
         "pk": 103,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 16,
+            "no": 16,
             "dem_nom": "David Shapiro",
             "rep_nom": "Vern Buchanan(I)"
         }
@@ -1137,8 +1034,7 @@
         "pk": 104,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 17,
+            "no": 17,
             "dem_nom": "April Freeman (Deceased)",
             "rep_nom": "Greg Steube"
         }
@@ -1148,8 +1044,7 @@
         "pk": 105,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 18,
+            "no": 18,
             "dem_nom": "Lauren Baer",
             "rep_nom": "Brian Mast(I)"
         }
@@ -1159,8 +1054,7 @@
         "pk": 106,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 19,
+            "no": 19,
             "dem_nom": "David Holden",
             "rep_nom": "Francis Rooney(I)"
         }
@@ -1170,8 +1064,7 @@
         "pk": 107,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 20,
+            "no": 20,
             "dem_nom": "Alcee Hastings*",
             "rep_nom": ""
         }
@@ -1181,8 +1074,7 @@
         "pk": 108,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 21,
+            "no": 21,
             "dem_nom": "Lois Frankel*",
             "rep_nom": ""
         }
@@ -1192,8 +1084,7 @@
         "pk": 109,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 22,
+            "no": 22,
             "dem_nom": "Theodore Deutch",
             "rep_nom": "Nicolas Kimaz"
         }
@@ -1203,8 +1094,7 @@
         "pk": 110,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 23,
+            "no": 23,
             "dem_nom": "Debbie Wasserman Shultz",
             "rep_nom": "Joe Kaufman"
         }
@@ -1214,8 +1104,7 @@
         "pk": 111,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 24,
+            "no": 24,
             "dem_nom": "Frederica S. Wilson",
             "rep_nom": ""
         }
@@ -1225,8 +1114,7 @@
         "pk": 112,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 25,
+            "no": 25,
             "dem_nom": "Mary Barzee Flores",
             "rep_nom": "Mario Diaz-Balart"
         }
@@ -1236,8 +1124,7 @@
         "pk": 113,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 26,
+            "no": 26,
             "dem_nom": "Debbie Mucarsel-Powell",
             "rep_nom": "Carlos Curbelo"
         }
@@ -1247,8 +1134,7 @@
         "pk": 114,
         "fields": {
             "state": "Florida",
-            "abbr": "FL",
-            "number": 27,
+            "no": 27,
             "dem_nom": "Donna Shalala",
             "rep_nom": "Maria Elvira Salazar"
         }
@@ -1258,8 +1144,7 @@
         "pk": 115,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Lisa Ring",
             "rep_nom": "Earl \"Buddy\" Carter (I)"
         }
@@ -1269,8 +1154,7 @@
         "pk": 116,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Sanford Bishop Jr. (I)",
             "rep_nom": "Herman West Jr."
         }
@@ -1280,8 +1164,7 @@
         "pk": 117,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Chuck Enderlin",
             "rep_nom": "Drew Ferguson (I)"
         }
@@ -1291,8 +1174,7 @@
         "pk": 118,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Hank Johnson (I)",
             "rep_nom": "Joe Profit"
         }
@@ -1302,8 +1184,7 @@
         "pk": 119,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 5,
+            "no": 5,
             "dem_nom": "John Lewis (I)",
             "rep_nom": "-"
         }
@@ -1313,8 +1194,7 @@
         "pk": 120,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Lucy McBath",
             "rep_nom": "Karen Handel (I)"
         }
@@ -1324,8 +1204,7 @@
         "pk": 121,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Carolyn Bourdeaux",
             "rep_nom": "Rob Woodall (I)"
         }
@@ -1335,8 +1214,7 @@
         "pk": 122,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 8,
+            "no": 8,
             "dem_nom": "-",
             "rep_nom": "Austin Scott (I)"
         }
@@ -1346,8 +1224,7 @@
         "pk": 123,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Josh McCall",
             "rep_nom": "Doug Collins (I)"
         }
@@ -1357,8 +1234,7 @@
         "pk": 124,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Tabitha Johnson-Green",
             "rep_nom": "Jody Hice (I)"
         }
@@ -1368,8 +1244,7 @@
         "pk": 125,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Flynn Broady Jr.",
             "rep_nom": "Barry Loudermilk (I)"
         }
@@ -1379,8 +1254,7 @@
         "pk": 126,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Francys Johnson",
             "rep_nom": "Rick Allen (I)"
         }
@@ -1390,8 +1264,7 @@
         "pk": 127,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 13,
+            "no": 13,
             "dem_nom": "David Scott (I)",
             "rep_nom": "David Callahan"
         }
@@ -1401,8 +1274,7 @@
         "pk": 128,
         "fields": {
             "state": "Georgia",
-            "abbr": "GA",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Steven Foster",
             "rep_nom": "Tom Graves (I)"
         }
@@ -1412,8 +1284,7 @@
         "pk": 129,
         "fields": {
             "state": "Hawaii",
-            "abbr": "HI",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Ed Case",
             "rep_nom": "Cam Cavasso"
         }
@@ -1423,8 +1294,7 @@
         "pk": 130,
         "fields": {
             "state": "Hawaii",
-            "abbr": "HI",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Tulsi Gabbard",
             "rep_nom": "Brian Evans"
         }
@@ -1434,8 +1304,7 @@
         "pk": 131,
         "fields": {
             "state": "Idaho",
-            "abbr": "ID",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Cristina McNeil",
             "rep_nom": "Russ Fulcher"
         }
@@ -1445,8 +1314,7 @@
         "pk": 132,
         "fields": {
             "state": "Idaho",
-            "abbr": "ID",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Aaron Swisher",
             "rep_nom": "Mike Simpson"
         }
@@ -1456,8 +1324,7 @@
         "pk": 133,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Bobby Rush",
             "rep_nom": "Jimmy Lee Tillman"
         }
@@ -1467,8 +1334,7 @@
         "pk": 134,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Robin Kelly",
             "rep_nom": "David Merkle"
         }
@@ -1478,8 +1344,7 @@
         "pk": 135,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 3,
+            "no": 3,
             "dem_nom": "David Lipinski",
             "rep_nom": "Arthur Jones"
         }
@@ -1489,8 +1354,7 @@
         "pk": 136,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Jesus Garcia",
             "rep_nom": "Mark Wayne Lorch"
         }
@@ -1500,8 +1364,7 @@
         "pk": 137,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Mike Quigley",
             "rep_nom": "Tom Hanson"
         }
@@ -1511,8 +1374,7 @@
         "pk": 138,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Sean Casten",
             "rep_nom": "Peter Roskam (I)"
         }
@@ -1522,8 +1384,7 @@
         "pk": 139,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Danny K. Davis (I)",
             "rep_nom": "Craig Cameron"
         }
@@ -1533,8 +1394,7 @@
         "pk": 140,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Raja Krishnamoorthi (I)",
             "rep_nom": "Jitendra Diganvker"
         }
@@ -1544,8 +1404,7 @@
         "pk": 141,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Jan Schakowsky (I)",
             "rep_nom": "John Elleson"
         }
@@ -1555,8 +1414,7 @@
         "pk": 142,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Brad Schneider (I)",
             "rep_nom": "Doug Bennett"
         }
@@ -1566,8 +1424,7 @@
         "pk": 143,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Bill Foster",
             "rep_nom": "Nick Stella"
         }
@@ -1577,8 +1434,7 @@
         "pk": 144,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Brendan Kelly",
             "rep_nom": "Mike Bost"
         }
@@ -1588,8 +1444,7 @@
         "pk": 145,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Betsy Londrigan",
             "rep_nom": "Rodney Davis"
         }
@@ -1599,8 +1454,7 @@
         "pk": 146,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Laruen Underwood",
             "rep_nom": "Randy Hultgren"
         }
@@ -1610,8 +1464,7 @@
         "pk": 147,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 15,
+            "no": 15,
             "dem_nom": "Kevin Gaither",
             "rep_nom": "John Shimkus"
         }
@@ -1621,8 +1474,7 @@
         "pk": 148,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 16,
+            "no": 16,
             "dem_nom": "Sara Dady",
             "rep_nom": "Adam Kinzinger (I)"
         }
@@ -1632,8 +1484,7 @@
         "pk": 149,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 17,
+            "no": 17,
             "dem_nom": "Cheri Bustos (I)",
             "rep_nom": "Bill Fawell"
         }
@@ -1643,8 +1494,7 @@
         "pk": 150,
         "fields": {
             "state": "Illinois",
-            "abbr": "IL",
-            "number": 18,
+            "no": 18,
             "dem_nom": "Junius Rodriguez",
             "rep_nom": "Darin LaHood (I)"
         }
@@ -1654,8 +1504,7 @@
         "pk": 151,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Pete Visclosky (I)",
             "rep_nom": "Mark Leyva"
         }
@@ -1665,8 +1514,7 @@
         "pk": 152,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Mel Hall",
             "rep_nom": "Jackie Walorski (I)"
         }
@@ -1676,8 +1524,7 @@
         "pk": 153,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Courtney Tritch",
             "rep_nom": "Jim Banks (I)"
         }
@@ -1687,8 +1534,7 @@
         "pk": 154,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Tobi Beck",
             "rep_nom": "Jim Baird"
         }
@@ -1698,8 +1544,7 @@
         "pk": 155,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Dee Thornton",
             "rep_nom": "Susan Brooks (I)"
         }
@@ -1709,8 +1554,7 @@
         "pk": 156,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Jeannine Lee Lake",
             "rep_nom": "Greg Pence"
         }
@@ -1720,8 +1564,7 @@
         "pk": 157,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Andre Carson (I)",
             "rep_nom": "Wayne Harmon"
         }
@@ -1731,8 +1574,7 @@
         "pk": 158,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Willaim Tanoos",
             "rep_nom": "Larry Bucshon"
         }
@@ -1742,8 +1584,7 @@
         "pk": 159,
         "fields": {
             "state": "Indiana",
-            "abbr": "IN",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Liz Watson",
             "rep_nom": "Trey Hollingsworth"
         }
@@ -1753,8 +1594,7 @@
         "pk": 160,
         "fields": {
             "state": "Iowa",
-            "abbr": "IA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Abby Finkenauer",
             "rep_nom": "Rod Blum"
         }
@@ -1764,8 +1604,7 @@
         "pk": 161,
         "fields": {
             "state": "Iowa",
-            "abbr": "IA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "David Loebsack",
             "rep_nom": "Christopher Peters"
         }
@@ -1775,8 +1614,7 @@
         "pk": 162,
         "fields": {
             "state": "Iowa",
-            "abbr": "IA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Cindy Axne",
             "rep_nom": "David Young"
         }
@@ -1786,8 +1624,7 @@
         "pk": 163,
         "fields": {
             "state": "Iowa",
-            "abbr": "IA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "JD Scholten",
             "rep_nom": "Steve King"
         }
@@ -1797,8 +1634,7 @@
         "pk": 164,
         "fields": {
             "state": "Kansas",
-            "abbr": "KS",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Alan LaPolice",
             "rep_nom": "Roger Marshall (I)"
         }
@@ -1808,8 +1644,7 @@
         "pk": 165,
         "fields": {
             "state": "Kansas",
-            "abbr": "KS",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Paul Davis",
             "rep_nom": "Steve Watkins"
         }
@@ -1819,8 +1654,7 @@
         "pk": 166,
         "fields": {
             "state": "Kansas",
-            "abbr": "KS",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Sharice Davids",
             "rep_nom": "Kevin Yoder"
         }
@@ -1830,8 +1664,7 @@
         "pk": 167,
         "fields": {
             "state": "Kansas",
-            "abbr": "KS",
-            "number": 4,
+            "no": 4,
             "dem_nom": "James Thompson",
             "rep_nom": "Ron Estes"
         }
@@ -1841,8 +1674,7 @@
         "pk": 168,
         "fields": {
             "state": "Kentucky",
-            "abbr": "KY",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Paul Walker",
             "rep_nom": "James Comer"
         }
@@ -1852,8 +1684,7 @@
         "pk": 169,
         "fields": {
             "state": "Kentucky",
-            "abbr": "KY",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Hank Linderman",
             "rep_nom": "Brett Guthrie"
         }
@@ -1863,8 +1694,7 @@
         "pk": 170,
         "fields": {
             "state": "Kentucky",
-            "abbr": "KY",
-            "number": 3,
+            "no": 3,
             "dem_nom": "John Yarmuth",
             "rep_nom": "Harold Bratcher"
         }
@@ -1874,8 +1704,7 @@
         "pk": 171,
         "fields": {
             "state": "Kentucky",
-            "abbr": "KY",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Seth Hall",
             "rep_nom": "Thomas Massie"
         }
@@ -1885,8 +1714,7 @@
         "pk": 172,
         "fields": {
             "state": "Kentucky",
-            "abbr": "KY",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Kenneth Stepp",
             "rep_nom": "Hal Rogers"
         }
@@ -1896,8 +1724,7 @@
         "pk": 173,
         "fields": {
             "state": "Kentucky",
-            "abbr": "KY",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Amy McGrath",
             "rep_nom": "Andy Barr"
         }
@@ -1907,8 +1734,7 @@
         "pk": 174,
         "fields": {
             "state": "Louisiana",
-            "abbr": "LA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Jim Francis",
             "rep_nom": "Steve Scalise"
         }
@@ -1918,8 +1744,7 @@
         "pk": 175,
         "fields": {
             "state": "Louisiana",
-            "abbr": "LA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Cedric Richmond",
             "rep_nom": "None"
         }
@@ -1929,8 +1754,7 @@
         "pk": 176,
         "fields": {
             "state": "Louisiana",
-            "abbr": "LA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Mimi Methvin",
             "rep_nom": "Clay Higgins"
         }
@@ -1940,8 +1764,7 @@
         "pk": 177,
         "fields": {
             "state": "Louisiana",
-            "abbr": "LA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Ryan Trundle",
             "rep_nom": "Mike Johnson"
         }
@@ -1951,8 +1774,7 @@
         "pk": 178,
         "fields": {
             "state": "Louisiana",
-            "abbr": "LA",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Jesse Carlton Fleenor",
             "rep_nom": "Ralph Abraham"
         }
@@ -1962,8 +1784,7 @@
         "pk": 179,
         "fields": {
             "state": "Louisiana",
-            "abbr": "LA",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Justin DeWitt",
             "rep_nom": "Garret Graves"
         }
@@ -1973,8 +1794,7 @@
         "pk": 180,
         "fields": {
             "state": "Maine",
-            "abbr": "ME",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Chellie Pingrie",
             "rep_nom": "Mark Holbrook"
         }
@@ -1984,8 +1804,7 @@
         "pk": 181,
         "fields": {
             "state": "Maine",
-            "abbr": "ME",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Jared Golden",
             "rep_nom": "Bruce Poliquin"
         }
@@ -1995,8 +1814,7 @@
         "pk": 182,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Jesse Colvin",
             "rep_nom": "Andy Harris"
         }
@@ -2006,8 +1824,7 @@
         "pk": 183,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 2,
+            "no": 2,
             "dem_nom": "C.A. Dutch Ruppersberger",
             "rep_nom": "Liz Matory"
         }
@@ -2017,8 +1834,7 @@
         "pk": 184,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 3,
+            "no": 3,
             "dem_nom": "John P. Sarbanes",
             "rep_nom": "Charles Anthony"
         }
@@ -2028,8 +1844,7 @@
         "pk": 185,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Anthony G. Brown",
             "rep_nom": "George McDermott"
         }
@@ -2039,8 +1854,7 @@
         "pk": 186,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Steny Hoyer",
             "rep_nom": "Willian Devine III"
         }
@@ -2050,8 +1864,7 @@
         "pk": 187,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 6,
+            "no": 6,
             "dem_nom": "David Trone",
             "rep_nom": "Amie Hoeber"
         }
@@ -2061,8 +1874,7 @@
         "pk": 188,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Elijah Cummings",
             "rep_nom": "Richmond Davis"
         }
@@ -2072,8 +1884,7 @@
         "pk": 189,
         "fields": {
             "state": "Maryland",
-            "abbr": "MD",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Jamie Raskin",
             "rep_nom": "John Walsh"
         }
@@ -2083,8 +1894,7 @@
         "pk": 190,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Richard Neal",
             "rep_nom": ""
         }
@@ -2094,8 +1904,7 @@
         "pk": 191,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "James McGovern",
             "rep_nom": "Tracy Lovvorn"
         }
@@ -2105,8 +1914,7 @@
         "pk": 192,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Lori Trahan",
             "rep_nom": "Rick Green"
         }
@@ -2116,8 +1924,7 @@
         "pk": 193,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Joseph Kennedy",
             "rep_nom": ""
         }
@@ -2127,8 +1934,7 @@
         "pk": 194,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Katherine Clark",
             "rep_nom": "John Hugo"
         }
@@ -2138,8 +1944,7 @@
         "pk": 195,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Seth Moulton",
             "rep_nom": "Joeseph Schneider"
         }
@@ -2149,8 +1954,7 @@
         "pk": 196,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Ayanna Pressley",
             "rep_nom": ""
         }
@@ -2160,8 +1964,7 @@
         "pk": 197,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Stephen Lynch",
             "rep_nom": ""
         }
@@ -2171,8 +1974,7 @@
         "pk": 198,
         "fields": {
             "state": "Massachusetts",
-            "abbr": "MA",
-            "number": 9,
+            "no": 9,
             "dem_nom": "William Keating",
             "rep_nom": "Peter Tedeschi"
         }
@@ -2182,8 +1984,7 @@
         "pk": 199,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Matt Morgan",
             "rep_nom": "Jack Bergman"
         }
@@ -2193,8 +1994,7 @@
         "pk": 200,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Rob Davidson",
             "rep_nom": "Bill Huizenga"
         }
@@ -2204,8 +2004,7 @@
         "pk": 201,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Cathy Albro",
             "rep_nom": "Justin Amash"
         }
@@ -2215,8 +2014,7 @@
         "pk": 202,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Zigmond Kozicki",
             "rep_nom": "Jerry Hilliard"
         }
@@ -2226,8 +2024,7 @@
         "pk": 203,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Daniel Kildee",
             "rep_nom": "Travis Vines"
         }
@@ -2237,8 +2034,7 @@
         "pk": 204,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Matt Longjohn",
             "rep_nom": "Fred Upton"
         }
@@ -2248,8 +2044,7 @@
         "pk": 205,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Gretchen Driskell",
             "rep_nom": "Tim Walberg"
         }
@@ -2259,8 +2054,7 @@
         "pk": 206,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Elissa Slotkin",
             "rep_nom": "Mike Bishop"
         }
@@ -2270,8 +2064,7 @@
         "pk": 207,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Sander Levin",
             "rep_nom": "Candius Stearns"
         }
@@ -2281,8 +2074,7 @@
         "pk": 208,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Kimberly Bizon",
             "rep_nom": "Paul Mitchell"
         }
@@ -2292,8 +2084,7 @@
         "pk": 209,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Haley Stevens",
             "rep_nom": "Lena Epstein"
         }
@@ -2303,8 +2094,7 @@
         "pk": 210,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Debbie Dingell",
             "rep_nom": "Jeff Jones"
         }
@@ -2314,8 +2104,7 @@
         "pk": 211,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Rashida Talib",
             "rep_nom": ""
         }
@@ -2325,8 +2114,7 @@
         "pk": 212,
         "fields": {
             "state": "Michigan",
-            "abbr": "MI",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Brenda Lawrence",
             "rep_nom": "Marc Herschfus"
         }
@@ -2336,8 +2124,7 @@
         "pk": 213,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Dan Feehan",
             "rep_nom": "Jim Hagedorn"
         }
@@ -2347,8 +2134,7 @@
         "pk": 214,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Angie Craig",
             "rep_nom": "Jason Lewis"
         }
@@ -2358,8 +2144,7 @@
         "pk": 215,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Dean Phillips",
             "rep_nom": "Erik Paulsen"
         }
@@ -2369,8 +2154,7 @@
         "pk": 216,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Betty McCollum",
             "rep_nom": "Greg Ryan"
         }
@@ -2380,8 +2164,7 @@
         "pk": 217,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Ilhan Omar",
             "rep_nom": "Jennifer Zielinski"
         }
@@ -2391,8 +2174,7 @@
         "pk": 218,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Ian Todd",
             "rep_nom": "Tom Emmer"
         }
@@ -2402,8 +2184,7 @@
         "pk": 219,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Collin Peterson",
             "rep_nom": "Dave Hughes"
         }
@@ -2413,8 +2194,7 @@
         "pk": 220,
         "fields": {
             "state": "Minnesota",
-            "abbr": "MN",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Joe Radinovich",
             "rep_nom": "Pete Sauber"
         }
@@ -2424,8 +2204,7 @@
         "pk": 221,
         "fields": {
             "state": "Mississippi",
-            "abbr": "MS",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Randy Wadkins",
             "rep_nom": "Trent Kelly"
         }
@@ -2435,8 +2214,7 @@
         "pk": 222,
         "fields": {
             "state": "Mississippi",
-            "abbr": "MS",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Bennie Thompson",
             "rep_nom": ""
         }
@@ -2446,8 +2224,7 @@
         "pk": 223,
         "fields": {
             "state": "Mississippi",
-            "abbr": "MS",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Michael Evans",
             "rep_nom": "Michael Guest"
         }
@@ -2457,8 +2234,7 @@
         "pk": 224,
         "fields": {
             "state": "Mississippi",
-            "abbr": "MS",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Jeramey Anderson",
             "rep_nom": "Steven Palazzo"
         }
@@ -2468,8 +2244,7 @@
         "pk": 225,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 1,
+            "no": 1,
             "dem_nom": "William Lacy Clay",
             "rep_nom": "Robert Vroman"
         }
@@ -2479,8 +2254,7 @@
         "pk": 226,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Cort VanOstran",
             "rep_nom": "Ann Wagner"
         }
@@ -2490,8 +2264,7 @@
         "pk": 227,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Katy Geppert",
             "rep_nom": "Blaine Luetkemeyer"
         }
@@ -2501,8 +2274,7 @@
         "pk": 228,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Renee Hoagenson",
             "rep_nom": "Vicky Hartzler"
         }
@@ -2512,8 +2284,7 @@
         "pk": 229,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Emanuel Cleaver",
             "rep_nom": "Jacob Turk"
         }
@@ -2523,8 +2294,7 @@
         "pk": 230,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Henry Robert Martin",
             "rep_nom": "Sam Graves"
         }
@@ -2534,8 +2304,7 @@
         "pk": 231,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Jamie Daniel Schoolcraft",
             "rep_nom": "Billy Long"
         }
@@ -2545,8 +2314,7 @@
         "pk": 232,
         "fields": {
             "state": "Missouri",
-            "abbr": "MO",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Kathy Ellis",
             "rep_nom": "Jason Smith"
         }
@@ -2556,8 +2324,7 @@
         "pk": 233,
         "fields": {
             "state": "Montana",
-            "abbr": "MT",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Kathleen Williams",
             "rep_nom": "Greg Gianforte"
         }
@@ -2567,8 +2334,7 @@
         "pk": 234,
         "fields": {
             "state": "Nebraska",
-            "abbr": "NE",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Jessica McClure",
             "rep_nom": "Jeff Fortenberry"
         }
@@ -2578,8 +2344,7 @@
         "pk": 235,
         "fields": {
             "state": "Nebraska",
-            "abbr": "NE",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Kara Eastman",
             "rep_nom": "Don Bacon"
         }
@@ -2589,8 +2354,7 @@
         "pk": 236,
         "fields": {
             "state": "Nebraska",
-            "abbr": "NE",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Paul Theobald",
             "rep_nom": "Adrian Smith"
         }
@@ -2600,8 +2364,7 @@
         "pk": 237,
         "fields": {
             "state": "Nevada",
-            "abbr": "NV",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Dina Titus",
             "rep_nom": "Joyce Bentley"
         }
@@ -2611,8 +2374,7 @@
         "pk": 238,
         "fields": {
             "state": "Nevada",
-            "abbr": "NV",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Clint Koble",
             "rep_nom": "Mark Amodei"
         }
@@ -2622,8 +2384,7 @@
         "pk": 239,
         "fields": {
             "state": "Nevada",
-            "abbr": "NV",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Susie Lee",
             "rep_nom": "Danny Tarkanian"
         }
@@ -2633,8 +2394,7 @@
         "pk": 240,
         "fields": {
             "state": "Nevada",
-            "abbr": "NV",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Steven A. Horsford",
             "rep_nom": "Cresent Hardy"
         }
@@ -2644,8 +2404,7 @@
         "pk": 241,
         "fields": {
             "state": "New Hampshire",
-            "abbr": "NH",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Chris Pappas",
             "rep_nom": "Eddie Edwards"
         }
@@ -2655,8 +2414,7 @@
         "pk": 242,
         "fields": {
             "state": "New Hampshire",
-            "abbr": "NH",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Ann Kuster",
             "rep_nom": "Stewart Levenson"
         }
@@ -2666,8 +2424,7 @@
         "pk": 243,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Donald Norcross",
             "rep_nom": "Paul E. Dilks"
         }
@@ -2677,8 +2434,7 @@
         "pk": 244,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Jeff Van Drew",
             "rep_nom": "Seth Grossman"
         }
@@ -2688,8 +2444,7 @@
         "pk": 245,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Andy Kim",
             "rep_nom": "Tom MacArthur"
         }
@@ -2699,8 +2454,7 @@
         "pk": 246,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Joshua Welle",
             "rep_nom": "Chris Smith"
         }
@@ -2710,8 +2464,7 @@
         "pk": 247,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Josh Gottheimer",
             "rep_nom": "John J. MacCann Jr."
         }
@@ -2721,8 +2474,7 @@
         "pk": 248,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Frank Pallone Jr.",
             "rep_nom": "Richard J. Pezzullo"
         }
@@ -2732,8 +2484,7 @@
         "pk": 249,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Tom Malinowski",
             "rep_nom": "Leonard Lance"
         }
@@ -2743,8 +2494,7 @@
         "pk": 250,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Albio Sires",
             "rep_nom": "John R. Muniz"
         }
@@ -2754,8 +2504,7 @@
         "pk": 251,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Bill Pascrell Jr.",
             "rep_nom": "Eric P. Fisher"
         }
@@ -2765,8 +2514,7 @@
         "pk": 252,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Donald Payne Jr.",
             "rep_nom": "Agha Khan"
         }
@@ -2776,8 +2524,7 @@
         "pk": 253,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Mikie Sherrill",
             "rep_nom": "Jay Webber"
         }
@@ -2787,8 +2534,7 @@
         "pk": 254,
         "fields": {
             "state": "New Jersey",
-            "abbr": "NJ",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Bonnie Watson Coleman",
             "rep_nom": "Daryl Kipnis"
         }
@@ -2798,8 +2544,7 @@
         "pk": 255,
         "fields": {
             "state": "New Mexico",
-            "abbr": "NM",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Debra A. Haaland",
             "rep_nom": "Janice E. Arnold-Jones"
         }
@@ -2809,8 +2554,7 @@
         "pk": 256,
         "fields": {
             "state": "New Mexico",
-            "abbr": "NM",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Xochitl Torres Small",
             "rep_nom": "Yvette Herrell"
         }
@@ -2820,8 +2564,7 @@
         "pk": 257,
         "fields": {
             "state": "New Mexico",
-            "abbr": "NM",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Ben R. Lujan",
             "rep_nom": "Jerald Steve McFall"
         }
@@ -2831,8 +2574,7 @@
         "pk": 258,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Perry Gershon",
             "rep_nom": "Lee Zeldin"
         }
@@ -2842,8 +2584,7 @@
         "pk": 259,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Liuba Grechen Shirley",
             "rep_nom": "Pete King"
         }
@@ -2853,8 +2594,7 @@
         "pk": 260,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Thomas Suozzi",
             "rep_nom": "Dan DeBono"
         }
@@ -2864,8 +2604,7 @@
         "pk": 261,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Kathleen Rice",
             "rep_nom": "Ameer Benno"
         }
@@ -2875,8 +2614,7 @@
         "pk": 262,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Gregory Meeks",
             "rep_nom": "-"
         }
@@ -2886,8 +2624,7 @@
         "pk": 263,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Grace Meng",
             "rep_nom": "-"
         }
@@ -2897,8 +2634,7 @@
         "pk": 264,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Nydia Velazquez",
             "rep_nom": "-"
         }
@@ -2908,8 +2644,7 @@
         "pk": 265,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Hakeem Jeffries",
             "rep_nom": "-"
         }
@@ -2919,8 +2654,7 @@
         "pk": 266,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Yvette Clarke",
             "rep_nom": "Lutchi Gayot"
         }
@@ -2930,8 +2664,7 @@
         "pk": 267,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Jorrold Nadier",
             "rep_nom": "Naomi Levin"
         }
@@ -2941,8 +2674,7 @@
         "pk": 268,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Max Rose",
             "rep_nom": "Daniel Donovan"
         }
@@ -2952,8 +2684,7 @@
         "pk": 269,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Carolyn Maloney",
             "rep_nom": "Elliot Rabin"
         }
@@ -2963,8 +2694,7 @@
         "pk": 270,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Adriano Espaillat",
             "rep_nom": "Jineea Butler"
         }
@@ -2974,8 +2704,7 @@
         "pk": 271,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Alexandria Ocasio-Cortez",
             "rep_nom": "Anthony Pappas"
         }
@@ -2985,8 +2714,7 @@
         "pk": 272,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 15,
+            "no": 15,
             "dem_nom": "Jose Serrano",
             "rep_nom": "Jason Gonzalez"
         }
@@ -2996,8 +2724,7 @@
         "pk": 273,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 16,
+            "no": 16,
             "dem_nom": "Eliot Engel",
             "rep_nom": "-"
         }
@@ -3007,8 +2734,7 @@
         "pk": 274,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 17,
+            "no": 17,
             "dem_nom": "Nita Lowey",
             "rep_nom": "-"
         }
@@ -3018,8 +2744,7 @@
         "pk": 275,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 18,
+            "no": 18,
             "dem_nom": "Sean Maloney",
             "rep_nom": "James O'Donnell"
         }
@@ -3029,8 +2754,7 @@
         "pk": 276,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 19,
+            "no": 19,
             "dem_nom": "Antonio Delgado",
             "rep_nom": "John Faso"
         }
@@ -3040,8 +2764,7 @@
         "pk": 277,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 20,
+            "no": 20,
             "dem_nom": "Paul Tonko",
             "rep_nom": "Joe Vitollo"
         }
@@ -3051,8 +2774,7 @@
         "pk": 278,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 21,
+            "no": 21,
             "dem_nom": "Tedra Cobb",
             "rep_nom": "Elise Stefanik"
         }
@@ -3062,8 +2784,7 @@
         "pk": 279,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 22,
+            "no": 22,
             "dem_nom": "Anthony Brindisi",
             "rep_nom": "Claudia Tenney"
         }
@@ -3073,8 +2794,7 @@
         "pk": 280,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 23,
+            "no": 23,
             "dem_nom": "Tracy Mitrano",
             "rep_nom": "Tom Reed"
         }
@@ -3084,8 +2804,7 @@
         "pk": 281,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 24,
+            "no": 24,
             "dem_nom": "Dana Balter",
             "rep_nom": "Jon Katko"
         }
@@ -3095,8 +2814,7 @@
         "pk": 282,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 25,
+            "no": 25,
             "dem_nom": "Joseph D. Morelle",
             "rep_nom": "Jim Maxwell"
         }
@@ -3106,8 +2824,7 @@
         "pk": 283,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 26,
+            "no": 26,
             "dem_nom": "Brian Higgins",
             "rep_nom": "Renee Zigo"
         }
@@ -3117,8 +2834,7 @@
         "pk": 284,
         "fields": {
             "state": "New York",
-            "abbr": "NY",
-            "number": 27,
+            "no": 27,
             "dem_nom": "Nate McMurray",
             "rep_nom": "Stefan Mychajliw"
         }
@@ -3128,8 +2844,7 @@
         "pk": 285,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 1,
+            "no": 1,
             "dem_nom": "G.K. Butterfield",
             "rep_nom": "Roger Allison"
         }
@@ -3139,8 +2854,7 @@
         "pk": 286,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Linda Coleman",
             "rep_nom": "George Holding"
         }
@@ -3150,8 +2864,7 @@
         "pk": 287,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 3,
+            "no": 3,
             "dem_nom": "",
             "rep_nom": "Walter B. Jones"
         }
@@ -3161,8 +2874,7 @@
         "pk": 288,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 4,
+            "no": 4,
             "dem_nom": "David Price",
             "rep_nom": "Steve Von Loor"
         }
@@ -3172,8 +2884,7 @@
         "pk": 289,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Denise Adams",
             "rep_nom": "Virginia Foxx"
         }
@@ -3183,8 +2894,7 @@
         "pk": 290,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Ryan Watts",
             "rep_nom": "Mark Walker"
         }
@@ -3194,8 +2904,7 @@
         "pk": 291,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Kyle Horton",
             "rep_nom": "David Rouzer"
         }
@@ -3205,8 +2914,7 @@
         "pk": 292,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Frank McNeill",
             "rep_nom": "Richard Hudson"
         }
@@ -3216,8 +2924,7 @@
         "pk": 293,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Dan McCready",
             "rep_nom": "Mark Harris"
         }
@@ -3227,8 +2934,7 @@
         "pk": 294,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 10,
+            "no": 10,
             "dem_nom": "David Wilson Brown",
             "rep_nom": "Patrick McHenry"
         }
@@ -3238,8 +2944,7 @@
         "pk": 295,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Phillip Price",
             "rep_nom": "Mark Meadows"
         }
@@ -3249,8 +2954,7 @@
         "pk": 296,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Alma Adams",
             "rep_nom": "Paul Wright"
         }
@@ -3260,8 +2964,7 @@
         "pk": 297,
         "fields": {
             "state": "North Carolina",
-            "abbr": "NC",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Kathy Manning",
             "rep_nom": "Ted Budd"
         }
@@ -3271,8 +2974,7 @@
         "pk": 298,
         "fields": {
             "state": "North Dakota",
-            "abbr": "ND",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Mac Schneider",
             "rep_nom": "Kelly Armstrong"
         }
@@ -3282,8 +2984,7 @@
         "pk": 299,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Aftab Pureval",
             "rep_nom": "Steve Chabot"
         }
@@ -3293,8 +2994,7 @@
         "pk": 300,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Jill Schiller",
             "rep_nom": "Brad Wenstrup"
         }
@@ -3304,8 +3004,7 @@
         "pk": 301,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Joey Beatty",
             "rep_nom": "Jim Burgess"
         }
@@ -3315,8 +3014,7 @@
         "pk": 302,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Janet Garrett",
             "rep_nom": "Jim Jordan"
         }
@@ -3326,8 +3024,7 @@
         "pk": 303,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 5,
+            "no": 5,
             "dem_nom": "John Michael Galbraith",
             "rep_nom": "Bob Latta"
         }
@@ -3337,8 +3034,7 @@
         "pk": 304,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Shawna Roberts",
             "rep_nom": "Bill Johnson"
         }
@@ -3348,8 +3044,7 @@
         "pk": 305,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Ken Harbaugh",
             "rep_nom": "Bob Gibbs"
         }
@@ -3359,8 +3054,7 @@
         "pk": 306,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Vanessa Enoch",
             "rep_nom": "Warren Davidson"
         }
@@ -3370,8 +3064,7 @@
         "pk": 307,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Marcy Kaptur",
             "rep_nom": "Steven Kraus"
         }
@@ -3381,8 +3074,7 @@
         "pk": 308,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Theresa Gasper",
             "rep_nom": "Michael Turner"
         }
@@ -3392,8 +3084,7 @@
         "pk": 309,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Marcia Fudge",
             "rep_nom": "Beverly Goldstein"
         }
@@ -3403,8 +3094,7 @@
         "pk": 310,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Danny O'Connor",
             "rep_nom": "Troy Balderson"
         }
@@ -3414,8 +3104,7 @@
         "pk": 311,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Tim Ryan",
             "rep_nom": "Christopher DePizzo"
         }
@@ -3425,8 +3114,7 @@
         "pk": 312,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Betsy Rader",
             "rep_nom": "David Joyce"
         }
@@ -3436,8 +3124,7 @@
         "pk": 313,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 15,
+            "no": 15,
             "dem_nom": "Rick Neal",
             "rep_nom": "Steve Stivers"
         }
@@ -3447,8 +3134,7 @@
         "pk": 314,
         "fields": {
             "state": "Ohio",
-            "abbr": "OH",
-            "number": 16,
+            "no": 16,
             "dem_nom": "Susan Moran Palmer",
             "rep_nom": "Anthony Gonzalez"
         }
@@ -3458,8 +3144,7 @@
         "pk": 315,
         "fields": {
             "state": "Oklahoma",
-            "abbr": "OK",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Tim Gilpin",
             "rep_nom": "Kevin Hern"
         }
@@ -3469,8 +3154,7 @@
         "pk": 316,
         "fields": {
             "state": "Oklahoma",
-            "abbr": "OK",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Jason Nichols",
             "rep_nom": "Markwayne Mullin"
         }
@@ -3480,8 +3164,7 @@
         "pk": 317,
         "fields": {
             "state": "Oklahoma",
-            "abbr": "OK",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Frankie Robbins",
             "rep_nom": "Frank Lucas"
         }
@@ -3491,8 +3174,7 @@
         "pk": 318,
         "fields": {
             "state": "Oklahoma",
-            "abbr": "OK",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Mary Brannon",
             "rep_nom": "Tom Cole"
         }
@@ -3502,8 +3184,7 @@
         "pk": 319,
         "fields": {
             "state": "Oklahoma",
-            "abbr": "OK",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Kendra Horn",
             "rep_nom": "Steve Russell"
         }
@@ -3513,8 +3194,7 @@
         "pk": 320,
         "fields": {
             "state": "Oregon",
-            "abbr": "OR",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Suzanne Bonamici",
             "rep_nom": "John Verbeek"
         }
@@ -3524,8 +3204,7 @@
         "pk": 321,
         "fields": {
             "state": "Oregon",
-            "abbr": "OR",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Greg Walden",
             "rep_nom": "Jamie McLeod-Skinner"
         }
@@ -3535,8 +3214,7 @@
         "pk": 322,
         "fields": {
             "state": "Oregon",
-            "abbr": "OR",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Earl Blumenauer",
             "rep_nom": ""
         }
@@ -3546,8 +3224,7 @@
         "pk": 323,
         "fields": {
             "state": "Oregon",
-            "abbr": "OR",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Peter DeFazio",
             "rep_nom": "Art Robinson"
         }
@@ -3557,8 +3234,7 @@
         "pk": 324,
         "fields": {
             "state": "Oregon",
-            "abbr": "OR",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Kurt Schrader",
             "rep_nom": "Mark Callahan"
         }
@@ -3568,8 +3244,7 @@
         "pk": 325,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Scott Wallace",
             "rep_nom": "Brian Fitzpatrick"
         }
@@ -3579,8 +3254,7 @@
         "pk": 326,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Brendan Boyle",
             "rep_nom": "David Torres"
         }
@@ -3590,8 +3264,7 @@
         "pk": 327,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Dwight Evans",
             "rep_nom": "Bryan Leib"
         }
@@ -3601,8 +3274,7 @@
         "pk": 328,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Madeline Dean",
             "rep_nom": "Dan David"
         }
@@ -3612,8 +3284,7 @@
         "pk": 329,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Mary Gay Scanlon",
             "rep_nom": "Pearl Kim"
         }
@@ -3623,8 +3294,7 @@
         "pk": 330,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Chrissy Houlahan",
             "rep_nom": "Greg McCauley"
         }
@@ -3634,8 +3304,7 @@
         "pk": 331,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Susan Wild",
             "rep_nom": "Marty Nothstein"
         }
@@ -3645,8 +3314,7 @@
         "pk": 332,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Matt Cartwright",
             "rep_nom": "John Chrin"
         }
@@ -3656,8 +3324,7 @@
         "pk": 333,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Denny Wolff",
             "rep_nom": "Dan Meuser"
         }
@@ -3667,8 +3334,7 @@
         "pk": 334,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 10,
+            "no": 10,
             "dem_nom": "George Scott",
             "rep_nom": "Scott Perry"
         }
@@ -3678,8 +3344,7 @@
         "pk": 335,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Jess King",
             "rep_nom": "Lloyd Smucker"
         }
@@ -3689,8 +3354,7 @@
         "pk": 336,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Marc Friedenberg",
             "rep_nom": "Tom Marino"
         }
@@ -3700,8 +3364,7 @@
         "pk": 337,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Brent Ottaway",
             "rep_nom": "John Joyce"
         }
@@ -3711,8 +3374,7 @@
         "pk": 338,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Bibiana Boerio",
             "rep_nom": "Guy Reschenthaler"
         }
@@ -3722,8 +3384,7 @@
         "pk": 339,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 15,
+            "no": 15,
             "dem_nom": "Susan Boser",
             "rep_nom": "Glenn W. Thompson"
         }
@@ -3733,8 +3394,7 @@
         "pk": 340,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 16,
+            "no": 16,
             "dem_nom": "Ron DiNicola",
             "rep_nom": "Mike Kelly"
         }
@@ -3744,8 +3404,7 @@
         "pk": 341,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 17,
+            "no": 17,
             "dem_nom": "Conor Lamb",
             "rep_nom": "Keith Rothfus"
         }
@@ -3755,8 +3414,7 @@
         "pk": 342,
         "fields": {
             "state": "Pennsylvania",
-            "abbr": "PA",
-            "number": 18,
+            "no": 18,
             "dem_nom": "Mike Doyle",
             "rep_nom": "-"
         }
@@ -3766,8 +3424,7 @@
         "pk": 343,
         "fields": {
             "state": "Rhode Island",
-            "abbr": "RI",
-            "number": 1,
+            "no": 1,
             "dem_nom": "David Cicilline",
             "rep_nom": "Patrick Donovan"
         }
@@ -3777,8 +3434,7 @@
         "pk": 344,
         "fields": {
             "state": "Rhode Island",
-            "abbr": "RI",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Jim Langevin",
             "rep_nom": "Salvatore Caiozzo"
         }
@@ -3788,8 +3444,7 @@
         "pk": 345,
         "fields": {
             "state": "South Carolina",
-            "abbr": "SC",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Joe Cunningham",
             "rep_nom": "Katie Arrington"
         }
@@ -3799,8 +3454,7 @@
         "pk": 346,
         "fields": {
             "state": "South Carolina",
-            "abbr": "SC",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Sean Carrigan",
             "rep_nom": "Joe Wilson"
         }
@@ -3810,8 +3464,7 @@
         "pk": 347,
         "fields": {
             "state": "South Carolina",
-            "abbr": "SC",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Mary Geren",
             "rep_nom": "Jeff Duncan"
         }
@@ -3821,8 +3474,7 @@
         "pk": 348,
         "fields": {
             "state": "South Carolina",
-            "abbr": "SC",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Brandon Brown",
             "rep_nom": "William Timmons"
         }
@@ -3832,8 +3484,7 @@
         "pk": 349,
         "fields": {
             "state": "South Carolina",
-            "abbr": "SC",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Archie Parnell",
             "rep_nom": "Ralph Norman"
         }
@@ -3843,8 +3494,7 @@
         "pk": 350,
         "fields": {
             "state": "South Carolina",
-            "abbr": "SC",
-            "number": 6,
+            "no": 6,
             "dem_nom": "James Clyburn",
             "rep_nom": "Gerhard Gressmann"
         }
@@ -3854,8 +3504,7 @@
         "pk": 351,
         "fields": {
             "state": "South Carolina",
-            "abbr": "SC",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Robert Williams",
             "rep_nom": "Tom Rice"
         }
@@ -3865,8 +3514,7 @@
         "pk": 352,
         "fields": {
             "state": "South Dakota",
-            "abbr": "SD",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Timothy Bijorkman",
             "rep_nom": "Dusty Johnson"
         }
@@ -3876,8 +3524,7 @@
         "pk": 353,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Marty Olsen",
             "rep_nom": "Phil Roe"
         }
@@ -3887,8 +3534,7 @@
         "pk": 354,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Renee Hoyos",
             "rep_nom": "Tim Burchett"
         }
@@ -3898,8 +3544,7 @@
         "pk": 355,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Danielle Mitchell",
             "rep_nom": "Chuck Fleischmann"
         }
@@ -3909,8 +3554,7 @@
         "pk": 356,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Mariah Phillips",
             "rep_nom": "Scott DesJarlais"
         }
@@ -3920,8 +3564,7 @@
         "pk": 357,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Jim Cooper",
             "rep_nom": "Jody Ball"
         }
@@ -3931,8 +3574,7 @@
         "pk": 358,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Dawn Barlow",
             "rep_nom": "John Rose"
         }
@@ -3942,8 +3584,7 @@
         "pk": 359,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Justin Kanew",
             "rep_nom": "Mark Green"
         }
@@ -3953,8 +3594,7 @@
         "pk": 360,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Erica Stotts Pearson",
             "rep_nom": "David Kustoff"
         }
@@ -3964,8 +3604,7 @@
         "pk": 361,
         "fields": {
             "state": "Tennessee",
-            "abbr": "TN",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Steve Cohen",
             "rep_nom": "Charlotte Bergmann"
         }
@@ -3975,8 +3614,7 @@
         "pk": 362,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Shirley McKellar",
             "rep_nom": "Louie Gohmert"
         }
@@ -3986,8 +3624,7 @@
         "pk": 363,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Todd Litton",
             "rep_nom": "Daniel Crenshaw"
         }
@@ -3997,8 +3634,7 @@
         "pk": 364,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Lorie Burch",
             "rep_nom": "Van Taylor"
         }
@@ -4008,8 +3644,7 @@
         "pk": 365,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Catherine Krantz",
             "rep_nom": "John Ratcliffe"
         }
@@ -4019,8 +3654,7 @@
         "pk": 366,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Dan Wood",
             "rep_nom": "Lance Gooden"
         }
@@ -4030,8 +3664,7 @@
         "pk": 367,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Jana Lynne Sanchez",
             "rep_nom": "Ronald Wright"
         }
@@ -4041,8 +3674,7 @@
         "pk": 368,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Lizzie Pannill Fletcher",
             "rep_nom": "John Culberson"
         }
@@ -4052,8 +3684,7 @@
         "pk": 369,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Steven David",
             "rep_nom": "Kevin Brady"
         }
@@ -4063,8 +3694,7 @@
         "pk": 370,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Al Green",
             "rep_nom": ""
         }
@@ -4074,8 +3704,7 @@
         "pk": 371,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Mike Siegel",
             "rep_nom": "Michael McCaul"
         }
@@ -4085,8 +3714,7 @@
         "pk": 372,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Jennie Lou Leeder",
             "rep_nom": "Mike Conaway"
         }
@@ -4096,8 +3724,7 @@
         "pk": 373,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 12,
+            "no": 12,
             "dem_nom": "Vanessa Adia",
             "rep_nom": "Kay Granger"
         }
@@ -4107,8 +3734,7 @@
         "pk": 374,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 13,
+            "no": 13,
             "dem_nom": "Greg Sagan",
             "rep_nom": "Mac Thornberry"
         }
@@ -4118,8 +3744,7 @@
         "pk": 375,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 14,
+            "no": 14,
             "dem_nom": "Adrienne Bell",
             "rep_nom": "Randy Weber"
         }
@@ -4129,8 +3754,7 @@
         "pk": 376,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 15,
+            "no": 15,
             "dem_nom": "Vicente Gonzalez",
             "rep_nom": "Tim Westley"
         }
@@ -4140,8 +3764,7 @@
         "pk": 377,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 16,
+            "no": 16,
             "dem_nom": "Veronica Escobar",
             "rep_nom": "Rick Seeberger"
         }
@@ -4151,8 +3774,7 @@
         "pk": 378,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 17,
+            "no": 17,
             "dem_nom": "Rick Kennedt",
             "rep_nom": "Bill Flores"
         }
@@ -4162,8 +3784,7 @@
         "pk": 379,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 18,
+            "no": 18,
             "dem_nom": "Shiela Jackson Lee",
             "rep_nom": "Ava Pate"
         }
@@ -4173,8 +3794,7 @@
         "pk": 380,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 19,
+            "no": 19,
             "dem_nom": "Miguel Levario",
             "rep_nom": "Jodey Arrington"
         }
@@ -4184,8 +3804,7 @@
         "pk": 381,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 20,
+            "no": 20,
             "dem_nom": "Joaquin Castro",
             "rep_nom": ""
         }
@@ -4195,8 +3814,7 @@
         "pk": 382,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 21,
+            "no": 21,
             "dem_nom": "Joseph Kopser",
             "rep_nom": "Chip Roy"
         }
@@ -4206,8 +3824,7 @@
         "pk": 383,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 22,
+            "no": 22,
             "dem_nom": "Sri Preston Kulkarni",
             "rep_nom": "Pete Olsen"
         }
@@ -4217,8 +3834,7 @@
         "pk": 384,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 23,
+            "no": 23,
             "dem_nom": "Gina Ortiz Jones",
             "rep_nom": "Will Hurd"
         }
@@ -4228,8 +3844,7 @@
         "pk": 385,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 24,
+            "no": 24,
             "dem_nom": "Jan McDowell",
             "rep_nom": "Kenny Marchant"
         }
@@ -4239,8 +3854,7 @@
         "pk": 386,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 25,
+            "no": 25,
             "dem_nom": "Julie Oliver",
             "rep_nom": "Roger Williams"
         }
@@ -4250,8 +3864,7 @@
         "pk": 387,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 26,
+            "no": 26,
             "dem_nom": "Linsey Fagan",
             "rep_nom": "Michael Burgess"
         }
@@ -4261,8 +3874,7 @@
         "pk": 388,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 27,
+            "no": 27,
             "dem_nom": "Eric Holguin",
             "rep_nom": "Michael Cloud"
         }
@@ -4272,8 +3884,7 @@
         "pk": 389,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 28,
+            "no": 28,
             "dem_nom": "Henry Cuellar",
             "rep_nom": "-"
         }
@@ -4283,8 +3894,7 @@
         "pk": 390,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 29,
+            "no": 29,
             "dem_nom": "Sylvia Garcia",
             "rep_nom": "Philip Aronoff"
         }
@@ -4294,8 +3904,7 @@
         "pk": 391,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 30,
+            "no": 30,
             "dem_nom": "Eddie Bernice Johnson",
             "rep_nom": "-"
         }
@@ -4305,8 +3914,7 @@
         "pk": 392,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 31,
+            "no": 31,
             "dem_nom": "M.J. Hegar",
             "rep_nom": "John Carter"
         }
@@ -4316,8 +3924,7 @@
         "pk": 393,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 32,
+            "no": 32,
             "dem_nom": "Collin Allred",
             "rep_nom": "Pete Sessions"
         }
@@ -4327,8 +3934,7 @@
         "pk": 394,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 33,
+            "no": 33,
             "dem_nom": "Marc Veasey",
             "rep_nom": "Willie Billups"
         }
@@ -4338,8 +3944,7 @@
         "pk": 395,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 34,
+            "no": 34,
             "dem_nom": "Filemon Vela",
             "rep_nom": "Rey Gonzalez"
         }
@@ -4349,8 +3954,7 @@
         "pk": 396,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 35,
+            "no": 35,
             "dem_nom": "Lloyd Dogget",
             "rep_nom": "David Smalling"
         }
@@ -4360,8 +3964,7 @@
         "pk": 397,
         "fields": {
             "state": "Texas",
-            "abbr": "TX",
-            "number": 36,
+            "no": 36,
             "dem_nom": "Dayna Steele",
             "rep_nom": "Brian Babin"
         }
@@ -4371,8 +3974,7 @@
         "pk": 398,
         "fields": {
             "state": "Utah",
-            "abbr": "UT",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Lee Castillo",
             "rep_nom": "Rob Bishop"
         }
@@ -4382,8 +3984,7 @@
         "pk": 399,
         "fields": {
             "state": "Utah",
-            "abbr": "UT",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Shireen Ghorbani",
             "rep_nom": "Chris Stewart"
         }
@@ -4393,8 +3994,7 @@
         "pk": 400,
         "fields": {
             "state": "Utah",
-            "abbr": "UT",
-            "number": 3,
+            "no": 3,
             "dem_nom": "James Singer",
             "rep_nom": "John Curtis"
         }
@@ -4404,8 +4004,7 @@
         "pk": 401,
         "fields": {
             "state": "Utah",
-            "abbr": "UT",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Ben McAdams",
             "rep_nom": "Mia Love"
         }
@@ -4415,8 +4014,7 @@
         "pk": 402,
         "fields": {
             "state": "Vermont",
-            "abbr": "VT",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Peter Welch",
             "rep_nom": "H. Brooke Paige"
         }
@@ -4426,8 +4024,7 @@
         "pk": 403,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Vangie Williams",
             "rep_nom": "Rob Wittman"
         }
@@ -4437,8 +4034,7 @@
         "pk": 404,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Elaine Luria",
             "rep_nom": "Scott Taylor"
         }
@@ -4448,8 +4044,7 @@
         "pk": 405,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Bobby Scott",
             "rep_nom": ""
         }
@@ -4459,8 +4054,7 @@
         "pk": 406,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Donald McEachin",
             "rep_nom": "Ryan McAdams"
         }
@@ -4470,8 +4064,7 @@
         "pk": 407,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Leslie Cockburn",
             "rep_nom": "Denver Riggleman"
         }
@@ -4481,8 +4074,7 @@
         "pk": 408,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Jennifer Lewis",
             "rep_nom": "Ben Cline"
         }
@@ -4492,8 +4084,7 @@
         "pk": 409,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Abigail Spanberger",
             "rep_nom": "David Brat"
         }
@@ -4503,8 +4094,7 @@
         "pk": 410,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Don Beyer",
             "rep_nom": "Thomas Oh"
         }
@@ -4514,8 +4104,7 @@
         "pk": 411,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 9,
+            "no": 9,
             "dem_nom": "Anthony Flaccavento",
             "rep_nom": "Morgan Griffith"
         }
@@ -4525,8 +4114,7 @@
         "pk": 412,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Jennifer Wexton",
             "rep_nom": "Barbara Comstock"
         }
@@ -4536,8 +4124,7 @@
         "pk": 413,
         "fields": {
             "state": "Virginia",
-            "abbr": "VA",
-            "number": 11,
+            "no": 11,
             "dem_nom": "Gerald Connolly",
             "rep_nom": "Jeff Dove"
         }
@@ -4547,8 +4134,7 @@
         "pk": 414,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Suzan DelBene",
             "rep_nom": "Jeffrey Beeler"
         }
@@ -4558,8 +4144,7 @@
         "pk": 415,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Rick Larsen",
             "rep_nom": ""
         }
@@ -4569,8 +4154,7 @@
         "pk": 416,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Carolyn Long",
             "rep_nom": "Jaime Herrera Beutler"
         }
@@ -4580,8 +4164,7 @@
         "pk": 417,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Christine Brown",
             "rep_nom": "Dan Newhouse"
         }
@@ -4591,8 +4174,7 @@
         "pk": 418,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Lisa Brown",
             "rep_nom": "Cathy McMorris Rodgers"
         }
@@ -4602,8 +4184,7 @@
         "pk": 419,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Derek Kilmer",
             "rep_nom": "Douglas Dightman"
         }
@@ -4613,8 +4194,7 @@
         "pk": 420,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Pramila Jayapal",
             "rep_nom": "Craig Keller"
         }
@@ -4624,8 +4204,7 @@
         "pk": 421,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Kim Schrier",
             "rep_nom": "Dino Rossi"
         }
@@ -4635,8 +4214,7 @@
         "pk": 422,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 9,
+            "no": 9,
             "dem_nom": "D. Adam Smith",
             "rep_nom": ""
         }
@@ -4646,8 +4224,7 @@
         "pk": 423,
         "fields": {
             "state": "Washington",
-            "abbr": "WA",
-            "number": 10,
+            "no": 10,
             "dem_nom": "Denny Heck",
             "rep_nom": "Joseph Brumbles"
         }
@@ -4657,8 +4234,7 @@
         "pk": 424,
         "fields": {
             "state": "West Virginia",
-            "abbr": "WV",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Kendra Fershee",
             "rep_nom": "David McKinley"
         }
@@ -4668,8 +4244,7 @@
         "pk": 425,
         "fields": {
             "state": "West Virginia",
-            "abbr": "WV",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Talley Sergent",
             "rep_nom": "Alexander Mooney"
         }
@@ -4679,8 +4254,7 @@
         "pk": 426,
         "fields": {
             "state": "West Virginia",
-            "abbr": "WV",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Richard Ojeda",
             "rep_nom": "Carol Miller"
         }
@@ -4690,8 +4264,7 @@
         "pk": 427,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Randy Bryce",
             "rep_nom": "Bryan Steil"
         }
@@ -4701,8 +4274,7 @@
         "pk": 428,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 2,
+            "no": 2,
             "dem_nom": "Mark Pocan",
             "rep_nom": ""
         }
@@ -4712,8 +4284,7 @@
         "pk": 429,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 3,
+            "no": 3,
             "dem_nom": "Ronald James Kind",
             "rep_nom": "Steve Toft"
         }
@@ -4723,8 +4294,7 @@
         "pk": 430,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 4,
+            "no": 4,
             "dem_nom": "Gwen Moore",
             "rep_nom": "Tim Rogers"
         }
@@ -4734,8 +4304,7 @@
         "pk": 431,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 5,
+            "no": 5,
             "dem_nom": "Tom Palzewicz",
             "rep_nom": "Jim Sensenbrenner"
         }
@@ -4745,8 +4314,7 @@
         "pk": 432,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 6,
+            "no": 6,
             "dem_nom": "Dan Kohl",
             "rep_nom": "Glenn Grothman"
         }
@@ -4756,8 +4324,7 @@
         "pk": 433,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 7,
+            "no": 7,
             "dem_nom": "Margaret Engebretson",
             "rep_nom": "Sean Duffy"
         }
@@ -4767,8 +4334,7 @@
         "pk": 434,
         "fields": {
             "state": "Wisconsin",
-            "abbr": "WI",
-            "number": 8,
+            "no": 8,
             "dem_nom": "Beau Liegeois",
             "rep_nom": "Mike Gallagher"
         }
@@ -4778,8 +4344,7 @@
         "pk": 435,
         "fields": {
             "state": "Wyoming",
-            "abbr": "WY",
-            "number": 1,
+            "no": 1,
             "dem_nom": "Greg Hunter",
             "rep_nom": "Liz Cheney"
         }
