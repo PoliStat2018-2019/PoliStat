@@ -1,0 +1,42 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Oswald');
+$header-font: 'Oswald', sans-serif;
+
+/* COLOR THEME */
+$site-white: #f4f4f4;
+$site-black: #252525;
+$site-red: rgb(245, 102, 102);
+
+$sidenav-width: 250px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+
+    body {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: $header-font, 'Segoe UI', sans-serif;
+            color: $site-black;
+        }
+        li,
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: $site-black;
+        }
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

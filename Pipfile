@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-static-precompiler = "*"
 
 [dev-packages]
 pylint = "*"

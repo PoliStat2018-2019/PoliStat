@@ -1,0 +1,119 @@
+$sidenav-background-color: #fdfdfd;
+
+#sidenav-mobile-btn {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.sidenav-mobile {
+    @include mq(mobile) {
+        display: none;
+    }
+    transition: display 0.5s ease;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 40px;
+    height: 40px;
+}
+
+.fa-bars {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.show-nav {
+    margin-left: 0 !important;
+}
+
+.sidenav-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    margin-left: -100%;
+    @include mq(mobile) {
+        margin-left: 0;
+    }
+    transition:  margin-left 0.2s ease;
+
+    width: $sidenav-width;
+    height: 100%;
+
+    z-index: 999;
+
+    background: $sidenav-background-color;
+}
+
+.sidenav-wrapper .logo { 
+    &>img {
+        width: 100%;
+    }
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+}
+.sidenav li {
+    line-height: 50px;
+    position: relative;
+}
+.sidenav .active {
+    &>a {
+        color: lighten($site-red, 1.5);
+    }
+}
+.sidenav li a {
+    display: block;
+    position: relative;
+
+    line-height: 50px;
+    height: 50px;
+    padding: 0 30px;
+
+    color: $site-black;
+
+    transition: background-color 0.5s ease;
+    &:hover {
+        background-color: darken($sidenav-background-color, 2);
+        &:before {
+            height: 50%;
+        }
+        &:after {
+            height: 50%;
+        }
+    }
+
+    &:before {
+        content:"";
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        height: 0px;
+        width: 4px;
+        background-color: black;
+
+        transition: height 0.2s ease;
+    }
+    &:after {
+        content:"";
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+
+        height: 0px;
+        width: 4px;
+        background-color: black;
+
+        transition: height 0.2s ease;
+    }
+}

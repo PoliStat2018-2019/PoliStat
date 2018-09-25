@@ -1,0 +1,28 @@
+{% load compile_static %}
+{% load static %}
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>{% block title %}{% endblock %} | MBHS</title>
+
+        {% load staticfiles %}
+        <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+              integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+              crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="{% static 'figures/styles/styles.scss'|compile %}">
+    </head>
+    <body>
+        {% include "figures/sidenav.html" %}
+
+        <main id='main' class="main">
+            {% block content %}
+            {% endblock %}
+        </main>
+        
+        {% comment %} {% include 'figures/footer.html' %} {% endcomment %}
+    </body>
+    <script src={% static 'figures/scripts/sidenav.js' %}></script>
+</html>

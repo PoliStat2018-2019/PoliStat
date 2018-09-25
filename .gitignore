@@ -1,8 +1,16 @@
+# Python
+__pycache__/
+
 # Django
 migrations/
 db.sqlite3
+
+# Sass
+.sass-cache/
 
 # Other Dev
 Pipfile.lock
 .vscode/
 setup.cfg
+/static/
+*.xml

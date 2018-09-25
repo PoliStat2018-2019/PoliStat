@@ -1,0 +1,77 @@
+$mq-breakpoints: (
+    mobile : 768px,
+    tablet : 992px,
+    desktop : 1200px
+);
+
+@mixin mq($width, $type: min) {
+    @if map_has_key($mq-breakpoints, $width) {
+        $width: map_get($mq-breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-black {
+    color: black;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-mobile-none {
+    @include mq(mobile) { display: none }
+}
+
+.d-tablet-none {
+    @include mq(tablet) { display: none }
+}
+
+.d-mobile-block {
+    @include mq(mobile) { display: block }
+}
+
+.d-tablet-block {
+    @include mq(tablet) { display: block }
+}
+
+.border-r {
+    border-right: 2px solid black;
+}
+
+.border-l {
+    border-left: 2px solid black;
+}
+
+.border-t {
+    border-top: 2px solid black;
+}
+
+.border-b {
+    border-bottom: 2px solid black;
+}
+
+.border {
+    border: 2px solid black;
+}
