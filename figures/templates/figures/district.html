@@ -5,5 +5,14 @@
 {% endblock  %}
 
 {% block content %}
-    <h1>{{ district.state.abbr }}{{ district.no }}</h1>
+    <section class="section container district-section">
+        <h1>
+            {{ district.state.abbr }}{{ district.no }}
+            <span class="district-full">{{ district.state.name }} District {{ district.no }}</span>
+        </h1>
+        <hr class="m-t-md m-b-md">
+        <p>
+            {{ district_profile.profile }}
+        </p>
+    </section>
 {% endblock  %}

@@ -1,10 +1,33 @@
-.state-wrapper {
-    padding: 1rem;
-}
-
-.state-wrapper h1:first-child {
+.state-section h1:first-child {
     font-size: 3rem;
     @include mq(tablet) {
         font-size: 5rem;
     }
+}
+
+.district-card-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.district-card {
+    display: block;
+    flex: 1 0 200px;
+
+    border-radius: 10px;
+
+    box-shadow: -5px 3px 10px 2px rgba(0, 0, 0, 0.4);
+
+    min-height: 100px;
+    min-width: 215px;
+}
+
+.district-card h1:first-child {
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+}
+
+.district-card p {
+    
 }

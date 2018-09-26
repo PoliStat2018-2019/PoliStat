@@ -10,5 +10,5 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('states/', views.statemap, name='states'),
     path('states/<str:state>/', views.state, name='state'),
-    path('states/<str:state>/<int:district>/', views.district, name='district')
+    path('states/<str:state>/<int:districtno>/', views.district, name='district')
 ]

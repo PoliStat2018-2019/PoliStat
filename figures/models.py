@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
-
+from textwrap import dedent
 
 class State(models.Model):
     """
@@ -53,7 +53,7 @@ class District(models.Model):
         """
         Return the name of the district as "State - District"
         """
-        return self.no
+        return f'{self.state.name} - {self.no}'
     
     def get_absolute_url(self):
         return reverse('figures:district', kwargs={
@@ -66,13 +66,25 @@ class DistrictProfile(models.Model):
     Model representing a district profile
     """
 
+    manager = models.Manager()
+
     # Each district only has one profile (and each profile belongs
     # to only one district)
     district = models.OneToOneField(District,
                                     on_delete=models.CASCADE)
 
-    profile = models.TextField()
+    help_text = dedent("""
+        Please enter a summary of this district here.
+    """)
+    
+    profile = models.TextField(help_text=help_text)
     modified = models.DateField(default=timezone.now)
+
+    def get_profile_lead(self):
+        return f'{self.profile}'[:128] + '...'
+
+    def __str__(self):
+        return f'{self.district} Profile'
 
 
 class Prediction(models.Model):

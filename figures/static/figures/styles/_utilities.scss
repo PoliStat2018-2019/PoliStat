@@ -17,6 +17,14 @@ $mq-breakpoints: (
     }
 }
 
+.color-dem {
+    color: $site-blue;
+}
+
+.color-rep {
+    color: $site-red;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -76,3 +84,4 @@ $mq-breakpoints: (
 .border {
     border: 2px solid black;
 }
+

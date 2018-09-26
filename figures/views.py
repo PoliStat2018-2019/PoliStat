@@ -40,13 +40,15 @@ def state(request, state):
 
     return render(request, 'figures/state.html', context=context)
 
-def district(request, state, district):
-    district = get_object_or_404(models.District, state=state, no=district)
+def district(request, state, districtno):
+    district = get_object_or_404(models.District, state=state, no=districtno)
+    district_profile = models.DistrictProfile.manager.get(district=district)
 
     context = {
         'navbar': 'states',
         'state': state,
-        'district': district
+        'district': district,
+        'district_profile': district_profile
     }
 
     return render(request, 'figures/district.html', context=context)

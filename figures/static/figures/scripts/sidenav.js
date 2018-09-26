@@ -15,3 +15,4 @@ function hideNavOnMobile() {
 mobile_button.addEventListener("click", showNavOnMobile);
 main.addEventListener("click", hideNavOnMobile);
 window.addEventListener("resize", hideNavOnMobile);
+window.addEventListener("scroll", hideNavOnMobile);

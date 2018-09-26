@@ -1,0 +1,11 @@
+.district-section h1:first-child {
+    font-size: 5rem;
+    @include mq(tablet) {
+        font-size: 6rem;
+    }
+    .district-full {
+        display: inline-block;
+        font-size: 0.5em;
+        color: $site-blue; //should change based on winning
+    }
+}
