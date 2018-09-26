@@ -2,6 +2,8 @@ from django.contrib import admin
 from django.urls import reverse
 from django.utils.html import format_html
 
+from textwrap import dedent 
+
 from . import models
 
 # Register your models here.
@@ -17,7 +19,10 @@ class DistrictAdmin(admin.ModelAdmin):
         if not hasattr(district, 'districtprofile'):
             dp = models.DistrictProfile.manager.create(
                 district = district,
-                profile = 'Auto-generated text'
+                profile = dedent("""
+                    This text is automatically generated for each district.
+                    Please change it; we do not want it on our site.
+               """)
             )
             link = reverse('admin:figures_districtprofile_change',
                             args=[dp.pk])

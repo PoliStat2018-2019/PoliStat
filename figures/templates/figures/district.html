@@ -11,8 +11,32 @@
             <span class="district-full">{{ district.state.name }} District {{ district.no }}</span>
         </h1>
         <hr class="m-t-md m-b-md">
-        <p>
-            {{ district_profile.profile }}
-        </p>
+        <div class="prediction-grid m-b-lg">
+            <div class="prediction dem-prediction text-center">
+                <h1 class="p-lg color-dem">58.0%</h1>
+            </div>
+            <h2 class="text-center">
+                <i class="fas fa-caret-left"></i> Democrat Win Chance
+            </h2>
+            <div class="prediction rep-prediction text-center">
+                <h1 class="p-lg color-rep">42.0%</h1>
+            </div>
+            <h2 class="text-center">
+                Republican Win Chance <i class="fas fa-caret-right"></i>
+            </h2>
+        </div>
+    </section>
+    <section class="container district-profile-section">
+        <h1>
+            District Profile
+            <span>Last Updated: {{ district_profile.modified }}</span>
+        </h1>
+        {{ district_profile.profile }}
+        <hr class="m-b-md m-t-md">
+    </section>
+    <section class="section container district-posts-section">
+        <h1>
+            District Updates and Posts
+        </h1>
     </section>
 {% endblock  %}

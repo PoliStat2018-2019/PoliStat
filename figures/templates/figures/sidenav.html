@@ -10,8 +10,14 @@
              onerror="this.onerror=null; this.src='django-logo-positive.png'">
     </a>
     <ul class="sidenav m-l-sm border-l">
-        <li class="{% if navbar == 'index' %}active{% endif %}"><a class="bold" href="{% url 'figures:index' %}">model</a></li>
-        <li class="{% if navbar == 'states' %}active{% endif %}"><a class="bold" href="{% url 'figures:states' %}">states</a></li>
-        <li class="{% if navbar == 'about' %}active{% endif %}"><a class="bold" href="{% url 'figures:about' %}about.html">about</a></li>
+        <li class="{% if navbar == 'index' %}active{% endif %}">
+            <a class="bold" href="{% url 'figures:index' %}">home</a>
+        </li>
+        <li class="{% if navbar == 'states' %}active{% endif %}">
+            <a class="bold" href="{% url 'figures:states' %}">states</a>
+        </li>
+        <li class="{% if navbar == 'about' %}active{% endif %}">
+            <a class="bold" href="{% url 'figures:about' %}">about</a>
+        </li>
     </ul>
 </nav>

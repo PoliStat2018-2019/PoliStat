@@ -6,6 +6,62 @@
     .district-full {
         display: inline-block;
         font-size: 0.5em;
+
         color: $site-blue; //should change based on winning
+    }
+}
+
+.district-section .prediction-grid {
+    & h1 { font-size: 3rem; }
+    & h2 { font-size: 1.5rem; }
+
+    @include mq(sm-mobile) {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr minmax(90px, 220px) 1fr;
+        grid-column-gap: 1rem;
+        align-items: center;
+
+        & h2:first-child {
+            grid-row: 1;
+            grid-column: 2;
+        }
+        & h2:nth-child(1) {
+            grid-row: 2;
+            grid-column: 2;
+        }
+        & .dem-prediction {
+            grid-row: 1 / span 2;
+            grid-column: 1;
+        }
+        & .rep-prediction {
+            grid-row: 1 / span 2;
+            grid-column: 3;
+        }
+    }
+}
+
+.district-section .prediction-grid .prediction {
+    align-self: stretch;
+
+    border-radius: 20px;
+
+    background-color: rgb(251, 244, 255);
+    font-weight: 700;
+}
+
+.district-profile-section {
+    & h1:first-child {
+        font-size: 2rem;
+        & span {
+            font-size: 0.5em; 
+            display: inline-block;
+        }
+    }
+}
+
+.district-posts-section {
+    & h1:first-child {
+        font-size: 2rem;
     }
 }

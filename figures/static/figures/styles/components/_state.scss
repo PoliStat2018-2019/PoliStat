@@ -17,10 +17,15 @@
 
     border-radius: 10px;
 
-    box-shadow: -5px 3px 10px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: -5px 3px 8px 2px rgba(0, 0, 0, 0.4);
 
     min-height: 100px;
     min-width: 215px;
+
+    &:hover {
+        transform: scale(1.035);
+    }
+    transition: transform 0.3s ease;
 }
 
 .district-card h1:first-child {

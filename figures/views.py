@@ -42,7 +42,7 @@ def state(request, state):
 
 def district(request, state, districtno):
     district = get_object_or_404(models.District, state=state, no=districtno)
-    district_profile = models.DistrictProfile.manager.get(district=district)
+    district_profile = get_object_or_404(models.DistrictProfile, district=district)
 
     context = {
         'navbar': 'states',

@@ -9,14 +9,12 @@
             {% for district in district_list %}
                 <a class="m-md district-card"
                    href="{% url 'figures:district' state.name district.no %}">
-                    <li>
-                        <h1 class="p-md text-center">
-                            District {{ district.no }}
-                        </h1>
-                        <p class="p-md">
-                            {{ district.districtprofile.get_profile_lead }}
-                        </p>
-                    </li>
+                    <h1 class="p-md text-center">
+                        District {{ district.no }}
+                    </h1>
+                    <p class="p-md">
+                        {{ district.districtprofile.get_profile_lead }}
+                    </p>
                 </a>
             {% endfor %}
         </ul>

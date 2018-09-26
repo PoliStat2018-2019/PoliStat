@@ -2,6 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.urls import reverse
 from textwrap import dedent
+from django.db.models.signals import post_save
 
 class State(models.Model):
     """
@@ -78,13 +79,32 @@ class DistrictProfile(models.Model):
     """)
     
     profile = models.TextField(help_text=help_text)
-    modified = models.DateField(default=timezone.now)
+    modified = models.DateTimeField(default=timezone.now)
 
     def get_profile_lead(self):
         return f'{self.profile}'[:128] + '...'
 
     def __str__(self):
         return f'{self.district} Profile'
+
+# This method is required because we load districts from fixtures,
+# which does not call the District.save() method. However, loaddata
+# does send a post_save signal which we connect to here
+def create_profile(sender, instance, *args, **kwargs):
+    """Every time a District is created, automatically create
+    a DistrictProfile for it
+    """
+
+    profile_text = dedent("""
+        This text is automatically generated for each district.
+        Please change it soon.
+    """)
+    if District == sender:
+        DistrictProfile.manager.get_or_create(
+            district=instance,
+            profile=profile_text
+        )
+post_save.connect(create_profile)
 
 
 class Prediction(models.Model):
@@ -103,6 +123,7 @@ class Prediction(models.Model):
 
     class Meta:
         ordering = ["date"]
+
 
 class Post(models.Model):
     """
