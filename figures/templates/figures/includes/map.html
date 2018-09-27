@@ -1,0 +1,27 @@
+{% load static %}
+
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'figures/styles/jqvmap.css'%}">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="{% static 'figures/scripts/jquery.vmap.js' %}"></script>
+<script type="text/javascript" src="{% static 'figures/scripts/jquery.vmap.usa.js' %}" charset="utf-8"></script>
+
+<script>
+  jQuery(document).ready(function () {
+    jQuery('#vmap').vectorMap({
+      map: 'usa_en',
+      enableZoom: true,
+      showTooltip: true,
+      selectedColor: null,
+      hoverColor: '#639',
+      onRegionClick: function(event, code, region){
+        window.location.href = "/states/"+region;
+      }
+    });
+  });
+</script>
+
+
+<div id="vmap" style="margin-right: auto; margin-left: auto; width: 100%; height: 500px;"></div>
+<h2 class="center">Click a state to see its congressional districts!</h2>
