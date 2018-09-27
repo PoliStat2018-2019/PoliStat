@@ -1,10 +1,13 @@
 from django.contrib import admin
 from django.urls import reverse
 from django.utils.html import format_html
+from django.db import models
 
+from django_summernote.admin import SummernoteModelAdmin
 from textwrap import dedent 
 
-from . import models
+from . import models as my_models
+from . import forms
 
 # Register your models here.
 class StateAdmin(admin.ModelAdmin):
@@ -16,35 +19,22 @@ class DistrictAdmin(admin.ModelAdmin):
     search_fields = ('no', 'state__name', 'dem_nom', 'rep_nom')
 
     def edit_profile_link(self, district):
-        if not hasattr(district, 'districtprofile'):
-            dp = models.DistrictProfile.manager.create(
-                district = district,
-                profile = dedent("""
-                    This text is automatically generated for each district.
-                    Please change it; we do not want it on our site.
-               """)
-            )
-            link = reverse('admin:figures_districtprofile_change',
-                            args=[dp.pk])
+        link = reverse('admin:figures_districtprofile_change',
+                    args=[district.districtprofile.pk])
 
-            return format_html(
-                f'<a href="{link}">Edit {dp}</a>'
-            )
-        else:
-            link = reverse('admin:figures_districtprofile_change',
-                        args=[district.districtprofile.pk])
-
-            return format_html(
-                f'<a href="{link}">Edit {district.districtprofile}</a>'
-            )
+        return format_html(
+            f'<a href="{link}">Edit {district.districtprofile}</a>'
+        )
     edit_profile_link.short_description = 'Edit district profile'
 
 
-class DistrictProfileAdmin(admin.ModelAdmin):
+class DistrictProfileAdmin(SummernoteModelAdmin):
+    summernote_fields = ('profile',)
+
     list_display = ('district', 'modified')
     search_fields = ('district__state__name', 'district__state__abbr', 'district__no', 'profile')
 
 
-admin.site.register(models.State, StateAdmin)
-admin.site.register(models.District, DistrictAdmin)
-admin.site.register(models.DistrictProfile, DistrictProfileAdmin)
+admin.site.register(my_models.State, StateAdmin)
+admin.site.register(my_models.District, DistrictAdmin)
+admin.site.register(my_models.DistrictProfile, DistrictProfileAdmin)

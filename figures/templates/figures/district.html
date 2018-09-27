@@ -31,7 +31,7 @@
             District Profile
             <span>Last Updated: {{ district_profile.modified }}</span>
         </h1>
-        {{ district_profile.profile }}
+        {{ district_profile.profile|safe }}
         <hr class="m-b-md m-t-md">
     </section>
     <section class="section container district-posts-section">

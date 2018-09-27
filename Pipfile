@@ -6,10 +6,13 @@ name = "pypi"
 [packages]
 django = "*"
 django-static-precompiler = "*"
+django-tinymce = "*"
+django-summernote = "*"
 
 [dev-packages]
 pylint = "*"
 "flake8" = "*"
+rope = "*"
 
 [requires]
 python_version = "3.6"
