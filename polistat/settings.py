@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'static_precompiler',
+    'django_summernote'
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 STATIC_URL = '/static/'
 
 STATIC_PRECOMPILER_OUTPUT_DIR = "compiled"
+
+# MEDIA
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+# Summernote
+SUMMERNOTE_THEME = 'bs4'  # Show summernote with Bootstrap4

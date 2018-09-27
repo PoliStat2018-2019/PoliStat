@@ -1,8 +1,12 @@
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
-from textwrap import dedent
 from django.db.models.signals import post_save
+from django.utils.html import strip_tags
+
+from textwrap import dedent
+import re
+
 
 class State(models.Model):
     """
@@ -74,15 +78,15 @@ class DistrictProfile(models.Model):
     district = models.OneToOneField(District,
                                     on_delete=models.CASCADE)
 
-    help_text = dedent("""
-        Please enter a summary of this district here.
-    """)
-    
-    profile = models.TextField(help_text=help_text)
+    profile = models.TextField()
     modified = models.DateTimeField(default=timezone.now)
 
     def get_profile_lead(self):
-        return f'{self.profile}'[:128] + '...'
+        stripped_profile = strip_tags(self.profile)
+        stripped_profile = re.sub(r'(?<=[.,])(?=[^\s])', r' ',
+                                  stripped_profile)
+
+        return f'{stripped_profile}'[:128] + '...'
 
     def __str__(self):
         return f'{self.district} Profile'

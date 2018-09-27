@@ -12,9 +12,9 @@
                     <h1 class="p-md text-center">
                         District {{ district.no }}
                     </h1>
-                    <p class="p-md">
-                        {{ district.districtprofile.get_profile_lead }}
-                    </p>
+                    <div class="p-md">
+                        {{ district.districtprofile.get_profile_lead|safe }}
+                    </div>
                 </a>
             {% endfor %}
         </ul>
