@@ -128,8 +128,12 @@ class Prediction(models.Model):
     class Meta:
         ordering = ["date"]
 
+<<<<<<< HEAD
 
 class Post(models.Model):
+=======
+class DistrictPost(models.Model):
+>>>>>>> state_views
     """
     Model representing a post
 
@@ -142,6 +146,28 @@ class Post(models.Model):
     district = models.ForeignKey(District, on_delete=models.CASCADE)
 
     title = models.CharField(max_length=128, unique=True)
+    body = models.TextField()
+    date_posted = models.DateField(default=timezone.now)
+
+    class Meta:
+        # order models by most recent first
+        ordering = ['-date_posted']
+    
+    # def get_absolute_url(self)
+
+    def __str__(self):
+        """Return the title of this post as a string"""
+        return self.title
+
+class BlogPost(models.Model):
+    """
+    Model representing a blog post
+
+    A blog post is meant for student written assignments later on in
+    the year such as specific candidates, current events, etc.
+    """
+
+    title = models.CharField(max_length=200, unique=True)
     body = models.TextField()
     date_posted = models.DateField(default=timezone.now)
 
