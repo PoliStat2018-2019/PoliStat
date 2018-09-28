@@ -8,17 +8,20 @@
 
         {% load staticfiles %}
         <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
-        {% comment %} <link rel="stylesheet"
-              href="{% static 'figures/styles/libraries/fontawesome/solid.scss'|compile %}">
-        <link rel="stylesheet"
-              href="{% static 'figures/styles/libraries/fontawesome/fontawesome.scss'|compile %}"> {% endcomment %}
         <link rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
             integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
             crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="{% static 'figures/styles/styles.scss'|compile %}">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
+        <script>AOS.init()</script>
         {% include "figures/sidenav.html" %}
 
         <main id='main' class="main">
@@ -27,6 +30,7 @@
         </main>
         
         {% comment %} {% include 'figures/footer.html' %} {% endcomment %}
+        {% block scripts %}
+        {% endblock %}
     </body>
-    <script src={% static 'figures/scripts/sidenav.js' %}></script>
 </html>
