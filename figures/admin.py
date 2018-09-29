@@ -2,6 +2,7 @@ from django.contrib import admin
 from django.urls import reverse
 from django.utils.html import format_html
 from django.db import models
+from django.contrib.admin import StackedInline
 
 from django_summernote.admin import SummernoteModelAdmin
 from textwrap import dedent 
@@ -35,6 +36,13 @@ class DistrictProfileAdmin(SummernoteModelAdmin):
     search_fields = ('district__state__name', 'district__state__abbr', 'district__no', 'profile')
 
 
+class BlogPostAdmin(SummernoteModelAdmin):
+    summernote_fields = ('body',)
+
+    list_display = ('title', 'author', 'date_posted')
+    search_fields = ('title', 'author', 'date_posted')
+
 admin.site.register(my_models.State, StateAdmin)
 admin.site.register(my_models.District, DistrictAdmin)
 admin.site.register(my_models.DistrictProfile, DistrictProfileAdmin)
+admin.site.register(my_models.BlogPost, BlogPostAdmin)

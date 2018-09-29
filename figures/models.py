@@ -1,4 +1,5 @@
 from django.db import models
+import django.contrib.auth.models as auth
 from django.utils import timezone
 from django.urls import reverse
 from django.db.models.signals import post_save
@@ -128,12 +129,7 @@ class Prediction(models.Model):
     class Meta:
         ordering = ["date"]
 
-<<<<<<< HEAD
-
-class Post(models.Model):
-=======
 class DistrictPost(models.Model):
->>>>>>> state_views
     """
     Model representing a post
 
@@ -147,7 +143,7 @@ class DistrictPost(models.Model):
 
     title = models.CharField(max_length=128, unique=True)
     body = models.TextField()
-    date_posted = models.DateField(default=timezone.now)
+    date_posted = models.DateTimeField(default=timezone.now)
 
     class Meta:
         # order models by most recent first
@@ -167,9 +163,14 @@ class BlogPost(models.Model):
     the year such as specific candidates, current events, etc.
     """
 
+    manager = models.Manager()
+
     title = models.CharField(max_length=200, unique=True)
+    author = models.ForeignKey(auth.User,
+                              blank=True,
+                              on_delete=models.CASCADE)
     body = models.TextField()
-    date_posted = models.DateField(default=timezone.now)
+    date_posted = models.DateTimeField(default=timezone.now)
 
     class Meta:
         # order models by most recent first

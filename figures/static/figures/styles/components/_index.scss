@@ -1,5 +1,5 @@
 .welcome-section {
-    background-image: url('../images/work_5.jpg');
+    background-image: url('../images/connectwork.png');
     background-attachment: fixed;
 
     height: calc(100vh - 4rem);
@@ -18,17 +18,44 @@
     & h1:first-child {
         grid-column: 2;
         align-self: flex-end;
-        flex: 1 0;
+        position: relative;
+        z-index: 10;
 
+        text-align: center;
+        @include mq(sm-mobile) {
+            text-align: left;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: -1;
+
+            @include mq(sm-mobile) {
+                width: 70%;
+            }
+
+            background-color: rgb(114, 38, 38);
+        }
     }
     & h1:nth-child(2) {
         grid-column: 2;
         align-self: flex-start;
 
+        text-align: center;
         font-size: 4rem;
         @include mq(sm-mobile) {
+            text-align: left;
             font-size: 6rem;
         }
+
+        background: linear-gradient(to right, rgb(35, 153, 19) 0%, #fbff1f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
     }
     & .scroll-btn {

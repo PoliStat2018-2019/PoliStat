@@ -1,0 +1,21 @@
+{% extends "figures/base.html" %}
+{% load static %}
+
+{% block title %}Blog{% endblock  %}
+
+{% block content %}
+    <section class="section container blog-section">
+        <h1>Blog</h1>
+        {% for blog in blog_list %}
+            <div class="blog">
+                <h1>{{ blog.title }}</h1>
+                <h6>{{ blog.author }} |
+                     <span>{{ blog.date_posted }}</span>
+                </h6>
+                <div class="blog-content">
+                    {{ blog.body|safe }}
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+{% endblock  %}

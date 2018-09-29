@@ -16,6 +16,9 @@
         <li class="{% if navbar == 'states' %}active{% endif %}">
             <a class="bold" href="{% url 'figures:states' %}">states</a>
         </li>
+        <li class="{% if navbar == 'blog' %}active{% endif %}">
+            <a class="bold" href="{% url 'figures:blog' %}">blog</a>
+        </li>
         <li class="{% if navbar == 'about' %}active{% endif %}">
             <a class="bold" href="{% url 'figures:about' %}">about</a>
         </li>

@@ -20,6 +20,15 @@ def about(request):
 
     return render(request, 'figures/about.html', context=context)
 
+def blog_list(request):
+    blog_list = models.BlogPost.manager.all()
+    context = {
+        'navbar': 'blog',
+        'blog_list': blog_list
+    }
+
+    return render(request, 'figures/blog_list.html', context=context)
+
 def statemap(request):
     context = {
         'navbar': 'states',
