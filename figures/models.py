@@ -26,6 +26,9 @@ class State(models.Model):
     def __str__(self):
         return self.name
     
+    def num_districts(self):
+        return District.manager.filter(state = self).count()
+    
     def get_absolute_url(self):
         return reverse('figures:state', kwargs={
             'state': self.name
@@ -59,6 +62,24 @@ class District(models.Model):
         Return the name of the district as "State - District"
         """
         return f'{self.state.name} - {self.no}'
+
+    def short_name(self):
+        """
+        Returns 'SS-##' where SS is the state and ## is the district
+        """
+        if self.state.num_districts() == 1:
+            return f'{self.state.abbr}-AL'
+        else:
+            return f'{self.state.abbr}-{self.no:02d}'
+        
+    def long_name(self):
+        """
+        'State's ##th district''
+        """
+        if self.state.num_districts() == 1:
+            return f'{self.state}\'s at-large district' 
+        else:
+            return f'{self.state}\'s {nth(self.no)} district'
     
     def get_absolute_url(self):
         return reverse('figures:district', kwargs={
@@ -154,3 +175,10 @@ class Post(models.Model):
     def __str__(self):
         """Return the title of this post as a string"""
         return self.title
+    
+def nth(n):
+    """
+    cardinal to ordinal
+    """
+    # from https://stackoverflow.com/questions/9647202/ordinal-numbers-replacement
+    return "%d%s" % (n,"tsnrhtdd"[(n//10%10!=1)*(n%10<4)*n%10::4])

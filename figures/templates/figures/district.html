@@ -1,14 +1,14 @@
 {% extends "figures/base.html" %}
 
 {% block title %}
-    {{ district.state.abbr }}{{ district.no }}
+    {{ district.short_name }}
 {% endblock  %}
 
 {% block content %}
     <section class="section container district-section">
         <h1>
-            {{ district.state.abbr }}{{ district.no }}
-            <span class="district-full">{{ district.state.name }} District {{ district.no }}</span>
+            {{ district.short_name }}
+            <span class="district-full">{{ district.long_name }}</span>
         </h1>
         <hr class="m-t-md m-b-md">
         <div class="prediction-grid m-b-lg">
