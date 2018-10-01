@@ -3,6 +3,7 @@ from django.utils import timezone
 from django.urls import reverse
 from django.db.models.signals import post_save
 from django.utils.html import strip_tags
+from django.utils.functional import cached_property
 
 from textwrap import dedent
 import re
@@ -26,6 +27,7 @@ class State(models.Model):
     def __str__(self):
         return self.name
     
+    @cached_property
     def num_districts(self):
         return District.manager.filter(state = self).count()
     
@@ -63,20 +65,22 @@ class District(models.Model):
         """
         return f'{self.state.name} - {self.no}'
 
+    @cached_property
     def short_name(self):
         """
         Returns 'SS-##' where SS is the state and ## is the district
         """
-        if self.state.num_districts() == 1:
+        if self.state.num_districts == 1:
             return f'{self.state.abbr}-AL'
         else:
             return f'{self.state.abbr}-{self.no:02d}'
-        
+    
+    @cached_property
     def long_name(self):
         """
         'State's ##th district''
         """
-        if self.state.num_districts() == 1:
+        if self.state.num_districts == 1:
             return f'{self.state}\'s at-large district' 
         else:
             return f'{self.state}\'s {nth(self.no)} district'
