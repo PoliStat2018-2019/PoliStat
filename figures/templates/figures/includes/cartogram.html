@@ -10,7 +10,7 @@
 <script>
   jQuery(document).ready(function () {
     jQuery('#vmap').vectorMap({
-      map: 'usa_en',
+      map: 'cart_en',
       enableZoom: true,
       showTooltip: true,
       selectedColor: null,
@@ -21,6 +21,32 @@
         window.location.href = "/district/"+code;
       }
     });
+    var paths = document.getElementById('vmap').getElementsByTagName('g')[0];
+    
+    var createPath = function(d, id) {
+    	var path = document.createElementNS('http://www.w3.org/2000/svg','path');
+	    path.setAttributeNS(null, 'd', d);
+	    path.setAttributeNS(null, 'stroke', '#000000');
+	    path.setAttributeNS(null, "stroke-width", 0.1);
+	    path.setAttributeNS(null, "stroke-linecap", 'round');
+	    path.setAttributeNS(null, "stroke-linejoin", 'round');
+	    path.setAttributeNS(null, "fill-opacity", 0);
+	    path.setAttribute('id', id);
+	    path.style["pointer-events"] = 'none';
+	    return path;
+    }
+    
+    var pathdata = {
+    	'me': "M 40 0 l 1 0 l 0 2 l -1 0 z",
+    	'nh': "M 38 1 l 2 0 l 0 1 l -2 0 z",
+    	'vt': "M 37 1 l 1 0 l 0 1 l -1 0 z",
+    	'ma': "M 37 2 l 4 0 l 0 2 l 1 0 l 0 1 l -3 0 l 0 -2 l -2 0 z",
+    	'ri': "M 38 3 l 1 0 l 0 2 l -1 0 z"
+    };
+    for (var k in pathdata) {
+    	var path = createPath(pathdata[k], "outline-"+k);
+    	paths.appendChild(path);
+    }
   });
 </script>
 
