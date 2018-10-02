@@ -122,13 +122,13 @@ class Prediction(models.Model):
     manager = models.Manager()
 
     district = models.ForeignKey(District, on_delete=models.CASCADE)
-    dem_predicted_perc = models.FloatField(verbose_name=
-                                            'democratic predicted percentage',
-                                           default=0)
-    rep_predicted_perc = models.FloatField(verbose_name=
-                                            'republican predicted percentage',
-                                           default=0)
-    date = models.DateTimeField(auto_now_add=True)
+    dem_perc = models.FloatField(verbose_name=
+                                 'democratic predicted percentage',
+                                 default=0)
+    rep_perc = models.FloatField(verbose_name=
+                                 'republican predicted percentage',
+                                 default=0)
+    date = models.DateTimeField(default=timezone.now)
 
     class Meta:
         ordering = ["date"]

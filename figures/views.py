@@ -40,14 +40,11 @@ def statemap(request):
 def state(request, state):
     state = get_object_or_404(models.State, name=state)
     districts = state.district_set.all()
-    latest_predictions = [ district.prediction_set.last()
-                           for district in districts ]
 
     context = {
         'navbar': 'states',
         'state': state,
         'district_list': districts,
-        'latest_predictions': latest_predictions
     }
 
     return render(request, 'figures/state.html', context=context)
@@ -55,12 +52,14 @@ def state(request, state):
 def district(request, state, districtno):
     district = get_object_or_404(models.District, state=state, no=districtno)
     district_profile = get_object_or_404(models.DistrictProfile, district=district)
+    latest_prediction = district.prediction_set.first()
 
     context = {
         'navbar': 'states',
         'state': state,
         'district': district,
-        'district_profile': district_profile
+        'district_profile': district_profile,
+        'latest_prediction': latest_prediction
     }
 
     return render(request, 'figures/district.html', context=context)
