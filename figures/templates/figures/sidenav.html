@@ -13,6 +13,9 @@
         <li class="{% if navbar == 'index' %}active{% endif %}">
             <a class="bold" href="{% url 'figures:index' %}">home</a>
         </li>
+        <li class="{% if navbar == 'cartogram' %}active{% endif %}">
+            <a class="bold" href="{% url 'figures:cartogram' %}">district map</a>
+        </li>
         <li class="{% if navbar == 'states' %}active{% endif %}">
             <a class="bold" href="{% url 'figures:states' %}">states</a>
         </li>

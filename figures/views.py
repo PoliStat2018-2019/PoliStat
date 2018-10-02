@@ -28,6 +28,13 @@ def statemap(request):
 
     return render(request, 'figures/statemap.html', context=context)
 
+def cartogram(request):
+    context = {
+        'navbar': 'cartogram',
+    }
+
+    return render(request, 'figures/cartogram.html', context=context)
+
 def state(request, state):
     state = get_object_or_404(models.State, name=state)
     districts = state.district_set.all()

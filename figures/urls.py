@@ -9,6 +9,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('about/', views.about, name='about'),
     path('states/', views.statemap, name='states'),
+    path('cartogram/', views.cartogram, name='cartogram'),
     path('states/<str:state>/', views.state, name='state'),
     path('states/<str:state>/<int:districtno>/', views.district, name='district')
 ]

@@ -1,0 +1,10 @@
+{% extends "figures/base.html" %}
+
+{% block title %}District Map{% endblock %}
+
+{% block content %}
+<section class="section container statemap-section">
+    <h1 class="p-b-md text-center">Cartogram of Districts</h1>
+    {% include "figures/includes/cartogram.html" %}
+</section>
+{% endblock  %}
