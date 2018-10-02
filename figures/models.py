@@ -8,6 +8,22 @@ from django.utils.html import strip_tags
 from textwrap import dedent
 import re
 
+class User(auth.User):
+    """User proxy to override the user manager."""
+
+    manager = auth.UserManager()
+
+    def __str__(self):
+        return self.get_full_name()
+
+    def __repr__(self):
+        return "User[{}]".format(self.get_full_name())
+
+    class Meta:
+        proxy = True
+        permissions = (
+            ('manage_users', "Can manage user data and privileges"),
+        )
 
 class State(models.Model):
     """
@@ -92,30 +108,13 @@ class DistrictProfile(models.Model):
     def __str__(self):
         return f'{self.district} Profile'
 
-# This method is required because we load districts from fixtures,
-# which does not call the District.save() method. However, loaddata
-# does send a post_save signal which we connect to here
-def create_profile(sender, instance, *args, **kwargs):
-    """Every time a District is created, automatically create
-    a DistrictProfile for it
-    """
-
-    profile_text = dedent("""
-        This text is automatically generated for each district.
-        Please change it soon.
-    """)
-    if District == sender:
-        DistrictProfile.manager.get_or_create(
-            district=instance,
-            profile=profile_text
-        )
-post_save.connect(create_profile)
-
 
 class Prediction(models.Model):
     """
     Model representing a daily prediction
     """
+
+    manager = models.Manager()
 
     district = models.ForeignKey(District, on_delete=models.CASCADE)
     dem_predicted_perc = models.FloatField(verbose_name=
@@ -129,6 +128,29 @@ class Prediction(models.Model):
     class Meta:
         ordering = ["date"]
 
+# This method is required because we load districts from fixtures,
+# which does not call the District.save() method. However, loaddata
+# does send a post_save signal which we connect to here
+def init_district_info(sender, instance, *args, **kwargs):
+    """Every time a District is created, automatically create
+    a DistrictProfile for it
+    """
+
+    profile_text = dedent("""
+        This text is automatically generated for each district.
+        Please change it soon.
+    """)
+    if District == sender:
+        DistrictProfile.manager.get_or_create(
+            district=instance,
+            profile=profile_text
+        )
+        Prediction.manager.get_or_create(
+            district=instance
+        )
+post_save.connect(init_district_info)
+
+
 class DistrictPost(models.Model):
     """
     Model representing a post
@@ -140,6 +162,8 @@ class DistrictPost(models.Model):
     # ForeignKey because a post can only be about one district but each
     # district can have multiple posts
     district = models.ForeignKey(District, on_delete=models.CASCADE)
+    author = models.ForeignKey(User,
+                               on_delete=models.CASCADE)
 
     title = models.CharField(max_length=128, unique=True)
     body = models.TextField()
@@ -155,6 +179,7 @@ class DistrictPost(models.Model):
         """Return the title of this post as a string"""
         return self.title
 
+
 class BlogPost(models.Model):
     """
     Model representing a blog post
@@ -166,8 +191,7 @@ class BlogPost(models.Model):
     manager = models.Manager()
 
     title = models.CharField(max_length=200, unique=True)
-    author = models.ForeignKey(auth.User,
-                              blank=True,
+    author = models.ForeignKey(User,
                               on_delete=models.CASCADE)
     body = models.TextField()
     date_posted = models.DateTimeField(default=timezone.now)

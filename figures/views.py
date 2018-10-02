@@ -11,7 +11,7 @@ def index(request):
         'navbar': 'index',
     }
 
-    return render(request, 'figures/index.html', context=context)
+    return render(request, 'figures/landing.html', context=context)
 
 def about(request):
     context = {
@@ -40,11 +40,14 @@ def statemap(request):
 def state(request, state):
     state = get_object_or_404(models.State, name=state)
     districts = state.district_set.all()
+    latest_predictions = [ district.prediction_set.last()
+                           for district in districts ]
 
     context = {
         'navbar': 'states',
         'state': state,
-        'district_list': districts
+        'district_list': districts,
+        'latest_predictions': latest_predictions
     }
 
     return render(request, 'figures/state.html', context=context)
