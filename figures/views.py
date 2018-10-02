@@ -59,3 +59,6 @@ def district(request, state, districtno):
     }
 
     return render(request, 'figures/district.html', context=context)
+
+def districtbyid(request, id):
+    return redirect(get_object_or_404(models.District, id=id))

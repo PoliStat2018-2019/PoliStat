@@ -47,7 +47,7 @@ class District(models.Model):
     # ForeignKey because a district belongs to only one State but
     # each State can have multiple districts
     state = models.ForeignKey(State, on_delete=models.CASCADE)
-
+    id = models.IntegerField(primary_key=True,unique=True)
     no = models.IntegerField(verbose_name='district number')
     dem_nom = models.CharField(verbose_name='democratic nominee',
                                max_length=64,
@@ -87,7 +87,8 @@ class District(models.Model):
     
     def get_absolute_url(self):
         return reverse('figures:district', kwargs={
-            'no': self.no
+            'districtno': self.no,
+            'state': self.state.name
         })
 
 
