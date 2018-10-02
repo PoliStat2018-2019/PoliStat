@@ -1,5 +1,6 @@
 .welcome-section {
-    background-image: url('../images/connectwork.png');
+    background-image: url('../images/trianglify.svg');
+    background-position: center;
     background-attachment: fixed;
 
     height: calc(100vh - 4rem);
@@ -53,7 +54,7 @@
             font-size: 6rem;
         }
 
-        background: linear-gradient(to right, rgb(35, 153, 19) 0%, #fbff1f 100%);
+        background: $site-white;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 

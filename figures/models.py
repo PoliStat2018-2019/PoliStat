@@ -59,8 +59,13 @@ class District(models.Model):
     # ForeignKey because a district belongs to only one State but
     # each State can have multiple districts
     state = models.ForeignKey(State, on_delete=models.CASCADE)
-
     no = models.IntegerField(verbose_name='district number')
+
+    name = models.CharField(verbose_name='district name',
+                            max_length=8,
+                            primary_key=True,
+                            null=False)
+
     dem_nom = models.CharField(verbose_name='democratic nominee',
                                max_length=64,
                                blank=True)
@@ -123,7 +128,7 @@ class Prediction(models.Model):
     rep_predicted_perc = models.FloatField(verbose_name=
                                             'republican predicted percentage',
                                            default=0)
-    date = models.DateField(default=timezone.now)
+    date = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         ordering = ["date"]

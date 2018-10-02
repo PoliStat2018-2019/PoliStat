@@ -11,7 +11,7 @@ def index(request):
         'navbar': 'index',
     }
 
-    return render(request, 'figures/landing.html', context=context)
+    return render(request, 'figures/index.html', context=context)
 
 def about(request):
     context = {
