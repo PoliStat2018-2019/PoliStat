@@ -5,7 +5,7 @@
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="{% static 'figures/scripts/jquery.vmap.js' %}"></script>
-<script type="text/javascript" src="{% static 'figures/scripts/jquery.vmap.usa.js' %}" charset="utf-8"></script>
+<script type="text/javascript" src="{% static 'figures/scripts/vmapcartogram.js' %}" charset="utf-8"></script>
 
 <script>
   jQuery(document).ready(function () {
@@ -15,9 +15,11 @@
       showTooltip: true,
       selectedColor: null,
       hoverColor: '#639',
-      onRegionClick: function(event, code, region){
+      backgroundColor: '#ffffff00',
+      borderWidth: 0.05,
+      // onRegionClick: function(event, code, region){
        // window.location.href = "/states/"+region;
-      }
+      // }
     });
   });
 </script>
