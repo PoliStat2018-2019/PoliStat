@@ -5,6 +5,7 @@
 {% block content %}
     <section class="section container state-section">
         <h1 class="p-b-md">{{ state.name }} Districts</h1>
+        <p>Click on each district for more information</p>
         <ul class="district-card-list">
             {% for district in district_list %}
                 <a class="m-md district-card"
@@ -12,9 +13,19 @@
                     <h1 class="p-md text-center">
                         {{ district.short_name }}
                     </h1>
-                    <div class="p-md">
-                        {{ district.districtprofile.get_profile_lead|safe }}
-                    </div>
+                    {% with latest_prediction=district.prediction_set.last %}
+                        {% if latest_prediction.dem_perc > latest_prediction.rep_perc %}
+                            <ol class="p-sm text-center candidates">
+                                <li class="color-dem">{{ district.dem_nom }}</li>
+                                <li class="color-rep">{{ district.rep_nom }}</li>
+                            </ol>
+                        {% else %}
+                            <ol class="p-sm text-center candidates">
+                                <li class="color-rep">{{ district.rep_nom }}</li>
+                                <li class="color-dem">{{ district.dem_nom }}</li>
+                            </ol>
+                        {% endif %}                    
+                    {% endwith %}
                 </a>
             {% endfor %}
         </ul>

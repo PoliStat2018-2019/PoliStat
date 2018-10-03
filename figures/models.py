@@ -1,4 +1,5 @@
 from django.db import models
+import django.contrib.auth.models as auth
 from django.utils import timezone
 from django.urls import reverse
 from django.db.models.signals import post_save
@@ -8,6 +9,22 @@ from django.utils.functional import cached_property
 from textwrap import dedent
 import re
 
+class User(auth.User):
+    """User proxy to override the user manager."""
+
+    manager = auth.UserManager()
+
+    def __str__(self):
+        return self.get_full_name()
+
+    def __repr__(self):
+        return "User[{}]".format(self.get_full_name())
+
+    class Meta:
+        proxy = True
+        permissions = (
+            ('manage_users', "Can manage user data and privileges"),
+        )
 
 class State(models.Model):
     """
@@ -47,8 +64,13 @@ class District(models.Model):
     # ForeignKey because a district belongs to only one State but
     # each State can have multiple districts
     state = models.ForeignKey(State, on_delete=models.CASCADE)
-    id = models.IntegerField(primary_key=True,unique=True)
     no = models.IntegerField(verbose_name='district number')
+
+    name = models.CharField(verbose_name='district name',
+                            max_length=8,
+                            primary_key=True,
+                            null=False)
+
     dem_nom = models.CharField(verbose_name='democratic nominee',
                                max_length=64,
                                blank=True)
@@ -117,10 +139,30 @@ class DistrictProfile(models.Model):
     def __str__(self):
         return f'{self.district} Profile'
 
+
+class Prediction(models.Model):
+    """
+    Model representing a daily prediction
+    """
+
+    manager = models.Manager()
+
+    district = models.ForeignKey(District, on_delete=models.CASCADE)
+    dem_perc = models.FloatField(verbose_name=
+                                 'democratic predicted percentage',
+                                 default=0)
+    rep_perc = models.FloatField(verbose_name=
+                                 'republican predicted percentage',
+                                 default=0)
+    date = models.DateTimeField(default=timezone.now)
+
+    class Meta:
+        ordering = ["date"]
+
 # This method is required because we load districts from fixtures,
 # which does not call the District.save() method. However, loaddata
 # does send a post_save signal which we connect to here
-def create_profile(sender, instance, *args, **kwargs):
+def init_district_info(sender, instance, *args, **kwargs):
     """Every time a District is created, automatically create
     a DistrictProfile for it
     """
@@ -134,28 +176,13 @@ def create_profile(sender, instance, *args, **kwargs):
             district=instance,
             profile=profile_text
         )
-post_save.connect(create_profile)
+        Prediction.manager.get_or_create(
+            district=instance
+        )
+post_save.connect(init_district_info)
 
 
-class Prediction(models.Model):
-    """
-    Model representing a daily prediction
-    """
-
-    district = models.ForeignKey(District, on_delete=models.CASCADE)
-    dem_predicted_perc = models.FloatField(verbose_name=
-                                            'democratic predicted percentage',
-                                           default=0)
-    rep_predicted_perc = models.FloatField(verbose_name=
-                                            'republican predicted percentage',
-                                           default=0)
-    date = models.DateField(default=timezone.now)
-
-    class Meta:
-        ordering = ["date"]
-
-
-class Post(models.Model):
+class DistrictPost(models.Model):
     """
     Model representing a post
 
@@ -166,10 +193,39 @@ class Post(models.Model):
     # ForeignKey because a post can only be about one district but each
     # district can have multiple posts
     district = models.ForeignKey(District, on_delete=models.CASCADE)
+    author = models.ForeignKey(User,
+                               on_delete=models.CASCADE)
 
     title = models.CharField(max_length=128, unique=True)
     body = models.TextField()
-    date_posted = models.DateField(default=timezone.now)
+    date_posted = models.DateTimeField(default=timezone.now)
+
+    class Meta:
+        # order models by most recent first
+        ordering = ['-date_posted']
+    
+    # def get_absolute_url(self)
+
+    def __str__(self):
+        """Return the title of this post as a string"""
+        return self.title
+
+
+class BlogPost(models.Model):
+    """
+    Model representing a blog post
+
+    A blog post is meant for student written assignments later on in
+    the year such as specific candidates, current events, etc.
+    """
+
+    manager = models.Manager()
+
+    title = models.CharField(max_length=200, unique=True)
+    author = models.ForeignKey(User,
+                              on_delete=models.CASCADE)
+    body = models.TextField()
+    date_posted = models.DateTimeField(default=timezone.now)
 
     class Meta:
         # order models by most recent first

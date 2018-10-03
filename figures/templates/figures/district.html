@@ -1,4 +1,6 @@
 {% extends "figures/base.html" %}
+{% load percentage %}
+
 
 {% block title %}
     {{ district.short_name }}
@@ -6,22 +8,28 @@
 
 {% block content %}
     <section class="section container district-section">
-        <h1>
-            {{ district.short_name }}
-            <span class="district-full">{{ district.long_name }}</span>
+        <h1 class="">
+            {{ district.short_name}}
+            <span class="district-full {% if latest_prediction.dem_perc > latest_prediction.rep_perc %}
+                                            color-dem
+                                        {% else %}
+                                            color-rep
+                                        {% endif %}">
+                {{ district.long_name }}
+            </span>
         </h1>
         <hr class="m-t-md m-b-md">
         <div class="prediction-grid m-b-lg">
             <div class="prediction dem-prediction text-center">
-                <h1 class="p-lg color-dem">58.0%</h1>
+                <h1 class="p-lg color-dem">{{ latest_prediction.dem_perc|percentage }}</h1>
             </div>
-            <h2 class="text-center">
+            <h2 class="m-t-md m-b-md text-center">
                 <i class="fas fa-caret-left"></i> Democrat Win Chance
             </h2>
             <div class="prediction rep-prediction text-center">
-                <h1 class="p-lg color-rep">42.0%</h1>
+                <h1 class="p-lg color-rep">{{ latest_prediction.rep_perc|percentage }}</h1>
             </div>
-            <h2 class="text-center">
+            <h2 class="m-t-md m-b-md text-center">
                 Republican Win Chance <i class="fas fa-caret-right"></i>
             </h2>
         </div>
@@ -31,7 +39,9 @@
             District Profile
             <span>Last Updated: {{ district_profile.modified }}</span>
         </h1>
-        {{ district_profile.profile|safe }}
+        <div>
+            {{ district_profile.profile|safe }}
+        </div>
         <hr class="m-b-md m-t-md">
     </section>
     <section class="section container district-posts-section">

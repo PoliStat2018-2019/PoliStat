@@ -1,7 +1,7 @@
 [
     {
         "model": "figures.District",
-        "pk": 1,
+        "pk": "AL-01",
         "fields": {
             "state": "Alabama",
             "no": 1,
@@ -11,7 +11,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 2,
+        "pk": "AL-02",
         "fields": {
             "state": "Alabama",
             "no": 2,
@@ -21,7 +21,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 3,
+        "pk": "AL-03",
         "fields": {
             "state": "Alabama",
             "no": 3,
@@ -31,7 +31,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 4,
+        "pk": "AL-04",
         "fields": {
             "state": "Alabama",
             "no": 4,
@@ -41,7 +41,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 5,
+        "pk": "AL-05",
         "fields": {
             "state": "Alabama",
             "no": 5,
@@ -51,7 +51,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 6,
+        "pk": "AL-06",
         "fields": {
             "state": "Alabama",
             "no": 6,
@@ -61,7 +61,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 7,
+        "pk": "AL-07",
         "fields": {
             "state": "Alabama",
             "no": 7,
@@ -71,7 +71,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 8,
+        "pk": "AK-01",
         "fields": {
             "state": "Alaska",
             "no": 1,
@@ -81,7 +81,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 9,
+        "pk": "AZ-01",
         "fields": {
             "state": "Arizona",
             "no": 1,
@@ -91,7 +91,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 10,
+        "pk": "AZ-02",
         "fields": {
             "state": "Arizona",
             "no": 2,
@@ -101,7 +101,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 11,
+        "pk": "AZ-03",
         "fields": {
             "state": "Arizona",
             "no": 3,
@@ -111,7 +111,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 12,
+        "pk": "AZ-04",
         "fields": {
             "state": "Arizona",
             "no": 4,
@@ -121,7 +121,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 13,
+        "pk": "AZ-05",
         "fields": {
             "state": "Arizona",
             "no": 5,
@@ -131,7 +131,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 14,
+        "pk": "AZ-06",
         "fields": {
             "state": "Arizona",
             "no": 6,
@@ -141,7 +141,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 15,
+        "pk": "AZ-07",
         "fields": {
             "state": "Arizona",
             "no": 7,
@@ -151,7 +151,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 16,
+        "pk": "AZ-08",
         "fields": {
             "state": "Arizona",
             "no": 8,
@@ -161,7 +161,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 17,
+        "pk": "AZ-09",
         "fields": {
             "state": "Arizona",
             "no": 9,
@@ -171,7 +171,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 18,
+        "pk": "AR-01",
         "fields": {
             "state": "Arkansas",
             "no": 1,
@@ -181,7 +181,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 19,
+        "pk": "AR-02",
         "fields": {
             "state": "Arkansas",
             "no": 2,
@@ -191,7 +191,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 20,
+        "pk": "AR-03",
         "fields": {
             "state": "Arkansas",
             "no": 3,
@@ -201,7 +201,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 21,
+        "pk": "AR-04",
         "fields": {
             "state": "Arkansas",
             "no": 4,
@@ -211,7 +211,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 22,
+        "pk": "CA-01",
         "fields": {
             "state": "California",
             "no": 1,
@@ -221,7 +221,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 23,
+        "pk": "CA-02",
         "fields": {
             "state": "California",
             "no": 2,
@@ -231,7 +231,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 24,
+        "pk": "CA-03",
         "fields": {
             "state": "California",
             "no": 3,
@@ -241,7 +241,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 25,
+        "pk": "CA-04",
         "fields": {
             "state": "California",
             "no": 4,
@@ -251,7 +251,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 26,
+        "pk": "CA-05",
         "fields": {
             "state": "California",
             "no": 5,
@@ -261,7 +261,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 27,
+        "pk": "CA-06",
         "fields": {
             "state": "California",
             "no": 6,
@@ -271,7 +271,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 28,
+        "pk": "CA-07",
         "fields": {
             "state": "California",
             "no": 7,
@@ -281,7 +281,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 29,
+        "pk": "CA-08",
         "fields": {
             "state": "California",
             "no": 8,
@@ -291,7 +291,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 30,
+        "pk": "CA-09",
         "fields": {
             "state": "California",
             "no": 9,
@@ -301,7 +301,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 31,
+        "pk": "CA-10",
         "fields": {
             "state": "California",
             "no": 10,
@@ -311,7 +311,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 32,
+        "pk": "CA-11",
         "fields": {
             "state": "California",
             "no": 11,
@@ -321,7 +321,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 33,
+        "pk": "CA-12",
         "fields": {
             "state": "California",
             "no": 12,
@@ -331,7 +331,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 34,
+        "pk": "CA-13",
         "fields": {
             "state": "California",
             "no": 13,
@@ -341,7 +341,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 35,
+        "pk": "CA-14",
         "fields": {
             "state": "California",
             "no": 14,
@@ -351,7 +351,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 36,
+        "pk": "CA-15",
         "fields": {
             "state": "California",
             "no": 15,
@@ -361,7 +361,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 37,
+        "pk": "CA-16",
         "fields": {
             "state": "California",
             "no": 16,
@@ -371,7 +371,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 38,
+        "pk": "CA-17",
         "fields": {
             "state": "California",
             "no": 17,
@@ -381,7 +381,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 39,
+        "pk": "CA-18",
         "fields": {
             "state": "California",
             "no": 18,
@@ -391,7 +391,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 40,
+        "pk": "CA-19",
         "fields": {
             "state": "California",
             "no": 19,
@@ -401,7 +401,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 41,
+        "pk": "CA-20",
         "fields": {
             "state": "California",
             "no": 20,
@@ -411,7 +411,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 42,
+        "pk": "CA-21",
         "fields": {
             "state": "California",
             "no": 21,
@@ -421,7 +421,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 43,
+        "pk": "CA-22",
         "fields": {
             "state": "California",
             "no": 22,
@@ -431,7 +431,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 44,
+        "pk": "CA-23",
         "fields": {
             "state": "California",
             "no": 23,
@@ -441,7 +441,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 45,
+        "pk": "CA-24",
         "fields": {
             "state": "California",
             "no": 24,
@@ -451,7 +451,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 46,
+        "pk": "CA-25",
         "fields": {
             "state": "California",
             "no": 25,
@@ -461,7 +461,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 47,
+        "pk": "CA-26",
         "fields": {
             "state": "California",
             "no": 26,
@@ -471,7 +471,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 48,
+        "pk": "CA-27",
         "fields": {
             "state": "California",
             "no": 27,
@@ -481,7 +481,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 49,
+        "pk": "CA-28",
         "fields": {
             "state": "California",
             "no": 28,
@@ -491,7 +491,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 50,
+        "pk": "CA-29",
         "fields": {
             "state": "California",
             "no": 29,
@@ -501,7 +501,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 51,
+        "pk": "CA-30",
         "fields": {
             "state": "California",
             "no": 30,
@@ -511,7 +511,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 52,
+        "pk": "CA-31",
         "fields": {
             "state": "California",
             "no": 31,
@@ -521,7 +521,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 53,
+        "pk": "CA-32",
         "fields": {
             "state": "California",
             "no": 32,
@@ -531,7 +531,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 54,
+        "pk": "CA-33",
         "fields": {
             "state": "California",
             "no": 33,
@@ -541,7 +541,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 55,
+        "pk": "CA-34",
         "fields": {
             "state": "California",
             "no": 34,
@@ -551,7 +551,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 56,
+        "pk": "CA-35",
         "fields": {
             "state": "California",
             "no": 35,
@@ -561,7 +561,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 57,
+        "pk": "CA-36",
         "fields": {
             "state": "California",
             "no": 36,
@@ -571,7 +571,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 58,
+        "pk": "CA-37",
         "fields": {
             "state": "California",
             "no": 37,
@@ -581,7 +581,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 59,
+        "pk": "CA-38",
         "fields": {
             "state": "California",
             "no": 38,
@@ -591,7 +591,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 60,
+        "pk": "CA-39",
         "fields": {
             "state": "California",
             "no": 39,
@@ -601,7 +601,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 61,
+        "pk": "CA-40",
         "fields": {
             "state": "California",
             "no": 40,
@@ -611,7 +611,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 62,
+        "pk": "CA-41",
         "fields": {
             "state": "California",
             "no": 41,
@@ -621,7 +621,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 63,
+        "pk": "CA-42",
         "fields": {
             "state": "California",
             "no": 42,
@@ -631,7 +631,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 64,
+        "pk": "CA-43",
         "fields": {
             "state": "California",
             "no": 43,
@@ -641,7 +641,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 65,
+        "pk": "CA-44",
         "fields": {
             "state": "California",
             "no": 44,
@@ -651,7 +651,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 66,
+        "pk": "CA-45",
         "fields": {
             "state": "California",
             "no": 45,
@@ -661,7 +661,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 67,
+        "pk": "CA-46",
         "fields": {
             "state": "California",
             "no": 46,
@@ -671,7 +671,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 68,
+        "pk": "CA-47",
         "fields": {
             "state": "California",
             "no": 47,
@@ -681,7 +681,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 69,
+        "pk": "CA-48",
         "fields": {
             "state": "California",
             "no": 48,
@@ -691,7 +691,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 70,
+        "pk": "CA-49",
         "fields": {
             "state": "California",
             "no": 49,
@@ -701,7 +701,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 71,
+        "pk": "CA-50",
         "fields": {
             "state": "California",
             "no": 50,
@@ -711,7 +711,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 72,
+        "pk": "CA-51",
         "fields": {
             "state": "California",
             "no": 51,
@@ -721,7 +721,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 73,
+        "pk": "CA-52",
         "fields": {
             "state": "California",
             "no": 52,
@@ -731,7 +731,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 74,
+        "pk": "CA-53",
         "fields": {
             "state": "California",
             "no": 53,
@@ -741,7 +741,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 75,
+        "pk": "CO-01",
         "fields": {
             "state": "Colorado",
             "no": 1,
@@ -751,7 +751,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 76,
+        "pk": "CO-02",
         "fields": {
             "state": "Colorado",
             "no": 2,
@@ -761,7 +761,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 77,
+        "pk": "CO-03",
         "fields": {
             "state": "Colorado",
             "no": 3,
@@ -771,7 +771,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 78,
+        "pk": "CO-04",
         "fields": {
             "state": "Colorado",
             "no": 4,
@@ -781,7 +781,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 79,
+        "pk": "CO-05",
         "fields": {
             "state": "Colorado",
             "no": 5,
@@ -791,7 +791,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 80,
+        "pk": "CO-06",
         "fields": {
             "state": "Colorado",
             "no": 6,
@@ -801,7 +801,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 81,
+        "pk": "CO-07",
         "fields": {
             "state": "Colorado",
             "no": 7,
@@ -811,7 +811,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 82,
+        "pk": "CT-01",
         "fields": {
             "state": "Connecticut",
             "no": 1,
@@ -821,7 +821,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 83,
+        "pk": "CT-02",
         "fields": {
             "state": "Connecticut",
             "no": 2,
@@ -831,7 +831,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 84,
+        "pk": "CT-03",
         "fields": {
             "state": "Connecticut",
             "no": 3,
@@ -841,7 +841,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 85,
+        "pk": "CT-04",
         "fields": {
             "state": "Connecticut",
             "no": 4,
@@ -851,7 +851,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 86,
+        "pk": "CT-05",
         "fields": {
             "state": "Connecticut",
             "no": 5,
@@ -861,7 +861,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 87,
+        "pk": "DE-01",
         "fields": {
             "state": "Delaware",
             "no": 1,
@@ -871,7 +871,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 88,
+        "pk": "FL-01",
         "fields": {
             "state": "Florida",
             "no": 1,
@@ -881,7 +881,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 89,
+        "pk": "FL-02",
         "fields": {
             "state": "Florida",
             "no": 2,
@@ -891,7 +891,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 90,
+        "pk": "FL-03",
         "fields": {
             "state": "Florida",
             "no": 3,
@@ -901,7 +901,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 91,
+        "pk": "FL-04",
         "fields": {
             "state": "Florida",
             "no": 4,
@@ -911,7 +911,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 92,
+        "pk": "FL-05",
         "fields": {
             "state": "Florida",
             "no": 5,
@@ -921,7 +921,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 93,
+        "pk": "FL-06",
         "fields": {
             "state": "Florida",
             "no": 6,
@@ -931,7 +931,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 94,
+        "pk": "FL-07",
         "fields": {
             "state": "Florida",
             "no": 7,
@@ -941,7 +941,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 95,
+        "pk": "FL-08",
         "fields": {
             "state": "Florida",
             "no": 8,
@@ -951,7 +951,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 96,
+        "pk": "FL-09",
         "fields": {
             "state": "Florida",
             "no": 9,
@@ -961,7 +961,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 97,
+        "pk": "FL-10",
         "fields": {
             "state": "Florida",
             "no": 10,
@@ -971,7 +971,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 98,
+        "pk": "FL-11",
         "fields": {
             "state": "Florida",
             "no": 11,
@@ -981,7 +981,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 99,
+        "pk": "FL-12",
         "fields": {
             "state": "Florida",
             "no": 12,
@@ -991,7 +991,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 100,
+        "pk": "FL-13",
         "fields": {
             "state": "Florida",
             "no": 13,
@@ -1001,7 +1001,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 101,
+        "pk": "FL-14",
         "fields": {
             "state": "Florida",
             "no": 14,
@@ -1011,7 +1011,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 102,
+        "pk": "FL-15",
         "fields": {
             "state": "Florida",
             "no": 15,
@@ -1021,7 +1021,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 103,
+        "pk": "FL-16",
         "fields": {
             "state": "Florida",
             "no": 16,
@@ -1031,7 +1031,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 104,
+        "pk": "FL-17",
         "fields": {
             "state": "Florida",
             "no": 17,
@@ -1041,7 +1041,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 105,
+        "pk": "FL-18",
         "fields": {
             "state": "Florida",
             "no": 18,
@@ -1051,7 +1051,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 106,
+        "pk": "FL-19",
         "fields": {
             "state": "Florida",
             "no": 19,
@@ -1061,7 +1061,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 107,
+        "pk": "FL-20",
         "fields": {
             "state": "Florida",
             "no": 20,
@@ -1071,7 +1071,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 108,
+        "pk": "FL-21",
         "fields": {
             "state": "Florida",
             "no": 21,
@@ -1081,7 +1081,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 109,
+        "pk": "FL-22",
         "fields": {
             "state": "Florida",
             "no": 22,
@@ -1091,7 +1091,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 110,
+        "pk": "FL-23",
         "fields": {
             "state": "Florida",
             "no": 23,
@@ -1101,7 +1101,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 111,
+        "pk": "FL-24",
         "fields": {
             "state": "Florida",
             "no": 24,
@@ -1111,7 +1111,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 112,
+        "pk": "FL-25",
         "fields": {
             "state": "Florida",
             "no": 25,
@@ -1121,7 +1121,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 113,
+        "pk": "FL-26",
         "fields": {
             "state": "Florida",
             "no": 26,
@@ -1131,7 +1131,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 114,
+        "pk": "FL-27",
         "fields": {
             "state": "Florida",
             "no": 27,
@@ -1141,7 +1141,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 115,
+        "pk": "GA-01",
         "fields": {
             "state": "Georgia",
             "no": 1,
@@ -1151,7 +1151,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 116,
+        "pk": "GA-02",
         "fields": {
             "state": "Georgia",
             "no": 2,
@@ -1161,7 +1161,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 117,
+        "pk": "GA-03",
         "fields": {
             "state": "Georgia",
             "no": 3,
@@ -1171,7 +1171,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 118,
+        "pk": "GA-04",
         "fields": {
             "state": "Georgia",
             "no": 4,
@@ -1181,7 +1181,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 119,
+        "pk": "GA-05",
         "fields": {
             "state": "Georgia",
             "no": 5,
@@ -1191,7 +1191,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 120,
+        "pk": "GA-06",
         "fields": {
             "state": "Georgia",
             "no": 6,
@@ -1201,7 +1201,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 121,
+        "pk": "GA-07",
         "fields": {
             "state": "Georgia",
             "no": 7,
@@ -1211,7 +1211,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 122,
+        "pk": "GA-08",
         "fields": {
             "state": "Georgia",
             "no": 8,
@@ -1221,7 +1221,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 123,
+        "pk": "GA-09",
         "fields": {
             "state": "Georgia",
             "no": 9,
@@ -1231,7 +1231,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 124,
+        "pk": "GA-10",
         "fields": {
             "state": "Georgia",
             "no": 10,
@@ -1241,7 +1241,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 125,
+        "pk": "GA-11",
         "fields": {
             "state": "Georgia",
             "no": 11,
@@ -1251,7 +1251,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 126,
+        "pk": "GA-12",
         "fields": {
             "state": "Georgia",
             "no": 12,
@@ -1261,7 +1261,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 127,
+        "pk": "GA-13",
         "fields": {
             "state": "Georgia",
             "no": 13,
@@ -1271,7 +1271,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 128,
+        "pk": "GA-14",
         "fields": {
             "state": "Georgia",
             "no": 14,
@@ -1281,7 +1281,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 129,
+        "pk": "HI-01",
         "fields": {
             "state": "Hawaii",
             "no": 1,
@@ -1291,7 +1291,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 130,
+        "pk": "HI-02",
         "fields": {
             "state": "Hawaii",
             "no": 2,
@@ -1301,7 +1301,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 131,
+        "pk": "ID-01",
         "fields": {
             "state": "Idaho",
             "no": 1,
@@ -1311,7 +1311,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 132,
+        "pk": "ID-02",
         "fields": {
             "state": "Idaho",
             "no": 2,
@@ -1321,7 +1321,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 133,
+        "pk": "IL-01",
         "fields": {
             "state": "Illinois",
             "no": 1,
@@ -1331,7 +1331,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 134,
+        "pk": "IL-02",
         "fields": {
             "state": "Illinois",
             "no": 2,
@@ -1341,7 +1341,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 135,
+        "pk": "IL-03",
         "fields": {
             "state": "Illinois",
             "no": 3,
@@ -1351,7 +1351,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 136,
+        "pk": "IL-04",
         "fields": {
             "state": "Illinois",
             "no": 4,
@@ -1361,7 +1361,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 137,
+        "pk": "IL-05",
         "fields": {
             "state": "Illinois",
             "no": 5,
@@ -1371,7 +1371,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 138,
+        "pk": "IL-06",
         "fields": {
             "state": "Illinois",
             "no": 6,
@@ -1381,7 +1381,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 139,
+        "pk": "IL-07",
         "fields": {
             "state": "Illinois",
             "no": 7,
@@ -1391,7 +1391,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 140,
+        "pk": "IL-08",
         "fields": {
             "state": "Illinois",
             "no": 8,
@@ -1401,7 +1401,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 141,
+        "pk": "IL-09",
         "fields": {
             "state": "Illinois",
             "no": 9,
@@ -1411,7 +1411,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 142,
+        "pk": "IL-10",
         "fields": {
             "state": "Illinois",
             "no": 10,
@@ -1421,7 +1421,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 143,
+        "pk": "IL-11",
         "fields": {
             "state": "Illinois",
             "no": 11,
@@ -1431,7 +1431,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 144,
+        "pk": "IL-12",
         "fields": {
             "state": "Illinois",
             "no": 12,
@@ -1441,7 +1441,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 145,
+        "pk": "IL-13",
         "fields": {
             "state": "Illinois",
             "no": 13,
@@ -1451,7 +1451,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 146,
+        "pk": "IL-14",
         "fields": {
             "state": "Illinois",
             "no": 14,
@@ -1461,7 +1461,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 147,
+        "pk": "IL-15",
         "fields": {
             "state": "Illinois",
             "no": 15,
@@ -1471,7 +1471,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 148,
+        "pk": "IL-16",
         "fields": {
             "state": "Illinois",
             "no": 16,
@@ -1481,7 +1481,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 149,
+        "pk": "IL-17",
         "fields": {
             "state": "Illinois",
             "no": 17,
@@ -1491,7 +1491,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 150,
+        "pk": "IL-18",
         "fields": {
             "state": "Illinois",
             "no": 18,
@@ -1501,7 +1501,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 151,
+        "pk": "IN-01",
         "fields": {
             "state": "Indiana",
             "no": 1,
@@ -1511,7 +1511,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 152,
+        "pk": "IN-02",
         "fields": {
             "state": "Indiana",
             "no": 2,
@@ -1521,7 +1521,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 153,
+        "pk": "IN-03",
         "fields": {
             "state": "Indiana",
             "no": 3,
@@ -1531,7 +1531,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 154,
+        "pk": "IN-04",
         "fields": {
             "state": "Indiana",
             "no": 4,
@@ -1541,7 +1541,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 155,
+        "pk": "IN-05",
         "fields": {
             "state": "Indiana",
             "no": 5,
@@ -1551,7 +1551,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 156,
+        "pk": "IN-06",
         "fields": {
             "state": "Indiana",
             "no": 6,
@@ -1561,7 +1561,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 157,
+        "pk": "IN-07",
         "fields": {
             "state": "Indiana",
             "no": 7,
@@ -1571,7 +1571,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 158,
+        "pk": "IN-08",
         "fields": {
             "state": "Indiana",
             "no": 8,
@@ -1581,7 +1581,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 159,
+        "pk": "IN-09",
         "fields": {
             "state": "Indiana",
             "no": 9,
@@ -1591,7 +1591,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 160,
+        "pk": "IA-01",
         "fields": {
             "state": "Iowa",
             "no": 1,
@@ -1601,7 +1601,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 161,
+        "pk": "IA-02",
         "fields": {
             "state": "Iowa",
             "no": 2,
@@ -1611,7 +1611,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 162,
+        "pk": "IA-03",
         "fields": {
             "state": "Iowa",
             "no": 3,
@@ -1621,7 +1621,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 163,
+        "pk": "IA-04",
         "fields": {
             "state": "Iowa",
             "no": 4,
@@ -1631,7 +1631,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 164,
+        "pk": "KS-01",
         "fields": {
             "state": "Kansas",
             "no": 1,
@@ -1641,7 +1641,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 165,
+        "pk": "KS-02",
         "fields": {
             "state": "Kansas",
             "no": 2,
@@ -1651,7 +1651,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 166,
+        "pk": "KS-03",
         "fields": {
             "state": "Kansas",
             "no": 3,
@@ -1661,7 +1661,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 167,
+        "pk": "KS-04",
         "fields": {
             "state": "Kansas",
             "no": 4,
@@ -1671,7 +1671,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 168,
+        "pk": "KY-01",
         "fields": {
             "state": "Kentucky",
             "no": 1,
@@ -1681,7 +1681,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 169,
+        "pk": "KY-02",
         "fields": {
             "state": "Kentucky",
             "no": 2,
@@ -1691,7 +1691,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 170,
+        "pk": "KY-03",
         "fields": {
             "state": "Kentucky",
             "no": 3,
@@ -1701,7 +1701,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 171,
+        "pk": "KY-04",
         "fields": {
             "state": "Kentucky",
             "no": 4,
@@ -1711,7 +1711,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 172,
+        "pk": "KY-05",
         "fields": {
             "state": "Kentucky",
             "no": 5,
@@ -1721,7 +1721,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 173,
+        "pk": "KY-06",
         "fields": {
             "state": "Kentucky",
             "no": 6,
@@ -1731,7 +1731,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 174,
+        "pk": "LA-01",
         "fields": {
             "state": "Louisiana",
             "no": 1,
@@ -1741,7 +1741,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 175,
+        "pk": "LA-02",
         "fields": {
             "state": "Louisiana",
             "no": 2,
@@ -1751,7 +1751,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 176,
+        "pk": "LA-03",
         "fields": {
             "state": "Louisiana",
             "no": 3,
@@ -1761,7 +1761,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 177,
+        "pk": "LA-04",
         "fields": {
             "state": "Louisiana",
             "no": 4,
@@ -1771,7 +1771,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 178,
+        "pk": "LA-05",
         "fields": {
             "state": "Louisiana",
             "no": 5,
@@ -1781,7 +1781,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 179,
+        "pk": "LA-06",
         "fields": {
             "state": "Louisiana",
             "no": 6,
@@ -1791,7 +1791,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 180,
+        "pk": "ME-01",
         "fields": {
             "state": "Maine",
             "no": 1,
@@ -1801,7 +1801,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 181,
+        "pk": "ME-02",
         "fields": {
             "state": "Maine",
             "no": 2,
@@ -1811,7 +1811,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 182,
+        "pk": "MD-01",
         "fields": {
             "state": "Maryland",
             "no": 1,
@@ -1821,7 +1821,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 183,
+        "pk": "MD-02",
         "fields": {
             "state": "Maryland",
             "no": 2,
@@ -1831,7 +1831,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 184,
+        "pk": "MD-03",
         "fields": {
             "state": "Maryland",
             "no": 3,
@@ -1841,7 +1841,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 185,
+        "pk": "MD-04",
         "fields": {
             "state": "Maryland",
             "no": 4,
@@ -1851,7 +1851,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 186,
+        "pk": "MD-05",
         "fields": {
             "state": "Maryland",
             "no": 5,
@@ -1861,7 +1861,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 187,
+        "pk": "MD-06",
         "fields": {
             "state": "Maryland",
             "no": 6,
@@ -1871,7 +1871,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 188,
+        "pk": "MD-07",
         "fields": {
             "state": "Maryland",
             "no": 7,
@@ -1881,7 +1881,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 189,
+        "pk": "MD-08",
         "fields": {
             "state": "Maryland",
             "no": 8,
@@ -1891,7 +1891,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 190,
+        "pk": "MA-01",
         "fields": {
             "state": "Massachusetts",
             "no": 1,
@@ -1901,7 +1901,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 191,
+        "pk": "MA-02",
         "fields": {
             "state": "Massachusetts",
             "no": 2,
@@ -1911,7 +1911,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 192,
+        "pk": "MA-03",
         "fields": {
             "state": "Massachusetts",
             "no": 3,
@@ -1921,7 +1921,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 193,
+        "pk": "MA-04",
         "fields": {
             "state": "Massachusetts",
             "no": 4,
@@ -1931,7 +1931,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 194,
+        "pk": "MA-05",
         "fields": {
             "state": "Massachusetts",
             "no": 5,
@@ -1941,7 +1941,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 195,
+        "pk": "MA-06",
         "fields": {
             "state": "Massachusetts",
             "no": 6,
@@ -1951,7 +1951,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 196,
+        "pk": "MA-07",
         "fields": {
             "state": "Massachusetts",
             "no": 7,
@@ -1961,7 +1961,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 197,
+        "pk": "MA-08",
         "fields": {
             "state": "Massachusetts",
             "no": 8,
@@ -1971,7 +1971,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 198,
+        "pk": "MA-09",
         "fields": {
             "state": "Massachusetts",
             "no": 9,
@@ -1981,7 +1981,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 199,
+        "pk": "MI-01",
         "fields": {
             "state": "Michigan",
             "no": 1,
@@ -1991,7 +1991,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 200,
+        "pk": "MI-02",
         "fields": {
             "state": "Michigan",
             "no": 2,
@@ -2001,7 +2001,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 201,
+        "pk": "MI-03",
         "fields": {
             "state": "Michigan",
             "no": 3,
@@ -2011,7 +2011,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 202,
+        "pk": "MI-04",
         "fields": {
             "state": "Michigan",
             "no": 4,
@@ -2021,7 +2021,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 203,
+        "pk": "MI-05",
         "fields": {
             "state": "Michigan",
             "no": 5,
@@ -2031,7 +2031,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 204,
+        "pk": "MI-06",
         "fields": {
             "state": "Michigan",
             "no": 6,
@@ -2041,7 +2041,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 205,
+        "pk": "MI-07",
         "fields": {
             "state": "Michigan",
             "no": 7,
@@ -2051,7 +2051,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 206,
+        "pk": "MI-08",
         "fields": {
             "state": "Michigan",
             "no": 8,
@@ -2061,7 +2061,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 207,
+        "pk": "MI-09",
         "fields": {
             "state": "Michigan",
             "no": 9,
@@ -2071,7 +2071,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 208,
+        "pk": "MI-10",
         "fields": {
             "state": "Michigan",
             "no": 10,
@@ -2081,7 +2081,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 209,
+        "pk": "MI-11",
         "fields": {
             "state": "Michigan",
             "no": 11,
@@ -2091,7 +2091,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 210,
+        "pk": "MI-12",
         "fields": {
             "state": "Michigan",
             "no": 12,
@@ -2101,7 +2101,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 211,
+        "pk": "MI-13",
         "fields": {
             "state": "Michigan",
             "no": 13,
@@ -2111,7 +2111,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 212,
+        "pk": "MI-14",
         "fields": {
             "state": "Michigan",
             "no": 14,
@@ -2121,7 +2121,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 213,
+        "pk": "MN-01",
         "fields": {
             "state": "Minnesota",
             "no": 1,
@@ -2131,7 +2131,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 214,
+        "pk": "MN-02",
         "fields": {
             "state": "Minnesota",
             "no": 2,
@@ -2141,7 +2141,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 215,
+        "pk": "MN-03",
         "fields": {
             "state": "Minnesota",
             "no": 3,
@@ -2151,7 +2151,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 216,
+        "pk": "MN-04",
         "fields": {
             "state": "Minnesota",
             "no": 4,
@@ -2161,7 +2161,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 217,
+        "pk": "MN-05",
         "fields": {
             "state": "Minnesota",
             "no": 5,
@@ -2171,7 +2171,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 218,
+        "pk": "MN-06",
         "fields": {
             "state": "Minnesota",
             "no": 6,
@@ -2181,7 +2181,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 219,
+        "pk": "MN-07",
         "fields": {
             "state": "Minnesota",
             "no": 7,
@@ -2191,7 +2191,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 220,
+        "pk": "MN-08",
         "fields": {
             "state": "Minnesota",
             "no": 8,
@@ -2201,7 +2201,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 221,
+        "pk": "MS-01",
         "fields": {
             "state": "Mississippi",
             "no": 1,
@@ -2211,7 +2211,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 222,
+        "pk": "MS-02",
         "fields": {
             "state": "Mississippi",
             "no": 2,
@@ -2221,7 +2221,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 223,
+        "pk": "MS-03",
         "fields": {
             "state": "Mississippi",
             "no": 3,
@@ -2231,7 +2231,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 224,
+        "pk": "MS-04",
         "fields": {
             "state": "Mississippi",
             "no": 4,
@@ -2241,7 +2241,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 225,
+        "pk": "MO-01",
         "fields": {
             "state": "Missouri",
             "no": 1,
@@ -2251,7 +2251,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 226,
+        "pk": "MO-02",
         "fields": {
             "state": "Missouri",
             "no": 2,
@@ -2261,7 +2261,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 227,
+        "pk": "MO-03",
         "fields": {
             "state": "Missouri",
             "no": 3,
@@ -2271,7 +2271,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 228,
+        "pk": "MO-04",
         "fields": {
             "state": "Missouri",
             "no": 4,
@@ -2281,7 +2281,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 229,
+        "pk": "MO-05",
         "fields": {
             "state": "Missouri",
             "no": 5,
@@ -2291,7 +2291,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 230,
+        "pk": "MO-06",
         "fields": {
             "state": "Missouri",
             "no": 6,
@@ -2301,7 +2301,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 231,
+        "pk": "MO-07",
         "fields": {
             "state": "Missouri",
             "no": 7,
@@ -2311,7 +2311,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 232,
+        "pk": "MO-08",
         "fields": {
             "state": "Missouri",
             "no": 8,
@@ -2321,7 +2321,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 233,
+        "pk": "MT-01",
         "fields": {
             "state": "Montana",
             "no": 1,
@@ -2331,7 +2331,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 234,
+        "pk": "NE-01",
         "fields": {
             "state": "Nebraska",
             "no": 1,
@@ -2341,7 +2341,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 235,
+        "pk": "NE-02",
         "fields": {
             "state": "Nebraska",
             "no": 2,
@@ -2351,7 +2351,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 236,
+        "pk": "NE-03",
         "fields": {
             "state": "Nebraska",
             "no": 3,
@@ -2361,7 +2361,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 237,
+        "pk": "NV-01",
         "fields": {
             "state": "Nevada",
             "no": 1,
@@ -2371,7 +2371,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 238,
+        "pk": "NV-02",
         "fields": {
             "state": "Nevada",
             "no": 2,
@@ -2381,7 +2381,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 239,
+        "pk": "NV-03",
         "fields": {
             "state": "Nevada",
             "no": 3,
@@ -2391,7 +2391,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 240,
+        "pk": "NV-04",
         "fields": {
             "state": "Nevada",
             "no": 4,
@@ -2401,7 +2401,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 241,
+        "pk": "NH-01",
         "fields": {
             "state": "New Hampshire",
             "no": 1,
@@ -2411,7 +2411,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 242,
+        "pk": "NH-02",
         "fields": {
             "state": "New Hampshire",
             "no": 2,
@@ -2421,7 +2421,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 243,
+        "pk": "NJ-01",
         "fields": {
             "state": "New Jersey",
             "no": 1,
@@ -2431,7 +2431,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 244,
+        "pk": "NJ-02",
         "fields": {
             "state": "New Jersey",
             "no": 2,
@@ -2441,7 +2441,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 245,
+        "pk": "NJ-03",
         "fields": {
             "state": "New Jersey",
             "no": 3,
@@ -2451,7 +2451,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 246,
+        "pk": "NJ-04",
         "fields": {
             "state": "New Jersey",
             "no": 4,
@@ -2461,7 +2461,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 247,
+        "pk": "NJ-05",
         "fields": {
             "state": "New Jersey",
             "no": 5,
@@ -2471,7 +2471,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 248,
+        "pk": "NJ-06",
         "fields": {
             "state": "New Jersey",
             "no": 6,
@@ -2481,7 +2481,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 249,
+        "pk": "NJ-07",
         "fields": {
             "state": "New Jersey",
             "no": 7,
@@ -2491,7 +2491,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 250,
+        "pk": "NJ-08",
         "fields": {
             "state": "New Jersey",
             "no": 8,
@@ -2501,7 +2501,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 251,
+        "pk": "NJ-09",
         "fields": {
             "state": "New Jersey",
             "no": 9,
@@ -2511,7 +2511,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 252,
+        "pk": "NJ-10",
         "fields": {
             "state": "New Jersey",
             "no": 10,
@@ -2521,7 +2521,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 253,
+        "pk": "NJ-11",
         "fields": {
             "state": "New Jersey",
             "no": 11,
@@ -2531,7 +2531,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 254,
+        "pk": "NJ-12",
         "fields": {
             "state": "New Jersey",
             "no": 12,
@@ -2541,7 +2541,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 255,
+        "pk": "NM-01",
         "fields": {
             "state": "New Mexico",
             "no": 1,
@@ -2551,7 +2551,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 256,
+        "pk": "NM-02",
         "fields": {
             "state": "New Mexico",
             "no": 2,
@@ -2561,7 +2561,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 257,
+        "pk": "NM-03",
         "fields": {
             "state": "New Mexico",
             "no": 3,
@@ -2571,7 +2571,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 258,
+        "pk": "NY-01",
         "fields": {
             "state": "New York",
             "no": 1,
@@ -2581,7 +2581,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 259,
+        "pk": "NY-02",
         "fields": {
             "state": "New York",
             "no": 2,
@@ -2591,7 +2591,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 260,
+        "pk": "NY-03",
         "fields": {
             "state": "New York",
             "no": 3,
@@ -2601,7 +2601,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 261,
+        "pk": "NY-04",
         "fields": {
             "state": "New York",
             "no": 4,
@@ -2611,7 +2611,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 262,
+        "pk": "NY-05",
         "fields": {
             "state": "New York",
             "no": 5,
@@ -2621,7 +2621,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 263,
+        "pk": "NY-06",
         "fields": {
             "state": "New York",
             "no": 6,
@@ -2631,7 +2631,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 264,
+        "pk": "NY-07",
         "fields": {
             "state": "New York",
             "no": 7,
@@ -2641,7 +2641,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 265,
+        "pk": "NY-08",
         "fields": {
             "state": "New York",
             "no": 8,
@@ -2651,7 +2651,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 266,
+        "pk": "NY-09",
         "fields": {
             "state": "New York",
             "no": 9,
@@ -2661,7 +2661,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 267,
+        "pk": "NY-10",
         "fields": {
             "state": "New York",
             "no": 10,
@@ -2671,7 +2671,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 268,
+        "pk": "NY-11",
         "fields": {
             "state": "New York",
             "no": 11,
@@ -2681,7 +2681,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 269,
+        "pk": "NY-12",
         "fields": {
             "state": "New York",
             "no": 12,
@@ -2691,7 +2691,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 270,
+        "pk": "NY-13",
         "fields": {
             "state": "New York",
             "no": 13,
@@ -2701,7 +2701,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 271,
+        "pk": "NY-14",
         "fields": {
             "state": "New York",
             "no": 14,
@@ -2711,7 +2711,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 272,
+        "pk": "NY-15",
         "fields": {
             "state": "New York",
             "no": 15,
@@ -2721,7 +2721,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 273,
+        "pk": "NY-16",
         "fields": {
             "state": "New York",
             "no": 16,
@@ -2731,7 +2731,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 274,
+        "pk": "NY-17",
         "fields": {
             "state": "New York",
             "no": 17,
@@ -2741,7 +2741,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 275,
+        "pk": "NY-18",
         "fields": {
             "state": "New York",
             "no": 18,
@@ -2751,7 +2751,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 276,
+        "pk": "NY-19",
         "fields": {
             "state": "New York",
             "no": 19,
@@ -2761,7 +2761,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 277,
+        "pk": "NY-20",
         "fields": {
             "state": "New York",
             "no": 20,
@@ -2771,7 +2771,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 278,
+        "pk": "NY-21",
         "fields": {
             "state": "New York",
             "no": 21,
@@ -2781,7 +2781,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 279,
+        "pk": "NY-22",
         "fields": {
             "state": "New York",
             "no": 22,
@@ -2791,7 +2791,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 280,
+        "pk": "NY-23",
         "fields": {
             "state": "New York",
             "no": 23,
@@ -2801,7 +2801,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 281,
+        "pk": "NY-24",
         "fields": {
             "state": "New York",
             "no": 24,
@@ -2811,7 +2811,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 282,
+        "pk": "NY-25",
         "fields": {
             "state": "New York",
             "no": 25,
@@ -2821,7 +2821,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 283,
+        "pk": "NY-26",
         "fields": {
             "state": "New York",
             "no": 26,
@@ -2831,7 +2831,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 284,
+        "pk": "NY-27",
         "fields": {
             "state": "New York",
             "no": 27,
@@ -2841,7 +2841,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 285,
+        "pk": "NC-01",
         "fields": {
             "state": "North Carolina",
             "no": 1,
@@ -2851,7 +2851,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 286,
+        "pk": "NC-02",
         "fields": {
             "state": "North Carolina",
             "no": 2,
@@ -2861,7 +2861,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 287,
+        "pk": "NC-03",
         "fields": {
             "state": "North Carolina",
             "no": 3,
@@ -2871,7 +2871,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 288,
+        "pk": "NC-04",
         "fields": {
             "state": "North Carolina",
             "no": 4,
@@ -2881,7 +2881,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 289,
+        "pk": "NC-05",
         "fields": {
             "state": "North Carolina",
             "no": 5,
@@ -2891,7 +2891,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 290,
+        "pk": "NC-06",
         "fields": {
             "state": "North Carolina",
             "no": 6,
@@ -2901,7 +2901,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 291,
+        "pk": "NC-07",
         "fields": {
             "state": "North Carolina",
             "no": 7,
@@ -2911,7 +2911,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 292,
+        "pk": "NC-08",
         "fields": {
             "state": "North Carolina",
             "no": 8,
@@ -2921,7 +2921,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 293,
+        "pk": "NC-09",
         "fields": {
             "state": "North Carolina",
             "no": 9,
@@ -2931,7 +2931,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 294,
+        "pk": "NC-10",
         "fields": {
             "state": "North Carolina",
             "no": 10,
@@ -2941,7 +2941,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 295,
+        "pk": "NC-11",
         "fields": {
             "state": "North Carolina",
             "no": 11,
@@ -2951,7 +2951,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 296,
+        "pk": "NC-12",
         "fields": {
             "state": "North Carolina",
             "no": 12,
@@ -2961,7 +2961,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 297,
+        "pk": "NC-13",
         "fields": {
             "state": "North Carolina",
             "no": 13,
@@ -2971,7 +2971,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 298,
+        "pk": "ND-01",
         "fields": {
             "state": "North Dakota",
             "no": 1,
@@ -2981,7 +2981,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 299,
+        "pk": "OH-01",
         "fields": {
             "state": "Ohio",
             "no": 1,
@@ -2991,7 +2991,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 300,
+        "pk": "OH-02",
         "fields": {
             "state": "Ohio",
             "no": 2,
@@ -3001,7 +3001,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 301,
+        "pk": "OH-03",
         "fields": {
             "state": "Ohio",
             "no": 3,
@@ -3011,7 +3011,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 302,
+        "pk": "OH-04",
         "fields": {
             "state": "Ohio",
             "no": 4,
@@ -3021,7 +3021,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 303,
+        "pk": "OH-05",
         "fields": {
             "state": "Ohio",
             "no": 5,
@@ -3031,7 +3031,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 304,
+        "pk": "OH-06",
         "fields": {
             "state": "Ohio",
             "no": 6,
@@ -3041,7 +3041,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 305,
+        "pk": "OH-07",
         "fields": {
             "state": "Ohio",
             "no": 7,
@@ -3051,7 +3051,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 306,
+        "pk": "OH-08",
         "fields": {
             "state": "Ohio",
             "no": 8,
@@ -3061,7 +3061,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 307,
+        "pk": "OH-09",
         "fields": {
             "state": "Ohio",
             "no": 9,
@@ -3071,7 +3071,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 308,
+        "pk": "OH-10",
         "fields": {
             "state": "Ohio",
             "no": 10,
@@ -3081,7 +3081,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 309,
+        "pk": "OH-11",
         "fields": {
             "state": "Ohio",
             "no": 11,
@@ -3091,7 +3091,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 310,
+        "pk": "OH-12",
         "fields": {
             "state": "Ohio",
             "no": 12,
@@ -3101,7 +3101,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 311,
+        "pk": "OH-13",
         "fields": {
             "state": "Ohio",
             "no": 13,
@@ -3111,7 +3111,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 312,
+        "pk": "OH-14",
         "fields": {
             "state": "Ohio",
             "no": 14,
@@ -3121,7 +3121,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 313,
+        "pk": "OH-15",
         "fields": {
             "state": "Ohio",
             "no": 15,
@@ -3131,7 +3131,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 314,
+        "pk": "OH-16",
         "fields": {
             "state": "Ohio",
             "no": 16,
@@ -3141,7 +3141,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 315,
+        "pk": "OK-01",
         "fields": {
             "state": "Oklahoma",
             "no": 1,
@@ -3151,7 +3151,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 316,
+        "pk": "OK-02",
         "fields": {
             "state": "Oklahoma",
             "no": 2,
@@ -3161,7 +3161,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 317,
+        "pk": "OK-03",
         "fields": {
             "state": "Oklahoma",
             "no": 3,
@@ -3171,7 +3171,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 318,
+        "pk": "OK-04",
         "fields": {
             "state": "Oklahoma",
             "no": 4,
@@ -3181,7 +3181,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 319,
+        "pk": "OK-05",
         "fields": {
             "state": "Oklahoma",
             "no": 5,
@@ -3191,7 +3191,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 320,
+        "pk": "OR-01",
         "fields": {
             "state": "Oregon",
             "no": 1,
@@ -3201,7 +3201,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 321,
+        "pk": "OR-02",
         "fields": {
             "state": "Oregon",
             "no": 2,
@@ -3211,7 +3211,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 322,
+        "pk": "OR-03",
         "fields": {
             "state": "Oregon",
             "no": 3,
@@ -3221,7 +3221,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 323,
+        "pk": "OR-04",
         "fields": {
             "state": "Oregon",
             "no": 4,
@@ -3231,7 +3231,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 324,
+        "pk": "OR-05",
         "fields": {
             "state": "Oregon",
             "no": 5,
@@ -3241,7 +3241,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 325,
+        "pk": "PA-01",
         "fields": {
             "state": "Pennsylvania",
             "no": 1,
@@ -3251,7 +3251,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 326,
+        "pk": "PA-02",
         "fields": {
             "state": "Pennsylvania",
             "no": 2,
@@ -3261,7 +3261,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 327,
+        "pk": "PA-03",
         "fields": {
             "state": "Pennsylvania",
             "no": 3,
@@ -3271,7 +3271,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 328,
+        "pk": "PA-04",
         "fields": {
             "state": "Pennsylvania",
             "no": 4,
@@ -3281,7 +3281,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 329,
+        "pk": "PA-05",
         "fields": {
             "state": "Pennsylvania",
             "no": 5,
@@ -3291,7 +3291,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 330,
+        "pk": "PA-06",
         "fields": {
             "state": "Pennsylvania",
             "no": 6,
@@ -3301,7 +3301,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 331,
+        "pk": "PA-07",
         "fields": {
             "state": "Pennsylvania",
             "no": 7,
@@ -3311,7 +3311,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 332,
+        "pk": "PA-08",
         "fields": {
             "state": "Pennsylvania",
             "no": 8,
@@ -3321,7 +3321,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 333,
+        "pk": "PA-09",
         "fields": {
             "state": "Pennsylvania",
             "no": 9,
@@ -3331,7 +3331,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 334,
+        "pk": "PA-10",
         "fields": {
             "state": "Pennsylvania",
             "no": 10,
@@ -3341,7 +3341,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 335,
+        "pk": "PA-11",
         "fields": {
             "state": "Pennsylvania",
             "no": 11,
@@ -3351,7 +3351,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 336,
+        "pk": "PA-12",
         "fields": {
             "state": "Pennsylvania",
             "no": 12,
@@ -3361,7 +3361,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 337,
+        "pk": "PA-13",
         "fields": {
             "state": "Pennsylvania",
             "no": 13,
@@ -3371,7 +3371,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 338,
+        "pk": "PA-14",
         "fields": {
             "state": "Pennsylvania",
             "no": 14,
@@ -3381,7 +3381,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 339,
+        "pk": "PA-15",
         "fields": {
             "state": "Pennsylvania",
             "no": 15,
@@ -3391,7 +3391,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 340,
+        "pk": "PA-16",
         "fields": {
             "state": "Pennsylvania",
             "no": 16,
@@ -3401,7 +3401,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 341,
+        "pk": "PA-17",
         "fields": {
             "state": "Pennsylvania",
             "no": 17,
@@ -3411,7 +3411,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 342,
+        "pk": "PA-18",
         "fields": {
             "state": "Pennsylvania",
             "no": 18,
@@ -3421,7 +3421,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 343,
+        "pk": "RI-01",
         "fields": {
             "state": "Rhode Island",
             "no": 1,
@@ -3431,7 +3431,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 344,
+        "pk": "RI-02",
         "fields": {
             "state": "Rhode Island",
             "no": 2,
@@ -3441,7 +3441,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 345,
+        "pk": "SC-01",
         "fields": {
             "state": "South Carolina",
             "no": 1,
@@ -3451,7 +3451,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 346,
+        "pk": "SC-02",
         "fields": {
             "state": "South Carolina",
             "no": 2,
@@ -3461,7 +3461,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 347,
+        "pk": "SC-03",
         "fields": {
             "state": "South Carolina",
             "no": 3,
@@ -3471,7 +3471,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 348,
+        "pk": "SC-04",
         "fields": {
             "state": "South Carolina",
             "no": 4,
@@ -3481,7 +3481,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 349,
+        "pk": "SC-05",
         "fields": {
             "state": "South Carolina",
             "no": 5,
@@ -3491,7 +3491,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 350,
+        "pk": "SC-06",
         "fields": {
             "state": "South Carolina",
             "no": 6,
@@ -3501,7 +3501,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 351,
+        "pk": "SC-07",
         "fields": {
             "state": "South Carolina",
             "no": 7,
@@ -3511,7 +3511,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 352,
+        "pk": "SD-01",
         "fields": {
             "state": "South Dakota",
             "no": 1,
@@ -3521,7 +3521,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 353,
+        "pk": "TN-01",
         "fields": {
             "state": "Tennessee",
             "no": 1,
@@ -3531,7 +3531,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 354,
+        "pk": "TN-02",
         "fields": {
             "state": "Tennessee",
             "no": 2,
@@ -3541,7 +3541,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 355,
+        "pk": "TN-03",
         "fields": {
             "state": "Tennessee",
             "no": 3,
@@ -3551,7 +3551,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 356,
+        "pk": "TN-04",
         "fields": {
             "state": "Tennessee",
             "no": 4,
@@ -3561,7 +3561,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 357,
+        "pk": "TN-05",
         "fields": {
             "state": "Tennessee",
             "no": 5,
@@ -3571,7 +3571,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 358,
+        "pk": "TN-06",
         "fields": {
             "state": "Tennessee",
             "no": 6,
@@ -3581,7 +3581,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 359,
+        "pk": "TN-07",
         "fields": {
             "state": "Tennessee",
             "no": 7,
@@ -3591,7 +3591,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 360,
+        "pk": "TN-08",
         "fields": {
             "state": "Tennessee",
             "no": 8,
@@ -3601,7 +3601,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 361,
+        "pk": "TN-09",
         "fields": {
             "state": "Tennessee",
             "no": 9,
@@ -3611,7 +3611,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 362,
+        "pk": "TX-01",
         "fields": {
             "state": "Texas",
             "no": 1,
@@ -3621,7 +3621,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 363,
+        "pk": "TX-02",
         "fields": {
             "state": "Texas",
             "no": 2,
@@ -3631,7 +3631,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 364,
+        "pk": "TX-03",
         "fields": {
             "state": "Texas",
             "no": 3,
@@ -3641,7 +3641,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 365,
+        "pk": "TX-04",
         "fields": {
             "state": "Texas",
             "no": 4,
@@ -3651,7 +3651,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 366,
+        "pk": "TX-05",
         "fields": {
             "state": "Texas",
             "no": 5,
@@ -3661,7 +3661,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 367,
+        "pk": "TX-06",
         "fields": {
             "state": "Texas",
             "no": 6,
@@ -3671,7 +3671,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 368,
+        "pk": "TX-07",
         "fields": {
             "state": "Texas",
             "no": 7,
@@ -3681,7 +3681,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 369,
+        "pk": "TX-08",
         "fields": {
             "state": "Texas",
             "no": 8,
@@ -3691,7 +3691,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 370,
+        "pk": "TX-09",
         "fields": {
             "state": "Texas",
             "no": 9,
@@ -3701,7 +3701,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 371,
+        "pk": "TX-10",
         "fields": {
             "state": "Texas",
             "no": 10,
@@ -3711,7 +3711,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 372,
+        "pk": "TX-11",
         "fields": {
             "state": "Texas",
             "no": 11,
@@ -3721,7 +3721,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 373,
+        "pk": "TX-12",
         "fields": {
             "state": "Texas",
             "no": 12,
@@ -3731,7 +3731,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 374,
+        "pk": "TX-13",
         "fields": {
             "state": "Texas",
             "no": 13,
@@ -3741,7 +3741,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 375,
+        "pk": "TX-14",
         "fields": {
             "state": "Texas",
             "no": 14,
@@ -3751,7 +3751,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 376,
+        "pk": "TX-15",
         "fields": {
             "state": "Texas",
             "no": 15,
@@ -3761,7 +3761,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 377,
+        "pk": "TX-16",
         "fields": {
             "state": "Texas",
             "no": 16,
@@ -3771,7 +3771,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 378,
+        "pk": "TX-17",
         "fields": {
             "state": "Texas",
             "no": 17,
@@ -3781,7 +3781,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 379,
+        "pk": "TX-18",
         "fields": {
             "state": "Texas",
             "no": 18,
@@ -3791,7 +3791,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 380,
+        "pk": "TX-19",
         "fields": {
             "state": "Texas",
             "no": 19,
@@ -3801,7 +3801,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 381,
+        "pk": "TX-20",
         "fields": {
             "state": "Texas",
             "no": 20,
@@ -3811,7 +3811,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 382,
+        "pk": "TX-21",
         "fields": {
             "state": "Texas",
             "no": 21,
@@ -3821,7 +3821,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 383,
+        "pk": "TX-22",
         "fields": {
             "state": "Texas",
             "no": 22,
@@ -3831,7 +3831,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 384,
+        "pk": "TX-23",
         "fields": {
             "state": "Texas",
             "no": 23,
@@ -3841,7 +3841,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 385,
+        "pk": "TX-24",
         "fields": {
             "state": "Texas",
             "no": 24,
@@ -3851,7 +3851,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 386,
+        "pk": "TX-25",
         "fields": {
             "state": "Texas",
             "no": 25,
@@ -3861,7 +3861,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 387,
+        "pk": "TX-26",
         "fields": {
             "state": "Texas",
             "no": 26,
@@ -3871,7 +3871,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 388,
+        "pk": "TX-27",
         "fields": {
             "state": "Texas",
             "no": 27,
@@ -3881,7 +3881,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 389,
+        "pk": "TX-28",
         "fields": {
             "state": "Texas",
             "no": 28,
@@ -3891,7 +3891,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 390,
+        "pk": "TX-29",
         "fields": {
             "state": "Texas",
             "no": 29,
@@ -3901,7 +3901,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 391,
+        "pk": "TX-30",
         "fields": {
             "state": "Texas",
             "no": 30,
@@ -3911,7 +3911,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 392,
+        "pk": "TX-31",
         "fields": {
             "state": "Texas",
             "no": 31,
@@ -3921,7 +3921,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 393,
+        "pk": "TX-32",
         "fields": {
             "state": "Texas",
             "no": 32,
@@ -3931,7 +3931,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 394,
+        "pk": "TX-33",
         "fields": {
             "state": "Texas",
             "no": 33,
@@ -3941,7 +3941,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 395,
+        "pk": "TX-34",
         "fields": {
             "state": "Texas",
             "no": 34,
@@ -3951,7 +3951,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 396,
+        "pk": "TX-35",
         "fields": {
             "state": "Texas",
             "no": 35,
@@ -3961,7 +3961,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 397,
+        "pk": "TX-36",
         "fields": {
             "state": "Texas",
             "no": 36,
@@ -3971,7 +3971,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 398,
+        "pk": "UT-01",
         "fields": {
             "state": "Utah",
             "no": 1,
@@ -3981,7 +3981,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 399,
+        "pk": "UT-02",
         "fields": {
             "state": "Utah",
             "no": 2,
@@ -3991,7 +3991,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 400,
+        "pk": "UT-03",
         "fields": {
             "state": "Utah",
             "no": 3,
@@ -4001,7 +4001,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 401,
+        "pk": "UT-04",
         "fields": {
             "state": "Utah",
             "no": 4,
@@ -4011,7 +4011,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 402,
+        "pk": "VT-01",
         "fields": {
             "state": "Vermont",
             "no": 1,
@@ -4021,7 +4021,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 403,
+        "pk": "VA-01",
         "fields": {
             "state": "Virginia",
             "no": 1,
@@ -4031,7 +4031,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 404,
+        "pk": "VA-02",
         "fields": {
             "state": "Virginia",
             "no": 2,
@@ -4041,7 +4041,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 405,
+        "pk": "VA-03",
         "fields": {
             "state": "Virginia",
             "no": 3,
@@ -4051,7 +4051,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 406,
+        "pk": "VA-04",
         "fields": {
             "state": "Virginia",
             "no": 4,
@@ -4061,7 +4061,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 407,
+        "pk": "VA-05",
         "fields": {
             "state": "Virginia",
             "no": 5,
@@ -4071,7 +4071,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 408,
+        "pk": "VA-06",
         "fields": {
             "state": "Virginia",
             "no": 6,
@@ -4081,7 +4081,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 409,
+        "pk": "VA-07",
         "fields": {
             "state": "Virginia",
             "no": 7,
@@ -4091,7 +4091,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 410,
+        "pk": "VA-08",
         "fields": {
             "state": "Virginia",
             "no": 8,
@@ -4101,7 +4101,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 411,
+        "pk": "VA-09",
         "fields": {
             "state": "Virginia",
             "no": 9,
@@ -4111,7 +4111,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 412,
+        "pk": "VA-10",
         "fields": {
             "state": "Virginia",
             "no": 10,
@@ -4121,7 +4121,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 413,
+        "pk": "VA-11",
         "fields": {
             "state": "Virginia",
             "no": 11,
@@ -4131,7 +4131,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 414,
+        "pk": "WA-01",
         "fields": {
             "state": "Washington",
             "no": 1,
@@ -4141,7 +4141,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 415,
+        "pk": "WA-02",
         "fields": {
             "state": "Washington",
             "no": 2,
@@ -4151,7 +4151,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 416,
+        "pk": "WA-03",
         "fields": {
             "state": "Washington",
             "no": 3,
@@ -4161,7 +4161,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 417,
+        "pk": "WA-04",
         "fields": {
             "state": "Washington",
             "no": 4,
@@ -4171,7 +4171,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 418,
+        "pk": "WA-05",
         "fields": {
             "state": "Washington",
             "no": 5,
@@ -4181,7 +4181,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 419,
+        "pk": "WA-06",
         "fields": {
             "state": "Washington",
             "no": 6,
@@ -4191,7 +4191,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 420,
+        "pk": "WA-07",
         "fields": {
             "state": "Washington",
             "no": 7,
@@ -4201,7 +4201,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 421,
+        "pk": "WA-08",
         "fields": {
             "state": "Washington",
             "no": 8,
@@ -4211,7 +4211,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 422,
+        "pk": "WA-09",
         "fields": {
             "state": "Washington",
             "no": 9,
@@ -4221,7 +4221,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 423,
+        "pk": "WA-10",
         "fields": {
             "state": "Washington",
             "no": 10,
@@ -4231,7 +4231,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 424,
+        "pk": "WV-01",
         "fields": {
             "state": "West Virginia",
             "no": 1,
@@ -4241,7 +4241,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 425,
+        "pk": "WV-02",
         "fields": {
             "state": "West Virginia",
             "no": 2,
@@ -4251,7 +4251,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 426,
+        "pk": "WV-03",
         "fields": {
             "state": "West Virginia",
             "no": 3,
@@ -4261,7 +4261,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 427,
+        "pk": "WI-01",
         "fields": {
             "state": "Wisconsin",
             "no": 1,
@@ -4271,7 +4271,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 428,
+        "pk": "WI-02",
         "fields": {
             "state": "Wisconsin",
             "no": 2,
@@ -4281,7 +4281,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 429,
+        "pk": "WI-03",
         "fields": {
             "state": "Wisconsin",
             "no": 3,
@@ -4291,7 +4291,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 430,
+        "pk": "WI-04",
         "fields": {
             "state": "Wisconsin",
             "no": 4,
@@ -4301,7 +4301,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 431,
+        "pk": "WI-05",
         "fields": {
             "state": "Wisconsin",
             "no": 5,
@@ -4311,7 +4311,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 432,
+        "pk": "WI-06",
         "fields": {
             "state": "Wisconsin",
             "no": 6,
@@ -4321,7 +4321,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 433,
+        "pk": "WI-07",
         "fields": {
             "state": "Wisconsin",
             "no": 7,
@@ -4331,7 +4331,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 434,
+        "pk": "WI-08",
         "fields": {
             "state": "Wisconsin",
             "no": 8,
@@ -4341,7 +4341,7 @@
     },
     {
         "model": "figures.District",
-        "pk": 435,
+        "pk": "WY-01",
         "fields": {
             "state": "Wyoming",
             "no": 1,

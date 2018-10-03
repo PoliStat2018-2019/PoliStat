@@ -5,8 +5,7 @@
 </div>
 <nav id="sidenav-mobile-target" class="sidenav-wrapper">
     <a href="#" class="logo p-lg">
-        <!-- creds: @david bushell -->
-        <img src={% static 'figures/images/django-logo-positive.svg' %}
+        <img src={% static 'figures/images/blairlogo.jpg' %}
              onerror="this.onerror=null; this.src='django-logo-positive.png'">
     </a>
     <ul class="sidenav m-l-sm border-l">
@@ -19,8 +18,15 @@
         <li class="{% if navbar == 'states' %}active{% endif %}">
             <a class="bold" href="{% url 'figures:states' %}">states</a>
         </li>
+        <li class="{% if navbar == 'blog' %}active{% endif %}">
+            <a class="bold" href="{% url 'figures:blog' %}">blog</a>
+        </li>
         <li class="{% if navbar == 'about' %}active{% endif %}">
             <a class="bold" href="{% url 'figures:about' %}">about</a>
         </li>
     </ul>
 </nav>
+
+{% block scripts %}
+<script defer src={% static 'figures/scripts/sidenav.js' %}></script>
+{% endblock  %}

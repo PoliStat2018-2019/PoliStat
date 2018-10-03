@@ -6,8 +6,6 @@
     .district-full {
         display: inline-block;
         font-size: 0.5em;
-
-        color: $site-blue; //should change based on winning
     }
 }
 
@@ -44,9 +42,9 @@
 .district-section .prediction-grid .prediction {
     align-self: stretch;
 
-    border-radius: 20px;
+    border-radius: 50%;
 
-    background-color: rgb(251, 244, 255);
+    background: linear-gradient(to right, #ffd5d5, #ffffff, #ccecff);
     font-weight: 700;
 }
 

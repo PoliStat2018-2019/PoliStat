@@ -1,0 +1,13 @@
+#vmap {
+    width: 100%;
+    height: 300px;
+    @include mq(tablet) {
+        height: 500px;
+    }
+}
+
+.jqvmap-label {
+    font-size: 1rem;
+    min-width: 100px;
+    text-align: center;
+}
