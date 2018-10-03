@@ -1,6 +1,7 @@
 
 # Django
 from django.shortcuts import render, redirect, get_object_or_404
+from django.http import JsonResponse
 
 # Models
 from figures import models
@@ -73,3 +74,9 @@ def district(request, state, districtno):
 
 def districtbyid(request, id):
     return redirect(get_object_or_404(models.District, id=id))
+
+def rawdata(request):
+    data = {}
+    for district in models.District.manager.all():
+        data[district.id] = district.prediction_set.last().dem_perc
+    return JsonResponse(data)
