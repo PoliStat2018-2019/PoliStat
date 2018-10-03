@@ -66,6 +66,8 @@ class District(models.Model):
     state = models.ForeignKey(State, on_delete=models.CASCADE)
     no = models.IntegerField(verbose_name='district number')
 
+    id = models.IntegerField(default=1)
+
     name = models.CharField(verbose_name='district name',
                             max_length=8,
                             primary_key=True,
@@ -172,6 +174,7 @@ def init_district_info(sender, instance, *args, **kwargs):
         Please change it soon.
     """)
     if District == sender:
+        
         DistrictProfile.manager.get_or_create(
             district=instance,
             profile=profile_text
@@ -198,7 +201,7 @@ class DistrictPost(models.Model):
 
     title = models.CharField(max_length=128, unique=True)
     body = models.TextField()
-    
+
     dem_predicted_perc = models.FloatField(verbose_name=
                                             'democratic predicted percentage',
                                            default=0)

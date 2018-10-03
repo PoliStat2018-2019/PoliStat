@@ -6,7 +6,8 @@
             "state": "Alabama",
             "no": 1,
             "dem_nom": "Robert Kennedy Jr.",
-            "rep_nom": "Bradley Byrne"
+            "rep_nom": "Bradley Byrne",
+            "id": 1
         }
     },
     {
@@ -16,7 +17,8 @@
             "state": "Alabama",
             "no": 2,
             "dem_nom": "Tabitha Isner",
-            "rep_nom": "Martha Roby"
+            "rep_nom": "Martha Roby",
+            "id": 2
         }
     },
     {
@@ -26,7 +28,8 @@
             "state": "Alabama",
             "no": 3,
             "dem_nom": "Mallory Hagan",
-            "rep_nom": "Mike Rogers"
+            "rep_nom": "Mike Rogers",
+            "id": 3
         }
     },
     {
@@ -36,7 +39,8 @@
             "state": "Alabama",
             "no": 4,
             "dem_nom": "Lee Auman",
-            "rep_nom": "Robert Aderholt"
+            "rep_nom": "Robert Aderholt",
+            "id": 4
         }
     },
     {
@@ -46,7 +50,8 @@
             "state": "Alabama",
             "no": 5,
             "dem_nom": "Peter Joffrion",
-            "rep_nom": "Mo Brooks"
+            "rep_nom": "Mo Brooks",
+            "id": 5
         }
     },
     {
@@ -56,7 +61,8 @@
             "state": "Alabama",
             "no": 6,
             "dem_nom": "Danner Kline",
-            "rep_nom": "Gary Palmer"
+            "rep_nom": "Gary Palmer",
+            "id": 6
         }
     },
     {
@@ -66,7 +72,8 @@
             "state": "Alabama",
             "no": 7,
             "dem_nom": "Terri Sewell",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 7
         }
     },
     {
@@ -76,7 +83,8 @@
             "state": "Alaska",
             "no": 1,
             "dem_nom": "Alysse Galvin",
-            "rep_nom": "Don Young"
+            "rep_nom": "Don Young",
+            "id": 8
         }
     },
     {
@@ -86,7 +94,8 @@
             "state": "Arizona",
             "no": 1,
             "dem_nom": "Tom O'Halleran",
-            "rep_nom": "Wendy Rogers"
+            "rep_nom": "Wendy Rogers",
+            "id": 9
         }
     },
     {
@@ -96,7 +105,8 @@
             "state": "Arizona",
             "no": 2,
             "dem_nom": "Ann Kirkpatrick",
-            "rep_nom": "Lea Marquez Peterson"
+            "rep_nom": "Lea Marquez Peterson",
+            "id": 10
         }
     },
     {
@@ -106,7 +116,8 @@
             "state": "Arizona",
             "no": 3,
             "dem_nom": "Raul Grijalva",
-            "rep_nom": "Nicolas Pierson"
+            "rep_nom": "Nicolas Pierson",
+            "id": 11
         }
     },
     {
@@ -116,7 +127,8 @@
             "state": "Arizona",
             "no": 4,
             "dem_nom": "David Brill",
-            "rep_nom": "Paul Gosar"
+            "rep_nom": "Paul Gosar",
+            "id": 12
         }
     },
     {
@@ -126,7 +138,8 @@
             "state": "Arizona",
             "no": 5,
             "dem_nom": "Joan Greene",
-            "rep_nom": "Andy Biggs"
+            "rep_nom": "Andy Biggs",
+            "id": 13
         }
     },
     {
@@ -136,7 +149,8 @@
             "state": "Arizona",
             "no": 6,
             "dem_nom": "David Schweikert",
-            "rep_nom": "Anita Malik"
+            "rep_nom": "Anita Malik",
+            "id": 14
         }
     },
     {
@@ -146,7 +160,8 @@
             "state": "Arizona",
             "no": 7,
             "dem_nom": "Ruben Gallego",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 15
         }
     },
     {
@@ -156,7 +171,8 @@
             "state": "Arizona",
             "no": 8,
             "dem_nom": "Hiral Tipireni",
-            "rep_nom": "Debbie Lesko"
+            "rep_nom": "Debbie Lesko",
+            "id": 16
         }
     },
     {
@@ -166,7 +182,8 @@
             "state": "Arizona",
             "no": 9,
             "dem_nom": "Greg Stanton",
-            "rep_nom": "Steve Ferrara"
+            "rep_nom": "Steve Ferrara",
+            "id": 17
         }
     },
     {
@@ -176,7 +193,8 @@
             "state": "Arkansas",
             "no": 1,
             "dem_nom": "Chintan Desai",
-            "rep_nom": "Rick Crawford"
+            "rep_nom": "Rick Crawford",
+            "id": 18
         }
     },
     {
@@ -186,7 +204,8 @@
             "state": "Arkansas",
             "no": 2,
             "dem_nom": "Clarke Tucker",
-            "rep_nom": "French Hill"
+            "rep_nom": "French Hill",
+            "id": 19
         }
     },
     {
@@ -196,7 +215,8 @@
             "state": "Arkansas",
             "no": 3,
             "dem_nom": "Joshua Mahony",
-            "rep_nom": "Steve Womack"
+            "rep_nom": "Steve Womack",
+            "id": 20
         }
     },
     {
@@ -206,7 +226,8 @@
             "state": "Arkansas",
             "no": 4,
             "dem_nom": "Hayden Shamel",
-            "rep_nom": "Bruce Westerman"
+            "rep_nom": "Bruce Westerman",
+            "id": 21
         }
     },
     {
@@ -216,7 +237,8 @@
             "state": "California",
             "no": 1,
             "dem_nom": "Doug LaMalfa",
-            "rep_nom": "Audrey Denney"
+            "rep_nom": "Audrey Denney",
+            "id": 22
         }
     },
     {
@@ -226,7 +248,8 @@
             "state": "California",
             "no": 2,
             "dem_nom": "Jared Huffman",
-            "rep_nom": "Dale Mensing"
+            "rep_nom": "Dale Mensing",
+            "id": 23
         }
     },
     {
@@ -236,7 +259,8 @@
             "state": "California",
             "no": 3,
             "dem_nom": "John Garamendi",
-            "rep_nom": "Charlie Schaupp"
+            "rep_nom": "Charlie Schaupp",
+            "id": 24
         }
     },
     {
@@ -246,7 +270,8 @@
             "state": "California",
             "no": 4,
             "dem_nom": "Jessica Morse",
-            "rep_nom": "Tom McClintock"
+            "rep_nom": "Tom McClintock",
+            "id": 25
         }
     },
     {
@@ -256,7 +281,8 @@
             "state": "California",
             "no": 5,
             "dem_nom": "Mike Thompson",
-            "rep_nom": "Anthony Mills"
+            "rep_nom": "Anthony Mills",
+            "id": 26
         }
     },
     {
@@ -266,7 +292,8 @@
             "state": "California",
             "no": 6,
             "dem_nom": "Doris Matsui, Jrmar Jefferson",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 27
         }
     },
     {
@@ -276,7 +303,8 @@
             "state": "California",
             "no": 7,
             "dem_nom": "Ami Bera",
-            "rep_nom": "Andrew Grant"
+            "rep_nom": "Andrew Grant",
+            "id": 28
         }
     },
     {
@@ -286,7 +314,8 @@
             "state": "California",
             "no": 8,
             "dem_nom": "",
-            "rep_nom": "Paul Cook, Tim Donnelly"
+            "rep_nom": "Paul Cook, Tim Donnelly",
+            "id": 29
         }
     },
     {
@@ -296,7 +325,8 @@
             "state": "California",
             "no": 9,
             "dem_nom": "Jerry McNerny",
-            "rep_nom": "Marla Livengood"
+            "rep_nom": "Marla Livengood",
+            "id": 30
         }
     },
     {
@@ -306,7 +336,8 @@
             "state": "California",
             "no": 10,
             "dem_nom": "Josh Harder",
-            "rep_nom": "Jeff Denham"
+            "rep_nom": "Jeff Denham",
+            "id": 31
         }
     },
     {
@@ -316,7 +347,8 @@
             "state": "California",
             "no": 11,
             "dem_nom": "Mark DeSaulnier",
-            "rep_nom": "John Fitzgerald"
+            "rep_nom": "John Fitzgerald",
+            "id": 32
         }
     },
     {
@@ -326,7 +358,8 @@
             "state": "California",
             "no": 12,
             "dem_nom": "Nancy Pelosi",
-            "rep_nom": "Lisa Remmer"
+            "rep_nom": "Lisa Remmer",
+            "id": 33
         }
     },
     {
@@ -336,7 +369,8 @@
             "state": "California",
             "no": 13,
             "dem_nom": "Barbara Lee",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 34
         }
     },
     {
@@ -346,7 +380,8 @@
             "state": "California",
             "no": 14,
             "dem_nom": "Jackie Speier",
-            "rep_nom": "Cristina Osmeña"
+            "rep_nom": "Cristina Osmeña",
+            "id": 35
         }
     },
     {
@@ -356,7 +391,8 @@
             "state": "California",
             "no": 15,
             "dem_nom": "Eric Swalwell",
-            "rep_nom": "Rudy Peters"
+            "rep_nom": "Rudy Peters",
+            "id": 36
         }
     },
     {
@@ -366,7 +402,8 @@
             "state": "California",
             "no": 16,
             "dem_nom": "Jim Costa",
-            "rep_nom": "Elizabeth Heng"
+            "rep_nom": "Elizabeth Heng",
+            "id": 37
         }
     },
     {
@@ -376,7 +413,8 @@
             "state": "California",
             "no": 17,
             "dem_nom": "Ro Khanna",
-            "rep_nom": "Ron Cohen"
+            "rep_nom": "Ron Cohen",
+            "id": 38
         }
     },
     {
@@ -386,7 +424,8 @@
             "state": "California",
             "no": 18,
             "dem_nom": "Anna Eshoo",
-            "rep_nom": "Christine Russell"
+            "rep_nom": "Christine Russell",
+            "id": 39
         }
     },
     {
@@ -396,7 +435,8 @@
             "state": "California",
             "no": 19,
             "dem_nom": "Zoe Lofgren",
-            "rep_nom": "Justin Aguilera"
+            "rep_nom": "Justin Aguilera",
+            "id": 40
         }
     },
     {
@@ -406,7 +446,8 @@
             "state": "California",
             "no": 20,
             "dem_nom": "Jimmy Panetta",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 41
         }
     },
     {
@@ -416,7 +457,8 @@
             "state": "California",
             "no": 21,
             "dem_nom": "TJ Cox",
-            "rep_nom": "David Valadao"
+            "rep_nom": "David Valadao",
+            "id": 42
         }
     },
     {
@@ -426,7 +468,8 @@
             "state": "California",
             "no": 22,
             "dem_nom": "Devin Nunes",
-            "rep_nom": "Andrew Janz"
+            "rep_nom": "Andrew Janz",
+            "id": 43
         }
     },
     {
@@ -436,7 +479,8 @@
             "state": "California",
             "no": 23,
             "dem_nom": "Tatiana Matta",
-            "rep_nom": "Kevin McCarthy"
+            "rep_nom": "Kevin McCarthy",
+            "id": 44
         }
     },
     {
@@ -446,7 +490,8 @@
             "state": "California",
             "no": 24,
             "dem_nom": "Salaud Carbajal",
-            "rep_nom": "Justin Fareed"
+            "rep_nom": "Justin Fareed",
+            "id": 45
         }
     },
     {
@@ -456,7 +501,8 @@
             "state": "California",
             "no": 25,
             "dem_nom": "Katie Hill",
-            "rep_nom": "Steve Knight"
+            "rep_nom": "Steve Knight",
+            "id": 46
         }
     },
     {
@@ -466,7 +512,8 @@
             "state": "California",
             "no": 26,
             "dem_nom": "Julia Brownley",
-            "rep_nom": "Antonia Sabato Jr."
+            "rep_nom": "Antonia Sabato Jr.",
+            "id": 47
         }
     },
     {
@@ -476,7 +523,8 @@
             "state": "California",
             "no": 27,
             "dem_nom": "Judy Chu, Bryan Witt",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 48
         }
     },
     {
@@ -486,7 +534,8 @@
             "state": "California",
             "no": 28,
             "dem_nom": "Adam Schiff",
-            "rep_nom": "Johnny Nalbandian"
+            "rep_nom": "Johnny Nalbandian",
+            "id": 49
         }
     },
     {
@@ -496,7 +545,8 @@
             "state": "California",
             "no": 29,
             "dem_nom": "Tony Cardenas",
-            "rep_nom": "Benito Bernal"
+            "rep_nom": "Benito Bernal",
+            "id": 50
         }
     },
     {
@@ -506,7 +556,8 @@
             "state": "California",
             "no": 30,
             "dem_nom": "Brad Sherman",
-            "rep_nom": "Mark Reed"
+            "rep_nom": "Mark Reed",
+            "id": 51
         }
     },
     {
@@ -516,7 +567,8 @@
             "state": "California",
             "no": 31,
             "dem_nom": "Pete Aguilar",
-            "rep_nom": "Sean Flynn"
+            "rep_nom": "Sean Flynn",
+            "id": 52
         }
     },
     {
@@ -526,7 +578,8 @@
             "state": "California",
             "no": 32,
             "dem_nom": "Grace Napolitano",
-            "rep_nom": "Joshua Scott"
+            "rep_nom": "Joshua Scott",
+            "id": 53
         }
     },
     {
@@ -536,7 +589,8 @@
             "state": "California",
             "no": 33,
             "dem_nom": "Ted Lieu",
-            "rep_nom": "Kenneth Wright"
+            "rep_nom": "Kenneth Wright",
+            "id": 54
         }
     },
     {
@@ -546,7 +600,8 @@
             "state": "California",
             "no": 34,
             "dem_nom": "Jimmy Gomez",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 55
         }
     },
     {
@@ -556,7 +611,8 @@
             "state": "California",
             "no": 35,
             "dem_nom": "Norma Torres",
-            "rep_nom": "Christian Valiente"
+            "rep_nom": "Christian Valiente",
+            "id": 56
         }
     },
     {
@@ -566,7 +622,8 @@
             "state": "California",
             "no": 36,
             "dem_nom": "Raul Ruiz",
-            "rep_nom": "Kimberlin Brown Pelzer"
+            "rep_nom": "Kimberlin Brown Pelzer",
+            "id": 57
         }
     },
     {
@@ -576,7 +633,8 @@
             "state": "California",
             "no": 37,
             "dem_nom": "Karen Bass",
-            "rep_nom": "Ron Bassilian"
+            "rep_nom": "Ron Bassilian",
+            "id": 58
         }
     },
     {
@@ -586,7 +644,8 @@
             "state": "California",
             "no": 38,
             "dem_nom": "Linda Sanchez",
-            "rep_nom": "Ryan Downing"
+            "rep_nom": "Ryan Downing",
+            "id": 59
         }
     },
     {
@@ -596,7 +655,8 @@
             "state": "California",
             "no": 39,
             "dem_nom": "Gil Cisneros",
-            "rep_nom": "Young Kim"
+            "rep_nom": "Young Kim",
+            "id": 60
         }
     },
     {
@@ -606,7 +666,8 @@
             "state": "California",
             "no": 40,
             "dem_nom": "Lucille Royball-Allard",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 61
         }
     },
     {
@@ -616,7 +677,8 @@
             "state": "California",
             "no": 41,
             "dem_nom": "Mark Tanako",
-            "rep_nom": "Aja Smith"
+            "rep_nom": "Aja Smith",
+            "id": 62
         }
     },
     {
@@ -626,7 +688,8 @@
             "state": "California",
             "no": 42,
             "dem_nom": "Julia Peacock",
-            "rep_nom": "Ken Calvert"
+            "rep_nom": "Ken Calvert",
+            "id": 63
         }
     },
     {
@@ -636,7 +699,8 @@
             "state": "California",
             "no": 43,
             "dem_nom": "Maxine Waters",
-            "rep_nom": "Omar Navarro"
+            "rep_nom": "Omar Navarro",
+            "id": 64
         }
     },
     {
@@ -646,7 +710,8 @@
             "state": "California",
             "no": 44,
             "dem_nom": "Nanette Barragan",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 65
         }
     },
     {
@@ -656,7 +721,8 @@
             "state": "California",
             "no": 45,
             "dem_nom": "Katie Porter",
-            "rep_nom": "Mimi Walters"
+            "rep_nom": "Mimi Walters",
+            "id": 66
         }
     },
     {
@@ -666,7 +732,8 @@
             "state": "California",
             "no": 46,
             "dem_nom": "Lou Correa",
-            "rep_nom": "Russell Lambert"
+            "rep_nom": "Russell Lambert",
+            "id": 67
         }
     },
     {
@@ -676,7 +743,8 @@
             "state": "California",
             "no": 47,
             "dem_nom": "Alan Lowenthal",
-            "rep_nom": "John Briscoe"
+            "rep_nom": "John Briscoe",
+            "id": 68
         }
     },
     {
@@ -686,7 +754,8 @@
             "state": "California",
             "no": 48,
             "dem_nom": "Harley Rouda",
-            "rep_nom": "Dana Rohrabacher"
+            "rep_nom": "Dana Rohrabacher",
+            "id": 69
         }
     },
     {
@@ -696,7 +765,8 @@
             "state": "California",
             "no": 49,
             "dem_nom": "Mike Levin",
-            "rep_nom": "Diane Harkey"
+            "rep_nom": "Diane Harkey",
+            "id": 70
         }
     },
     {
@@ -706,7 +776,8 @@
             "state": "California",
             "no": 50,
             "dem_nom": "Ammar Campa-Najjar",
-            "rep_nom": "Duncan Hunter"
+            "rep_nom": "Duncan Hunter",
+            "id": 71
         }
     },
     {
@@ -716,7 +787,8 @@
             "state": "California",
             "no": 51,
             "dem_nom": "Jaun Vargas",
-            "rep_nom": "Juan Hidalgo Jr."
+            "rep_nom": "Juan Hidalgo Jr.",
+            "id": 72
         }
     },
     {
@@ -726,7 +798,8 @@
             "state": "California",
             "no": 52,
             "dem_nom": "Scott Peters",
-            "rep_nom": "Omar Qudrat"
+            "rep_nom": "Omar Qudrat",
+            "id": 73
         }
     },
     {
@@ -736,7 +809,8 @@
             "state": "California",
             "no": 53,
             "dem_nom": "Susan Davis",
-            "rep_nom": "Morgan Murtaugh"
+            "rep_nom": "Morgan Murtaugh",
+            "id": 74
         }
     },
     {
@@ -746,7 +820,8 @@
             "state": "Colorado",
             "no": 1,
             "dem_nom": "Diana DeGette",
-            "rep_nom": "Charles Casper Stockham"
+            "rep_nom": "Charles Casper Stockham",
+            "id": 75
         }
     },
     {
@@ -756,7 +831,8 @@
             "state": "Colorado",
             "no": 2,
             "dem_nom": "Joe Neguse",
-            "rep_nom": "Peter Yu"
+            "rep_nom": "Peter Yu",
+            "id": 76
         }
     },
     {
@@ -766,7 +842,8 @@
             "state": "Colorado",
             "no": 3,
             "dem_nom": "Diane Mitsch Bush",
-            "rep_nom": "Scott Tipton"
+            "rep_nom": "Scott Tipton",
+            "id": 77
         }
     },
     {
@@ -776,7 +853,8 @@
             "state": "Colorado",
             "no": 4,
             "dem_nom": "Karen McCormick",
-            "rep_nom": "Ken Buck"
+            "rep_nom": "Ken Buck",
+            "id": 78
         }
     },
     {
@@ -786,7 +864,8 @@
             "state": "Colorado",
             "no": 5,
             "dem_nom": "Stephany Rose Spaulding",
-            "rep_nom": "Doug Lamborn"
+            "rep_nom": "Doug Lamborn",
+            "id": 79
         }
     },
     {
@@ -796,7 +875,8 @@
             "state": "Colorado",
             "no": 6,
             "dem_nom": "Jason Crow",
-            "rep_nom": "Mike Coffman"
+            "rep_nom": "Mike Coffman",
+            "id": 80
         }
     },
     {
@@ -806,7 +886,8 @@
             "state": "Colorado",
             "no": 7,
             "dem_nom": "Ed Perlmutter",
-            "rep_nom": "Mark Barrington"
+            "rep_nom": "Mark Barrington",
+            "id": 81
         }
     },
     {
@@ -816,7 +897,8 @@
             "state": "Connecticut",
             "no": 1,
             "dem_nom": "John Larson",
-            "rep_nom": "Jennifer Nye"
+            "rep_nom": "Jennifer Nye",
+            "id": 82
         }
     },
     {
@@ -826,7 +908,8 @@
             "state": "Connecticut",
             "no": 2,
             "dem_nom": "Joe Courtney",
-            "rep_nom": "Dan Postemski"
+            "rep_nom": "Dan Postemski",
+            "id": 83
         }
     },
     {
@@ -836,7 +919,8 @@
             "state": "Connecticut",
             "no": 3,
             "dem_nom": "Rosa DeLauro",
-            "rep_nom": "Angel Cadena"
+            "rep_nom": "Angel Cadena",
+            "id": 84
         }
     },
     {
@@ -846,7 +930,8 @@
             "state": "Connecticut",
             "no": 4,
             "dem_nom": "Jim Himes",
-            "rep_nom": "Harry Arora"
+            "rep_nom": "Harry Arora",
+            "id": 85
         }
     },
     {
@@ -856,7 +941,8 @@
             "state": "Connecticut",
             "no": 5,
             "dem_nom": "Jahana Hayes",
-            "rep_nom": "Manny Santos"
+            "rep_nom": "Manny Santos",
+            "id": 86
         }
     },
     {
@@ -866,7 +952,8 @@
             "state": "Delaware",
             "no": 1,
             "dem_nom": "Lisa Blunt Rochester",
-            "rep_nom": "Scott Walker"
+            "rep_nom": "Scott Walker",
+            "id": 87
         }
     },
     {
@@ -876,7 +963,8 @@
             "state": "Florida",
             "no": 1,
             "dem_nom": "Jennifer Zimmerman",
-            "rep_nom": "Matt Gaetz"
+            "rep_nom": "Matt Gaetz",
+            "id": 88
         }
     },
     {
@@ -886,7 +974,8 @@
             "state": "Florida",
             "no": 2,
             "dem_nom": "Bob Rackleff",
-            "rep_nom": "Neal Dunn"
+            "rep_nom": "Neal Dunn",
+            "id": 89
         }
     },
     {
@@ -896,7 +985,8 @@
             "state": "Florida",
             "no": 3,
             "dem_nom": "Yvonne Hayes Hinson",
-            "rep_nom": "Ted Yoho"
+            "rep_nom": "Ted Yoho",
+            "id": 90
         }
     },
     {
@@ -906,7 +996,8 @@
             "state": "Florida",
             "no": 4,
             "dem_nom": "Ges Selmont",
-            "rep_nom": "John Rutherford"
+            "rep_nom": "John Rutherford",
+            "id": 91
         }
     },
     {
@@ -916,7 +1007,8 @@
             "state": "Florida",
             "no": 5,
             "dem_nom": "Alfred Lawson",
-            "rep_nom": "Virginia Fuller"
+            "rep_nom": "Virginia Fuller",
+            "id": 92
         }
     },
     {
@@ -926,7 +1018,8 @@
             "state": "Florida",
             "no": 6,
             "dem_nom": "Nancy Soderberg",
-            "rep_nom": "Michael Waltz"
+            "rep_nom": "Michael Waltz",
+            "id": 93
         }
     },
     {
@@ -936,7 +1029,8 @@
             "state": "Florida",
             "no": 7,
             "dem_nom": "Stephanie Murphy",
-            "rep_nom": "Mike Miller"
+            "rep_nom": "Mike Miller",
+            "id": 94
         }
     },
     {
@@ -946,7 +1040,8 @@
             "state": "Florida",
             "no": 8,
             "dem_nom": "Sanjay Patel",
-            "rep_nom": "Bill Posey (I)"
+            "rep_nom": "Bill Posey (I)",
+            "id": 95
         }
     },
     {
@@ -956,7 +1051,8 @@
             "state": "Florida",
             "no": 9,
             "dem_nom": "Darren Soto (I)",
-            "rep_nom": "Wayne Liebnitzky"
+            "rep_nom": "Wayne Liebnitzky",
+            "id": 96
         }
     },
     {
@@ -966,7 +1062,8 @@
             "state": "Florida",
             "no": 10,
             "dem_nom": "Val Demings (I)",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 97
         }
     },
     {
@@ -976,7 +1073,8 @@
             "state": "Florida",
             "no": 11,
             "dem_nom": "Dana Cottrell",
-            "rep_nom": "Daniel Webster (I)"
+            "rep_nom": "Daniel Webster (I)",
+            "id": 98
         }
     },
     {
@@ -986,7 +1084,8 @@
             "state": "Florida",
             "no": 12,
             "dem_nom": "Chris Hunter",
-            "rep_nom": "Gus Bilirakis (I)"
+            "rep_nom": "Gus Bilirakis (I)",
+            "id": 99
         }
     },
     {
@@ -996,7 +1095,8 @@
             "state": "Florida",
             "no": 13,
             "dem_nom": "Charlie Crist (I)",
-            "rep_nom": "George Buck"
+            "rep_nom": "George Buck",
+            "id": 100
         }
     },
     {
@@ -1006,7 +1106,8 @@
             "state": "Florida",
             "no": 14,
             "dem_nom": "Kathy Castor (I)",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 101
         }
     },
     {
@@ -1016,7 +1117,8 @@
             "state": "Florida",
             "no": 15,
             "dem_nom": "Kristen Carlson",
-            "rep_nom": "Ross Spano"
+            "rep_nom": "Ross Spano",
+            "id": 102
         }
     },
     {
@@ -1026,7 +1128,8 @@
             "state": "Florida",
             "no": 16,
             "dem_nom": "David Shapiro",
-            "rep_nom": "Vern Buchanan(I)"
+            "rep_nom": "Vern Buchanan(I)",
+            "id": 103
         }
     },
     {
@@ -1036,7 +1139,8 @@
             "state": "Florida",
             "no": 17,
             "dem_nom": "April Freeman (Deceased)",
-            "rep_nom": "Greg Steube"
+            "rep_nom": "Greg Steube",
+            "id": 104
         }
     },
     {
@@ -1046,7 +1150,8 @@
             "state": "Florida",
             "no": 18,
             "dem_nom": "Lauren Baer",
-            "rep_nom": "Brian Mast(I)"
+            "rep_nom": "Brian Mast(I)",
+            "id": 105
         }
     },
     {
@@ -1056,7 +1161,8 @@
             "state": "Florida",
             "no": 19,
             "dem_nom": "David Holden",
-            "rep_nom": "Francis Rooney(I)"
+            "rep_nom": "Francis Rooney(I)",
+            "id": 106
         }
     },
     {
@@ -1066,7 +1172,8 @@
             "state": "Florida",
             "no": 20,
             "dem_nom": "Alcee Hastings*",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 107
         }
     },
     {
@@ -1076,7 +1183,8 @@
             "state": "Florida",
             "no": 21,
             "dem_nom": "Lois Frankel*",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 108
         }
     },
     {
@@ -1086,7 +1194,8 @@
             "state": "Florida",
             "no": 22,
             "dem_nom": "Theodore Deutch",
-            "rep_nom": "Nicolas Kimaz"
+            "rep_nom": "Nicolas Kimaz",
+            "id": 109
         }
     },
     {
@@ -1096,7 +1205,8 @@
             "state": "Florida",
             "no": 23,
             "dem_nom": "Debbie Wasserman Shultz",
-            "rep_nom": "Joe Kaufman"
+            "rep_nom": "Joe Kaufman",
+            "id": 110
         }
     },
     {
@@ -1106,7 +1216,8 @@
             "state": "Florida",
             "no": 24,
             "dem_nom": "Frederica S. Wilson",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 111
         }
     },
     {
@@ -1116,7 +1227,8 @@
             "state": "Florida",
             "no": 25,
             "dem_nom": "Mary Barzee Flores",
-            "rep_nom": "Mario Diaz-Balart"
+            "rep_nom": "Mario Diaz-Balart",
+            "id": 112
         }
     },
     {
@@ -1126,7 +1238,8 @@
             "state": "Florida",
             "no": 26,
             "dem_nom": "Debbie Mucarsel-Powell",
-            "rep_nom": "Carlos Curbelo"
+            "rep_nom": "Carlos Curbelo",
+            "id": 113
         }
     },
     {
@@ -1136,7 +1249,8 @@
             "state": "Florida",
             "no": 27,
             "dem_nom": "Donna Shalala",
-            "rep_nom": "Maria Elvira Salazar"
+            "rep_nom": "Maria Elvira Salazar",
+            "id": 114
         }
     },
     {
@@ -1146,7 +1260,8 @@
             "state": "Georgia",
             "no": 1,
             "dem_nom": "Lisa Ring",
-            "rep_nom": "Earl \"Buddy\" Carter (I)"
+            "rep_nom": "Earl \"Buddy\" Carter (I)",
+            "id": 115
         }
     },
     {
@@ -1156,7 +1271,8 @@
             "state": "Georgia",
             "no": 2,
             "dem_nom": "Sanford Bishop Jr. (I)",
-            "rep_nom": "Herman West Jr."
+            "rep_nom": "Herman West Jr.",
+            "id": 116
         }
     },
     {
@@ -1166,7 +1282,8 @@
             "state": "Georgia",
             "no": 3,
             "dem_nom": "Chuck Enderlin",
-            "rep_nom": "Drew Ferguson (I)"
+            "rep_nom": "Drew Ferguson (I)",
+            "id": 117
         }
     },
     {
@@ -1176,7 +1293,8 @@
             "state": "Georgia",
             "no": 4,
             "dem_nom": "Hank Johnson (I)",
-            "rep_nom": "Joe Profit"
+            "rep_nom": "Joe Profit",
+            "id": 118
         }
     },
     {
@@ -1186,7 +1304,8 @@
             "state": "Georgia",
             "no": 5,
             "dem_nom": "John Lewis (I)",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 119
         }
     },
     {
@@ -1196,7 +1315,8 @@
             "state": "Georgia",
             "no": 6,
             "dem_nom": "Lucy McBath",
-            "rep_nom": "Karen Handel (I)"
+            "rep_nom": "Karen Handel (I)",
+            "id": 120
         }
     },
     {
@@ -1206,7 +1326,8 @@
             "state": "Georgia",
             "no": 7,
             "dem_nom": "Carolyn Bourdeaux",
-            "rep_nom": "Rob Woodall (I)"
+            "rep_nom": "Rob Woodall (I)",
+            "id": 121
         }
     },
     {
@@ -1216,7 +1337,8 @@
             "state": "Georgia",
             "no": 8,
             "dem_nom": "-",
-            "rep_nom": "Austin Scott (I)"
+            "rep_nom": "Austin Scott (I)",
+            "id": 122
         }
     },
     {
@@ -1226,7 +1348,8 @@
             "state": "Georgia",
             "no": 9,
             "dem_nom": "Josh McCall",
-            "rep_nom": "Doug Collins (I)"
+            "rep_nom": "Doug Collins (I)",
+            "id": 123
         }
     },
     {
@@ -1236,7 +1359,8 @@
             "state": "Georgia",
             "no": 10,
             "dem_nom": "Tabitha Johnson-Green",
-            "rep_nom": "Jody Hice (I)"
+            "rep_nom": "Jody Hice (I)",
+            "id": 124
         }
     },
     {
@@ -1246,7 +1370,8 @@
             "state": "Georgia",
             "no": 11,
             "dem_nom": "Flynn Broady Jr.",
-            "rep_nom": "Barry Loudermilk (I)"
+            "rep_nom": "Barry Loudermilk (I)",
+            "id": 125
         }
     },
     {
@@ -1256,7 +1381,8 @@
             "state": "Georgia",
             "no": 12,
             "dem_nom": "Francys Johnson",
-            "rep_nom": "Rick Allen (I)"
+            "rep_nom": "Rick Allen (I)",
+            "id": 126
         }
     },
     {
@@ -1266,7 +1392,8 @@
             "state": "Georgia",
             "no": 13,
             "dem_nom": "David Scott (I)",
-            "rep_nom": "David Callahan"
+            "rep_nom": "David Callahan",
+            "id": 127
         }
     },
     {
@@ -1276,7 +1403,8 @@
             "state": "Georgia",
             "no": 14,
             "dem_nom": "Steven Foster",
-            "rep_nom": "Tom Graves (I)"
+            "rep_nom": "Tom Graves (I)",
+            "id": 128
         }
     },
     {
@@ -1286,7 +1414,8 @@
             "state": "Hawaii",
             "no": 1,
             "dem_nom": "Ed Case",
-            "rep_nom": "Cam Cavasso"
+            "rep_nom": "Cam Cavasso",
+            "id": 129
         }
     },
     {
@@ -1296,7 +1425,8 @@
             "state": "Hawaii",
             "no": 2,
             "dem_nom": "Tulsi Gabbard",
-            "rep_nom": "Brian Evans"
+            "rep_nom": "Brian Evans",
+            "id": 130
         }
     },
     {
@@ -1306,7 +1436,8 @@
             "state": "Idaho",
             "no": 1,
             "dem_nom": "Cristina McNeil",
-            "rep_nom": "Russ Fulcher"
+            "rep_nom": "Russ Fulcher",
+            "id": 131
         }
     },
     {
@@ -1316,7 +1447,8 @@
             "state": "Idaho",
             "no": 2,
             "dem_nom": "Aaron Swisher",
-            "rep_nom": "Mike Simpson"
+            "rep_nom": "Mike Simpson",
+            "id": 132
         }
     },
     {
@@ -1326,7 +1458,8 @@
             "state": "Illinois",
             "no": 1,
             "dem_nom": "Bobby Rush",
-            "rep_nom": "Jimmy Lee Tillman"
+            "rep_nom": "Jimmy Lee Tillman",
+            "id": 133
         }
     },
     {
@@ -1336,7 +1469,8 @@
             "state": "Illinois",
             "no": 2,
             "dem_nom": "Robin Kelly",
-            "rep_nom": "David Merkle"
+            "rep_nom": "David Merkle",
+            "id": 134
         }
     },
     {
@@ -1346,7 +1480,8 @@
             "state": "Illinois",
             "no": 3,
             "dem_nom": "David Lipinski",
-            "rep_nom": "Arthur Jones"
+            "rep_nom": "Arthur Jones",
+            "id": 135
         }
     },
     {
@@ -1356,7 +1491,8 @@
             "state": "Illinois",
             "no": 4,
             "dem_nom": "Jesus Garcia",
-            "rep_nom": "Mark Wayne Lorch"
+            "rep_nom": "Mark Wayne Lorch",
+            "id": 136
         }
     },
     {
@@ -1366,7 +1502,8 @@
             "state": "Illinois",
             "no": 5,
             "dem_nom": "Mike Quigley",
-            "rep_nom": "Tom Hanson"
+            "rep_nom": "Tom Hanson",
+            "id": 137
         }
     },
     {
@@ -1376,7 +1513,8 @@
             "state": "Illinois",
             "no": 6,
             "dem_nom": "Sean Casten",
-            "rep_nom": "Peter Roskam (I)"
+            "rep_nom": "Peter Roskam (I)",
+            "id": 138
         }
     },
     {
@@ -1386,7 +1524,8 @@
             "state": "Illinois",
             "no": 7,
             "dem_nom": "Danny K. Davis (I)",
-            "rep_nom": "Craig Cameron"
+            "rep_nom": "Craig Cameron",
+            "id": 139
         }
     },
     {
@@ -1396,7 +1535,8 @@
             "state": "Illinois",
             "no": 8,
             "dem_nom": "Raja Krishnamoorthi (I)",
-            "rep_nom": "Jitendra Diganvker"
+            "rep_nom": "Jitendra Diganvker",
+            "id": 140
         }
     },
     {
@@ -1406,7 +1546,8 @@
             "state": "Illinois",
             "no": 9,
             "dem_nom": "Jan Schakowsky (I)",
-            "rep_nom": "John Elleson"
+            "rep_nom": "John Elleson",
+            "id": 141
         }
     },
     {
@@ -1416,7 +1557,8 @@
             "state": "Illinois",
             "no": 10,
             "dem_nom": "Brad Schneider (I)",
-            "rep_nom": "Doug Bennett"
+            "rep_nom": "Doug Bennett",
+            "id": 142
         }
     },
     {
@@ -1426,7 +1568,8 @@
             "state": "Illinois",
             "no": 11,
             "dem_nom": "Bill Foster",
-            "rep_nom": "Nick Stella"
+            "rep_nom": "Nick Stella",
+            "id": 143
         }
     },
     {
@@ -1436,7 +1579,8 @@
             "state": "Illinois",
             "no": 12,
             "dem_nom": "Brendan Kelly",
-            "rep_nom": "Mike Bost"
+            "rep_nom": "Mike Bost",
+            "id": 144
         }
     },
     {
@@ -1446,7 +1590,8 @@
             "state": "Illinois",
             "no": 13,
             "dem_nom": "Betsy Londrigan",
-            "rep_nom": "Rodney Davis"
+            "rep_nom": "Rodney Davis",
+            "id": 145
         }
     },
     {
@@ -1456,7 +1601,8 @@
             "state": "Illinois",
             "no": 14,
             "dem_nom": "Laruen Underwood",
-            "rep_nom": "Randy Hultgren"
+            "rep_nom": "Randy Hultgren",
+            "id": 146
         }
     },
     {
@@ -1466,7 +1612,8 @@
             "state": "Illinois",
             "no": 15,
             "dem_nom": "Kevin Gaither",
-            "rep_nom": "John Shimkus"
+            "rep_nom": "John Shimkus",
+            "id": 147
         }
     },
     {
@@ -1476,7 +1623,8 @@
             "state": "Illinois",
             "no": 16,
             "dem_nom": "Sara Dady",
-            "rep_nom": "Adam Kinzinger (I)"
+            "rep_nom": "Adam Kinzinger (I)",
+            "id": 148
         }
     },
     {
@@ -1486,7 +1634,8 @@
             "state": "Illinois",
             "no": 17,
             "dem_nom": "Cheri Bustos (I)",
-            "rep_nom": "Bill Fawell"
+            "rep_nom": "Bill Fawell",
+            "id": 149
         }
     },
     {
@@ -1496,7 +1645,8 @@
             "state": "Illinois",
             "no": 18,
             "dem_nom": "Junius Rodriguez",
-            "rep_nom": "Darin LaHood (I)"
+            "rep_nom": "Darin LaHood (I)",
+            "id": 150
         }
     },
     {
@@ -1506,7 +1656,8 @@
             "state": "Indiana",
             "no": 1,
             "dem_nom": "Pete Visclosky (I)",
-            "rep_nom": "Mark Leyva"
+            "rep_nom": "Mark Leyva",
+            "id": 151
         }
     },
     {
@@ -1516,7 +1667,8 @@
             "state": "Indiana",
             "no": 2,
             "dem_nom": "Mel Hall",
-            "rep_nom": "Jackie Walorski (I)"
+            "rep_nom": "Jackie Walorski (I)",
+            "id": 152
         }
     },
     {
@@ -1526,7 +1678,8 @@
             "state": "Indiana",
             "no": 3,
             "dem_nom": "Courtney Tritch",
-            "rep_nom": "Jim Banks (I)"
+            "rep_nom": "Jim Banks (I)",
+            "id": 153
         }
     },
     {
@@ -1536,7 +1689,8 @@
             "state": "Indiana",
             "no": 4,
             "dem_nom": "Tobi Beck",
-            "rep_nom": "Jim Baird"
+            "rep_nom": "Jim Baird",
+            "id": 154
         }
     },
     {
@@ -1546,7 +1700,8 @@
             "state": "Indiana",
             "no": 5,
             "dem_nom": "Dee Thornton",
-            "rep_nom": "Susan Brooks (I)"
+            "rep_nom": "Susan Brooks (I)",
+            "id": 155
         }
     },
     {
@@ -1556,7 +1711,8 @@
             "state": "Indiana",
             "no": 6,
             "dem_nom": "Jeannine Lee Lake",
-            "rep_nom": "Greg Pence"
+            "rep_nom": "Greg Pence",
+            "id": 156
         }
     },
     {
@@ -1566,7 +1722,8 @@
             "state": "Indiana",
             "no": 7,
             "dem_nom": "Andre Carson (I)",
-            "rep_nom": "Wayne Harmon"
+            "rep_nom": "Wayne Harmon",
+            "id": 157
         }
     },
     {
@@ -1576,7 +1733,8 @@
             "state": "Indiana",
             "no": 8,
             "dem_nom": "Willaim Tanoos",
-            "rep_nom": "Larry Bucshon"
+            "rep_nom": "Larry Bucshon",
+            "id": 158
         }
     },
     {
@@ -1586,7 +1744,8 @@
             "state": "Indiana",
             "no": 9,
             "dem_nom": "Liz Watson",
-            "rep_nom": "Trey Hollingsworth"
+            "rep_nom": "Trey Hollingsworth",
+            "id": 159
         }
     },
     {
@@ -1596,7 +1755,8 @@
             "state": "Iowa",
             "no": 1,
             "dem_nom": "Abby Finkenauer",
-            "rep_nom": "Rod Blum"
+            "rep_nom": "Rod Blum",
+            "id": 160
         }
     },
     {
@@ -1606,7 +1766,8 @@
             "state": "Iowa",
             "no": 2,
             "dem_nom": "David Loebsack",
-            "rep_nom": "Christopher Peters"
+            "rep_nom": "Christopher Peters",
+            "id": 161
         }
     },
     {
@@ -1616,7 +1777,8 @@
             "state": "Iowa",
             "no": 3,
             "dem_nom": "Cindy Axne",
-            "rep_nom": "David Young"
+            "rep_nom": "David Young",
+            "id": 162
         }
     },
     {
@@ -1626,7 +1788,8 @@
             "state": "Iowa",
             "no": 4,
             "dem_nom": "JD Scholten",
-            "rep_nom": "Steve King"
+            "rep_nom": "Steve King",
+            "id": 163
         }
     },
     {
@@ -1636,7 +1799,8 @@
             "state": "Kansas",
             "no": 1,
             "dem_nom": "Alan LaPolice",
-            "rep_nom": "Roger Marshall (I)"
+            "rep_nom": "Roger Marshall (I)",
+            "id": 164
         }
     },
     {
@@ -1646,7 +1810,8 @@
             "state": "Kansas",
             "no": 2,
             "dem_nom": "Paul Davis",
-            "rep_nom": "Steve Watkins"
+            "rep_nom": "Steve Watkins",
+            "id": 165
         }
     },
     {
@@ -1656,7 +1821,8 @@
             "state": "Kansas",
             "no": 3,
             "dem_nom": "Sharice Davids",
-            "rep_nom": "Kevin Yoder"
+            "rep_nom": "Kevin Yoder",
+            "id": 166
         }
     },
     {
@@ -1666,7 +1832,8 @@
             "state": "Kansas",
             "no": 4,
             "dem_nom": "James Thompson",
-            "rep_nom": "Ron Estes"
+            "rep_nom": "Ron Estes",
+            "id": 167
         }
     },
     {
@@ -1676,7 +1843,8 @@
             "state": "Kentucky",
             "no": 1,
             "dem_nom": "Paul Walker",
-            "rep_nom": "James Comer"
+            "rep_nom": "James Comer",
+            "id": 168
         }
     },
     {
@@ -1686,7 +1854,8 @@
             "state": "Kentucky",
             "no": 2,
             "dem_nom": "Hank Linderman",
-            "rep_nom": "Brett Guthrie"
+            "rep_nom": "Brett Guthrie",
+            "id": 169
         }
     },
     {
@@ -1696,7 +1865,8 @@
             "state": "Kentucky",
             "no": 3,
             "dem_nom": "John Yarmuth",
-            "rep_nom": "Harold Bratcher"
+            "rep_nom": "Harold Bratcher",
+            "id": 170
         }
     },
     {
@@ -1706,7 +1876,8 @@
             "state": "Kentucky",
             "no": 4,
             "dem_nom": "Seth Hall",
-            "rep_nom": "Thomas Massie"
+            "rep_nom": "Thomas Massie",
+            "id": 171
         }
     },
     {
@@ -1716,7 +1887,8 @@
             "state": "Kentucky",
             "no": 5,
             "dem_nom": "Kenneth Stepp",
-            "rep_nom": "Hal Rogers"
+            "rep_nom": "Hal Rogers",
+            "id": 172
         }
     },
     {
@@ -1726,7 +1898,8 @@
             "state": "Kentucky",
             "no": 6,
             "dem_nom": "Amy McGrath",
-            "rep_nom": "Andy Barr"
+            "rep_nom": "Andy Barr",
+            "id": 173
         }
     },
     {
@@ -1736,7 +1909,8 @@
             "state": "Louisiana",
             "no": 1,
             "dem_nom": "Jim Francis",
-            "rep_nom": "Steve Scalise"
+            "rep_nom": "Steve Scalise",
+            "id": 174
         }
     },
     {
@@ -1746,7 +1920,8 @@
             "state": "Louisiana",
             "no": 2,
             "dem_nom": "Cedric Richmond",
-            "rep_nom": "None"
+            "rep_nom": "None",
+            "id": 175
         }
     },
     {
@@ -1756,7 +1931,8 @@
             "state": "Louisiana",
             "no": 3,
             "dem_nom": "Mimi Methvin",
-            "rep_nom": "Clay Higgins"
+            "rep_nom": "Clay Higgins",
+            "id": 176
         }
     },
     {
@@ -1766,7 +1942,8 @@
             "state": "Louisiana",
             "no": 4,
             "dem_nom": "Ryan Trundle",
-            "rep_nom": "Mike Johnson"
+            "rep_nom": "Mike Johnson",
+            "id": 177
         }
     },
     {
@@ -1776,7 +1953,8 @@
             "state": "Louisiana",
             "no": 5,
             "dem_nom": "Jesse Carlton Fleenor",
-            "rep_nom": "Ralph Abraham"
+            "rep_nom": "Ralph Abraham",
+            "id": 178
         }
     },
     {
@@ -1786,7 +1964,8 @@
             "state": "Louisiana",
             "no": 6,
             "dem_nom": "Justin DeWitt",
-            "rep_nom": "Garret Graves"
+            "rep_nom": "Garret Graves",
+            "id": 179
         }
     },
     {
@@ -1796,7 +1975,8 @@
             "state": "Maine",
             "no": 1,
             "dem_nom": "Chellie Pingrie",
-            "rep_nom": "Mark Holbrook"
+            "rep_nom": "Mark Holbrook",
+            "id": 180
         }
     },
     {
@@ -1806,7 +1986,8 @@
             "state": "Maine",
             "no": 2,
             "dem_nom": "Jared Golden",
-            "rep_nom": "Bruce Poliquin"
+            "rep_nom": "Bruce Poliquin",
+            "id": 181
         }
     },
     {
@@ -1816,7 +1997,8 @@
             "state": "Maryland",
             "no": 1,
             "dem_nom": "Jesse Colvin",
-            "rep_nom": "Andy Harris"
+            "rep_nom": "Andy Harris",
+            "id": 182
         }
     },
     {
@@ -1826,7 +2008,8 @@
             "state": "Maryland",
             "no": 2,
             "dem_nom": "C.A. Dutch Ruppersberger",
-            "rep_nom": "Liz Matory"
+            "rep_nom": "Liz Matory",
+            "id": 183
         }
     },
     {
@@ -1836,7 +2019,8 @@
             "state": "Maryland",
             "no": 3,
             "dem_nom": "John P. Sarbanes",
-            "rep_nom": "Charles Anthony"
+            "rep_nom": "Charles Anthony",
+            "id": 184
         }
     },
     {
@@ -1846,7 +2030,8 @@
             "state": "Maryland",
             "no": 4,
             "dem_nom": "Anthony G. Brown",
-            "rep_nom": "George McDermott"
+            "rep_nom": "George McDermott",
+            "id": 185
         }
     },
     {
@@ -1856,7 +2041,8 @@
             "state": "Maryland",
             "no": 5,
             "dem_nom": "Steny Hoyer",
-            "rep_nom": "Willian Devine III"
+            "rep_nom": "Willian Devine III",
+            "id": 186
         }
     },
     {
@@ -1866,7 +2052,8 @@
             "state": "Maryland",
             "no": 6,
             "dem_nom": "David Trone",
-            "rep_nom": "Amie Hoeber"
+            "rep_nom": "Amie Hoeber",
+            "id": 187
         }
     },
     {
@@ -1876,7 +2063,8 @@
             "state": "Maryland",
             "no": 7,
             "dem_nom": "Elijah Cummings",
-            "rep_nom": "Richmond Davis"
+            "rep_nom": "Richmond Davis",
+            "id": 188
         }
     },
     {
@@ -1886,7 +2074,8 @@
             "state": "Maryland",
             "no": 8,
             "dem_nom": "Jamie Raskin",
-            "rep_nom": "John Walsh"
+            "rep_nom": "John Walsh",
+            "id": 189
         }
     },
     {
@@ -1896,7 +2085,8 @@
             "state": "Massachusetts",
             "no": 1,
             "dem_nom": "Richard Neal",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 190
         }
     },
     {
@@ -1906,7 +2096,8 @@
             "state": "Massachusetts",
             "no": 2,
             "dem_nom": "James McGovern",
-            "rep_nom": "Tracy Lovvorn"
+            "rep_nom": "Tracy Lovvorn",
+            "id": 191
         }
     },
     {
@@ -1916,7 +2107,8 @@
             "state": "Massachusetts",
             "no": 3,
             "dem_nom": "Lori Trahan",
-            "rep_nom": "Rick Green"
+            "rep_nom": "Rick Green",
+            "id": 192
         }
     },
     {
@@ -1926,7 +2118,8 @@
             "state": "Massachusetts",
             "no": 4,
             "dem_nom": "Joseph Kennedy",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 193
         }
     },
     {
@@ -1936,7 +2129,8 @@
             "state": "Massachusetts",
             "no": 5,
             "dem_nom": "Katherine Clark",
-            "rep_nom": "John Hugo"
+            "rep_nom": "John Hugo",
+            "id": 194
         }
     },
     {
@@ -1946,7 +2140,8 @@
             "state": "Massachusetts",
             "no": 6,
             "dem_nom": "Seth Moulton",
-            "rep_nom": "Joeseph Schneider"
+            "rep_nom": "Joeseph Schneider",
+            "id": 195
         }
     },
     {
@@ -1956,7 +2151,8 @@
             "state": "Massachusetts",
             "no": 7,
             "dem_nom": "Ayanna Pressley",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 196
         }
     },
     {
@@ -1966,7 +2162,8 @@
             "state": "Massachusetts",
             "no": 8,
             "dem_nom": "Stephen Lynch",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 197
         }
     },
     {
@@ -1976,7 +2173,8 @@
             "state": "Massachusetts",
             "no": 9,
             "dem_nom": "William Keating",
-            "rep_nom": "Peter Tedeschi"
+            "rep_nom": "Peter Tedeschi",
+            "id": 198
         }
     },
     {
@@ -1986,7 +2184,8 @@
             "state": "Michigan",
             "no": 1,
             "dem_nom": "Matt Morgan",
-            "rep_nom": "Jack Bergman"
+            "rep_nom": "Jack Bergman",
+            "id": 199
         }
     },
     {
@@ -1996,7 +2195,8 @@
             "state": "Michigan",
             "no": 2,
             "dem_nom": "Rob Davidson",
-            "rep_nom": "Bill Huizenga"
+            "rep_nom": "Bill Huizenga",
+            "id": 200
         }
     },
     {
@@ -2006,7 +2206,8 @@
             "state": "Michigan",
             "no": 3,
             "dem_nom": "Cathy Albro",
-            "rep_nom": "Justin Amash"
+            "rep_nom": "Justin Amash",
+            "id": 201
         }
     },
     {
@@ -2016,7 +2217,8 @@
             "state": "Michigan",
             "no": 4,
             "dem_nom": "Zigmond Kozicki",
-            "rep_nom": "Jerry Hilliard"
+            "rep_nom": "Jerry Hilliard",
+            "id": 202
         }
     },
     {
@@ -2026,7 +2228,8 @@
             "state": "Michigan",
             "no": 5,
             "dem_nom": "Daniel Kildee",
-            "rep_nom": "Travis Vines"
+            "rep_nom": "Travis Vines",
+            "id": 203
         }
     },
     {
@@ -2036,7 +2239,8 @@
             "state": "Michigan",
             "no": 6,
             "dem_nom": "Matt Longjohn",
-            "rep_nom": "Fred Upton"
+            "rep_nom": "Fred Upton",
+            "id": 204
         }
     },
     {
@@ -2046,7 +2250,8 @@
             "state": "Michigan",
             "no": 7,
             "dem_nom": "Gretchen Driskell",
-            "rep_nom": "Tim Walberg"
+            "rep_nom": "Tim Walberg",
+            "id": 205
         }
     },
     {
@@ -2056,7 +2261,8 @@
             "state": "Michigan",
             "no": 8,
             "dem_nom": "Elissa Slotkin",
-            "rep_nom": "Mike Bishop"
+            "rep_nom": "Mike Bishop",
+            "id": 206
         }
     },
     {
@@ -2066,7 +2272,8 @@
             "state": "Michigan",
             "no": 9,
             "dem_nom": "Sander Levin",
-            "rep_nom": "Candius Stearns"
+            "rep_nom": "Candius Stearns",
+            "id": 207
         }
     },
     {
@@ -2076,7 +2283,8 @@
             "state": "Michigan",
             "no": 10,
             "dem_nom": "Kimberly Bizon",
-            "rep_nom": "Paul Mitchell"
+            "rep_nom": "Paul Mitchell",
+            "id": 208
         }
     },
     {
@@ -2086,7 +2294,8 @@
             "state": "Michigan",
             "no": 11,
             "dem_nom": "Haley Stevens",
-            "rep_nom": "Lena Epstein"
+            "rep_nom": "Lena Epstein",
+            "id": 209
         }
     },
     {
@@ -2096,7 +2305,8 @@
             "state": "Michigan",
             "no": 12,
             "dem_nom": "Debbie Dingell",
-            "rep_nom": "Jeff Jones"
+            "rep_nom": "Jeff Jones",
+            "id": 210
         }
     },
     {
@@ -2106,7 +2316,8 @@
             "state": "Michigan",
             "no": 13,
             "dem_nom": "Rashida Talib",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 211
         }
     },
     {
@@ -2116,7 +2327,8 @@
             "state": "Michigan",
             "no": 14,
             "dem_nom": "Brenda Lawrence",
-            "rep_nom": "Marc Herschfus"
+            "rep_nom": "Marc Herschfus",
+            "id": 212
         }
     },
     {
@@ -2126,7 +2338,8 @@
             "state": "Minnesota",
             "no": 1,
             "dem_nom": "Dan Feehan",
-            "rep_nom": "Jim Hagedorn"
+            "rep_nom": "Jim Hagedorn",
+            "id": 213
         }
     },
     {
@@ -2136,7 +2349,8 @@
             "state": "Minnesota",
             "no": 2,
             "dem_nom": "Angie Craig",
-            "rep_nom": "Jason Lewis"
+            "rep_nom": "Jason Lewis",
+            "id": 214
         }
     },
     {
@@ -2146,7 +2360,8 @@
             "state": "Minnesota",
             "no": 3,
             "dem_nom": "Dean Phillips",
-            "rep_nom": "Erik Paulsen"
+            "rep_nom": "Erik Paulsen",
+            "id": 215
         }
     },
     {
@@ -2156,7 +2371,8 @@
             "state": "Minnesota",
             "no": 4,
             "dem_nom": "Betty McCollum",
-            "rep_nom": "Greg Ryan"
+            "rep_nom": "Greg Ryan",
+            "id": 216
         }
     },
     {
@@ -2166,7 +2382,8 @@
             "state": "Minnesota",
             "no": 5,
             "dem_nom": "Ilhan Omar",
-            "rep_nom": "Jennifer Zielinski"
+            "rep_nom": "Jennifer Zielinski",
+            "id": 217
         }
     },
     {
@@ -2176,7 +2393,8 @@
             "state": "Minnesota",
             "no": 6,
             "dem_nom": "Ian Todd",
-            "rep_nom": "Tom Emmer"
+            "rep_nom": "Tom Emmer",
+            "id": 218
         }
     },
     {
@@ -2186,7 +2404,8 @@
             "state": "Minnesota",
             "no": 7,
             "dem_nom": "Collin Peterson",
-            "rep_nom": "Dave Hughes"
+            "rep_nom": "Dave Hughes",
+            "id": 219
         }
     },
     {
@@ -2196,7 +2415,8 @@
             "state": "Minnesota",
             "no": 8,
             "dem_nom": "Joe Radinovich",
-            "rep_nom": "Pete Sauber"
+            "rep_nom": "Pete Sauber",
+            "id": 220
         }
     },
     {
@@ -2206,7 +2426,8 @@
             "state": "Mississippi",
             "no": 1,
             "dem_nom": "Randy Wadkins",
-            "rep_nom": "Trent Kelly"
+            "rep_nom": "Trent Kelly",
+            "id": 221
         }
     },
     {
@@ -2216,7 +2437,8 @@
             "state": "Mississippi",
             "no": 2,
             "dem_nom": "Bennie Thompson",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 222
         }
     },
     {
@@ -2226,7 +2448,8 @@
             "state": "Mississippi",
             "no": 3,
             "dem_nom": "Michael Evans",
-            "rep_nom": "Michael Guest"
+            "rep_nom": "Michael Guest",
+            "id": 223
         }
     },
     {
@@ -2236,7 +2459,8 @@
             "state": "Mississippi",
             "no": 4,
             "dem_nom": "Jeramey Anderson",
-            "rep_nom": "Steven Palazzo"
+            "rep_nom": "Steven Palazzo",
+            "id": 224
         }
     },
     {
@@ -2246,7 +2470,8 @@
             "state": "Missouri",
             "no": 1,
             "dem_nom": "William Lacy Clay",
-            "rep_nom": "Robert Vroman"
+            "rep_nom": "Robert Vroman",
+            "id": 225
         }
     },
     {
@@ -2256,7 +2481,8 @@
             "state": "Missouri",
             "no": 2,
             "dem_nom": "Cort VanOstran",
-            "rep_nom": "Ann Wagner"
+            "rep_nom": "Ann Wagner",
+            "id": 226
         }
     },
     {
@@ -2266,7 +2492,8 @@
             "state": "Missouri",
             "no": 3,
             "dem_nom": "Katy Geppert",
-            "rep_nom": "Blaine Luetkemeyer"
+            "rep_nom": "Blaine Luetkemeyer",
+            "id": 227
         }
     },
     {
@@ -2276,7 +2503,8 @@
             "state": "Missouri",
             "no": 4,
             "dem_nom": "Renee Hoagenson",
-            "rep_nom": "Vicky Hartzler"
+            "rep_nom": "Vicky Hartzler",
+            "id": 228
         }
     },
     {
@@ -2286,7 +2514,8 @@
             "state": "Missouri",
             "no": 5,
             "dem_nom": "Emanuel Cleaver",
-            "rep_nom": "Jacob Turk"
+            "rep_nom": "Jacob Turk",
+            "id": 229
         }
     },
     {
@@ -2296,7 +2525,8 @@
             "state": "Missouri",
             "no": 6,
             "dem_nom": "Henry Robert Martin",
-            "rep_nom": "Sam Graves"
+            "rep_nom": "Sam Graves",
+            "id": 230
         }
     },
     {
@@ -2306,7 +2536,8 @@
             "state": "Missouri",
             "no": 7,
             "dem_nom": "Jamie Daniel Schoolcraft",
-            "rep_nom": "Billy Long"
+            "rep_nom": "Billy Long",
+            "id": 231
         }
     },
     {
@@ -2316,7 +2547,8 @@
             "state": "Missouri",
             "no": 8,
             "dem_nom": "Kathy Ellis",
-            "rep_nom": "Jason Smith"
+            "rep_nom": "Jason Smith",
+            "id": 232
         }
     },
     {
@@ -2326,7 +2558,8 @@
             "state": "Montana",
             "no": 1,
             "dem_nom": "Kathleen Williams",
-            "rep_nom": "Greg Gianforte"
+            "rep_nom": "Greg Gianforte",
+            "id": 233
         }
     },
     {
@@ -2336,7 +2569,8 @@
             "state": "Nebraska",
             "no": 1,
             "dem_nom": "Jessica McClure",
-            "rep_nom": "Jeff Fortenberry"
+            "rep_nom": "Jeff Fortenberry",
+            "id": 234
         }
     },
     {
@@ -2346,7 +2580,8 @@
             "state": "Nebraska",
             "no": 2,
             "dem_nom": "Kara Eastman",
-            "rep_nom": "Don Bacon"
+            "rep_nom": "Don Bacon",
+            "id": 235
         }
     },
     {
@@ -2356,7 +2591,8 @@
             "state": "Nebraska",
             "no": 3,
             "dem_nom": "Paul Theobald",
-            "rep_nom": "Adrian Smith"
+            "rep_nom": "Adrian Smith",
+            "id": 236
         }
     },
     {
@@ -2366,7 +2602,8 @@
             "state": "Nevada",
             "no": 1,
             "dem_nom": "Dina Titus",
-            "rep_nom": "Joyce Bentley"
+            "rep_nom": "Joyce Bentley",
+            "id": 237
         }
     },
     {
@@ -2376,7 +2613,8 @@
             "state": "Nevada",
             "no": 2,
             "dem_nom": "Clint Koble",
-            "rep_nom": "Mark Amodei"
+            "rep_nom": "Mark Amodei",
+            "id": 238
         }
     },
     {
@@ -2386,7 +2624,8 @@
             "state": "Nevada",
             "no": 3,
             "dem_nom": "Susie Lee",
-            "rep_nom": "Danny Tarkanian"
+            "rep_nom": "Danny Tarkanian",
+            "id": 239
         }
     },
     {
@@ -2396,7 +2635,8 @@
             "state": "Nevada",
             "no": 4,
             "dem_nom": "Steven A. Horsford",
-            "rep_nom": "Cresent Hardy"
+            "rep_nom": "Cresent Hardy",
+            "id": 240
         }
     },
     {
@@ -2406,7 +2646,8 @@
             "state": "New Hampshire",
             "no": 1,
             "dem_nom": "Chris Pappas",
-            "rep_nom": "Eddie Edwards"
+            "rep_nom": "Eddie Edwards",
+            "id": 241
         }
     },
     {
@@ -2416,7 +2657,8 @@
             "state": "New Hampshire",
             "no": 2,
             "dem_nom": "Ann Kuster",
-            "rep_nom": "Stewart Levenson"
+            "rep_nom": "Stewart Levenson",
+            "id": 242
         }
     },
     {
@@ -2426,7 +2668,8 @@
             "state": "New Jersey",
             "no": 1,
             "dem_nom": "Donald Norcross",
-            "rep_nom": "Paul E. Dilks"
+            "rep_nom": "Paul E. Dilks",
+            "id": 243
         }
     },
     {
@@ -2436,7 +2679,8 @@
             "state": "New Jersey",
             "no": 2,
             "dem_nom": "Jeff Van Drew",
-            "rep_nom": "Seth Grossman"
+            "rep_nom": "Seth Grossman",
+            "id": 244
         }
     },
     {
@@ -2446,7 +2690,8 @@
             "state": "New Jersey",
             "no": 3,
             "dem_nom": "Andy Kim",
-            "rep_nom": "Tom MacArthur"
+            "rep_nom": "Tom MacArthur",
+            "id": 245
         }
     },
     {
@@ -2456,7 +2701,8 @@
             "state": "New Jersey",
             "no": 4,
             "dem_nom": "Joshua Welle",
-            "rep_nom": "Chris Smith"
+            "rep_nom": "Chris Smith",
+            "id": 246
         }
     },
     {
@@ -2466,7 +2712,8 @@
             "state": "New Jersey",
             "no": 5,
             "dem_nom": "Josh Gottheimer",
-            "rep_nom": "John J. MacCann Jr."
+            "rep_nom": "John J. MacCann Jr.",
+            "id": 247
         }
     },
     {
@@ -2476,7 +2723,8 @@
             "state": "New Jersey",
             "no": 6,
             "dem_nom": "Frank Pallone Jr.",
-            "rep_nom": "Richard J. Pezzullo"
+            "rep_nom": "Richard J. Pezzullo",
+            "id": 248
         }
     },
     {
@@ -2486,7 +2734,8 @@
             "state": "New Jersey",
             "no": 7,
             "dem_nom": "Tom Malinowski",
-            "rep_nom": "Leonard Lance"
+            "rep_nom": "Leonard Lance",
+            "id": 249
         }
     },
     {
@@ -2496,7 +2745,8 @@
             "state": "New Jersey",
             "no": 8,
             "dem_nom": "Albio Sires",
-            "rep_nom": "John R. Muniz"
+            "rep_nom": "John R. Muniz",
+            "id": 250
         }
     },
     {
@@ -2506,7 +2756,8 @@
             "state": "New Jersey",
             "no": 9,
             "dem_nom": "Bill Pascrell Jr.",
-            "rep_nom": "Eric P. Fisher"
+            "rep_nom": "Eric P. Fisher",
+            "id": 251
         }
     },
     {
@@ -2516,7 +2767,8 @@
             "state": "New Jersey",
             "no": 10,
             "dem_nom": "Donald Payne Jr.",
-            "rep_nom": "Agha Khan"
+            "rep_nom": "Agha Khan",
+            "id": 252
         }
     },
     {
@@ -2526,7 +2778,8 @@
             "state": "New Jersey",
             "no": 11,
             "dem_nom": "Mikie Sherrill",
-            "rep_nom": "Jay Webber"
+            "rep_nom": "Jay Webber",
+            "id": 253
         }
     },
     {
@@ -2536,7 +2789,8 @@
             "state": "New Jersey",
             "no": 12,
             "dem_nom": "Bonnie Watson Coleman",
-            "rep_nom": "Daryl Kipnis"
+            "rep_nom": "Daryl Kipnis",
+            "id": 254
         }
     },
     {
@@ -2546,7 +2800,8 @@
             "state": "New Mexico",
             "no": 1,
             "dem_nom": "Debra A. Haaland",
-            "rep_nom": "Janice E. Arnold-Jones"
+            "rep_nom": "Janice E. Arnold-Jones",
+            "id": 255
         }
     },
     {
@@ -2556,7 +2811,8 @@
             "state": "New Mexico",
             "no": 2,
             "dem_nom": "Xochitl Torres Small",
-            "rep_nom": "Yvette Herrell"
+            "rep_nom": "Yvette Herrell",
+            "id": 256
         }
     },
     {
@@ -2566,7 +2822,8 @@
             "state": "New Mexico",
             "no": 3,
             "dem_nom": "Ben R. Lujan",
-            "rep_nom": "Jerald Steve McFall"
+            "rep_nom": "Jerald Steve McFall",
+            "id": 257
         }
     },
     {
@@ -2576,7 +2833,8 @@
             "state": "New York",
             "no": 1,
             "dem_nom": "Perry Gershon",
-            "rep_nom": "Lee Zeldin"
+            "rep_nom": "Lee Zeldin",
+            "id": 258
         }
     },
     {
@@ -2586,7 +2844,8 @@
             "state": "New York",
             "no": 2,
             "dem_nom": "Liuba Grechen Shirley",
-            "rep_nom": "Pete King"
+            "rep_nom": "Pete King",
+            "id": 259
         }
     },
     {
@@ -2596,7 +2855,8 @@
             "state": "New York",
             "no": 3,
             "dem_nom": "Thomas Suozzi",
-            "rep_nom": "Dan DeBono"
+            "rep_nom": "Dan DeBono",
+            "id": 260
         }
     },
     {
@@ -2606,7 +2866,8 @@
             "state": "New York",
             "no": 4,
             "dem_nom": "Kathleen Rice",
-            "rep_nom": "Ameer Benno"
+            "rep_nom": "Ameer Benno",
+            "id": 261
         }
     },
     {
@@ -2616,7 +2877,8 @@
             "state": "New York",
             "no": 5,
             "dem_nom": "Gregory Meeks",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 262
         }
     },
     {
@@ -2626,7 +2888,8 @@
             "state": "New York",
             "no": 6,
             "dem_nom": "Grace Meng",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 263
         }
     },
     {
@@ -2636,7 +2899,8 @@
             "state": "New York",
             "no": 7,
             "dem_nom": "Nydia Velazquez",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 264
         }
     },
     {
@@ -2646,7 +2910,8 @@
             "state": "New York",
             "no": 8,
             "dem_nom": "Hakeem Jeffries",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 265
         }
     },
     {
@@ -2656,7 +2921,8 @@
             "state": "New York",
             "no": 9,
             "dem_nom": "Yvette Clarke",
-            "rep_nom": "Lutchi Gayot"
+            "rep_nom": "Lutchi Gayot",
+            "id": 266
         }
     },
     {
@@ -2666,7 +2932,8 @@
             "state": "New York",
             "no": 10,
             "dem_nom": "Jorrold Nadier",
-            "rep_nom": "Naomi Levin"
+            "rep_nom": "Naomi Levin",
+            "id": 267
         }
     },
     {
@@ -2676,7 +2943,8 @@
             "state": "New York",
             "no": 11,
             "dem_nom": "Max Rose",
-            "rep_nom": "Daniel Donovan"
+            "rep_nom": "Daniel Donovan",
+            "id": 268
         }
     },
     {
@@ -2686,7 +2954,8 @@
             "state": "New York",
             "no": 12,
             "dem_nom": "Carolyn Maloney",
-            "rep_nom": "Elliot Rabin"
+            "rep_nom": "Elliot Rabin",
+            "id": 269
         }
     },
     {
@@ -2696,7 +2965,8 @@
             "state": "New York",
             "no": 13,
             "dem_nom": "Adriano Espaillat",
-            "rep_nom": "Jineea Butler"
+            "rep_nom": "Jineea Butler",
+            "id": 270
         }
     },
     {
@@ -2706,7 +2976,8 @@
             "state": "New York",
             "no": 14,
             "dem_nom": "Alexandria Ocasio-Cortez",
-            "rep_nom": "Anthony Pappas"
+            "rep_nom": "Anthony Pappas",
+            "id": 271
         }
     },
     {
@@ -2716,7 +2987,8 @@
             "state": "New York",
             "no": 15,
             "dem_nom": "Jose Serrano",
-            "rep_nom": "Jason Gonzalez"
+            "rep_nom": "Jason Gonzalez",
+            "id": 272
         }
     },
     {
@@ -2726,7 +2998,8 @@
             "state": "New York",
             "no": 16,
             "dem_nom": "Eliot Engel",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 273
         }
     },
     {
@@ -2736,7 +3009,8 @@
             "state": "New York",
             "no": 17,
             "dem_nom": "Nita Lowey",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 274
         }
     },
     {
@@ -2746,7 +3020,8 @@
             "state": "New York",
             "no": 18,
             "dem_nom": "Sean Maloney",
-            "rep_nom": "James O'Donnell"
+            "rep_nom": "James O'Donnell",
+            "id": 275
         }
     },
     {
@@ -2756,7 +3031,8 @@
             "state": "New York",
             "no": 19,
             "dem_nom": "Antonio Delgado",
-            "rep_nom": "John Faso"
+            "rep_nom": "John Faso",
+            "id": 276
         }
     },
     {
@@ -2766,7 +3042,8 @@
             "state": "New York",
             "no": 20,
             "dem_nom": "Paul Tonko",
-            "rep_nom": "Joe Vitollo"
+            "rep_nom": "Joe Vitollo",
+            "id": 277
         }
     },
     {
@@ -2776,7 +3053,8 @@
             "state": "New York",
             "no": 21,
             "dem_nom": "Tedra Cobb",
-            "rep_nom": "Elise Stefanik"
+            "rep_nom": "Elise Stefanik",
+            "id": 278
         }
     },
     {
@@ -2786,7 +3064,8 @@
             "state": "New York",
             "no": 22,
             "dem_nom": "Anthony Brindisi",
-            "rep_nom": "Claudia Tenney"
+            "rep_nom": "Claudia Tenney",
+            "id": 279
         }
     },
     {
@@ -2796,7 +3075,8 @@
             "state": "New York",
             "no": 23,
             "dem_nom": "Tracy Mitrano",
-            "rep_nom": "Tom Reed"
+            "rep_nom": "Tom Reed",
+            "id": 280
         }
     },
     {
@@ -2806,7 +3086,8 @@
             "state": "New York",
             "no": 24,
             "dem_nom": "Dana Balter",
-            "rep_nom": "Jon Katko"
+            "rep_nom": "Jon Katko",
+            "id": 281
         }
     },
     {
@@ -2816,7 +3097,8 @@
             "state": "New York",
             "no": 25,
             "dem_nom": "Joseph D. Morelle",
-            "rep_nom": "Jim Maxwell"
+            "rep_nom": "Jim Maxwell",
+            "id": 282
         }
     },
     {
@@ -2826,7 +3108,8 @@
             "state": "New York",
             "no": 26,
             "dem_nom": "Brian Higgins",
-            "rep_nom": "Renee Zigo"
+            "rep_nom": "Renee Zigo",
+            "id": 283
         }
     },
     {
@@ -2836,7 +3119,8 @@
             "state": "New York",
             "no": 27,
             "dem_nom": "Nate McMurray",
-            "rep_nom": "Stefan Mychajliw"
+            "rep_nom": "Stefan Mychajliw",
+            "id": 284
         }
     },
     {
@@ -2846,7 +3130,8 @@
             "state": "North Carolina",
             "no": 1,
             "dem_nom": "G.K. Butterfield",
-            "rep_nom": "Roger Allison"
+            "rep_nom": "Roger Allison",
+            "id": 285
         }
     },
     {
@@ -2856,7 +3141,8 @@
             "state": "North Carolina",
             "no": 2,
             "dem_nom": "Linda Coleman",
-            "rep_nom": "George Holding"
+            "rep_nom": "George Holding",
+            "id": 286
         }
     },
     {
@@ -2866,7 +3152,8 @@
             "state": "North Carolina",
             "no": 3,
             "dem_nom": "",
-            "rep_nom": "Walter B. Jones"
+            "rep_nom": "Walter B. Jones",
+            "id": 287
         }
     },
     {
@@ -2876,7 +3163,8 @@
             "state": "North Carolina",
             "no": 4,
             "dem_nom": "David Price",
-            "rep_nom": "Steve Von Loor"
+            "rep_nom": "Steve Von Loor",
+            "id": 288
         }
     },
     {
@@ -2886,7 +3174,8 @@
             "state": "North Carolina",
             "no": 5,
             "dem_nom": "Denise Adams",
-            "rep_nom": "Virginia Foxx"
+            "rep_nom": "Virginia Foxx",
+            "id": 289
         }
     },
     {
@@ -2896,7 +3185,8 @@
             "state": "North Carolina",
             "no": 6,
             "dem_nom": "Ryan Watts",
-            "rep_nom": "Mark Walker"
+            "rep_nom": "Mark Walker",
+            "id": 290
         }
     },
     {
@@ -2906,7 +3196,8 @@
             "state": "North Carolina",
             "no": 7,
             "dem_nom": "Kyle Horton",
-            "rep_nom": "David Rouzer"
+            "rep_nom": "David Rouzer",
+            "id": 291
         }
     },
     {
@@ -2916,7 +3207,8 @@
             "state": "North Carolina",
             "no": 8,
             "dem_nom": "Frank McNeill",
-            "rep_nom": "Richard Hudson"
+            "rep_nom": "Richard Hudson",
+            "id": 292
         }
     },
     {
@@ -2926,7 +3218,8 @@
             "state": "North Carolina",
             "no": 9,
             "dem_nom": "Dan McCready",
-            "rep_nom": "Mark Harris"
+            "rep_nom": "Mark Harris",
+            "id": 293
         }
     },
     {
@@ -2936,7 +3229,8 @@
             "state": "North Carolina",
             "no": 10,
             "dem_nom": "David Wilson Brown",
-            "rep_nom": "Patrick McHenry"
+            "rep_nom": "Patrick McHenry",
+            "id": 294
         }
     },
     {
@@ -2946,7 +3240,8 @@
             "state": "North Carolina",
             "no": 11,
             "dem_nom": "Phillip Price",
-            "rep_nom": "Mark Meadows"
+            "rep_nom": "Mark Meadows",
+            "id": 295
         }
     },
     {
@@ -2956,7 +3251,8 @@
             "state": "North Carolina",
             "no": 12,
             "dem_nom": "Alma Adams",
-            "rep_nom": "Paul Wright"
+            "rep_nom": "Paul Wright",
+            "id": 296
         }
     },
     {
@@ -2966,7 +3262,8 @@
             "state": "North Carolina",
             "no": 13,
             "dem_nom": "Kathy Manning",
-            "rep_nom": "Ted Budd"
+            "rep_nom": "Ted Budd",
+            "id": 297
         }
     },
     {
@@ -2976,7 +3273,8 @@
             "state": "North Dakota",
             "no": 1,
             "dem_nom": "Mac Schneider",
-            "rep_nom": "Kelly Armstrong"
+            "rep_nom": "Kelly Armstrong",
+            "id": 298
         }
     },
     {
@@ -2986,7 +3284,8 @@
             "state": "Ohio",
             "no": 1,
             "dem_nom": "Aftab Pureval",
-            "rep_nom": "Steve Chabot"
+            "rep_nom": "Steve Chabot",
+            "id": 299
         }
     },
     {
@@ -2996,7 +3295,8 @@
             "state": "Ohio",
             "no": 2,
             "dem_nom": "Jill Schiller",
-            "rep_nom": "Brad Wenstrup"
+            "rep_nom": "Brad Wenstrup",
+            "id": 300
         }
     },
     {
@@ -3006,7 +3306,8 @@
             "state": "Ohio",
             "no": 3,
             "dem_nom": "Joey Beatty",
-            "rep_nom": "Jim Burgess"
+            "rep_nom": "Jim Burgess",
+            "id": 301
         }
     },
     {
@@ -3016,7 +3317,8 @@
             "state": "Ohio",
             "no": 4,
             "dem_nom": "Janet Garrett",
-            "rep_nom": "Jim Jordan"
+            "rep_nom": "Jim Jordan",
+            "id": 302
         }
     },
     {
@@ -3026,7 +3328,8 @@
             "state": "Ohio",
             "no": 5,
             "dem_nom": "John Michael Galbraith",
-            "rep_nom": "Bob Latta"
+            "rep_nom": "Bob Latta",
+            "id": 303
         }
     },
     {
@@ -3036,7 +3339,8 @@
             "state": "Ohio",
             "no": 6,
             "dem_nom": "Shawna Roberts",
-            "rep_nom": "Bill Johnson"
+            "rep_nom": "Bill Johnson",
+            "id": 304
         }
     },
     {
@@ -3046,7 +3350,8 @@
             "state": "Ohio",
             "no": 7,
             "dem_nom": "Ken Harbaugh",
-            "rep_nom": "Bob Gibbs"
+            "rep_nom": "Bob Gibbs",
+            "id": 305
         }
     },
     {
@@ -3056,7 +3361,8 @@
             "state": "Ohio",
             "no": 8,
             "dem_nom": "Vanessa Enoch",
-            "rep_nom": "Warren Davidson"
+            "rep_nom": "Warren Davidson",
+            "id": 306
         }
     },
     {
@@ -3066,7 +3372,8 @@
             "state": "Ohio",
             "no": 9,
             "dem_nom": "Marcy Kaptur",
-            "rep_nom": "Steven Kraus"
+            "rep_nom": "Steven Kraus",
+            "id": 307
         }
     },
     {
@@ -3076,7 +3383,8 @@
             "state": "Ohio",
             "no": 10,
             "dem_nom": "Theresa Gasper",
-            "rep_nom": "Michael Turner"
+            "rep_nom": "Michael Turner",
+            "id": 308
         }
     },
     {
@@ -3086,7 +3394,8 @@
             "state": "Ohio",
             "no": 11,
             "dem_nom": "Marcia Fudge",
-            "rep_nom": "Beverly Goldstein"
+            "rep_nom": "Beverly Goldstein",
+            "id": 309
         }
     },
     {
@@ -3096,7 +3405,8 @@
             "state": "Ohio",
             "no": 12,
             "dem_nom": "Danny O'Connor",
-            "rep_nom": "Troy Balderson"
+            "rep_nom": "Troy Balderson",
+            "id": 310
         }
     },
     {
@@ -3106,7 +3416,8 @@
             "state": "Ohio",
             "no": 13,
             "dem_nom": "Tim Ryan",
-            "rep_nom": "Christopher DePizzo"
+            "rep_nom": "Christopher DePizzo",
+            "id": 311
         }
     },
     {
@@ -3116,7 +3427,8 @@
             "state": "Ohio",
             "no": 14,
             "dem_nom": "Betsy Rader",
-            "rep_nom": "David Joyce"
+            "rep_nom": "David Joyce",
+            "id": 312
         }
     },
     {
@@ -3126,7 +3438,8 @@
             "state": "Ohio",
             "no": 15,
             "dem_nom": "Rick Neal",
-            "rep_nom": "Steve Stivers"
+            "rep_nom": "Steve Stivers",
+            "id": 313
         }
     },
     {
@@ -3136,7 +3449,8 @@
             "state": "Ohio",
             "no": 16,
             "dem_nom": "Susan Moran Palmer",
-            "rep_nom": "Anthony Gonzalez"
+            "rep_nom": "Anthony Gonzalez",
+            "id": 314
         }
     },
     {
@@ -3146,7 +3460,8 @@
             "state": "Oklahoma",
             "no": 1,
             "dem_nom": "Tim Gilpin",
-            "rep_nom": "Kevin Hern"
+            "rep_nom": "Kevin Hern",
+            "id": 315
         }
     },
     {
@@ -3156,7 +3471,8 @@
             "state": "Oklahoma",
             "no": 2,
             "dem_nom": "Jason Nichols",
-            "rep_nom": "Markwayne Mullin"
+            "rep_nom": "Markwayne Mullin",
+            "id": 316
         }
     },
     {
@@ -3166,7 +3482,8 @@
             "state": "Oklahoma",
             "no": 3,
             "dem_nom": "Frankie Robbins",
-            "rep_nom": "Frank Lucas"
+            "rep_nom": "Frank Lucas",
+            "id": 317
         }
     },
     {
@@ -3176,7 +3493,8 @@
             "state": "Oklahoma",
             "no": 4,
             "dem_nom": "Mary Brannon",
-            "rep_nom": "Tom Cole"
+            "rep_nom": "Tom Cole",
+            "id": 318
         }
     },
     {
@@ -3186,7 +3504,8 @@
             "state": "Oklahoma",
             "no": 5,
             "dem_nom": "Kendra Horn",
-            "rep_nom": "Steve Russell"
+            "rep_nom": "Steve Russell",
+            "id": 319
         }
     },
     {
@@ -3196,7 +3515,8 @@
             "state": "Oregon",
             "no": 1,
             "dem_nom": "Suzanne Bonamici",
-            "rep_nom": "John Verbeek"
+            "rep_nom": "John Verbeek",
+            "id": 320
         }
     },
     {
@@ -3206,7 +3526,8 @@
             "state": "Oregon",
             "no": 2,
             "dem_nom": "Greg Walden",
-            "rep_nom": "Jamie McLeod-Skinner"
+            "rep_nom": "Jamie McLeod-Skinner",
+            "id": 321
         }
     },
     {
@@ -3216,7 +3537,8 @@
             "state": "Oregon",
             "no": 3,
             "dem_nom": "Earl Blumenauer",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 322
         }
     },
     {
@@ -3226,7 +3548,8 @@
             "state": "Oregon",
             "no": 4,
             "dem_nom": "Peter DeFazio",
-            "rep_nom": "Art Robinson"
+            "rep_nom": "Art Robinson",
+            "id": 323
         }
     },
     {
@@ -3236,7 +3559,8 @@
             "state": "Oregon",
             "no": 5,
             "dem_nom": "Kurt Schrader",
-            "rep_nom": "Mark Callahan"
+            "rep_nom": "Mark Callahan",
+            "id": 324
         }
     },
     {
@@ -3246,7 +3570,8 @@
             "state": "Pennsylvania",
             "no": 1,
             "dem_nom": "Scott Wallace",
-            "rep_nom": "Brian Fitzpatrick"
+            "rep_nom": "Brian Fitzpatrick",
+            "id": 325
         }
     },
     {
@@ -3256,7 +3581,8 @@
             "state": "Pennsylvania",
             "no": 2,
             "dem_nom": "Brendan Boyle",
-            "rep_nom": "David Torres"
+            "rep_nom": "David Torres",
+            "id": 326
         }
     },
     {
@@ -3266,7 +3592,8 @@
             "state": "Pennsylvania",
             "no": 3,
             "dem_nom": "Dwight Evans",
-            "rep_nom": "Bryan Leib"
+            "rep_nom": "Bryan Leib",
+            "id": 327
         }
     },
     {
@@ -3276,7 +3603,8 @@
             "state": "Pennsylvania",
             "no": 4,
             "dem_nom": "Madeline Dean",
-            "rep_nom": "Dan David"
+            "rep_nom": "Dan David",
+            "id": 328
         }
     },
     {
@@ -3286,7 +3614,8 @@
             "state": "Pennsylvania",
             "no": 5,
             "dem_nom": "Mary Gay Scanlon",
-            "rep_nom": "Pearl Kim"
+            "rep_nom": "Pearl Kim",
+            "id": 329
         }
     },
     {
@@ -3296,7 +3625,8 @@
             "state": "Pennsylvania",
             "no": 6,
             "dem_nom": "Chrissy Houlahan",
-            "rep_nom": "Greg McCauley"
+            "rep_nom": "Greg McCauley",
+            "id": 330
         }
     },
     {
@@ -3306,7 +3636,8 @@
             "state": "Pennsylvania",
             "no": 7,
             "dem_nom": "Susan Wild",
-            "rep_nom": "Marty Nothstein"
+            "rep_nom": "Marty Nothstein",
+            "id": 331
         }
     },
     {
@@ -3316,7 +3647,8 @@
             "state": "Pennsylvania",
             "no": 8,
             "dem_nom": "Matt Cartwright",
-            "rep_nom": "John Chrin"
+            "rep_nom": "John Chrin",
+            "id": 332
         }
     },
     {
@@ -3326,7 +3658,8 @@
             "state": "Pennsylvania",
             "no": 9,
             "dem_nom": "Denny Wolff",
-            "rep_nom": "Dan Meuser"
+            "rep_nom": "Dan Meuser",
+            "id": 333
         }
     },
     {
@@ -3336,7 +3669,8 @@
             "state": "Pennsylvania",
             "no": 10,
             "dem_nom": "George Scott",
-            "rep_nom": "Scott Perry"
+            "rep_nom": "Scott Perry",
+            "id": 334
         }
     },
     {
@@ -3346,7 +3680,8 @@
             "state": "Pennsylvania",
             "no": 11,
             "dem_nom": "Jess King",
-            "rep_nom": "Lloyd Smucker"
+            "rep_nom": "Lloyd Smucker",
+            "id": 335
         }
     },
     {
@@ -3356,7 +3691,8 @@
             "state": "Pennsylvania",
             "no": 12,
             "dem_nom": "Marc Friedenberg",
-            "rep_nom": "Tom Marino"
+            "rep_nom": "Tom Marino",
+            "id": 336
         }
     },
     {
@@ -3366,7 +3702,8 @@
             "state": "Pennsylvania",
             "no": 13,
             "dem_nom": "Brent Ottaway",
-            "rep_nom": "John Joyce"
+            "rep_nom": "John Joyce",
+            "id": 337
         }
     },
     {
@@ -3376,7 +3713,8 @@
             "state": "Pennsylvania",
             "no": 14,
             "dem_nom": "Bibiana Boerio",
-            "rep_nom": "Guy Reschenthaler"
+            "rep_nom": "Guy Reschenthaler",
+            "id": 338
         }
     },
     {
@@ -3386,7 +3724,8 @@
             "state": "Pennsylvania",
             "no": 15,
             "dem_nom": "Susan Boser",
-            "rep_nom": "Glenn W. Thompson"
+            "rep_nom": "Glenn W. Thompson",
+            "id": 339
         }
     },
     {
@@ -3396,7 +3735,8 @@
             "state": "Pennsylvania",
             "no": 16,
             "dem_nom": "Ron DiNicola",
-            "rep_nom": "Mike Kelly"
+            "rep_nom": "Mike Kelly",
+            "id": 340
         }
     },
     {
@@ -3406,7 +3746,8 @@
             "state": "Pennsylvania",
             "no": 17,
             "dem_nom": "Conor Lamb",
-            "rep_nom": "Keith Rothfus"
+            "rep_nom": "Keith Rothfus",
+            "id": 341
         }
     },
     {
@@ -3416,7 +3757,8 @@
             "state": "Pennsylvania",
             "no": 18,
             "dem_nom": "Mike Doyle",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 342
         }
     },
     {
@@ -3426,7 +3768,8 @@
             "state": "Rhode Island",
             "no": 1,
             "dem_nom": "David Cicilline",
-            "rep_nom": "Patrick Donovan"
+            "rep_nom": "Patrick Donovan",
+            "id": 343
         }
     },
     {
@@ -3436,7 +3779,8 @@
             "state": "Rhode Island",
             "no": 2,
             "dem_nom": "Jim Langevin",
-            "rep_nom": "Salvatore Caiozzo"
+            "rep_nom": "Salvatore Caiozzo",
+            "id": 344
         }
     },
     {
@@ -3446,7 +3790,8 @@
             "state": "South Carolina",
             "no": 1,
             "dem_nom": "Joe Cunningham",
-            "rep_nom": "Katie Arrington"
+            "rep_nom": "Katie Arrington",
+            "id": 345
         }
     },
     {
@@ -3456,7 +3801,8 @@
             "state": "South Carolina",
             "no": 2,
             "dem_nom": "Sean Carrigan",
-            "rep_nom": "Joe Wilson"
+            "rep_nom": "Joe Wilson",
+            "id": 346
         }
     },
     {
@@ -3466,7 +3812,8 @@
             "state": "South Carolina",
             "no": 3,
             "dem_nom": "Mary Geren",
-            "rep_nom": "Jeff Duncan"
+            "rep_nom": "Jeff Duncan",
+            "id": 347
         }
     },
     {
@@ -3476,7 +3823,8 @@
             "state": "South Carolina",
             "no": 4,
             "dem_nom": "Brandon Brown",
-            "rep_nom": "William Timmons"
+            "rep_nom": "William Timmons",
+            "id": 348
         }
     },
     {
@@ -3486,7 +3834,8 @@
             "state": "South Carolina",
             "no": 5,
             "dem_nom": "Archie Parnell",
-            "rep_nom": "Ralph Norman"
+            "rep_nom": "Ralph Norman",
+            "id": 349
         }
     },
     {
@@ -3496,7 +3845,8 @@
             "state": "South Carolina",
             "no": 6,
             "dem_nom": "James Clyburn",
-            "rep_nom": "Gerhard Gressmann"
+            "rep_nom": "Gerhard Gressmann",
+            "id": 350
         }
     },
     {
@@ -3506,7 +3856,8 @@
             "state": "South Carolina",
             "no": 7,
             "dem_nom": "Robert Williams",
-            "rep_nom": "Tom Rice"
+            "rep_nom": "Tom Rice",
+            "id": 351
         }
     },
     {
@@ -3516,7 +3867,8 @@
             "state": "South Dakota",
             "no": 1,
             "dem_nom": "Timothy Bijorkman",
-            "rep_nom": "Dusty Johnson"
+            "rep_nom": "Dusty Johnson",
+            "id": 352
         }
     },
     {
@@ -3526,7 +3878,8 @@
             "state": "Tennessee",
             "no": 1,
             "dem_nom": "Marty Olsen",
-            "rep_nom": "Phil Roe"
+            "rep_nom": "Phil Roe",
+            "id": 353
         }
     },
     {
@@ -3536,7 +3889,8 @@
             "state": "Tennessee",
             "no": 2,
             "dem_nom": "Renee Hoyos",
-            "rep_nom": "Tim Burchett"
+            "rep_nom": "Tim Burchett",
+            "id": 354
         }
     },
     {
@@ -3546,7 +3900,8 @@
             "state": "Tennessee",
             "no": 3,
             "dem_nom": "Danielle Mitchell",
-            "rep_nom": "Chuck Fleischmann"
+            "rep_nom": "Chuck Fleischmann",
+            "id": 355
         }
     },
     {
@@ -3556,7 +3911,8 @@
             "state": "Tennessee",
             "no": 4,
             "dem_nom": "Mariah Phillips",
-            "rep_nom": "Scott DesJarlais"
+            "rep_nom": "Scott DesJarlais",
+            "id": 356
         }
     },
     {
@@ -3566,7 +3922,8 @@
             "state": "Tennessee",
             "no": 5,
             "dem_nom": "Jim Cooper",
-            "rep_nom": "Jody Ball"
+            "rep_nom": "Jody Ball",
+            "id": 357
         }
     },
     {
@@ -3576,7 +3933,8 @@
             "state": "Tennessee",
             "no": 6,
             "dem_nom": "Dawn Barlow",
-            "rep_nom": "John Rose"
+            "rep_nom": "John Rose",
+            "id": 358
         }
     },
     {
@@ -3586,7 +3944,8 @@
             "state": "Tennessee",
             "no": 7,
             "dem_nom": "Justin Kanew",
-            "rep_nom": "Mark Green"
+            "rep_nom": "Mark Green",
+            "id": 359
         }
     },
     {
@@ -3596,7 +3955,8 @@
             "state": "Tennessee",
             "no": 8,
             "dem_nom": "Erica Stotts Pearson",
-            "rep_nom": "David Kustoff"
+            "rep_nom": "David Kustoff",
+            "id": 360
         }
     },
     {
@@ -3606,7 +3966,8 @@
             "state": "Tennessee",
             "no": 9,
             "dem_nom": "Steve Cohen",
-            "rep_nom": "Charlotte Bergmann"
+            "rep_nom": "Charlotte Bergmann",
+            "id": 361
         }
     },
     {
@@ -3616,7 +3977,8 @@
             "state": "Texas",
             "no": 1,
             "dem_nom": "Shirley McKellar",
-            "rep_nom": "Louie Gohmert"
+            "rep_nom": "Louie Gohmert",
+            "id": 362
         }
     },
     {
@@ -3626,7 +3988,8 @@
             "state": "Texas",
             "no": 2,
             "dem_nom": "Todd Litton",
-            "rep_nom": "Daniel Crenshaw"
+            "rep_nom": "Daniel Crenshaw",
+            "id": 363
         }
     },
     {
@@ -3636,7 +3999,8 @@
             "state": "Texas",
             "no": 3,
             "dem_nom": "Lorie Burch",
-            "rep_nom": "Van Taylor"
+            "rep_nom": "Van Taylor",
+            "id": 364
         }
     },
     {
@@ -3646,7 +4010,8 @@
             "state": "Texas",
             "no": 4,
             "dem_nom": "Catherine Krantz",
-            "rep_nom": "John Ratcliffe"
+            "rep_nom": "John Ratcliffe",
+            "id": 365
         }
     },
     {
@@ -3656,7 +4021,8 @@
             "state": "Texas",
             "no": 5,
             "dem_nom": "Dan Wood",
-            "rep_nom": "Lance Gooden"
+            "rep_nom": "Lance Gooden",
+            "id": 366
         }
     },
     {
@@ -3666,7 +4032,8 @@
             "state": "Texas",
             "no": 6,
             "dem_nom": "Jana Lynne Sanchez",
-            "rep_nom": "Ronald Wright"
+            "rep_nom": "Ronald Wright",
+            "id": 367
         }
     },
     {
@@ -3676,7 +4043,8 @@
             "state": "Texas",
             "no": 7,
             "dem_nom": "Lizzie Pannill Fletcher",
-            "rep_nom": "John Culberson"
+            "rep_nom": "John Culberson",
+            "id": 368
         }
     },
     {
@@ -3686,7 +4054,8 @@
             "state": "Texas",
             "no": 8,
             "dem_nom": "Steven David",
-            "rep_nom": "Kevin Brady"
+            "rep_nom": "Kevin Brady",
+            "id": 369
         }
     },
     {
@@ -3696,7 +4065,8 @@
             "state": "Texas",
             "no": 9,
             "dem_nom": "Al Green",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 370
         }
     },
     {
@@ -3706,7 +4076,8 @@
             "state": "Texas",
             "no": 10,
             "dem_nom": "Mike Siegel",
-            "rep_nom": "Michael McCaul"
+            "rep_nom": "Michael McCaul",
+            "id": 371
         }
     },
     {
@@ -3716,7 +4087,8 @@
             "state": "Texas",
             "no": 11,
             "dem_nom": "Jennie Lou Leeder",
-            "rep_nom": "Mike Conaway"
+            "rep_nom": "Mike Conaway",
+            "id": 372
         }
     },
     {
@@ -3726,7 +4098,8 @@
             "state": "Texas",
             "no": 12,
             "dem_nom": "Vanessa Adia",
-            "rep_nom": "Kay Granger"
+            "rep_nom": "Kay Granger",
+            "id": 373
         }
     },
     {
@@ -3736,7 +4109,8 @@
             "state": "Texas",
             "no": 13,
             "dem_nom": "Greg Sagan",
-            "rep_nom": "Mac Thornberry"
+            "rep_nom": "Mac Thornberry",
+            "id": 374
         }
     },
     {
@@ -3746,7 +4120,8 @@
             "state": "Texas",
             "no": 14,
             "dem_nom": "Adrienne Bell",
-            "rep_nom": "Randy Weber"
+            "rep_nom": "Randy Weber",
+            "id": 375
         }
     },
     {
@@ -3756,7 +4131,8 @@
             "state": "Texas",
             "no": 15,
             "dem_nom": "Vicente Gonzalez",
-            "rep_nom": "Tim Westley"
+            "rep_nom": "Tim Westley",
+            "id": 376
         }
     },
     {
@@ -3766,7 +4142,8 @@
             "state": "Texas",
             "no": 16,
             "dem_nom": "Veronica Escobar",
-            "rep_nom": "Rick Seeberger"
+            "rep_nom": "Rick Seeberger",
+            "id": 377
         }
     },
     {
@@ -3776,7 +4153,8 @@
             "state": "Texas",
             "no": 17,
             "dem_nom": "Rick Kennedt",
-            "rep_nom": "Bill Flores"
+            "rep_nom": "Bill Flores",
+            "id": 378
         }
     },
     {
@@ -3786,7 +4164,8 @@
             "state": "Texas",
             "no": 18,
             "dem_nom": "Shiela Jackson Lee",
-            "rep_nom": "Ava Pate"
+            "rep_nom": "Ava Pate",
+            "id": 379
         }
     },
     {
@@ -3796,7 +4175,8 @@
             "state": "Texas",
             "no": 19,
             "dem_nom": "Miguel Levario",
-            "rep_nom": "Jodey Arrington"
+            "rep_nom": "Jodey Arrington",
+            "id": 380
         }
     },
     {
@@ -3806,7 +4186,8 @@
             "state": "Texas",
             "no": 20,
             "dem_nom": "Joaquin Castro",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 381
         }
     },
     {
@@ -3816,7 +4197,8 @@
             "state": "Texas",
             "no": 21,
             "dem_nom": "Joseph Kopser",
-            "rep_nom": "Chip Roy"
+            "rep_nom": "Chip Roy",
+            "id": 382
         }
     },
     {
@@ -3826,7 +4208,8 @@
             "state": "Texas",
             "no": 22,
             "dem_nom": "Sri Preston Kulkarni",
-            "rep_nom": "Pete Olsen"
+            "rep_nom": "Pete Olsen",
+            "id": 383
         }
     },
     {
@@ -3836,7 +4219,8 @@
             "state": "Texas",
             "no": 23,
             "dem_nom": "Gina Ortiz Jones",
-            "rep_nom": "Will Hurd"
+            "rep_nom": "Will Hurd",
+            "id": 384
         }
     },
     {
@@ -3846,7 +4230,8 @@
             "state": "Texas",
             "no": 24,
             "dem_nom": "Jan McDowell",
-            "rep_nom": "Kenny Marchant"
+            "rep_nom": "Kenny Marchant",
+            "id": 385
         }
     },
     {
@@ -3856,7 +4241,8 @@
             "state": "Texas",
             "no": 25,
             "dem_nom": "Julie Oliver",
-            "rep_nom": "Roger Williams"
+            "rep_nom": "Roger Williams",
+            "id": 386
         }
     },
     {
@@ -3866,7 +4252,8 @@
             "state": "Texas",
             "no": 26,
             "dem_nom": "Linsey Fagan",
-            "rep_nom": "Michael Burgess"
+            "rep_nom": "Michael Burgess",
+            "id": 387
         }
     },
     {
@@ -3876,7 +4263,8 @@
             "state": "Texas",
             "no": 27,
             "dem_nom": "Eric Holguin",
-            "rep_nom": "Michael Cloud"
+            "rep_nom": "Michael Cloud",
+            "id": 388
         }
     },
     {
@@ -3886,7 +4274,8 @@
             "state": "Texas",
             "no": 28,
             "dem_nom": "Henry Cuellar",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 389
         }
     },
     {
@@ -3896,7 +4285,8 @@
             "state": "Texas",
             "no": 29,
             "dem_nom": "Sylvia Garcia",
-            "rep_nom": "Philip Aronoff"
+            "rep_nom": "Philip Aronoff",
+            "id": 390
         }
     },
     {
@@ -3906,7 +4296,8 @@
             "state": "Texas",
             "no": 30,
             "dem_nom": "Eddie Bernice Johnson",
-            "rep_nom": "-"
+            "rep_nom": "-",
+            "id": 391
         }
     },
     {
@@ -3916,7 +4307,8 @@
             "state": "Texas",
             "no": 31,
             "dem_nom": "M.J. Hegar",
-            "rep_nom": "John Carter"
+            "rep_nom": "John Carter",
+            "id": 392
         }
     },
     {
@@ -3926,7 +4318,8 @@
             "state": "Texas",
             "no": 32,
             "dem_nom": "Collin Allred",
-            "rep_nom": "Pete Sessions"
+            "rep_nom": "Pete Sessions",
+            "id": 393
         }
     },
     {
@@ -3936,7 +4329,8 @@
             "state": "Texas",
             "no": 33,
             "dem_nom": "Marc Veasey",
-            "rep_nom": "Willie Billups"
+            "rep_nom": "Willie Billups",
+            "id": 394
         }
     },
     {
@@ -3946,7 +4340,8 @@
             "state": "Texas",
             "no": 34,
             "dem_nom": "Filemon Vela",
-            "rep_nom": "Rey Gonzalez"
+            "rep_nom": "Rey Gonzalez",
+            "id": 395
         }
     },
     {
@@ -3956,7 +4351,8 @@
             "state": "Texas",
             "no": 35,
             "dem_nom": "Lloyd Dogget",
-            "rep_nom": "David Smalling"
+            "rep_nom": "David Smalling",
+            "id": 396
         }
     },
     {
@@ -3966,7 +4362,8 @@
             "state": "Texas",
             "no": 36,
             "dem_nom": "Dayna Steele",
-            "rep_nom": "Brian Babin"
+            "rep_nom": "Brian Babin",
+            "id": 397
         }
     },
     {
@@ -3976,7 +4373,8 @@
             "state": "Utah",
             "no": 1,
             "dem_nom": "Lee Castillo",
-            "rep_nom": "Rob Bishop"
+            "rep_nom": "Rob Bishop",
+            "id": 398
         }
     },
     {
@@ -3986,7 +4384,8 @@
             "state": "Utah",
             "no": 2,
             "dem_nom": "Shireen Ghorbani",
-            "rep_nom": "Chris Stewart"
+            "rep_nom": "Chris Stewart",
+            "id": 399
         }
     },
     {
@@ -3996,7 +4395,8 @@
             "state": "Utah",
             "no": 3,
             "dem_nom": "James Singer",
-            "rep_nom": "John Curtis"
+            "rep_nom": "John Curtis",
+            "id": 400
         }
     },
     {
@@ -4006,7 +4406,8 @@
             "state": "Utah",
             "no": 4,
             "dem_nom": "Ben McAdams",
-            "rep_nom": "Mia Love"
+            "rep_nom": "Mia Love",
+            "id": 401
         }
     },
     {
@@ -4016,7 +4417,8 @@
             "state": "Vermont",
             "no": 1,
             "dem_nom": "Peter Welch",
-            "rep_nom": "H. Brooke Paige"
+            "rep_nom": "H. Brooke Paige",
+            "id": 402
         }
     },
     {
@@ -4026,7 +4428,8 @@
             "state": "Virginia",
             "no": 1,
             "dem_nom": "Vangie Williams",
-            "rep_nom": "Rob Wittman"
+            "rep_nom": "Rob Wittman",
+            "id": 403
         }
     },
     {
@@ -4036,7 +4439,8 @@
             "state": "Virginia",
             "no": 2,
             "dem_nom": "Elaine Luria",
-            "rep_nom": "Scott Taylor"
+            "rep_nom": "Scott Taylor",
+            "id": 404
         }
     },
     {
@@ -4046,7 +4450,8 @@
             "state": "Virginia",
             "no": 3,
             "dem_nom": "Bobby Scott",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 405
         }
     },
     {
@@ -4056,7 +4461,8 @@
             "state": "Virginia",
             "no": 4,
             "dem_nom": "Donald McEachin",
-            "rep_nom": "Ryan McAdams"
+            "rep_nom": "Ryan McAdams",
+            "id": 406
         }
     },
     {
@@ -4066,7 +4472,8 @@
             "state": "Virginia",
             "no": 5,
             "dem_nom": "Leslie Cockburn",
-            "rep_nom": "Denver Riggleman"
+            "rep_nom": "Denver Riggleman",
+            "id": 407
         }
     },
     {
@@ -4076,7 +4483,8 @@
             "state": "Virginia",
             "no": 6,
             "dem_nom": "Jennifer Lewis",
-            "rep_nom": "Ben Cline"
+            "rep_nom": "Ben Cline",
+            "id": 408
         }
     },
     {
@@ -4086,7 +4494,8 @@
             "state": "Virginia",
             "no": 7,
             "dem_nom": "Abigail Spanberger",
-            "rep_nom": "David Brat"
+            "rep_nom": "David Brat",
+            "id": 409
         }
     },
     {
@@ -4096,7 +4505,8 @@
             "state": "Virginia",
             "no": 8,
             "dem_nom": "Don Beyer",
-            "rep_nom": "Thomas Oh"
+            "rep_nom": "Thomas Oh",
+            "id": 410
         }
     },
     {
@@ -4106,7 +4516,8 @@
             "state": "Virginia",
             "no": 9,
             "dem_nom": "Anthony Flaccavento",
-            "rep_nom": "Morgan Griffith"
+            "rep_nom": "Morgan Griffith",
+            "id": 411
         }
     },
     {
@@ -4116,7 +4527,8 @@
             "state": "Virginia",
             "no": 10,
             "dem_nom": "Jennifer Wexton",
-            "rep_nom": "Barbara Comstock"
+            "rep_nom": "Barbara Comstock",
+            "id": 412
         }
     },
     {
@@ -4126,7 +4538,8 @@
             "state": "Virginia",
             "no": 11,
             "dem_nom": "Gerald Connolly",
-            "rep_nom": "Jeff Dove"
+            "rep_nom": "Jeff Dove",
+            "id": 413
         }
     },
     {
@@ -4136,7 +4549,8 @@
             "state": "Washington",
             "no": 1,
             "dem_nom": "Suzan DelBene",
-            "rep_nom": "Jeffrey Beeler"
+            "rep_nom": "Jeffrey Beeler",
+            "id": 414
         }
     },
     {
@@ -4146,7 +4560,8 @@
             "state": "Washington",
             "no": 2,
             "dem_nom": "Rick Larsen",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 415
         }
     },
     {
@@ -4156,7 +4571,8 @@
             "state": "Washington",
             "no": 3,
             "dem_nom": "Carolyn Long",
-            "rep_nom": "Jaime Herrera Beutler"
+            "rep_nom": "Jaime Herrera Beutler",
+            "id": 416
         }
     },
     {
@@ -4166,7 +4582,8 @@
             "state": "Washington",
             "no": 4,
             "dem_nom": "Christine Brown",
-            "rep_nom": "Dan Newhouse"
+            "rep_nom": "Dan Newhouse",
+            "id": 417
         }
     },
     {
@@ -4176,7 +4593,8 @@
             "state": "Washington",
             "no": 5,
             "dem_nom": "Lisa Brown",
-            "rep_nom": "Cathy McMorris Rodgers"
+            "rep_nom": "Cathy McMorris Rodgers",
+            "id": 418
         }
     },
     {
@@ -4186,7 +4604,8 @@
             "state": "Washington",
             "no": 6,
             "dem_nom": "Derek Kilmer",
-            "rep_nom": "Douglas Dightman"
+            "rep_nom": "Douglas Dightman",
+            "id": 419
         }
     },
     {
@@ -4196,7 +4615,8 @@
             "state": "Washington",
             "no": 7,
             "dem_nom": "Pramila Jayapal",
-            "rep_nom": "Craig Keller"
+            "rep_nom": "Craig Keller",
+            "id": 420
         }
     },
     {
@@ -4206,7 +4626,8 @@
             "state": "Washington",
             "no": 8,
             "dem_nom": "Kim Schrier",
-            "rep_nom": "Dino Rossi"
+            "rep_nom": "Dino Rossi",
+            "id": 421
         }
     },
     {
@@ -4216,7 +4637,8 @@
             "state": "Washington",
             "no": 9,
             "dem_nom": "D. Adam Smith",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 422
         }
     },
     {
@@ -4226,7 +4648,8 @@
             "state": "Washington",
             "no": 10,
             "dem_nom": "Denny Heck",
-            "rep_nom": "Joseph Brumbles"
+            "rep_nom": "Joseph Brumbles",
+            "id": 423
         }
     },
     {
@@ -4236,7 +4659,8 @@
             "state": "West Virginia",
             "no": 1,
             "dem_nom": "Kendra Fershee",
-            "rep_nom": "David McKinley"
+            "rep_nom": "David McKinley",
+            "id": 424
         }
     },
     {
@@ -4246,7 +4670,8 @@
             "state": "West Virginia",
             "no": 2,
             "dem_nom": "Talley Sergent",
-            "rep_nom": "Alexander Mooney"
+            "rep_nom": "Alexander Mooney",
+            "id": 425
         }
     },
     {
@@ -4256,7 +4681,8 @@
             "state": "West Virginia",
             "no": 3,
             "dem_nom": "Richard Ojeda",
-            "rep_nom": "Carol Miller"
+            "rep_nom": "Carol Miller",
+            "id": 426
         }
     },
     {
@@ -4266,7 +4692,8 @@
             "state": "Wisconsin",
             "no": 1,
             "dem_nom": "Randy Bryce",
-            "rep_nom": "Bryan Steil"
+            "rep_nom": "Bryan Steil",
+            "id": 427
         }
     },
     {
@@ -4276,7 +4703,8 @@
             "state": "Wisconsin",
             "no": 2,
             "dem_nom": "Mark Pocan",
-            "rep_nom": ""
+            "rep_nom": "",
+            "id": 428
         }
     },
     {
@@ -4286,7 +4714,8 @@
             "state": "Wisconsin",
             "no": 3,
             "dem_nom": "Ronald James Kind",
-            "rep_nom": "Steve Toft"
+            "rep_nom": "Steve Toft",
+            "id": 429
         }
     },
     {
@@ -4296,7 +4725,8 @@
             "state": "Wisconsin",
             "no": 4,
             "dem_nom": "Gwen Moore",
-            "rep_nom": "Tim Rogers"
+            "rep_nom": "Tim Rogers",
+            "id": 430
         }
     },
     {
@@ -4306,7 +4736,8 @@
             "state": "Wisconsin",
             "no": 5,
             "dem_nom": "Tom Palzewicz",
-            "rep_nom": "Jim Sensenbrenner"
+            "rep_nom": "Jim Sensenbrenner",
+            "id": 431
         }
     },
     {
@@ -4316,7 +4747,8 @@
             "state": "Wisconsin",
             "no": 6,
             "dem_nom": "Dan Kohl",
-            "rep_nom": "Glenn Grothman"
+            "rep_nom": "Glenn Grothman",
+            "id": 432
         }
     },
     {
@@ -4326,7 +4758,8 @@
             "state": "Wisconsin",
             "no": 7,
             "dem_nom": "Margaret Engebretson",
-            "rep_nom": "Sean Duffy"
+            "rep_nom": "Sean Duffy",
+            "id": 433
         }
     },
     {
@@ -4336,7 +4769,8 @@
             "state": "Wisconsin",
             "no": 8,
             "dem_nom": "Beau Liegeois",
-            "rep_nom": "Mike Gallagher"
+            "rep_nom": "Mike Gallagher",
+            "id": 434
         }
     },
     {
@@ -4346,7 +4780,8 @@
             "state": "Wyoming",
             "no": 1,
             "dem_nom": "Greg Hunter",
-            "rep_nom": "Liz Cheney"
+            "rep_nom": "Liz Cheney",
+            "id": 435
         }
     }
 ]
