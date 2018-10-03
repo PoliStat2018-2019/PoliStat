@@ -24,7 +24,7 @@
     var paths = document.getElementById('vmap').getElementsByTagName('g')[0];
     
     var createPath = function(d, id) {
-    	var path = document.createElementNS('https://www.w3.org/2000/svg','path');
+    	var path = document.createElementNS('http://www.w3.org/2000/svg','path');
 	    path.setAttributeNS(null, 'd', d);
 	    path.setAttributeNS(null, 'stroke', '#000000');
 	    path.setAttributeNS(null, "stroke-width", 0.1);
