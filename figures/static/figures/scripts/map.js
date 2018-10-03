@@ -54,7 +54,7 @@ $(document).ready(function() {
         ];
     $('#vmap').vectorMap({
         map: 'usa_en',
-        enableZoom: true,
+        enableZoom: false,
         showTooltip: true,
         selectedColor: null,
         hoverColor: '#639',

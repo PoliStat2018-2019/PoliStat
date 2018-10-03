@@ -2,7 +2,7 @@ jQuery(document).ready(
 		function() {
 			jQuery('#vmap').vectorMap({
 				map : 'cart_en',
-				enableZoom : true,
+				enableZoom : false,
 				showTooltip : true,
 				selectedColor : null,
 				hoverColor : '#639',
