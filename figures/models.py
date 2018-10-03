@@ -218,7 +218,7 @@ class DistrictPost(models.Model):
 
     class Meta:
         # order models by most recent first
-        ordering = ['-date_posted']
+        ordering = ['-date']
     
     # def get_absolute_url(self)
 
