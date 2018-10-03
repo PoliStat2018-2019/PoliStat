@@ -175,10 +175,11 @@ def init_district_info(sender, instance, *args, **kwargs):
     """)
     if District == sender:
         
-        DistrictProfile.manager.get_or_create(
-            district=instance,
-            profile=profile_text
-        )
+        if not DistrictProfile.manager.get(district=instance):
+            DistrictProfile.manager.get_or_create(
+                district=instance,
+                profile=profile_text
+            )
         Prediction.manager.get_or_create(
             district=instance
         )
