@@ -25,14 +25,14 @@
     </head>
     <body>
         <script>AOS.init()</script>
-        {% include "figures/sidenav.html" %}
+        {% include "figures/includes/sidenav.html" %}
 
         <main id='main' class="main">
             {% block content %}
             {% endblock %}
         </main>
         
-        {% comment %} {% include 'figures/footer.html' %} {% endcomment %}
+        {% include 'figures/includes/footer.html' %}
         {% block scripts %}
         {% endblock %}
     </body>
