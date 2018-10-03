@@ -52,7 +52,7 @@ def state(request, state):
 def district(request, state, districtno):
     district = get_object_or_404(models.District, state=state, no=districtno)
     district_profile = get_object_or_404(models.DistrictProfile, district=district)
-    latest_prediction = district.prediction_set.first()
+    latest_prediction = district.prediction_set.last()
 
     context = {
         'navbar': 'states',

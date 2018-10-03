@@ -13,14 +13,18 @@
                     <h1 class="p-md text-center">
                         District {{ district.no }}
                     </h1>
-                    {% with ctr=forloop.counter %}
-                        {% with pred=latest_predictions.ctr %}
-                            {% if pred.dem_predicted_perc == pred.rep_predicted_perc %}
-                                <div>TEST WORKS</div>
-                            {% else %}
-                                <div>TEST KINDA WORKS</div>
-                            {% endif %}                        
-                        {% endwith %}
+                    {% with latest_prediction=district.prediction_set.last %}
+                        {% if latest_prediction.dem_perc > latest_prediction.rep_perc %}
+                            <ol class="p-sm text-center candidates">
+                                <li class="color-dem">{{ district.dem_nom }}</li>
+                                <li class="color-rep">{{ district.rep_nom }}</li>
+                            </ol>
+                        {% else %}
+                            <ol class="p-sm text-center candidates">
+                                <li class="color-rep">{{ district.rep_nom }}</li>
+                                <li class="color-dem">{{ district.dem_nom }}</li>
+                            </ol>
+                        {% endif %}                    
                     {% endwith %}
                 </a>
             {% endfor %}
