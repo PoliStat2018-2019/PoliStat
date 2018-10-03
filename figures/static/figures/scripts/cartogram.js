@@ -57,9 +57,9 @@ jQuery(document).ready(
 				}
 				return "rgb("+r+","+g+","+b+")";
 			}
-			$.getJSON("/raw", function(json) {
-			    for (var i = 1; i <= 435; ++i) {
-					document.getElementById("jqvmap1_"+i).setAttributeNS(null, 'fill', color(json[i]));
-				}
-			});
+			for (var i = 1; i <= 435; ++i) {
+				document.getElementById("jqvmap1_"+i).setAttributeNS(null,
+																	 'fill',
+																	 color(cartogram_data[i]));
+			}
 		});

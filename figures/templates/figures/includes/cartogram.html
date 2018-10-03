@@ -1,12 +1,14 @@
 {% load static %}
 
-{% load staticfiles %}
 <link rel="stylesheet" type="text/css" href="{% static 'figures/styles/jqvmap.css'%}">
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+    var cartogram_data = {{ cartogram_data|safe }};
+</script>
+
 <script type="text/javascript" src="{% static 'figures/scripts/libraries/jquery.vmap.js' %}"></script>
 <script type="text/javascript" src="{% static 'figures/scripts/cartogram_data.js' %}" charset="utf-8"></script>
 <script type="text/javascript" src="{% static 'figures/scripts/cartogram.js' %}" charset="utf-8"></script>
 
-<div id="vmap" style="margin-right: auto; margin-left: auto; width: 100%; height: 500px;"></div>
+<div id="vmap"></div>
 <h2 align="center">Each square is one congressional district.</h2>
