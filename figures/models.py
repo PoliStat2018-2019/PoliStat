@@ -149,6 +149,15 @@ class Prediction(models.Model):
     rep_predicted_perc = models.FloatField(verbose_name=
                                             'republican predicted percentage',
                                            default=0)
+    prediction_std = models.FloatField(verbose_name='prediction standard deviation', default=0)
+
+    dem_win_percent = models.FloatField(verbose_name=
+                                            'democratic win percent',
+                                           default=0)
+    rep_win_percent = models.FloatField(verbose_name=
+                                            'republican win percentage',
+                                           default=0)
+
     date = models.DateField(default=timezone.now)
 
     class Meta:
@@ -180,7 +189,8 @@ class Post(models.Model):
     def __str__(self):
         """Return the title of this post as a string"""
         return self.title
-    
+
+
 def nth(n):
     """
     cardinal to ordinal

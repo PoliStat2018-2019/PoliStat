@@ -3,7 +3,7 @@
 {% load staticfiles %}
 <link rel="stylesheet" type="text/css" href="{% static 'figures/styles/jqvmap.css'%}">
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="{% static 'figures/scripts/jquery.vmap.js' %}"></script>
 <script type="text/javascript" src="{% static 'figures/scripts/vmapcartogram.js' %}" charset="utf-8"></script>
 
@@ -24,7 +24,7 @@
     var paths = document.getElementById('vmap').getElementsByTagName('g')[0];
     
     var createPath = function(d, id) {
-    	var path = document.createElementNS('http://www.w3.org/2000/svg','path');
+    	var path = document.createElementNS('https://www.w3.org/2000/svg','path');
 	    path.setAttributeNS(null, 'd', d);
 	    path.setAttributeNS(null, 'stroke', '#000000');
 	    path.setAttributeNS(null, "stroke-width", 0.1);

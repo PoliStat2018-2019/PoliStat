@@ -13,6 +13,9 @@
                         {{ district.short_name }}
                     </h1>
                     <div class="p-md">
+                        Predicted Vote Share:
+                        {{ district.dem_nom }} |
+                        {{ district.rep_nom }} |
                         {{ district.districtprofile.get_profile_lead|safe }}
                     </div>
                 </a>
