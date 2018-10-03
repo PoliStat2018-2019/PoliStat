@@ -14,5 +14,4 @@ urlpatterns = [
     path('states/<str:state>/', views.state, name='state'),
     path('states/<str:state>/<int:districtno>/', views.district, name='district'),
     path('district/<int:id>/', views.districtbyid, name='districtbyid'),
-    path('raw/', views.rawdata, name='raw')
 ]

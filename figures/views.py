@@ -2,6 +2,7 @@
 # Django
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import JsonResponse
+import json
 
 # Models
 from figures import models
@@ -39,8 +40,13 @@ def statemap(request):
     return render(request, 'figures/statemap.html', context=context)
 
 def cartogram(request):
+    data = {}
+    for district in models.District.manager.all():
+        data[district.id] = district.prediction_set.last().dem_perc
+
     context = {
         'navbar': 'cartogram',
+        'cartogram_data': json.dumps(data)
     }
 
     return render(request, 'figures/cartogram.html', context=context)
@@ -74,9 +80,3 @@ def district(request, state, districtno):
 
 def districtbyid(request, id):
     return redirect(get_object_or_404(models.District, id=id))
-
-def rawdata(request):
-    data = {}
-    for district in models.District.manager.all():
-        data[district.id] = district.prediction_set.last().dem_perc
-    return JsonResponse(data)
