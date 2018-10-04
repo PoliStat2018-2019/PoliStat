@@ -61,5 +61,8 @@ jQuery(document).ready(
 				document.getElementById("jqvmap1_"+i).setAttributeNS(null,
 																	 'fill',
 																	 color(cartogram_data[i]));
+				document.getElementById("jqvmap1_"+i).setAttributeNS(null,
+						 'original',
+						 color(cartogram_data[i]));
 			}
 		});
