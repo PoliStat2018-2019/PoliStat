@@ -15,3 +15,6 @@ setup.cfg
 /static/
 *.xml
 .idea/PoliStat.iml
+
+# OS files
+.DS_Store
