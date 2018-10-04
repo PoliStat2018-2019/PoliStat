@@ -22,19 +22,12 @@
                 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
                 crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="{% static 'figures/scripts/libraries/jquery.waypoints.min.js' %}"></script>
-        <script src="{% static 'figures/scripts/libraries/infinite.min.js' %}"></script>
-        <script type='text/javascript'>
-            // needed when making post requests in Django
-            // we’ll use this for the ajax request in script.js
-            window.CSRF_TOKEN = '{{ csrf_token }}';
-        </script>
     </head>
     <body>
         <script>AOS.init()</script>
         {% include "figures/includes/sidenav.html" %}
 
-        <main id='main' class="main">
+        <main id='main' class="p-b-lg main">
             {% block content %}
             {% endblock %}
         </main>
