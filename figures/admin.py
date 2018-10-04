@@ -21,7 +21,6 @@ class StateAdmin(admin.ModelAdmin):
     search_fields = ('name', 'abbr')
 
 class DistrictInlineProfile(StackedInline, SummernoteInlineModelAdmin):
-    
     model = my_models.DistrictProfile
     max_num = 1
     min_num = 1
@@ -30,6 +29,8 @@ class DistrictInlineProfile(StackedInline, SummernoteInlineModelAdmin):
 
 
 class DistrictAdmin(admin.ModelAdmin):
+    exclude = ('id',)
+    readonly_fields = ('id',)
     list_display = ('no', 'state', 'dem_nom', 'rep_nom')
     search_fields = ('no', 'state__name', 'dem_nom', 'rep_nom')
 

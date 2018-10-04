@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Oswald');
 
 $playfair-ff: 'Playfair', serif;
+$oswald-ff: 'Oswald', sans-serif;
+$roboto-ff: 'Roboto', sans-serif;
 
-$header-font: 'Oswald';
-$paragraph-font: 'Roboto';
+$header-font: $oswald-ff;
+$paragraph-font: $roboto-ff;
 
 /* COLOR THEME */
 $site-white: #f4f4f4;
@@ -33,8 +35,10 @@ html {
             color: $site-black;
         }
         li,
-        p {
-            font-family: $paragraph-font, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        p,
+        div
+        {
+            font-family: $paragraph-font, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
             color: $site-black;
         }
     }

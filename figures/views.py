@@ -2,6 +2,8 @@
 # Django
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import JsonResponse
+from django.template import loader
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 import json
 
 # Models
@@ -22,14 +24,21 @@ def about(request):
 
     return render(request, 'figures/about.html', context=context)
 
-def blog_list(request):
+def blog_list(request,
+              template='figures/blog_list.html',
+              page_template='figures/includes/blog_summary.html'):
     blog_list = models.BlogPost.manager.all()
+
     context = {
         'navbar': 'blog',
-        'blog_list': blog_list
+        'blog_list': blog_list,
+        'page_template': page_template
     }
 
-    return render(request, 'figures/blog_list.html', context=context)
+    if request.is_ajax():
+        template = page_template
+
+    return render(request, template, context=context)
 
 def statemap(request):
     context = {

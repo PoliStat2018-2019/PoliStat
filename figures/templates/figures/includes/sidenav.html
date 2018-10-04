@@ -4,7 +4,7 @@
     <i id="sidenav-mobile-btn" class="fas fa-bars"></i>
 </div>
 <nav id="sidenav-mobile-target" class="sidenav-wrapper">
-    <a href="#" class="logo p-lg">
+    <a href="{% url 'figures:index' %}" class="logo p-lg">
         <img src={% static 'figures/images/blairlogo.jpg' %}
              onerror="this.onerror=null; this.src='django-logo-positive.png'">
     </a>

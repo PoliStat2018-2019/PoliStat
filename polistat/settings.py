@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'static_precompiler',
-    'django_summernote'
+    'django_summernote',
+    'el_pagination',
 ]
 
 MIDDLEWARE = [
@@ -139,3 +140,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # Summernote
 SUMMERNOTE_THEME = 'bs4'  # Show summernote with Bootstrap4
+

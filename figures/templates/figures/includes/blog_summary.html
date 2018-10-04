@@ -1,0 +1,16 @@
+{% load el_pagination_tags %}
+
+{% paginate 5 blog_list %}
+{% for blog in blog_list %}
+    <div class="m-t-md p-md blog">
+        <h1 class="blog-title">{{ blog.title }}</h1>
+        <h6 class="m-b-sm blog-author">
+            {{ blog.author }} |
+            <span>{{ blog.date_posted }}</span>
+        </h6>
+        <div class="blog-content">
+            {{ blog.body|safe }}
+        </div>
+    </div>
+{% endfor %}
+{% show_more %}
