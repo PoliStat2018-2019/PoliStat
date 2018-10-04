@@ -1,7 +1,10 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Oswald');
+
+$playfair-ff: 'Playfair', serif;
 
 $header-font: 'Oswald';
+$paragraph-font: 'Roboto';
 
 /* COLOR THEME */
 $site-white: #f4f4f4;
@@ -31,7 +34,7 @@ html {
         }
         li,
         p {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: $paragraph-font, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: $site-black;
         }
     }

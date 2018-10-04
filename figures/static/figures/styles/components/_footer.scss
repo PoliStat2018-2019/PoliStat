@@ -1,0 +1,121 @@
+footer.footer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    @include mq(mobile) {
+        flex-direction: row;
+    }
+    align-content: center;
+    @include mq(mobile) {
+        margin-left: $sidenav-width;
+    }
+
+    & ul { list-style: none; }
+    min-height: 400px;
+
+    & .footer-section {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    background-image: url('../images/trianglify.svg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    & * { color: $site-white; }
+
+    z-index: 1;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: #00000041;
+    }
+}
+
+.footer-section.contact {
+    flex: 0.5 0;
+    text-align: center;
+    align-self: center;
+    @include mq(mobile) {
+        text-align: left;
+    }
+    .contact-header {
+        font-family: $playfair-ff;
+        font-size: 2rem;
+        span { color: $site-red; }
+    }
+    .contact-subheader {
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    .contact-email,
+    .contact-phone,
+    .contact-address
+    {
+        display: flex;
+        p { 
+            flex: 1 0;
+            text-align: center;
+            @include mq(mobile) {
+                text-align: left;
+            }
+            display: inline-block; 
+            margin-left: 10px;
+            line-height: 44px;
+            font-weight: bold;
+        }
+        i.fas { 
+            align-self: center;
+            display: inline-block;
+
+            &:before {
+                display: block;
+                font-size: 1.5rem;
+                text-align: center;
+                width: 44px;
+                height: 44px;
+                line-height: 44px;
+                border-radius: 50%;
+                background-color: $site-red;
+            }
+        }
+    }
+    .contact-address p {
+        line-height: 20px;
+        span { 
+            font-size: .75rem;
+            margin-top: auto;
+            display: block;
+            font-weight: normal;
+        }
+    }
+}
+
+.footer-section.about {
+    flex: 0.4 0;
+    text-align: center;
+    @include mq(mobile) {
+        text-align: right;
+    }
+    align-self: center;
+    .about-header,
+    .about-note
+    {
+        font-family: $playfair-ff;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .about-text,
+    .about-note-text
+    {
+        font-size: 0.8rem;
+    }
+}
