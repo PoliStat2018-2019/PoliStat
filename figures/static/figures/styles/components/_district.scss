@@ -9,43 +9,80 @@
     }
 }
 
-.district-section .prediction-grid {
-    & h1 { font-size: 3rem; }
-    & h2 { font-size: 1.5rem; }
+div.bpi-wrapper {
+    display: flex;
+    flex-direction: row;
+}
 
-    @include mq(sm-mobile) {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr minmax(90px, 220px) 1fr;
-        grid-column-gap: 1rem;
-        align-items: center;
+h1.bpi {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem !important;
+    color: rgb(102, 0, 0);
 
-        & h2:first-child {
-            grid-row: 1;
-            grid-column: 2;
-        }
-        & h2:nth-child(1) {
-            grid-row: 2;
-            grid-column: 2;
-        }
-        & .dem-prediction {
-            grid-row: 1 / span 2;
-            grid-column: 1;
-        }
-        & .rep-prediction {
-            grid-row: 1 / span 2;
-            grid-column: 3;
-        }
+    i.fas {
+        font-size: 0.9rem;
+    }
+
+    & .bpi-tooltip {
+        visibility: hidden;
+
+        position: absolute;
+        top: 100%;
+        left: -50%;
+        margin-left: 43px;
+        z-index: 1;
+        border-radius: 5px;
+        width: 120px;
+        text-align: center;
+        background-color: lighten($site-black, 0.5);
+        color: $site-white;
+    }
+
+    & .bpi-tooltip:after {
+        content: '';
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+    }
+
+    i.fas:hover {
+        .bpi-tooltip { visibility: visible }
     }
 }
 
-.district-section .prediction-grid .prediction {
-    align-self: stretch;
+h1.bpi-measure {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 2.5rem;
+}
 
-    border-radius: 50%;
+.district-section .prediction-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        'header header header'
+        'candidate vote-percent win-percent'
+        'candidate vote-percent win-percent';
 
-    background: linear-gradient(to right, #ffd5d5, #ffffff, #ccecff);
-    font-weight: 700;
+    
+    .table-header {
+        grid-area: 'header';
+
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    .candidate {
+        grid-area: 'candidate';
+
+        font-size: 1rem;
+    }
 }
 
 .district-profile-section {

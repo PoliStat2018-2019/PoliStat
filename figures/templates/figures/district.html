@@ -19,19 +19,37 @@
             </span>
         </h1>
         <hr class="m-t-md m-b-md">
+        <div class="bpi-wrapper">
+            <h1 class="bpi">
+                BPI
+                <i class="fas fa-question-circle">
+                    <span class="p-t-sm p-b-sm bpi-tooltip">
+                        x
+                    </span> 
+                </i>
+            </h1>
+            <h1 class="bpi-measure">30%</h1>
+        </div>
         <div class="prediction-grid m-b-lg">
-            <div class="prediction dem-prediction text-center">
-                <h1 class="p-lg color-dem">{{ latest_prediction.dem_perc|percentage }}</h1>
-            </div>
-            <h2 class="m-t-md m-b-md text-center">
-                <i class="fas fa-caret-left"></i> Democrat Win Chance
-            </h2>
-            <div class="prediction rep-prediction text-center">
-                <h1 class="p-lg color-rep">{{ latest_prediction.rep_perc|percentage }}</h1>
-            </div>
-            <h2 class="m-t-md m-b-md text-center">
-                Republican Win Chance <i class="fas fa-caret-right"></i>
-            </h2>
+            <h1 class="table-header">Candidate</h1>
+            <h1 class="table-header">Predicted Vote %</h1>
+            <h1 class="table-header">Predicted Win %</h1>
+            {% if latest_prediction.rep_perc > latest_prediction.dem_perc %}
+                <h3 class="candidate color-rep">{{ district.rep_nom }}</h3>
+                <p class="vote-percent">filler</p>
+                <p class="win-percent">{{ latest_prediction.rep_perc }}</p>
+                <h3 class="candidate color-dem">{{ district.dem_nom }}</h3>
+                <p class="vote-percent">filler</p>
+                <p class="win-percent">{{ latest_prediction.dem_perc }}</p>
+            {% else %}
+                <h3 class="candidate color-dem">{{ district.dem_nom }}</h3>
+                <p class="vote-percent">filler</p>
+                <p class="win-percent">{{ latest_prediction.dem_perc|percentage }}</p>
+                <h3 class="candidate color-rep">{{ district.rep_nom }}</h3>
+                <p class="vote-percent">filler</p>
+                <p class="win-percent">{{ latest_prediction.rep_perc|percentage }}</p>
+            {% endif %}
+
         </div>
     </section>
     <section class="container district-profile-section">
