@@ -161,6 +161,20 @@ class Prediction(models.Model):
     class Meta:
         ordering = ["date"]
 
+class NationalPrediction(models.Model):
+    """
+    Model representing the national prediction
+    """
+
+    manager = models.Manager()
+
+    dem_win_perc = models.FloatField(verbose_name='democratic win percent', default=.5)
+    dem_average_seats = models.IntegerField(verbose_name='democratic predicted seats',default=217)
+
+    histogram_data = models.TextField(verbose_name='histogram data',default='[]')
+
+    date = models.DateTimeField(default=timezone.now)
+
 # This method is required because we load districts from fixtures,
 # which does not call the District.save() method. However, loaddata
 # does send a post_save signal which we connect to here
