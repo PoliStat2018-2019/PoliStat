@@ -25,7 +25,7 @@ SECRET_KEY = 'l$(pbww2d+m3ob*y(sx@^o(2cwzhpw@0&kcrn=^=p2kvqogk*d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["polistat.mbhs.edu","localhost"]
 
 
 # Application definition
