@@ -11,8 +11,11 @@ from figures import models
 
 # Create your views here.
 def index(request):
+
+    national = models.NationalPrediction.manager.all().order_by('-date')[0]
     context = {
         'navbar': 'index',
+        'national': national,
     }
 
     return render(request, 'figures/index.html', context=context)
