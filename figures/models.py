@@ -188,12 +188,17 @@ def init_district_info(sender, instance, *args, **kwargs):
         Please change it soon.
     """)
     if District == sender:
-        
-        if not DistrictProfile.manager.get(district=instance):
+        try:
+            if not DistrictProfile.manager.get(district=instance):
+                DistrictProfile.manager.get_or_create(
+                    district=instance,
+                    profile=profile_text
+                )
+        except:
             DistrictProfile.manager.get_or_create(
-                district=instance,
-                profile=profile_text
-            )
+                    district=instance,
+                    profile=profile_text
+                )
         Prediction.manager.get_or_create(
             district=instance
         )
