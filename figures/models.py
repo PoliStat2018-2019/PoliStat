@@ -5,6 +5,7 @@ from django.urls import reverse
 from django.db.models.signals import post_save
 from django.utils.html import strip_tags
 from django.utils.functional import cached_property
+from django.core.exceptions import ObjectDoesNotExist
 
 from textwrap import dedent
 import re
@@ -194,7 +195,7 @@ def init_district_info(sender, instance, *args, **kwargs):
                     district=instance,
                     profile=profile_text
                 )
-        except:
+        except ObjectDoesNotExist:
             DistrictProfile.manager.get_or_create(
                     district=instance,
                     profile=profile_text
