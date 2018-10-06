@@ -55,7 +55,7 @@ jQuery(document).ready(
 						r = 210 + (255-210)/0.2*(0.7-dem_p);
 					}
 				}
-				return "rgb("+r+","+g+","+b+")";
+				return "rgb("+Math.floor(r)+","+Math.floor(g)+","+Math.floor(b)+")";
 			}
 			for (var i = 1; i <= 435; ++i) {
 				document.getElementById("jqvmap1_"+i).setAttributeNS(null,

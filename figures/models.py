@@ -157,6 +157,14 @@ class Prediction(models.Model):
     rep_perc = models.FloatField(verbose_name=
                                  'republican predicted percentage',
                                  default=0)
+    prediction_std = models.FloatField(verbose_name='prediction standard deviation', default=0)
+
+    dem_win_percent = models.FloatField(verbose_name=
+                                            'democratic win percent',
+                                           default=0)
+    rep_win_percent = models.FloatField(verbose_name=
+                                            'republican win percentage',
+                                           default=0)
     date = models.DateTimeField(default=timezone.now)
 
     class Meta:
@@ -223,20 +231,6 @@ class DistrictPost(models.Model):
     title = models.CharField(max_length=128, unique=True)
     body = models.TextField()
 
-    dem_predicted_perc = models.FloatField(verbose_name=
-                                            'democratic predicted percentage',
-                                           default=0)
-    rep_predicted_perc = models.FloatField(verbose_name=
-                                            'republican predicted percentage',
-                                           default=0)
-    prediction_std = models.FloatField(verbose_name='prediction standard deviation', default=0)
-
-    dem_win_percent = models.FloatField(verbose_name=
-                                            'democratic win percent',
-                                           default=0)
-    rep_win_percent = models.FloatField(verbose_name=
-                                            'republican win percentage',
-                                           default=0)
 
     date = models.DateField(default=timezone.now)
 

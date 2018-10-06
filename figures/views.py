@@ -54,7 +54,7 @@ def statemap(request):
 def cartogram(request):
     data = {}
     for district in models.District.manager.all():
-        data[district.id] = district.prediction_set.last().dem_perc
+        data[district.id] = district.prediction_set.last().dem_win_percent
 
     context = {
         'navbar': 'cartogram',
