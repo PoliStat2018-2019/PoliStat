@@ -236,8 +236,8 @@
         "fields": {
             "state": "California",
             "no": 1,
-            "dem_nom": "Doug LaMalfa",
-            "rep_nom": "Audrey Denney",
+            "dem_nom": "Audrey Denney",
+            "rep_nom": "Doug LaMalfa",
             "id": 22
         }
     },
