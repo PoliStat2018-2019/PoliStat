@@ -43,6 +43,15 @@ def blog_list(request,
 
     return render(request, template, context=context)
 
+def blog(request, pk, slug=None):
+    blog = get_object_or_404(models.BlogPost, pk=pk)
+
+    context = {
+        'blog': blog
+    }
+
+    return render(request, 'figures/blog.html', context=context)
+
 def statemap(request):
     context = {
         'navbar': 'states',

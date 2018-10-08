@@ -6,6 +6,7 @@ from django.db.models.signals import post_save
 from django.utils.html import strip_tags
 from django.utils.functional import cached_property
 from django.core.exceptions import ObjectDoesNotExist
+from django.utils.text import slugify
 
 from textwrap import dedent
 import re
@@ -266,7 +267,19 @@ class BlogPost(models.Model):
         # order models by most recent first
         ordering = ['-date_posted']
     
-    # def get_absolute_url(self)
+    @property
+    def slug(self):
+        return slugify(self.title)
+
+    def get_lead(self):
+        stripped_body = strip_tags(self.body)
+        stripped_body = re.sub(r'(?<=[.,])(?=[^\s])', r' ',
+                                    stripped_body)
+
+        return f'{stripped_body}'[:128] + '...'
+    
+    def get_absolute_url(self):
+        return reverse('figures:blog', args=[self.slug, self.pk])
 
     def __str__(self):
         """Return the title of this post as a string"""

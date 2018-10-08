@@ -1,0 +1,13 @@
+.blog-section h1.title {
+    font-size: 3rem;
+    @include mq(tablet) {
+        font-size: 4rem;
+    }
+}
+
+.blog-section {
+    .blog-author {
+        font-size: 1rem;
+        span { font-weight: 300; }
+    }
+}

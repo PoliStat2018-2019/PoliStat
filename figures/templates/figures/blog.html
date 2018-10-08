@@ -1,0 +1,14 @@
+{% extends "figures/base.html" %}
+
+{% block content %}
+<section class="section container blog-section">
+    <h1 class="title">{{ blog.title }}</h1>
+    <h6 class="m-b-sm blog-author">
+            {{ blog.author }} |
+            <span>{{ blog.date_posted }}</span>
+        </h6>
+    <div class="blog-content">
+        {{ blog.body|safe }}
+    </div>
+</section> 
+{% endblock  %}
