@@ -9,58 +9,6 @@
     }
 }
 
-div.bpi-wrapper {
-    display: flex;
-    flex-direction: row;
-}
-
-h1.bpi {
-    position: relative;
-    display: inline-block;
-    font-size: 2.5rem !important;
-    color: rgb(102, 0, 0);
-
-    i.fas {
-        font-size: 0.9rem;
-    }
-
-    & .bpi-tooltip {
-        visibility: hidden;
-
-        position: absolute;
-        top: 100%;
-        left: -50%;
-        margin-left: 43px;
-        z-index: 1;
-        border-radius: 5px;
-        width: 120px;
-        text-align: center;
-        background-color: lighten($site-black, 0.5);
-        color: $site-white;
-    }
-
-    & .bpi-tooltip:after {
-        content: '';
-        position: absolute;
-        bottom: 100%;
-        left: 50%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: transparent transparent black transparent;
-    }
-
-    i.fas:hover {
-        .bpi-tooltip { visibility: visible }
-    }
-}
-
-h1.bpi-measure {
-    display: inline-block;
-    margin-left: 40px;
-    font-size: 2.5rem;
-}
-
 .district-section .prediction-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -83,6 +31,61 @@ h1.bpi-measure {
 
         font-size: 1rem;
     }
+}
+
+div.bpi-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+h1.bpi {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5rem !important;
+    color: rgb(102, 0, 0);
+
+    i.fas {
+        font-size: 0.9rem;
+    }
+
+    & .bpi-tooltip {
+        visibility: hidden;
+
+        position: absolute;
+        top: 100%;
+        left: -50%;
+        margin-left: 43px;
+        z-index: 1;
+        border-radius: 5px;
+        min-width: 120px;
+        text-align: center;
+        background-color: lighten($site-black, 0.5);
+        line-height: 18px;
+
+        & * {
+            color: $site-white;
+        }
+    }
+
+    & .bpi-tooltip:after {
+        content: '';
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+    }
+
+    i.fas:hover {
+        .bpi-tooltip { visibility: visible }
+    }
+}
+
+h1.bpi-measure {
+    display: inline-block;
+    font-size: 1.5rem;
 }
 
 .district-profile-section {

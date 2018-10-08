@@ -57,7 +57,7 @@ $(document).ready(function() {
         enableZoom: false,
         showTooltip: true,
         selectedColor: null,
-        hoverColor: '#639',
+        hoverColor: '#cfbae4',
         onRegionClick: function(_event, _code, region){
           window.location.href = "/states/"+region;
         },

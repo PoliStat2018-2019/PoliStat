@@ -170,6 +170,7 @@ class Prediction(models.Model):
     class Meta:
         ordering = ["date"]
 
+
 class NationalPrediction(models.Model):
     """
     Model representing the national prediction
@@ -226,7 +227,7 @@ class DistrictPost(models.Model):
     # district can have multiple posts
     district = models.ForeignKey(District, on_delete=models.CASCADE)
     author = models.ForeignKey(User,
-                               on_delete=models.CASCADE)
+                                  on_delete=models.CASCADE)
 
     title = models.CharField(max_length=128, unique=True)
     body = models.TextField()

@@ -19,18 +19,7 @@
             </span>
         </h1>
         <hr class="m-t-md m-b-md">
-        <div class="bpi-wrapper">
-            <h1 class="bpi">
-                BPI
-                <i class="fas fa-question-circle">
-                    <span class="p-t-sm p-b-sm bpi-tooltip">
-                        x
-                    </span> 
-                </i>
-            </h1>
-            <h1 class="bpi-measure">30%</h1>
-        </div>
-        <div class="prediction-grid m-b-lg">
+        <div class="prediction-grid m-t-md m-b-md">
             <h1 class="table-header">Candidate</h1>
             <h1 class="table-header">Predicted Vote %</h1>
             <h1 class="table-header">Predicted Win %</h1>
@@ -49,7 +38,25 @@
                 <p class="vote-percent">{{ latest_prediction.rep_perc|percentage }}</p>
                 <p class="win-percent">{{ latest_prediction.rep_win_percent|percentage }}</p>
             {% endif %}
-
+        </div>
+        <div class="bpi-wrapper m-b-md">
+            <h1 class="bpi">
+                BPI
+                <i class="fas fa-question-circle">
+                    <span class="p-t-sm p-b-sm bpi-tooltip">
+                        <h4>Blair Partisan Index</h4>
+                        <hr class="m-xs">
+                        <p>
+                            Measures how strongly a district
+                            leans toward the Democratic or
+                            Republican Party compared to the 
+                            nation as a whole.
+                        </p>
+                    </span> 
+                </i>
+                &nbsp;
+            </h1>
+            <h1 class="bpi-measure"> 30%</h1>
         </div>
     </section>
     <section class="container district-profile-section">
