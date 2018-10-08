@@ -2216,8 +2216,8 @@
         "fields": {
             "state": "Michigan",
             "no": 4,
-            "dem_nom": "Zigmond Kozicki",
-            "rep_nom": "Jerry Hilliard",
+            "dem_nom": "Jerry Hilliard",
+            "rep_nom": "John Moolenaar",
             "id": 202
         }
     },
@@ -2657,7 +2657,7 @@
             "state": "New Hampshire",
             "no": 2,
             "dem_nom": "Ann Kuster",
-            "rep_nom": "Stewart Levenson",
+            "rep_nom": "Steven Negron",
             "id": 242
         }
     },
