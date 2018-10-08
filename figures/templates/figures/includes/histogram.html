@@ -1,7 +1,7 @@
 {% load static %}
 
 
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="{% static 'figures/scripts/libraries/canvasjs.min.js' %}"></script>
 
 <script>
     var histogram_data = {{ national.histogram_data|safe }};
