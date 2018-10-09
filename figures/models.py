@@ -81,6 +81,10 @@ class District(models.Model):
     rep_nom = models.CharField(verbose_name='republican nominee',
                                max_length=64,
                                blank=True)
+
+    bpi = models.FloatField(verbose_name='blair partisan index', default=0)
+    fundamental = models.FloatField(verbose_name='fundamental prediction', default=0.5)
+
     modified = models.DateTimeField(verbose_name='last modified',
                                     auto_now=True,
                                     null=True)

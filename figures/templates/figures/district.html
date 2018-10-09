@@ -56,7 +56,24 @@
                 </i>
                 &nbsp;
             </h1>
-            <h1 class="bpi-measure"> 30%</h1>
+            <h1 class="bpi-measure"> {{ district.bpi|percentage }}</h1>
+        </div>
+        <div class="bpi-wrapper m-b-md">
+            <h1 class="bpi">
+                Fundamental-Only Prediction
+                <i class="fas fa-question-circle">
+                    <span class="p-t-sm p-b-sm bpi-tooltip">
+                        <h4>District Fundamental Prediction</h4>
+                        <hr class="m-xs">
+                        <p>
+                            Forecasted Democratic % of vote,
+                            without considering national mood or polling.
+                        </p>
+                    </span>
+                </i>
+                &nbsp;
+            </h1>
+            <h1 class="bpi-measure"> {{ district.fundamental|percentage }}</h1>
         </div>
     </section>
     <section class="container district-profile-section">

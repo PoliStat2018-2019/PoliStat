@@ -13,9 +13,13 @@ from figures import models
 def index(request):
 
     national = models.NationalPrediction.manager.all().order_by('-date')[0]
+    data = {}
+    for district in models.District.manager.all():
+        data[district.id] = district.prediction_set.last().dem_win_percent
     context = {
         'navbar': 'index',
         'national': national,
+        'cartogram_data': json.dumps(data),
     }
 
     return render(request, 'figures/index.html', context=context)
