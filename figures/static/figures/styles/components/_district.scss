@@ -46,18 +46,22 @@ h1.bpi {
 
     i.fas {
         font-size: 0.9rem;
+        position: relative;
+        display: inline-block;
     }
 
     & .bpi-tooltip {
         visibility: hidden;
+        text-align: center;
 
         position: absolute;
         top: 100%;
-        left: -50%;
-        margin-left: 43px;
+        transform: translateX(-50%);
+        margin-top: 6px;
+        margin-left: 6px;
         z-index: 1;
         border-radius: 5px;
-        min-width: 120px;
+        width: 150px;
         text-align: center;
         background-color: lighten($site-black, 0.5);
         line-height: 18px;
