@@ -1,0 +1,16 @@
+{% load el_pagination_tags %}
+
+{% paginate 5 recents_list %}
+{% for recent in recents_list %}
+<div class="m-t-md p-md recent">
+    <h1 class="title">{{ recent.title }}</h1>
+    <h6 class="m-b-sm recent-author">
+        {{ recent.author }} |
+        <span>{{ recent.date }}</span>
+    </h6>
+    <div class="recent-content">
+        {{ recent.body|safe }}
+    </div>
+</div>    
+{% endfor %}
+{% show_more %}

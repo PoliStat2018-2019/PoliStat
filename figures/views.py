@@ -1,4 +1,3 @@
-
 # Django
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import JsonResponse
@@ -9,20 +8,35 @@ import json
 # Models
 from figures import models
 
-# Create your views here.
-def index(request):
+from itertools import chain
 
+
+# Create your views here.
+def index(request,
+          template='figures/index.html',
+          page_template='figures/index_recent_blogs.html'):
     national = models.NationalPrediction.manager.all().order_by('-date')[0]
     data = {}
     for district in models.District.manager.all():
         data[district.id] = district.prediction_set.last().dem_win_percent
+    
+    recents_list = sorted(chain(
+        models.BlogPost.manager.all(),
+        models.DistrictPost.manager.all()
+    ), key = lambda instance: instance.date)
+
+    if request.is_ajax():
+        template = page_template
+
     context = {
         'navbar': 'index',
         'national': national,
         'cartogram_data': json.dumps(data),
+        'page_template': page_template,
+        'recents_list': recents_list
     }
 
-    return render(request, 'figures/index.html', context=context)
+    return render(request, template, context=context)
 
 def about(request):
     context = {
@@ -93,13 +107,15 @@ def district(request, state, districtno):
     district = get_object_or_404(models.District, state=state, no=districtno)
     district_profile = get_object_or_404(models.DistrictProfile, district=district)
     latest_prediction = district.prediction_set.last()
+    district_posts = district.districtpost_set.all()
 
     context = {
         'navbar': 'states',
         'state': state,
         'district': district,
         'district_profile': district_profile,
-        'latest_prediction': latest_prediction
+        'latest_prediction': latest_prediction,
+        'district_posts': district_posts
     }
 
     return render(request, 'figures/district.html', context=context)

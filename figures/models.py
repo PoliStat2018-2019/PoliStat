@@ -190,6 +190,7 @@ class NationalPrediction(models.Model):
 
     date = models.DateTimeField(default=timezone.now)
 
+
 # This method is required because we load districts from fixtures,
 # which does not call the District.save() method. However, loaddata
 # does send a post_save signal which we connect to here
@@ -228,13 +229,15 @@ class DistrictPost(models.Model):
     such as new polls, unforseen factors, etc.
     """
 
+    manager = models.Manager()
+
     # ForeignKey because a post can only be about one district but each
     # district can have multiple posts
     district = models.ForeignKey(District, on_delete=models.CASCADE)
     author = models.ForeignKey(User,
                                   on_delete=models.CASCADE)
 
-    title = models.CharField(max_length=128, unique=True)
+    title = models.CharField(max_length=128)
     body = models.TextField()
 
 
@@ -265,11 +268,11 @@ class BlogPost(models.Model):
     author = models.ForeignKey(User,
                               on_delete=models.CASCADE)
     body = models.TextField()
-    date_posted = models.DateTimeField(default=timezone.now)
+    date = models.DateTimeField(default=timezone.now)
 
     class Meta:
         # order models by most recent first
-        ordering = ['-date_posted']
+        ordering = ['-date']
     
     @property
     def slug(self):

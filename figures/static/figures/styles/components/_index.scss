@@ -114,15 +114,22 @@
   }
 
 .prediction-section {
-    height: 145vh;
     & h1:first-child {
         font-size: 4rem;
     }
 }
 
-.index-blog-section {
+.index-recent-section {
     min-height: 100vh;
     & h1:first-child {
         font-size: 4rem;
+    }
+}
+
+.recent {
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px $site-black;
+    & h1.title {
+        font-size: 2rem;
     }
 }

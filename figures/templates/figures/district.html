@@ -90,5 +90,17 @@
         <h1>
             District Updates and Posts
         </h1>
+        {% for d_post in district_posts %}
+            <div class="district-post">
+                <h1 class="title">{{ d_post.title }}</h1>
+                <h6 class="m-b-sm district-post-author">
+                    {{ d_post.author }} |
+                    <span>{{ d_post.date }}</span>
+                </h6>
+                <div class="district-post-content">
+                    {{ d_post.body|safe }}
+                </div>
+            </div>
+        {% endfor %}
     </section>
 {% endblock  %}

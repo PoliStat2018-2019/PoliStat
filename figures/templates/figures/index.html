@@ -18,16 +18,22 @@
         </div>
     </section>
     <section id="prediction-section"
-             class="container prediction-section">
+             class="container m-b-lg prediction-section">
         <h1 data-aos="fade-up"
             class="m-t-lg p-b-md text-center">Current Prediction</h1>
         {% include "figures/includes/histogram.html" %}
         {% include "figures/includes/cartogram.html" %}
     </section>
-    <section class="container index-blog-section">
+    <section class="container index-recent-section">
         <h1 data-aos="fade-up"
             class="text-center">Recent Updates & Posts</h1>
+        {% include "figures/includes/index_recents.html" %}
     </section>
+
+    <script src="{% static 'el-pagination/js/el-pagination.js' %}"></script>
+    <script>
+        $.endlessPaginate();
+    </script>
 {% endblock %}
 
 {% block scripts %}

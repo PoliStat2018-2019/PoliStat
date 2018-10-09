@@ -61,8 +61,8 @@ class DistrictPostAdmin(SummernoteModelAdmin):
 class BlogPostAdmin(SummernoteModelAdmin):
     summernote_fields = ('body',)
 
-    list_display = ('title', 'author', 'date_posted')
-    search_fields = ('title', 'author', 'date_posted')
+    list_display = ('title', 'author', 'date')
+    search_fields = ('title', 'author', 'date')
 
 
 # admin.site.register(my_models.User, UserAdmin)
