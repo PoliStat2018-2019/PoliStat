@@ -241,7 +241,7 @@ class DistrictPost(models.Model):
     body = models.TextField()
 
 
-    date = models.DateField(default=timezone.now)
+    date = models.DateTimeField(default=timezone.now)
 
     class Meta:
         # order models by most recent first
@@ -252,6 +252,9 @@ class DistrictPost(models.Model):
     def __str__(self):
         """Return the title of this post as a string"""
         return self.title
+
+    def get_cname(self):
+        return 'districtpost'
 
 
 class BlogPost(models.Model):
@@ -264,7 +267,7 @@ class BlogPost(models.Model):
 
     manager = models.Manager()
 
-    title = models.CharField(max_length=200, unique=True)
+    title = models.CharField(max_length=200)
     author = models.ForeignKey(User,
                               on_delete=models.CASCADE)
     body = models.TextField()
@@ -283,7 +286,7 @@ class BlogPost(models.Model):
         stripped_body = re.sub(r'(?<=[.,])(?=[^\s])', r' ',
                                     stripped_body)
 
-        return f'{stripped_body}'[:128] + '...'
+        return f'{stripped_body}'[:180] + '...'
     
     def get_absolute_url(self):
         return reverse('figures:blog', args=[self.slug, self.pk])
@@ -291,6 +294,9 @@ class BlogPost(models.Model):
     def __str__(self):
         """Return the title of this post as a string"""
         return self.title
+    
+    def get_cname(self):
+        return 'blogpost'
 
 
 def nth(n):

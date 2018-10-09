@@ -131,5 +131,8 @@
     box-shadow: 0 0 5px 2px $site-black;
     & h1.title {
         font-size: 2rem;
+        a:hover {
+            text-decoration: underline;
+        }
     }
 }

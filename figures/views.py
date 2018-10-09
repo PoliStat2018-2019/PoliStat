@@ -24,6 +24,7 @@ def index(request,
         models.BlogPost.manager.all(),
         models.DistrictPost.manager.all()
     ), key = lambda instance: instance.date)
+    recents_list.reverse()
 
     if request.is_ajax():
         template = page_template

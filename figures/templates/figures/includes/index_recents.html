@@ -1,15 +1,29 @@
 {% load el_pagination_tags %}
 
-{% paginate 5 recents_list %}
+{% paginate 3 recents_list %}
 {% for recent in recents_list %}
 <div class="m-t-md p-md recent">
-    <h1 class="title">{{ recent.title }}</h1>
+    <h1 class="title">
+        {% if recent.get_cname == 'districtpost' %}
+            <a class="{% url 'figures:district' recent.district.state.name recent.district.no %}">
+                {{ recent.title }}
+            </a>
+        {% else %}
+            <a class="{% url 'figures:blog' recent.pk recent.slug %}">
+                {{ recent.title }}
+            </a>
+        {% endif %}
+    </h1>
     <h6 class="m-b-sm recent-author">
         {{ recent.author }} |
         <span>{{ recent.date }}</span>
     </h6>
     <div class="recent-content">
-        {{ recent.body|safe }}
+        {% if recent.get_cname == 'blogpost' %}
+            {{ recent.get_lead }}
+        {% else %}
+            {{ recent.body|safe }}
+        {% endif %}
     </div>
 </div>    
 {% endfor %}
