@@ -47,6 +47,7 @@ def blog(request, pk, slug=None):
     blog = get_object_or_404(models.BlogPost, pk=pk)
 
     context = {
+        'navbar': 'blog',
         'blog': blog
     }
 
