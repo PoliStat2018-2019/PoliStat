@@ -14,7 +14,7 @@ from itertools import chain
 # Create your views here.
 def index(request,
           template='figures/index.html',
-          page_template='figures/index_recent_blogs.html'):
+          page_template='figures/includes/index_recents.html'):
     national = models.NationalPrediction.manager.all().order_by('-date')[0]
     data = {}
     for district in models.District.manager.all():

@@ -129,6 +129,12 @@
 .recent {
     border-radius: 10px;
     box-shadow: 0 0 5px 2px $site-black;
+
+    & p.recent-type {
+        font-family: $playfair-ff;
+        color: $site-red;
+    }
+
     & h1.title {
         font-size: 2rem;
         a:hover {
