@@ -16,6 +16,7 @@ def index(request,
           template='figures/index.html',
           page_template='figures/includes/index_recents.html'):
     national = models.NationalPrediction.manager.all().order_by('-date')[0]
+    update = national.date.strftime("%m/%d/%y %I:%M %p")
     data = {}
     for district in models.District.manager.all():
         data[district.id] = district.prediction_set.last().dem_win_percent
@@ -29,9 +30,11 @@ def index(request,
     if request.is_ajax():
         template = page_template
 
+
     context = {
         'navbar': 'index',
         'national': national,
+        'update': update,
         'cartogram_data': json.dumps(data),
         'page_template': page_template,
         'recents_list': recents_list

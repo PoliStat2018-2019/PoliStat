@@ -6,6 +6,7 @@
 <script>
     var histogram_data = {{ national.histogram_data|safe }};
     var dem_win_perc = {{ national.dem_win_perc }};
+    var update = "{{ update }}";
 </script>
 <div id="chartContainer" style="height: 360px; width: 100%;"></div>
 <script type="text/javascript" src="{% static 'figures/scripts/histogram.js' %}" charset="utf-8"></script>

@@ -4,6 +4,13 @@ window.chart = new CanvasJS.Chart("chartContainer",
   	text: "Predicted Outcome - Dem Chance of Winning House: " + dem_win_perc + "%",
   	fontFamily: "tahoma",
   },
+  subtitles:[
+    {
+        text: "Last Updated: " + update,
+        fontColor: "gray",
+        fontFamily: "tahoma",
+    }
+  ],
   axisY: {
 		title: "% Probablility"
 	},
