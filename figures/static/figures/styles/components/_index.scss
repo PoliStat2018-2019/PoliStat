@@ -19,8 +19,6 @@
         position: relative;
         z-index: 10;
 
-        text-align: center;
-
         &:before {
             content: '';
             position: absolute;
@@ -38,9 +36,11 @@
     & h1:nth-child(2),
     & h1:nth-child(3)
     {
-        text-align: center;
         font-size: 4rem;
         @include mq(sm-mobile) {
+            font-size: 5rem;
+        }
+        @include mq(tablet) {
             font-size: 6rem;
         }
 
@@ -54,6 +54,11 @@
         align-self: stretch;
         text-align: center;
     }
+}
+
+.welcome-section span.oracle {
+     color: $site-red !important;
+     font-family: $playfair-ff;
 }
 
 .welcome-section .scroll-btn {
@@ -142,3 +147,4 @@
         }
     }
 }
+

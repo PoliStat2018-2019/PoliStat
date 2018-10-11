@@ -6,9 +6,12 @@
 {% block content %}
     <section class="section welcome-section">
         <div class="m-l-sm m-r-md welcome-section-header">
-            <h1 class="mbhs">MBHS Polistat's</h1>
-            <h1 class="bold">Oracle of Blair</h1>
-            <h1 class="bold">2018 House Election Forecasting</h1>
+            <h1 class="text-center mbhs">MBHS Polistat's</h1>
+            <h1 class="text-center bold main-text">
+                Blair <span class="oracle">ORACLE</span>
+            </h1>
+            <h2 class="text-center m-b-md">Overall Result of Analytical Consideration of the Looming Elections</h2>
+            <h3 class="m-b-lg text-center bold">2018 House Election Forecasting</h3>
         </div>
         <div class="scroll-btn-wrapper">
             <a href="#prediction-section"
@@ -20,12 +23,14 @@
     <section id="prediction-section"
              class="container m-b-lg prediction-section">
         <h1 data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
             class="m-t-lg p-b-md text-center">Current Prediction</h1>
         {% include "figures/includes/histogram.html" %}
         {% include "figures/includes/cartogram.html" %}
     </section>
-    <section class="container index-recent-section">
+    <!-- <section class="container index-recent-section">
         <h1 data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
             class="text-center">Recent Updates & Posts</h1>
         {% include "figures/includes/index_recents.html" %}
     </section>
@@ -33,7 +38,7 @@
     <script src="{% static 'el-pagination/js/el-pagination.js' %}"></script>
     <script>
         $.endlessPaginate();
-    </script>
+    </script> -->
 {% endblock %}
 
 {% block scripts %}

@@ -242,6 +242,14 @@ class DistrictPost(models.Model):
 
 
     date = models.DateTimeField(default=timezone.now)
+    modified = models.DateTimeField()
+
+    # automatic modified date
+    def save(self, *args, **kwargs):
+        if not self.id:
+            self.date = timezone.now()
+        self.modified = timezone.now()
+        return super(DistrictPost, self).save(*args, **kwargs)
 
     class Meta:
         # order models by most recent first
@@ -272,6 +280,14 @@ class BlogPost(models.Model):
                               on_delete=models.CASCADE)
     body = models.TextField()
     date = models.DateTimeField(default=timezone.now)
+    modified = models.DateTimeField()
+
+    # automatic modified date
+    def save(self, *args, **kwargs):
+        if not self.id:
+            self.date = timezone.now()
+        self.modified = timezone.now()
+        return super(DistrictPost, self).save(*args, **kwargs)
 
     class Meta:
         # order models by most recent first
