@@ -25,17 +25,17 @@
             <h1 class="table-header">Predicted Win %</h1>
             {% if latest_prediction.rep_win_percent > latest_prediction.dem_win_percent %}
                 <h3 class="candidate color-rep">{{ district.rep_nom }}</h3>
-                <p class="vote-percent">{{ latest_prediction.rep_perc|percentage }}</p>
+                <p class="vote-percent">{{ latest_prediction.rep_perc|pretty_percentage }}</p>
                 <p class="win-percent">{{ latest_prediction.rep_win_percent|percentage }}</p>
                 <h3 class="candidate color-dem">{{ district.dem_nom }}</h3>
-                <p class="vote-percent">{{ latest_prediction.dem_perc|percentage }}</p>
+                <p class="vote-percent">{{ latest_prediction.dem_perc|pretty_percentage }}</p>
                 <p class="win-percent">{{ latest_prediction.dem_win_percent|percentage }}</p>
             {% else %}
                 <h3 class="candidate color-dem">{{ district.dem_nom }}</h3>
-                <p class="vote-percent">{{ latest_prediction.dem_perc|percentage }}</p>
+                <p class="vote-percent">{{ latest_prediction.dem_perc|pretty_percentage }}</p>
                 <p class="win-percent">{{ latest_prediction.dem_win_percent|percentage }}</p>
                 <h3 class="candidate color-rep">{{ district.rep_nom }}</h3>
-                <p class="vote-percent">{{ latest_prediction.rep_perc|percentage }}</p>
+                <p class="vote-percent">{{ latest_prediction.rep_perc|pretty_percentage }}</p>
                 <p class="win-percent">{{ latest_prediction.rep_win_percent|percentage }}</p>
             {% endif %}
         </div>
