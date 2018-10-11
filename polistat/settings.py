@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'static_precompiler',
     'django_summernote',
+    'pydjax',
     'el_pagination',
 ]
 
@@ -141,3 +142,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # Summernote
 SUMMERNOTE_THEME = 'bs4'  # Show summernote with Bootstrap4
 
+#MathJax
+MATHJAX_ENABLED=True

@@ -9,6 +9,7 @@ django-static-precompiler = "*"
 django-tinymce = "*"
 django-summernote = "*"
 django-el-pagination = "*"
+pydjax = "*"
 
 [dev-packages]
 pylint = "*"

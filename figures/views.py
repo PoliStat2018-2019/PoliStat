@@ -45,8 +45,10 @@ def index(request,
     return render(request, template, context=context)
 
 def about(request):
+    about = models.AboutContent.manager.last()
     context = {
         'navbar': 'about',
+        'about': about,
     }
 
     return render(request, 'figures/about.html', context=context)

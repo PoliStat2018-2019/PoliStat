@@ -298,6 +298,16 @@ class BlogPost(models.Model):
     def get_cname(self):
         return 'blogpost'
 
+class AboutContent(models.Model):
+    """
+    Model for editing the about page, per request
+    """
+
+    manager = models.Manager()
+
+    body = models.TextField()
+    date = models.DateTimeField(default=timezone.now)
+
 
 def nth(n):
     """

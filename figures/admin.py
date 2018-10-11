@@ -65,6 +65,11 @@ class BlogPostAdmin(SummernoteModelAdmin):
     search_fields = ('title', 'author', 'date')
 
 
+class AboutContentAdmin(SummernoteModelAdmin):
+    summernote_fields = ('body',)
+    list_display = ('date',)
+
+
 # admin.site.register(my_models.User, UserAdmin)
 admin.site.register(Permission)
 
@@ -72,3 +77,4 @@ admin.site.register(my_models.State, StateAdmin)
 admin.site.register(my_models.District, DistrictAdmin)
 admin.site.register(my_models.DistrictPost, DistrictPostAdmin)
 admin.site.register(my_models.BlogPost, BlogPostAdmin)
+admin.site.register(my_models.AboutContent, AboutContentAdmin)
