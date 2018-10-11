@@ -29,8 +29,17 @@
     .candidate {
         grid-area: 'candidate';
 
-        font-size: 1rem;
+        font-size: 24px;
     }
+
+    .vote-percent {
+        font-size: 24px;
+    }
+
+    .win-percent {
+        font-size: 24px;
+    }
+
 }
 
 div.bpi-wrapper {
@@ -41,7 +50,7 @@ div.bpi-wrapper {
 h1.bpi {
     position: relative;
     display: inline-block;
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     color: rgb(102, 0, 0);
 
     i.fas {
@@ -89,7 +98,7 @@ h1.bpi {
 
 h1.bpi-measure {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .district-profile-section {
