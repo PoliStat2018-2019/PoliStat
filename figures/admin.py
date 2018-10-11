@@ -49,13 +49,13 @@ class DistrictAdmin(admin.ModelAdmin):
 class DistrictPostAdmin(SummernoteModelAdmin):
     summernote_fields = ('body',)
 
-    list_display = ('title', 'author', 'date')
+    list_display = ('district','title', 'author', 'date')
     search_fields = ('title',
                      'author__username',
                      'author__email',
                      'author__first_name',
                      'author__last_name',
-                     'date')
+                     'date', 'district')
 
 
 class BlogPostAdmin(SummernoteModelAdmin):
