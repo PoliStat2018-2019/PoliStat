@@ -24,8 +24,7 @@ def index(request,
         data[district.id] = district.prediction_set.last().dem_win_percent
     
     recents_list = sorted(chain(
-        models.BlogPost.manager.all(),
-        models.DistrictPost.manager.all()
+        models.BlogPost.manager.all()
     ), key = lambda instance: instance.date)
     recents_list.reverse()
 
