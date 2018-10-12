@@ -60,6 +60,10 @@ $sidenav-background-color: #ffffff;
     }
 }
 
+*::-ms-backdrop, .sidenav-wrapper .logo {
+    padding: 0 !important;
+}
+
 .sidenav {
     display: flex;
     flex-direction: column;
