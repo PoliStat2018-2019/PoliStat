@@ -95,7 +95,8 @@
                 <h1 class="title">{{ d_post.title }}</h1>
                 <h6 class="m-b-sm district-post-author">
                     {{ d_post.author }} |
-                    <span>{{ d_post.date }}</span>
+                    <span>Posted: {{ d_post.date }}</span> |
+                    <span>Last Updated: {{ d_post.modified }}</span>
                 </h6>
                 <div class="district-post-content">
                     {{ d_post.body|safe }}

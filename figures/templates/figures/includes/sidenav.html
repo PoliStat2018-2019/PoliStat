@@ -4,9 +4,8 @@
     <i id="sidenav-mobile-btn" class="fas fa-bars"></i>
 </div>
 <nav id="sidenav-mobile-target" class="sidenav-wrapper">
-    <a href="{% url 'figures:index' %}" class="logo p-lg">
-        <img src={% static 'figures/images/steeple.png' %}
-             onerror="this.onerror=null; this.src='django-logo-positive.png'">
+    <a href="{% url 'figures:index' %}" class="logo p-md">
+        <img src="{% static 'figures/images/steeple.png' %}">
     </a>
     <ul class="sidenav m-l-sm border-l">
         <li class="{% if navbar == 'index' %}active{% endif %}">

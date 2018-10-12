@@ -147,6 +147,11 @@ class DistrictProfile(models.Model):
     def __str__(self):
         return f'{self.district} Profile'
 
+    # automatic modified date
+    def save(self, *args, **kwargs):
+        self.modified = timezone.now()
+        return super(DistrictProfile, self).save(*args, **kwargs)
+
 
 class Prediction(models.Model):
     """
@@ -287,7 +292,7 @@ class BlogPost(models.Model):
         if not self.id:
             self.date = timezone.now()
         self.modified = timezone.now()
-        return super(DistrictPost, self).save(*args, **kwargs)
+        return super(BlogPost, self).save(*args, **kwargs)
 
     class Meta:
         # order models by most recent first

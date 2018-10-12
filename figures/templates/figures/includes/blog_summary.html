@@ -9,7 +9,8 @@
         </h1>
         <h6 class="m-b-sm blog-author">
             {{ blog.author }} |
-            <span>{{ blog.date }}</span>
+            <span>Posted: {{ blog.date }}</span> |
+            <span>Last Updated: {{ blog.modified }}</span>
         </h6>
         <div class="blog-content">
             {{ blog.get_lead }}

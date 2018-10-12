@@ -48,9 +48,12 @@ class DistrictAdmin(admin.ModelAdmin):
 
 class DistrictPostAdmin(SummernoteModelAdmin):
     summernote_fields = ('body',)
+    readonly_fields = ('date', 'modified')
 
-    list_display = ('district','title', 'author', 'date',)
+    list_display = ('district','title', 'author', 'date', 'modified')
     search_fields = ('title',
+                     'state__name',
+                     'state__abbr',
                      'author__username',
                      'author__email',
                      'author__first_name',
@@ -60,8 +63,9 @@ class DistrictPostAdmin(SummernoteModelAdmin):
 
 class BlogPostAdmin(SummernoteModelAdmin):
     summernote_fields = ('body',)
+    readonly_fields = ('date', 'modified')
 
-    list_display = ('title', 'author', 'date')
+    list_display = ('title', 'author', 'date', 'modified')
     search_fields = ('title', 'author', 'date')
 
 

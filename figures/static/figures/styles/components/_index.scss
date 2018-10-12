@@ -49,6 +49,7 @@
         -webkit-text-fill-color: transparent;
 
     }
+    & h2:first-child { font-size: 3rem; }
     & h1:nth-child(3) { margin-bottom: auto; }
     & .scroll-btn-wrapper {
         align-self: stretch;
@@ -58,7 +59,6 @@
 
 .welcome-section span.oracle {
      color: $site-red !important;
-     font-family: $playfair-ff;
 }
 
 .welcome-section .scroll-btn {
