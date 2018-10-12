@@ -1,0 +1,14 @@
+{% extends "figures/base.html" %}
+
+
+{% block title %}About{% endblock  %}
+
+{% block content %}
+<section class="thanks-section">
+    <h1 class="p-b-md text-center">{{ thanks.page_title }}</h1>
+    <div class="thanks-content"
+         style="font-size:40px; padding-top:50px">
+        {{ thanks.body|safe }}
+    </div>
+</section>
+{% endblock  %}
