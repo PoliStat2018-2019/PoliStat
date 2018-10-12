@@ -4,10 +4,10 @@
 {% block title %}About{% endblock  %}
 
 {% block content %}
-<section class="thanks-section">
-    <h1 class="p-b-md text-center">{{ thanks.page_title }}</h1>
-    <div class="thanks-content"
-         style="font-size:40px; padding-top:50px">
+<section class="section container thanks-section">
+    <h1 class="p-b-md text-center"
+        style="font-size:4rem;">{{ thanks.page_title }}</h1>
+    <div class="thanks-content">
         {{ thanks.body|safe }}
     </div>
 </section>
