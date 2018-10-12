@@ -19,6 +19,13 @@
     }
 }
 
+/* IE HOTFIX */
+*::-ms-backdrop, .container {
+    @include mq(mobile) {
+        padding-left: 266px !important;
+    }
+}
+
 .section {
     padding-top: 4rem;
 
