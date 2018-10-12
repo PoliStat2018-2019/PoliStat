@@ -4,7 +4,7 @@
     <i id="sidenav-mobile-btn" class="fas fa-bars"></i>
 </div>
 <nav id="sidenav-mobile-target" class="sidenav-wrapper">
-    <a href="{% url 'figures:index' %}" class="logo p-md">
+    <a href="{% url 'figures:index' %}" class="logo">
         <img src="{% static 'figures/images/steeple.png' %}">
     </a>
     <ul class="sidenav m-l-sm border-l">
@@ -22,6 +22,9 @@
         </li>
         <li class="{% if navbar == 'about' %}active{% endif %}">
             <a class="bold" href="{% url 'figures:about' %}">about</a>
+        </li>
+        <li class="{% if navbar == 'thanks' %}active{% endif %}">
+            <a class="bold" href="{% url 'figures:thanks' %}">thanks</a>
         </li>
     </ul>
 </nav>

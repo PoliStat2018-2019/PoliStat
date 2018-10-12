@@ -129,3 +129,11 @@ def district(request, state, districtno):
 
 def districtbyid(request, id):
     return redirect(get_object_or_404(models.District, id=id))
+
+def thanks(request):
+    thanks = models.ThanksContent.manager.last()
+    context = {
+        'navbar': 'thanks',
+        'thanks': thanks
+    }
+    return render(request, 'figures/thanks.html', context=context)

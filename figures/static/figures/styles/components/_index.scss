@@ -34,7 +34,6 @@
         }
     }
     & h1:nth-child(2),
-    & h1:nth-child(3)
     {
         font-size: 4rem;
         @include mq(sm-mobile) {
@@ -43,14 +42,12 @@
         @include mq(tablet) {
             font-size: 6rem;
         }
-
-        background: $site-white;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-
     }
-    & h2:first-child { font-size: 3rem; }
-    & h1:nth-child(3) { margin-bottom: auto; }
+    & h1:nth-child(3) { 
+        margin-bottom: auto; 
+        text-align: center;
+        font-size: 4rem;
+    }
     & .scroll-btn-wrapper {
         align-self: stretch;
         text-align: center;

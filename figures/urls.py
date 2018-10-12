@@ -8,6 +8,7 @@ app_name='figures'
 urlpatterns = [
     path('', views.index, name='index'),
     path('about/', views.about, name='about'),
+    path('thanks/', views.thanks, name='thanks'),
     path('blog/', views.blog_list, name='blog_list'),
     path('blog/<int:pk>-<slug:slug>', views.blog, name='blog'),
     path('states/', views.statemap, name='states'),

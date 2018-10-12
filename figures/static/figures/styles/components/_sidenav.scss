@@ -54,7 +54,13 @@ $sidenav-background-color: #ffffff;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
 }
 
-.sidenav-wrapper .logo { 
+*::-ms-backdrop, .sidenav-wrapper .logo {
+    padding: 0 !important;
+}
+
+.sidenav-wrapper .logo {
+    padding: 1rem;
+
     &>img {
         width: 100%;
     }
