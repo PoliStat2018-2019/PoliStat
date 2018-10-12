@@ -111,9 +111,9 @@ class District(models.Model):
         'State's ##th district''
         """
         if self.state.num_districts == 1:
-            return f'{self.state}\'s at-large district' 
+            return f'{self.state}\'s At-Large District'
         else:
-            return f'{self.state}\'s {nth(self.no)} district'
+            return f'{self.state}\'s {nth(self.no)} District'
     
     def get_absolute_url(self):
         return reverse('figures:district', kwargs={
