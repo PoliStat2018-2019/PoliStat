@@ -41,7 +41,7 @@
 {"model": "figures.district", "pk": "CA-19", "fields": {"state": "California", "no": 19, "id": 40, "dem_nom": "Zoe Lofgren", "rep_nom": "Justin Aguilera", "bpi": 0.2068235, "fundamental": 0.7409035}},
 {"model": "figures.district", "pk": "CA-20", "fields": {"state": "California", "no": 20, "id": 41, "dem_nom": "Jimmy Panetta", "rep_nom": "", "bpi": 0.2254081, "fundamental": 0.7594881}},
 {"model": "figures.district", "pk": "CA-21", "fields": {"state": "California", "no": 21, "id": 42, "dem_nom": "TJ Cox", "rep_nom": "David Valadao", "bpi": 0.0090356, "fundamental": 0.468176}},
-{"model": "figures.district", "pk": "CA-22", "fields": {"state": "California", "no": 22, "id": 43, "dem_nom": "Devin Nunes", "rep_nom": "Andrew Janz", "bpi": -0.1178905, "fundamental": 0.3412499}},
+{"model": "figures.district", "pk": "CA-22", "fields": {"state": "California", "no": 22, "id": 43, "dem_nom": "Andrew Janz", "rep_nom": "Devin Nunes", "bpi": -0.1178905, "fundamental": 0.3412499}},
 {"model": "figures.district", "pk": "CA-23", "fields": {"state": "California", "no": 23, "id": 44, "dem_nom": "Tatiana Matta", "rep_nom": "Kevin McCarthy", "bpi": -0.1545961, "fundamental": 0.3045443}},
 {"model": "figures.district", "pk": "CA-24", "fields": {"state": "California", "no": 24, "id": 45, "dem_nom": "Salaud Carbajal", "rep_nom": "Justin Fareed", "bpi": 0.0427134, "fundamental": 0.5767934}},
 {"model": "figures.district", "pk": "CA-25", "fields": {"state": "California", "no": 25, "id": 46, "dem_nom": "Katie Hill", "rep_nom": "Steve Knight", "bpi": -0.0360046, "fundamental": 0.4231359}},
