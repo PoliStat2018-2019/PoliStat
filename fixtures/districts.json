@@ -218,7 +218,7 @@
 {"model": "figures.district", "pk": "MN-05", "fields": {"state": "Minnesota", "no": 5, "id": 217, "dem_nom": "Ilhan Omar", "rep_nom": "Jennifer Zielinski", "bpi": 0.2434503, "fundamental": 0.7434503}},
 {"model": "figures.district", "pk": "MN-06", "fields": {"state": "Minnesota", "no": 6, "id": 218, "dem_nom": "Ian Todd", "rep_nom": "Tom Emmer", "bpi": -0.1353702, "fundamental": 0.3237702}},
 {"model": "figures.district", "pk": "MN-07", "fields": {"state": "Minnesota", "no": 7, "id": 219, "dem_nom": "Collin Peterson", "rep_nom": "Dave Hughes", "bpi": -0.0468094, "fundamental": 0.4872705}},
-{"model": "figures.district", "pk": "MN-08", "fields": {"state": "Minnesota", "no": 8, "id": 220, "dem_nom": "Joe Radinovich", "rep_nom": "Pete Sauber", "bpi": -0.0340004, "fundamental": 0.4659996}},
+{"model": "figures.district", "pk": "MN-08", "fields": {"state": "Minnesota", "no": 8, "id": 220, "dem_nom": "Joe Radinovich", "rep_nom": "Pete Stauber", "bpi": -0.0340004, "fundamental": 0.4659996}},
 {"model": "figures.district", "pk": "MO-01", "fields": {"state": "Missouri", "no": 1, "id": 225, "dem_nom": "William Lacy Clay", "rep_nom": "Robert Vroman", "bpi": 0.2707504, "fundamental": 0.8048304}},
 {"model": "figures.district", "pk": "MO-02", "fields": {"state": "Missouri", "no": 2, "id": 226, "dem_nom": "Cort VanOstran", "rep_nom": "Ann Wagner", "bpi": -0.0801424, "fundamental": 0.3789981}},
 {"model": "figures.district", "pk": "MO-03", "fields": {"state": "Missouri", "no": 3, "id": 227, "dem_nom": "Katy Geppert", "rep_nom": "Blaine Luetkemeyer", "bpi": -0.1729768, "fundamental": 0.2861637}},
