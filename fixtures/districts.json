@@ -16,7 +16,7 @@
 {"model": "figures.district", "pk": "AZ-03", "fields": {"state": "Arizona", "no": 3, "id": 11, "dem_nom": "Raul Grijalva", "rep_nom": "Nicolas Pierson", "bpi": 0.0976923, "fundamental": 0.6317723}},
 {"model": "figures.district", "pk": "AZ-04", "fields": {"state": "Arizona", "no": 4, "id": 12, "dem_nom": "David Brill", "rep_nom": "Paul Gosar", "bpi": -0.1879514, "fundamental": 0.2711891}},
 {"model": "figures.district", "pk": "AZ-05", "fields": {"state": "Arizona", "no": 5, "id": 13, "dem_nom": "Joan Greene", "rep_nom": "Andy Biggs", "bpi": -0.1379319, "fundamental": 0.3212086}},
-{"model": "figures.district", "pk": "AZ-06", "fields": {"state": "Arizona", "no": 6, "id": 14, "dem_nom": "David Schweikert", "rep_nom": "Anita Malik", "bpi": -0.0836534, "fundamental": 0.375487}},
+{"model": "figures.district", "pk": "AZ-06", "fields": {"state": "Arizona", "no": 6, "id": 14, "dem_nom": "Anita Malik", "rep_nom": "David Schweikert", "bpi": -0.0836534, "fundamental": 0.375487}},
 {"model": "figures.district", "pk": "AZ-07", "fields": {"state": "Arizona", "no": 7, "id": 15, "dem_nom": "Ruben Gallego", "rep_nom": "", "bpi": 0.263833, "fundamental": 0.797913}},
 {"model": "figures.district", "pk": "AZ-08", "fields": {"state": "Arizona", "no": 8, "id": 16, "dem_nom": "Hiral Tipireni", "rep_nom": "Debbie Lesko", "bpi": -0.1232912, "fundamental": 0.3358493}},
 {"model": "figures.district", "pk": "AZ-09", "fields": {"state": "Arizona", "no": 9, "id": 17, "dem_nom": "Greg Stanton", "rep_nom": "Steve Ferrara", "bpi": 0.060246, "fundamental": 0.560246}},
