@@ -319,7 +319,7 @@
 {"model": "figures.district", "pk": "OK-04", "fields": {"state": "Oklahoma", "no": 4, "id": 318, "dem_nom": "Mary Brannon", "rep_nom": "Tom Cole", "bpi": -0.184916, "fundamental": 0.2742244}},
 {"model": "figures.district", "pk": "OK-05", "fields": {"state": "Oklahoma", "no": 5, "id": 319, "dem_nom": "Kendra Horn", "rep_nom": "Steve Russell", "bpi": -0.0876618, "fundamental": 0.3714786}},
 {"model": "figures.district", "pk": "OR-01", "fields": {"state": "Oregon", "no": 1, "id": 320, "dem_nom": "Suzanne Bonamici", "rep_nom": "John Verbeek", "bpi": 0.0968766, "fundamental": 0.6309566}},
-{"model": "figures.district", "pk": "OR-02", "fields": {"state": "Oregon", "no": 2, "id": 321, "dem_nom": "Greg Walden", "rep_nom": "Jamie McLeod-Skinner", "bpi": -0.1514534, "fundamental": 0.3076871}},
+{"model": "figures.district", "pk": "OR-02", "fields": {"state": "Oregon", "no": 2, "id": 321, "dem_nom": "Jamie McLeod-Skinner", "rep_nom": "Greg Walden", "bpi": -0.1514534, "fundamental": 0.3076871}},
 {"model": "figures.district", "pk": "OR-03", "fields": {"state": "Oregon", "no": 3, "id": 322, "dem_nom": "Earl Blumenauer", "rep_nom": "", "bpi": 0.2575901, "fundamental": 0.7916701}},
 {"model": "figures.district", "pk": "OR-04", "fields": {"state": "Oregon", "no": 4, "id": 323, "dem_nom": "Peter DeFazio", "rep_nom": "Art Robinson", "bpi": 0.0434505, "fundamental": 0.5775305}},
 {"model": "figures.district", "pk": "OR-05", "fields": {"state": "Oregon", "no": 5, "id": 324, "dem_nom": "Kurt Schrader", "rep_nom": "Mark Callahan", "bpi": 0.0278872, "fundamental": 0.5619672}},

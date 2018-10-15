@@ -12,7 +12,8 @@ window.chart = new CanvasJS.Chart("chartContainer",
     }
   ],
   axisY: {
-		title: "% Probablility"
+		title: "% Probablility",
+		minimum: 0
 	},
   axisX: {
 		title: "# of Democratic Seats"
