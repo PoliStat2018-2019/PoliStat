@@ -55,7 +55,9 @@ class DistrictPostAdmin(SummernoteModelAdmin):
                      'author__email',
                      'author__first_name',
                      'author__last_name',
-                     'date', 'district__name',)
+                     'date',
+                     'district__name',
+                     'district__state__name')
 
 
 class BlogPostAdmin(SummernoteModelAdmin):
