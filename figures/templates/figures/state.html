@@ -18,13 +18,13 @@
                     {% with latest_prediction=district.prediction_set.last %}
                         {% if latest_prediction.dem_perc > latest_prediction.rep_perc %}
                             <ol class="p-sm text-center candidates">
-                                <li class="color-dem">{{ district.dem_nom }} | {{ latest_prediction.dem_perc|percentage }}</li>
-                                <li class="color-rep">{{ district.rep_nom }} | {{ latest_prediction.rep_perc|percentage }}</li>
+                                <li class="color-dem">{{ district.dem_nom }} | {{ latest_prediction.dem_perc|pretty_percentage }}</li>
+                                <li class="color-rep">{{ district.rep_nom }} | {{ latest_prediction.rep_perc|pretty_percentage }}</li>
                             </ol>
                         {% else %}
                             <ol class="p-sm text-center candidates">
-                                <li class="color-rep">{{ district.rep_nom }} | {{ latest_prediction.rep_perc|percentage }}</li>
-                                <li class="color-dem">{{ district.dem_nom }} | {{ latest_prediction.dem_perc|percentage }}</li>
+                                <li class="color-rep">{{ district.rep_nom }} | {{ latest_prediction.rep_perc|pretty_percentage }}</li>
+                                <li class="color-dem">{{ district.dem_nom }} | {{ latest_prediction.dem_perc|pretty_percentage }}</li>
                             </ol>
                         {% endif %}                    
                     {% endwith %}
