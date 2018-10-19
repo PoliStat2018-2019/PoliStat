@@ -38,12 +38,12 @@ window.chart = new CanvasJS.Chart("chartContainer",
 	  contentFormatter: function (e) {
 		  var content = "";
 		  for (var i = 0; i < e.entries.length; i++) {
-			  content += `
-			  <strong>${e.chart['axisX'][i]['title']}</strong>
-			  : ${e.entries[i].dataPoint.x}</br>
-			  <strong>${e.chart['axisY'][i]['title']}</strong>
-			  : ${accumData[e.entries[i].index]}%</br>
-			  `;
+			content += `
+			<strong>${e.chart['axisX'][i]['title']}</strong>
+			: ${e.entries[i].dataPoint.x}</br>
+			<strong>${e.chart['axisY'][i]['title']}</strong>
+			: ${e.entries[i].dataPoint.y.toFixed(3)}</br>
+			`;
 		  }
 		  return content;
 	  }
