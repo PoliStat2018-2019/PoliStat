@@ -100,7 +100,7 @@ window.onload = function() {
 	function searchDataPoint() {
 		var dps = chart.data[0].dataPoints;
 		for (var i = 0; i < dps.length; i++ ) {
-			if((xValue >= dps[i].x - xSnapDistance && xValue <= dps[i].x + xSnapDistance)) 
+			if(xValue == dps[i].x) 
 			{
 				if(mouseDown) {
 					selected.push(i);
