@@ -40,7 +40,7 @@ window.chart = new CanvasJS.Chart("chartContainer",
 		  for (var i = 0; i < e.entries.length; i++) {
 			content += `
 			<strong>% Probability of at Least</strong>
-			${e.entries[i].dataPoint.x}
+			${e.entries[i].dataPoint.x}<br />
 			<strong>Democrat Seats</strong>
 			: ${accumData[e.entries[i].index].toFixed(2)}%</br>
 			`;
@@ -67,12 +67,15 @@ window.onload = function() {
 	const origColors = chart.data[0].dataPoints.map((val, _ind, _arr) => {
 		return val['color'];
 	})
+	const origContentFormatter = chart.toolTip.contentFormatter;
 
 	var xSnapDistance = chart.get("dataPointWidth") / 10;
 	var xValue;
 	var mouseDown = false;
 	var selected = [];
 	var timerId = null;
+
+	var popup = document.createElement("div");
 
 	// @ Pimp Trizkit
 	// https://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
@@ -113,12 +116,11 @@ window.onload = function() {
 	}
 
 	jQuery("#chartContainer > .canvasjs-chart-container").on({
-		click: function(e) {
-			for (var i = 0; i < chart.data[0].dataPoints.length; i++) {
-				chart.data[0].dataPoints[i]['color'] = origColors[i];
-			}
-		},
 		mousedown: function(e) {
+			// reset
+			resetChartColors();
+			popup.style.display= "none";
+
 			mouseDown = true;
 			getPosition(e);  
 			searchDataPoint();
@@ -135,7 +137,7 @@ window.onload = function() {
 						var last = selected.slice(-1)[0];
 						[first, last] = last < first ? [last, first] : [first, last];
 						for (var i = 0; i < last - first; i++) {
-							const color = shadeColor2(origColors[first+i], 0.2);
+							const color = shadeColor2(origColors[first+i], -0.5);
 							dps[first + i]['color'] = color;
 						}
 						chart.render();
@@ -158,9 +160,33 @@ window.onload = function() {
 				var last = selected.slice(-1)[0];
 				[first, last] = last < first ? [last, first] : [first, last];
 				for (var i = 0; i < last - first; i++) {
-					const color = shadeColor2(origColors[first+i], 0.2);
+					const color = shadeColor2(origColors[first+i], -0.5);
 					dps[first + i]['color'] = color;
 				}
+
+				var chartContainer = document.querySelector("#chartContainer > .canvasjs-chart-container");
+				popup.innerHTML = `
+				<strong>Selected Range:</strong><br />
+				${dps[first]['x']}-${dps[last]['x']}<br />
+				<strong>Probability</strong>
+				: ${(accumData[first]-accumData[last]).toFixed(2)}%</br>`;
+				popup.classList.add("chart-popup");
+
+				// Popup styles
+				chartContainer.appendChild(popup);
+				style = {
+					position: "absolute",
+					top: "150px",
+					right: "0",
+					display: "block",
+					zIndex: 100,
+					border: "2px solid black",
+					padding: "15px",
+					width: "185px",
+					backgroundColor: "white"
+				}
+				Object.assign(popup.style, style);
+
 				mouseDown = false;
 			}
 			selected = [];
@@ -171,6 +197,7 @@ window.onload = function() {
 	document.addEventListener("click", function(e) {
 		if (e.target.closest("#chartContainer > .canvasjs-chart-container")) return;
 		resetChartColors();
+		popup.style.display = "none";
 		chart.render();
 	})
 }
