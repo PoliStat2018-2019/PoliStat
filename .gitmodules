@@ -1,3 +1,4 @@
 [submodule "fixtures"]
 	path = fixtures
 	url = https://github.com/polistat/polistat-results.git
+	branch = master
