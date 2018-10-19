@@ -1,10 +1,10 @@
 var accumData = [];
-for (var i = 0; i < histogram_data.length; i++) {
-	const val = (i == 0) ?
-					histogram_data[i]['y'] :
-					histogram_data[i]['y'] + accumData[i-1];
-	accumData.push(val);
+var sum = 0;
+for (var i = histogram_data.length - 1; i >= 0; i--) {
+	sum += histogram_data[i]['y'];
+	accumData.push(sum);
 }
+accumData.reverse();
 
 window.chart = new CanvasJS.Chart("chartContainer",
 {
@@ -42,7 +42,7 @@ window.chart = new CanvasJS.Chart("chartContainer",
 			<strong>${e.chart['axisX'][i]['title']}</strong>
 			: ${e.entries[i].dataPoint.x}</br>
 			<strong>${e.chart['axisY'][i]['title']}</strong>
-			: ${e.entries[i].dataPoint.y.toFixed(3)}</br>
+			: ${accumData[e.entries[i].index].toFixed(2)}%</br>
 			`;
 		  }
 		  return content;
