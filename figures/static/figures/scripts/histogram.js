@@ -1,10 +1,10 @@
 var accumData = [];
-for (var i = 0; i < histogram_data.length; i++) {
-	const val = (i == 0) ?
-					histogram_data[i]['y'] :
-					histogram_data[i]['y'] + accumData[i-1];
-	accumData.push(val);
+var sum = 0;
+for (var i = histogram_data.length - 1; i >= 0; i--) {
+	sum += histogram_data[i]['y'];
+	accumData.push(sum);
 }
+accumData.reverse();
 
 window.chart = new CanvasJS.Chart("chartContainer",
 {
@@ -35,14 +35,15 @@ window.chart = new CanvasJS.Chart("chartContainer",
   ],
   toolTip: {
 	  enabled: true,
+	  shared: true,
 	  contentFormatter: function (e) {
 		  var content = "";
 		  for (var i = 0; i < e.entries.length; i++) {
 			content += `
-			<strong>${e.chart['axisX'][i]['title']}</strong>
-			: ${e.entries[i].dataPoint.x}</br>
-			<strong>${e.chart['axisY'][i]['title']}</strong>
-			: ${e.entries[i].dataPoint.y.toFixed(3)}</br>
+			<strong>% Probability of at Least</strong>
+			${e.entries[i].dataPoint.x}
+			<strong>Democrat Seats</strong>
+			: ${accumData[e.entries[i].index].toFixed(2)}%</br>
 			`;
 		  }
 		  return content;
@@ -81,6 +82,12 @@ window.onload = function() {
 		return "#"+(0x1000000+(Math.round((t-R)*p)+R)*0x10000+(Math.round((t-G)*p)+G)*0x100+(Math.round((t-B)*p)+B)).toString(16).slice(1);
 	}
 
+	function resetChartColors() {
+		for (var i = 0; i < chart.data[0].dataPoints.length; i++) {
+			chart.data[0].dataPoints[i]['color'] = origColors[i];
+		}
+	}
+
 	function getPosition(e) {
 		var parentOffset = $("#chartContainer > .canvasjs-chart-container").offset();          	
 		var relX = e.pageX - parentOffset.left;
@@ -107,6 +114,11 @@ window.onload = function() {
 	}
 
 	jQuery("#chartContainer > .canvasjs-chart-container").on({
+		click: function(e) {
+			for (var i = 0; i < chart.data[0].dataPoints.length; i++) {
+				chart.data[0].dataPoints[i]['color'] = origColors[i];
+			}
+		},
 		mousedown: function(e) {
 			mouseDown = true;
 			getPosition(e);  
@@ -159,9 +171,7 @@ window.onload = function() {
 	// If user clicks outside of chart, reset all colors
 	document.addEventListener("click", function(e) {
 		if (e.target.closest("#chartContainer > .canvasjs-chart-container")) return;
-		for (var i = 0; i < chart.data[0].dataPoints.length; i++) {
-			chart.data[0].dataPoints[i]['color'] = origColors[i];
-		}
+		resetChartColors();
 		chart.render();
 	})
 }
