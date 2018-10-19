@@ -35,6 +35,7 @@ window.chart = new CanvasJS.Chart("chartContainer",
   ],
   toolTip: {
 	  enabled: true,
+	  shared: true,
 	  contentFormatter: function (e) {
 		  var content = "";
 		  for (var i = 0; i < e.entries.length; i++) {
