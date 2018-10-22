@@ -5,6 +5,8 @@ for (var i = histogram_data.length - 1; i >= 0; i--) {
 	accumData.push(sum);
 }
 accumData.reverse();
+const dataOffset = dem_win_perc - accumData[38];
+accumData = accumData.map(function(x) {return x + dataOffset;});
 
 window.chart = new CanvasJS.Chart("chartContainer",
 {
@@ -40,7 +42,7 @@ window.chart = new CanvasJS.Chart("chartContainer",
 		  var content = "";
 		  for (var i = 0; i < e.entries.length; i++) {
 			content += `
-			<strong>% Probability of at Least</strong>
+			<strong>% Probability of at least</strong>
 			${e.entries[i].dataPoint.x}<br />
 			<strong>Democrat Seats</strong>
 			: ${accumData[e.entries[i].index].toFixed(2)}%</br>
