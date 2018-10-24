@@ -19,3 +19,5 @@ setup.cfg
 # OS files
 .DS_Store
 polistat/settings.py
+*.iml
+fixtures
