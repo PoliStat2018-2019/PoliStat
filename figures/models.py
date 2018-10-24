@@ -268,6 +268,7 @@ class BlogPost(models.Model):
     manager = models.Manager()
 
     title = models.CharField(max_length=200)
+    subtitle = models.TextField(default=None)
     author = models.ForeignKey(User,
                               on_delete=models.CASCADE)
     body = models.TextField()
@@ -282,11 +283,14 @@ class BlogPost(models.Model):
         return slugify(self.title)
 
     def get_lead(self):
-        stripped_body = strip_tags(self.body)
-        stripped_body = re.sub(r'(?<=[.,])(?=[^\s])', r' ',
-                                    stripped_body)
+        if self.subtitle != None:
+            return f'{self.subtitle}'
+        else:
+            stripped_body = strip_tags(self.body)
+            stripped_body = re.sub(r'(?<=[.,])(?=[^\s])', r' ',
+                                        stripped_body)
 
-        return f'{stripped_body}'[:180] + '...'
+            return f'{stripped_body}'[:180] + '...'
     
     def get_absolute_url(self):
         return reverse('figures:blog', args=[self.slug, self.pk])
