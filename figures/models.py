@@ -268,7 +268,7 @@ class BlogPost(models.Model):
     manager = models.Manager()
 
     title = models.CharField(max_length=200)
-    subtitle = models.TextField(default=None, null=True, blank=True)
+    subtitle = models.TextField(null=True, blank=True)
     author = models.ForeignKey(User,
                               on_delete=models.CASCADE)
     body = models.TextField()
