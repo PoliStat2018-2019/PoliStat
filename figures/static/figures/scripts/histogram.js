@@ -7,6 +7,8 @@ for (var i = histogram_data.length - 1; i >= 0; i--) {
 accumData.reverse();
 const dataOffset = dem_win_perc - accumData[38];
 accumData = accumData.map(function(x) {return x + dataOffset;});
+accumData.push(0);
+
 
 window.chart = new CanvasJS.Chart("chartContainer",
 {
@@ -162,7 +164,7 @@ window.onload = function() {
 				var first = selected[0];
 				var last = selected.slice(-1)[0];
 				[first, last] = last < first ? [last, first] : [first, last];
-				for (var i = 0; i < last - first; i++) {
+				for (var i = 0; i < last - first + 1; i++) {
 					const color = shadeColor2(origColors[first+i], -0.5);
 					dps[first + i]['color'] = color;
 				}
@@ -172,7 +174,7 @@ window.onload = function() {
 				<strong>Selected Range:</strong><br />
 				${dps[first]['x']}-${dps[last]['x']}<br />
 				<strong>Probability</strong>
-				: ${(accumData[first]-accumData[last]).toFixed(2)}%</br>`;
+				: ${(accumData[first]-accumData[last+1]).toFixed(2)}%</br>`;
 				popup.classList.add("chart-popup");
 
 				// Popup styles
