@@ -21,6 +21,11 @@ window.chart = new CanvasJS.Chart("chartContainer",
         text: "Last Updated: " + update,
         fontColor: "gray",
         fontFamily: "tahoma",
+    },
+    {
+        text: "Click and drag over an interval to see the cumulative probability for a range.",
+        fontColor: "orange",
+        fontFamily: "tahoma",
     }
   ],
   axisY: {
