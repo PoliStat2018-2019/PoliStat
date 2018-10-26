@@ -39,12 +39,15 @@
         <script>AOS.init()</script>
         {% include "figures/includes/sidenav.html" %}
 
-        <main id='main' class="p-b-lg main">
+        <main id='main' class="main">
             {% block content %}
             {% endblock %}
         </main>
         
-        {% include 'figures/includes/footer.html' %}
+        {% if request.path != '/contact/' %}
+            {% include 'figures/includes/footer.html' %}
+        {% endif %}
+
         {% block scripts %}
         {% endblock %}
     </body>

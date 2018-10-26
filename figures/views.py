@@ -137,3 +137,9 @@ def thanks(request):
         'thanks': thanks
     }
     return render(request, 'figures/thanks.html', context=context)
+
+def contact(request):
+    context = {
+        'navbar': 'contact'
+    }
+    return render(request, 'figures/contact.html', context=context)
