@@ -1,0 +1,44 @@
+.contact-section {
+    background-image: url("../images/spiration-light.png");
+    display: flex;
+    flex-direction: column;
+
+    & > h1:first-child {
+        font-size: 5rem;
+    }
+    & > h6 {
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    min-height: 100vh;
+}
+
+.contact-section .contact-flex {
+    flex: 0.8 0;
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    @include mq(tablet) {
+        flex-direction: row;
+    }
+    justify-content: center;
+    align-items: center;
+
+    & li {
+        display: block;
+        max-width: 250px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        a i, & > i {
+            display: block;
+            font-size: 2rem;
+            text-align: center;
+            padding: 1rem;
+        }
+        span {
+            font-weight: bold;
+            font-size: 0.75em;
+        }
+    }
+}
