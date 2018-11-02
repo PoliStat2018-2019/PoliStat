@@ -1,6 +1,8 @@
 {% extends "figures/base.html" %}
 {% load mathjax %}
 
+{% block title %}Blog{% endblock  %}
+
 {% block content %}
 {% mathjax_scripts %}
 <section class="section container blog-section">
@@ -13,4 +15,4 @@
         {{ blog.body|safe }}
     </div>
 </section> 
-{% endblock  %}
+{% endblock %}
